@@ -1,0 +1,32 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <!-- muss noch komplett gemacht werden -->
+    <fileDesc>
+      <titleStmt>
+        <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas.
+        </title>
+        <author>Johannes Bretke</author>
+        <editor>Anne Königs</editor>
+        <respStmt> <!-- In welcher Sprache soll das stehen?!? -->
+          <resp>editiert (2015) und in TEI überführt (2017) von
+        </resp>
+        <name>Anne Königs</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>#Bearbeitung der BA-Arbeit "[Titel der Arbeit]" im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities. Version vor dem ersten Commit</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>#Band XYZ des unveröffentlichen Manuskripts der Bibelübersetzung von Johannes Brekte</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <!-- Vielleicht int <front>-Tag die bibliographischen Angaben des Bandes angeben?!? naaa, die stehen ja schon im Header -->
+    <body>
+      <div>
+        <!-- hier kommt der einzelne Text rein.-->
+      </div>
+    </body>
+  </text>
+</TEI>

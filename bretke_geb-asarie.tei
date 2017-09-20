@@ -1,0 +1,62 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <!-- muss noch komplett gemacht werden. Siehe gesonderte Datei -->
+    <fileDesc>
+      <titleStmt>
+        <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas.
+        </title>
+        <author>Johannes Bretke</author>
+        <editor>Anne Königs</editor>
+        <respStmt> <!-- In welcher Sprache soll das stehen?!? -->
+          <resp>editiert (2015) und in TEI überführt (2017) von
+        </resp>
+        <name>Anne Königs</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>#Bearbeitung der BA-Arbeit "[Titel der Arbeit]" im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities. Version vor dem ersten Commit</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>#Band XYZ des unveröffentlichen Manuskripts der Bibelübersetzung von Johannes Brekte</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <!-- Struktur und Attributauswahl in starker Anlehnung an José Calvo Tello -->
+      <div xml:id="a.DAN" type="book">
+        <div xml:id="a.DAN.3" type="chapter">
+          <div type="text">
+            <gb n="234"/>
+            <pb n="234r"/>
+            <!-- In die fw müssen noch die Hände und wie geschrieben ergänzt werden -->
+            <fw type="sheetSig" place="bot-centre">e</fw> <!-- die Werte von @type einfach gleich Deutsch? -->
+            <fw type="sheetNum" place="top-right">231</fw>
+            <fw type="sheetNum" place="bot-centre">234</fw>
+            <fw type="sheetNum" place="bot-right">234</fw>
+            <lb n="1"/><head type="mainTitle">Malda Asario<!--Anmerkung a--></head><head type="subTitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
+            <lb n="4"/><ab><s>Bei Aſarias ſtoweia widui de-<lb n="5" break="no"/>ganczio pecziaus, ir atwere Naſrus ⌊bur-<lb break="no"/>nạ⌉ ſawa, meldeſi ir biloia.</s></ab>
+            <lb/><ab><s>Pagirtas buk PONA<!--Anmerkung 1 -->S, Diewas<lb/>muſu Tiewu, ir tawa Wardas tur pa-<lb break="no"/>girtas ir pagarbintas buti am˹ſs˺<!-- Anmerkung 2 -->inai.</s><s>Ne-<lb break="no"/>ſa tu teiſus efsi wiſsame, ka mumus darei.</s><lb/><s>Wiſsi tawa Darbai eſti tikri, ir kạ<lb/>tu dara<!-- Anmerkung 3-->i, tatai eſti tieſa, ir tawa Sudas<lb/>ira be kaltibes.</s></ab>
+            <ab><s>Tu mumus ˹th˺<!-- Anmerkung 4-->ieſạ darai,<lb/>iog mus ˹pak˹o˺<!--Anmerkung 5 -->ra˹'ie'˺<!-- Anmerkung 6-->˺<!-- Anmerkung 7 --> ˹++˺<!-- Anmerkung 8 --> takiu karoghimu,<lb/>kuri tu mumus ˹at˺<!--Anmerkung 9-->ſiuntei, ir ant Jeruſa-<lb break="no"/>lemo [ſczE]<!-- Anmerkung 10--> ſchwento Mieſto muſụ Tie-<lb break="no"/>wụ.</s><s>Tu tikrai ir gerai darai tame,<lb/>delei muſụ Griekụ.</s></ab>
+            <lb/><ab><s>Neſa mes ſu˹ſsi˺<!-- Anmerkung 11 -->grieſchiom ir pikta<lb/>darem, tame iog nog tawens atſtoiom,<lb/>ir wiſsur priſch tawe darem, ir tawa<lb/>priſakimụ neklauſem nei iụ atboiom,                                <lb />ieib pagalei iụ giwentumbim, kaip tu<lb/>mumus priſaki<!-- Anmerkung 12-->ei, idant mumus gera<lb/>butụ.</s></ab>
+            <ab><s>Todelei tu tikrai darei, iog<lb/>toktai wis ant muſu uſzleidai, ir mus<lb/>padawei rankoſna muſụ Neprieteliụ̊<!--Problem: Zeichendarstellung...--><lb/>Diewo neſsibĳ<!-- Achtung: Ligaturen ggf. auflösen -->anczuiu piktụ Szmoniụ,<lb/>ir neteiſamuiem wiſsụbaiſiauſiu Kara-<lb/>liůi.</s></ab>
+            <lb/><ab><s>Bei mes nedrenſam ſawa burnos<lb/>atwerti, teip ˹mes˺<!-- Anmerkung 13 --> eſme apgedinti<lb/>ir teip iůku tapom po ˹akim˺<!-- Anmerkung 14 --> tawa<lb/>Tarnụ, ir po akim wiſsụ tawe<!-- Anmerkung 15 --> bĳan-<lb break="no"/>cziụ̊iụ̊.	O wienok, nepatremk muſu<lb/>nodemais, delei tawa ſchwento Wardo,<lb/>nei paniekink ⌊atmeſk⌉ tawa Sude-<lb break="no"/>reghimạ, nei atimk tawa Mielaſchirdingiſtẹ
+          <pb n="234v"/><fw type="header" place="top-centre">Malda Aſario</fw><lb/>nog muſụ, delei Abrahamo tawa mieloio<lb/>˹Genties˺<!-- Anmerkung 16 --> ⌊Prieteliaus⌉ ir tawa Tarno ˹Iſaac<!-- Anmerkung 17 -->˺<!-- Anmerkung 18 --><lb/>ir Iſraelo tawa Schwentoio, kuriemus<lb/>tu ſzadeiei iụ ſeklạ padaukſinti, kaip<lb/>ſzwaigſdes po Dangumi, ir kaip Szieſ-<lb break="no"/>˹dr˺<!-- Anmerkung 19 -->an pas Marias.</s></ab>
+          <lb/><ab><s>Neſa mes kudeſni tapom, uſzu wiſ-<lb break="no"/>ſus Pagonus, ir eſme dabbar labai pa-<lb break="no"/>niekinti ant Szemes, delei muſụ Grie<!-- Unterstreichung -->ku,<lb/>iog nụ newieno Kunigaikſchczio, Pra-<lb break="no"/>rako nei Mokitoio neturrim, nei wel<lb/>Sudega<!-- Anmerkung 20 -->ma affierạ nei dieniſchkạ affierạ,<lb/>nei walgamạ affierạ, nei Rukĳmạ.</s></ab>
+          <lb/><ab><s>Ir ne turrim newienos Wietos, kur po<lb/>tawa akim galetumbim affierawoti, ir<lb/>Malonẹ raſti.</s></ab>
+          <ab><s>Be<!-- Anmerkung 21 -->t nuſsituſziju-<lb break="no"/>ſe Schirde ir ſudauſzita Dwaſse at-<lb break="no"/>eime ˹mes˺<!-- Anmerkung 22 --> po tawa akim, kaip kada<lb/>atneſchdami Sudega<!-- Anmerkung 23 -->mạ affierạ nog<lb/>Awinụ ir Iaucziů, ir daugia ˹tukſ˹ch˺<!-- Anmerkung 24 -->-<lb break="no"/>tanti˺<!-- Anmerkung 25 -->Awiů.</s><s>Schitaipo teſtow muſụ<lb/>affiera[s]<!-- Anmerkung 26 --> ſchẹ dienạ po tawa akim mie-<lb break="no"/>la[s]<!-- Anmerkung 27 -->. Neſa tu nedůſi gedona ateiti ⌊im-<lb break="no"/>pulti⌉ nuſsitikinczius tawimi.</s></ab>
+          <lb/><ab><s>Schitaip ateime mes nu wiſsa ſchir-<lb break="no"/>de,<!-- Anmerkung 28 --> ieſchkom tawa Weida<!-- Anmerkung 29 --> ſu baime. To-<lb break="no"/>del ne rodzik mus gedoie buti. Bet<lb/>darik mumus Pone pagal tawa Malones,<lb/>ir pagal tawa didzios Mielaſchirdingiſ-<lb break="no"/>tes, ir iſchgelbek mus pagal tawa<lb/>ſtebuklingụ̊ darbụ, ir důk tawam War-<lb break="no"/>dui Garbẹ, idant ſuſsigi<!-- Anmerkung 30 -->edintụ wiſsi,<lb/>kurie tawa Tarnus paſzeidz ir apgedinti<lb/>butụ delei tawa didzos ſilos ir mac<!-- Anmerkung 31 -->es,<lb/>ieib iụ̊ Sila iſchpuſtita butụ, idant anis<lb/>ſzinotụ, tawe<!-- Anmerkung 32 --> ſanti Ponạ wiena-<lb break="no"/>tighị Diewa, ˹ſc<!-- Anmerkung 33 -->hlownạ˺<!-- Anmerkung b --> ant Szemes.	</s></ab>
+          <gb n="235"/>
+          <pb n="235r"/>
+          <fw type="sheetNum" place="top-right">232</fw>
+          <fw type="sheetNum" place="bot-centre">235</fw>
+          <fw type="sheetNum" place="bot-right">235</fw>
+          <fw type="header" place="top-center">Malda Aſario</fw>
+          <lb/><ab><s>Bei Tarnai Karaliaus, kurie ios<lb/>ing Pecziụ buwa ịmætẹ, neſi<!-- Anmerkung 34 -->lowe, bet		<lb/>wiſsadai primete, ˹Sier<!-- Anmerkung 35 -->ạ˺<!-- Anmerkung c --> ir ˹Smalạ˺<!-- Anmerkung d --><lb/>ir ˹pakůl<!-- Anmerkung 36 -->u˺<!-- Anmerkung e-->, ir ſauſụ krumụ<!-- Anmerkung 37 -->, kaip<!-- Anmerkung 38 --><lb/>liepſna aukſchtai iſch pecziaus ſchoka,<lb/>˹kaip dewines bei ketures deſchimtis˺<!-- Anmerkung 39 --> olek-<lb break="no"/>˹[ca<!-- Anmerkung 40 -->]˺<!-- Anmerkung 41 -->tụ aukſchtiniu, ir pagadinna ap-<lb break="no"/>linkui ſawe, ir ſudege Chaldeus,<lb/>kurius ſugawa ties Peczumi.</s></ab>
+          <ab><s>O<lb/>Angelas Pono eĳa ſu tais, kurie<lb/>pas Aſariạ buwa, ing Pæcziụ, ir iſch-<lb break="no"/>ſtume Liepſnạ Vgnies iſch pęcziaus,<lb/>ir padare pæczuie, kaip ſchaltạ<lb/>Raſạ, kaip<!-- Anmerkung 42 --> iụ Vgnis niekaip nedaſsi-<lb break="no"/>liteia, nei perſcheia, nei paſzeide.</s></ab>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
