@@ -1,4 +1,4 @@
-<!-- Anmerkung 39 nacharbeiten (transposition) -->
+<!-- TODO: Lücken füllen, Syntaxfehler fixen -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <!-- muss noch komplett gemacht werden. Siehe gesonderte Datei -->
@@ -76,7 +76,22 @@
           <fw type="header" place="top-center">Malda Aſario</fw>
           <lb n="1"/><ab type="verse"><s>Bei Tarnai Karaliaus, kurie ios<lb n="2"/>ing Pecziụ buwa ịmætẹ, neſ
           <subst><del>s</del><add>i</add></subst>lowe, bet <lb n="3"/>wiſsadai primete, Sier<metamark function="insert" target="#ML1"/>ạ ir Smalạ<!-- Verweis auf pikkis; pech einbauen! --><lb n="4"/>ir paků<choice><unclear>l<metamark target="#MD4" function="annotate"/><note>Der Strich auf dem &lt;l&gt;, der mit dickerer Tinte als der Fließtext der Grundschicht gesetzt ist, könnte verschiedene Bedeutungen haben. Zunächst könnte er die Oberlänge des &lt;l&gt; verstärken wollen,um es eindeutiger vom &lt;t&gt; zu unterscheiden. Dies scheint aber nicht sehr wahrscheinlich,da er sich dazu nicht ausreichend dem Duktus der Schrift anpasst. Viel wahrscheinlicher ist hingegen, dass er auf die deutsche Entsprechung werk i.marg. verweisen soll.</note></unclear><unclear>t<!-- sehr unwahrscheinlich!!! --></unclear></choice>u, ir ſauſụ
-          <mod type="kommutative_variante" rend="small" change="#interlinear" instant="false"><del>krumụ</del><add>ſchakụ</add></mod>, <mod type="kommutative_variante" rend="small" change="#interlinear" instant="false"><del>kaip</del><add>iog</add></mod><lb n="5"/>liepſna aukſchtai iſch pecziaus ſchoka,<lb n="6"/>˹kaip dewines bei ketures deſchimtis˺<!-- Anmerkung 39 --> olek-<lb n="7" break="no"/><del instant="true">c<choice><unclear>a</unclear><unclear>u</unclear></choice></del>tụ<!-- Kein add, wa? --> aukſchtiniu, ir pagadinna ap-<lb n="8" break="no"/>linkui ſawe, ir ſudege Chaldeus,<lb n="9"/>kurius ſugawa ties Peczumi.</s></ab>
+          <mod type="kommutative_variante" rend="small" change="#interlinear" instant="false"><del>krumụ</del><add>ſchakụ</add></mod>, <mod type="kommutative_variante" rend="small" change="#interlinear" instant="false"><del>kaip</del><add>iog</add></mod><lb n="5"/>liepſna aukſchtai iſch pecziaus ſchoka,<lb n="6"/>
+          <seg xml:id="tw01">kaip</seg><metamark function="transposition" target="#tw01" place="above">1</metamark>
+          <seg xml:id="tw02">dewines</seg><metamark function="transposition" target="#tw02" place="above">5</metamark>
+          <seg xml:id="tw03">bei</seg><metamark function="transposition" target="#tw03" place="above">4</metamark>
+          <seg xml:id="tw04">ketures</seg><metamark function="transposition" target="#tw04" place="above">2</metamark>
+          <seg xml:id="tw05">deſchimtis</seg><metamark function="transposition" target="#tw05" place="above">3</metamark>
+          <listTranspose>
+            <transpose>
+              <ptr target="tw01"/>
+              <ptr target="tw04"/>
+              <ptr target="tw05"/>
+              <ptr target="tw03"/>
+              <ptr target="tw02"/>
+            </transpose>
+          </listTranspose>
+           olek-<lb n="7" break="no"/><del instant="true">c<choice><unclear>a</unclear><unclear>u</unclear></choice></del>tụ<!-- Kein add, wa? --> aukſchtiniu, ir pagadinna ap-<lb n="8" break="no"/>linkui ſawe, ir ſudege Chaldeus,<lb n="9"/>kurius ſugawa ties Peczumi.</s></ab>
           <ab xml:id="ML1" type="marginal_gloss">Sierka</ab>
           <ab type="marginal_gloss">ſchwefel</ab> <!-- auch hier: Verweise und Sprachen...! -->
           <ab type="marginal_gloss">pikkis</ab>
