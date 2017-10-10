@@ -45,19 +45,17 @@
             <lb n="7"/><ab type="verse"><s>Pagirtas buk <seg rend="caps" type="god">Pon<subst instant="true" rend="overwrite" change="#inline"><del>e</del><add>as</add></subst></seg>
             <!-- Dieser Kommentar muss noch irgendwo richtig eingesetzt werden...  -->
             <note type="Kommentar">sic!; Die ungewöhnlich anmutende Form des &lt;A&gt; ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein &lt;E&gt; schreiben. In der Tat ist anhand der deutschen Vorlage der vc. Pone zu erwarten. Zur Form des begonnenen &lt;E&gt; vgl. 235r23. Stattdessen muss sich Bretke zugunsten des n.sg.m. umentschieden haben während er den Buchstaben schrieb.</note>, Diewas<lb n="8"/>muſu Tiewu, ir tawa Wardas tur pa-<lb n="9" break="no"/>girtas ir pagarbintas buti amſsinai<note>sic! Möglicherweise Prussismus</note>.</s><s>Ne-<lb n="10" break="no"/>ſa tu teiſus efsi wiſsame, ka mumus darei.</s><lb n="11"/><s>Wiſsi tawa Darbai eſti tikri, ir kạ<lb n="12"/>tu dar<choice><unclear>a</unclear><unclear>e<gap  quantity="1" unit="chars" reason="illegible"/></unclear></choice><note>oder e+, Konjektur<!-- in @reason packen? --></note>i, tatai eſti tieſa, ir tawa Sudas<lb n="13"/>ira be kaltibes.</s></ab>
-            <ab type="verse"><s>Tu mumus th<note>sic [gemeint ist th]</note>ieſạ darai,<lb n="14"/>iog mus <!-- Da Monsta-Word: Noch ist Syntax nicht correkt... -->
-            pak<subst rend="overwrite" change="#inline">
-              <subst instant="false">
+            <ab type="verse"><s>Tu mumus th<note>sic [gemeint ist th]</note>ieſạ darai,<lb n="14"/>iog mus
+              pak<subst instant="false" rend="extend_letter" change="#inline">
                 <del>o</del>
                 <add>a</add>
               </subst>ra
-              <subst instant="true">
-                <del>u</del>
+              <subst instant="true" rend="overwrite" change="#inline">
+                <del>u<gap quantity="1" unit="chars" reason="illegible"/></del>
                 <add>ie</add>
               </subst>
                 <add instant="false">j</add>
-                <del instant="false"><gap quantity="2" unit="chars" reason="illegible"/></del>
-            </subst> takiu karoghimu,<lb n="15"/>kuri tu mumus
+            <del rend="overwrite" instant="unknown"><gap quantity="2" unit="chars" reason="illegible_and_crossed_out"/></del> takiu karoghimu,<lb n="15"/>kuri tu mumus
             <!-- mal gucken, ob ich #interlinear mitangeben --><subst instant="false" change="#interlinear"><del rend="strikethrough">at</del><add rend="above">uſzu</add></subst><!-- Kommentar einarbeiten, v.a. für @hand --><note>KS: gestr. (a senkrecht, t 	waagerecht), helle Tinte, → 	˻uſzu˼ſiuntei</note>ſiuntei, ir ant Jeruſa-<lb n="16" break="no"/>lemo <del rend="strikethrough" instant="true">ſczE</del><!-- GS:Sfk --> ſchwento Mieſto muſụ Tie-<lb n="17" break="no"/>wụ.</s><s>Tu tikrai ir gerai darai tame,<lb n="18"/>delei muſụ Griekụ.</s></ab>
             <lb n="19"/><ab type="verse"><s>Neſa mes ſu<del rend="strikethrough" instant="false">ſsi</del><note><!-- noch einarbeiten! -->Anmerkung: Die Senkrechtstriche erfassen zwar nur &lt;ſs&gt; und nicht &lt;i&gt;, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: pakorau -&gt; pakaraiej (234r14) und atſiuntei -&gt; uſzuſiuntei(234r15)</note>grieſchiom ir pikta<lb n="20"/>darem, tame iog nog tawens atſtoiom,<lb n="21"/>ir wiſsur priſch tawe darem, ir tawa<lb n="22"/>priſakimụ neklauſem nei iụ atboiom,<lb n="23"/>ieib pagalei iụ giwentumbim, kaip tu<lb n="24"/>mumus priſak<del rend="strikethrough" instant="false"><choice><unclear>i</unclear><unclear>c</unclear></choice></del>ei, idant mumus gera<lb n="25"/>butụ.</s></ab>
             <ab type="verse"><s>Todelei tu tikrai darei, iog<lb n="26"/>toktai wis ant muſu uſzleidai, ir mus<lb n="27"/>padawei rankoſna muſụ Neprieteliụ̊<!--Problem: Zeichendarstellung...--><lb n="28"/>Diewo neſsibĳ<!-- Achtung: Ligaturen ggf. auflösen -->anczuiu piktụ Szmoniụ,<lb n="29"/>ir neteiſamuiem wiſsụbaiſiauſiu Kara-<lb n="30"/>liůi.</s></ab>
