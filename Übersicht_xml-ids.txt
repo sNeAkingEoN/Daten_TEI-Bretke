@@ -1,0 +1,11 @@
+Benennung der XML:IDs:
+
+a.DAN etc. für Bibelstruktur
+
+tw0\d für transpose-word (wort, das umgestellt wird. Kommt nur an 1 Stelle vor)
+
+ml01 - marginal gloss
+
+en - editor's note...?
+
+ACHTUNG! Bis auf weiteres werden xml:ids für Notes vergeben und "an passender Stelle" eingefügt. Wenn Text noch tokenisiert werden sollte, dann sollten entsprechende ids noch verändert werden... oder vllt nicht... muss ja nicht auf token-id zeigen....?

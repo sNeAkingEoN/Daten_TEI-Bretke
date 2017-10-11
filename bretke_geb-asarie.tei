@@ -1,7 +1,7 @@
-<!-- TODO: Lücken füllen, Syntaxfehler fixen -->
+<!-- TODO: Header fertig machen, Lücken füllen -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <!-- muss noch komplett gemacht werden. Siehe gesonderte Datei -->
+    <!-- muss noch komplett gemacht werden.-->
     <fileDesc>
       <titleStmt>
         <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas.
@@ -18,12 +18,75 @@
         <p>#Bearbeitung der BA-Arbeit "[Titel der Arbeit]" im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities. Version vor dem ersten Commit</p>
       </publicationStmt>
       <sourceDesc>
-        <p>#Band XYZ des unveröffentlichen Manuskripts der Bibelübersetzung von Johannes Brekte</p>
+        <msDesc><!-- ab hier.... -->
+          <msIdentifier>
+            <country>Deutschland</country>
+            <settlement>Berlin</settlement>
+            <institution>Stiftung Preußischer Kulturbesitz</institution><!-- too much? -->
+            <repository>Geheimes Staatsarchiv Preußischer Kulturbesitz</repository>
+            <idno>XX HA StUB Kgbg. 48</idno>
+            <altIdentifier type="former"><!-- gut so? -->
+              <settlement>Königsberg</settlement><!-- Problem: historischer Ortsname, heute anders -->
+              <institution>Königliche und Universitätsbibliothek</institution>
+              <idno>Cod. MS. 1218</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <msItem class="whole_bible"> <!-- gesamte Bibelübersetzung -->
+              <locus>Gesamte Bibelübersetzung</locus>
+              <author xml:lang="de">Johannes Bretke</author><!-- eigentlich ist er ja nur Übersetzer.... -->
+              <author xml:lang="lt">Jonas Bretkūnas</author>
+              <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590</title>
+              <textLang mainLang="olt">Old Lithuanian</textLang>
+            </msItem>
+            <msItem class="this_volume"> <!-- dieser Band -->
+              <locus>Fünfter Band der Bibelübersetzung</locus>
+              <title>Penkta dalis Biblias Lietuwischkai Jano Bretkuno pergulditas</title>
+            </msItem><!-- dann noch für diesen Ausschnitt...? -->
+            <msItem class="this_text">
+              <locus from="234r1" to="235r15">ff.234r1-235r15</locus><!-- hier weiter machen... -->
+              <title>Malda Aſaria</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="bound_manuscript">
+              <supportDesc material="paper">
+                <support><p>Papier, das im betreffenden Abschnitt ca. 6,5 cm vom Rand gefalzt ist, um Satzspiegel und Rand voneinander abzugrenzen.</p>
+              <p>Das Wasserzeichen ist ein <watermark>Fisch</watermark> in einem Kreis von ca. <measure type="size" unit="cm" quantity="4">4cm</measure> Durchmesser</p></support>
+                <extent>
+                  <measure type="composition" unit="leaf" quantity="237">237 Blätter</measure>
+                  <dimensions scope="all" type="leaf" unit="cm">
+                  <height>34,5</height>
+                  <width>21,3</width>
+                </dimensions>
+              </extent>
+              <foliation><p>Wahrscheinlich durch den Autor selbst wurde eine Bogenzählung, zunächst in großen, dann kleinen Lateinischen Buchstaben (in deutscher Kursive) durchgeführt.</p>
+              <p>Es befinden sich drei Blattzählungen auf dem Manuskript. Die erste in kleinerer Schrift ist die älteste und Referenz für die Blattbezeichnungen. Die zweite, ebenfalls handschriftlich und mit Bleistift, stammt vom Fotograph Paul Koeppen und wurde zwischen 1950 und 1979 in Göttingen hinzugefügt. Sie stimmt mit der ersten überein. Die dritte ist in schwarzer Tinte gestempelt und zählt drei Blätter weniger, weil sie das Titelblatt und die unbeschriebenen Blätter 68 und 227 auslässt.</p></foliation>
+              <collation>Die letzte Lage besteht aus den Blättern 233 bis 237</collation>
+              <condition>Das Manuskript ist in gutem Zustand und vollständig erhalten, vereinzelt finden sich kleine braune Flecken.</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="39">Die Seite hat einen durch einen Falz festgelegten Rand, der gelegentlich für Korrekturen und Glossierungen genutzt wird. Die meisten Seiten, die nicht mit einer Überschrift beginnen, besitzen eine Art Kopfzeile direkt über dem einspaltigen Text, in der der (Kurz-)Titel des aktuellen Textes wiederholt wird. Die Seiten sind frei mit bis zu ungefähr 40 Zeilen beschrieben</layout><!-- Dazu fehlen gerade genaue Angaben. Ggf. noch mal in Falkenhahn nachgucken. -->
+              </layoutDesc>
+            </objectDesc>
+            <handDesc><p>Der litauische Haupttext ist verfasst in einer deutlich lesbaren Antiquaschrift. Die Überschriften sind in einer Art Kapitälchenschreibung verfasst. Deutsche Glossen und Bogensignaturen sind in einer deutschen Kursivschrift verfasst.</p>
+            </handDesc>
+            <additions>Am Rand befinden sich gelegentlich Korrekturen, i.d.R. einzelne litauische Wörter, die zu substituieren sind. Des Weiteren wurden deutsche Wörter, wahrscheinlich zur Unterstützung des Übersetzungsprozesses, an den Rand geschrieben.</additions>
+          </physDesc>
+          <history>
+            <origin><p>Der evangelisch-lutherische Pfarrer <name type="person">Johannes Bretke</name> übersetzte die gesamte Bibel in der <origDate from="1579-03-06" to="1590-11-29">zweiten Hälfte des 16. Jahrhunderts</origDate> in <origPlace>Labiau und Königsberg im Herzogtum Preußen</origPlace>.</p>
+            </origin>
+            <provenance>
+              <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte der Übersetzer das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>. Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach Kėdainai verliehen, allerdings nicht für die von <name type="person">Chyliński</name> angefertigte Bibelübersetzung benutzt. Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">nach Göttingen</date>. Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet, woraufhin es in der Fachwelt als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen. Seit <date when="1979">1979</date> ist es im Bestand des Geheimen Staatsarchivs Preußischer Kulturbesitz. <date when="1982">1982</date> wurde es restauriert und die Einbände erneuert, danach nach München für Restaurationsarbeiten ausgeliehen.</p>
+            </provenance>
+          </history>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
+      <div type="edited_text">
       <!-- Struktur und Attributauswahl in starker Anlehnung an José Calvo Tello -->
       <div xml:id="a.DAN" type="book">
         <div xml:id="a.DAN.3" type="chapter">
@@ -42,9 +105,9 @@
             <dateline>A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04">1590. 4. Februa.</date></dateline>
             <!-- Attribute von <mod> sind vorläufig -->
             <lb n="4"/><ab type="verse"><s>Bei Aſarias ſtoweia widui de-<lb n="5" break="no"/>ganczio pecziaus, ir atwere <mod type="kommutative_variante" rend="parentheses" change="#inline" instant="true"><del>Naſrus</del> <add>bur-<lb n="6" break="no"/>nạ</add></mod> ſawa, meldeſi ir biloia.</s></ab>
-            <lb n="7"/><ab type="verse"><s>Pagirtas buk <seg rend="caps" type="god">Pon<subst instant="true" rend="overwrite" change="#inline"><del>e</del><add>as</add></subst></seg>
-            <!-- Dieser Kommentar muss noch irgendwo richtig eingesetzt werden...  -->
-            <note type="Kommentar">sic!; Die ungewöhnlich anmutende Form des &lt;A&gt; ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein &lt;E&gt; schreiben. In der Tat ist anhand der deutschen Vorlage der vc. Pone zu erwarten. Zur Form des begonnenen &lt;E&gt; vgl. 235r23. Stattdessen muss sich Bretke zugunsten des n.sg.m. umentschieden haben während er den Buchstaben schrieb.</note>, Diewas<lb n="8"/>muſu Tiewu, ir tawa Wardas tur pa-<lb n="9" break="no"/>girtas ir pagarbintas buti amſsinai<note>sic! Möglicherweise Prussismus</note>.</s><s>Ne-<lb n="10" break="no"/>ſa tu teiſus efsi wiſsame, ka mumus darei.</s><lb n="11"/><s>Wiſsi tawa Darbai eſti tikri, ir kạ<lb n="12"/>tu dar<choice><unclear>a</unclear><unclear>e<gap  quantity="1" unit="chars" reason="illegible"/></unclear></choice><note>oder e+, Konjektur<!-- in @reason packen? --></note>i, tatai eſti tieſa, ir tawa Sudas<lb n="13"/>ira be kaltibes.</s></ab>
+            <lb n="7"/><ab type="verse"><s>Pagirtas buk <seg xml:id="en01" rend="caps" type="god">Pon<!--<anchor xml:id="en01"/>--><!-- Beispiel für Vernetzung mit Notes --><subst instant="true" rend="overwrite" change="#inline"><del>e</del><add>as</add></subst></seg>
+            <!-- Dieser Kommentar muss noch irgendwo richtig eingesetzt werden...  -->, Diewas<lb n="8"/>muſu Tiewu, ir tawa Wardas tur pa-<lb n="9" break="no"/>girtas ir pagarbintas buti amſs<anchor xml:id="en02b"/>inai.</s>
+            <s>Ne-<lb n="10" break="no"/>ſa tu teiſus efsi wiſsame, ka mumus darei.</s><lb n="11"/><s>Wiſsi tawa Darbai eſti tikri, ir kạ<lb n="12"/>tu dar<choice><unclear>a</unclear><unclear>e<gap  quantity="1" unit="chars" reason="illegible"/></unclear></choice><note>oder e+, Konjektur<!-- in @reason packen? --></note>i, tatai eſti tieſa, ir tawa Sudas<lb n="13"/>ira be kaltibes.</s></ab>
             <ab type="verse"><s>Tu mumus th<note>sic [gemeint ist th]</note>ieſạ darai,<lb n="14"/>iog mus
               pak<subst instant="false" rend="extend_letter" change="#inline">
                 <del>o</del>
@@ -90,13 +153,71 @@
             </transpose>
           </listTranspose>
            olek-<lb n="7" break="no"/><del instant="true">c<choice><unclear>a</unclear><unclear>u</unclear></choice></del>tụ<!-- Kein add, wa? --> aukſchtiniu, ir pagadinna ap-<lb n="8" break="no"/>linkui ſawe, ir ſudege Chaldeus,<lb n="9"/>kurius ſugawa ties Peczumi.</s></ab>
-          <ab xml:id="ML1" type="marginal_gloss">Sierka</ab>
+          <ab xml:id="ml01" type="marginal_gloss">Sierka</ab>
           <ab type="marginal_gloss">ſchwefel</ab> <!-- auch hier: Verweise und Sprachen...! -->
           <ab type="marginal_gloss">pikkis</ab>
           <ab type="marginal_gloss">pech</ab>
           <ab type="verse"><s>O<lb n="10"/>Angelas <seg rend="caps" type="god">Pono</seg> eĳa ſu tais, kurie<lb n="11"/>pas Aſariạ buwa, ing Pæcziụ, ir iſch-<lb n="12" break="no"/>ſtume Liepſnạ Vgnies iſch pęcziaus,<lb n="13"/>ir padare pæczuie, kaip ſchaltạ<lb n="14"/>Raſạ, <mod type="kommutative_variante" rend="small" change="#interlinear" instant="false"><del>kaip</del><add>iog</add></mod> iụ Vgnis niekaip nedaſsi-<lb n="15" break="no"/>liteia, nei perſcheia, nei paſzeide.</s></ab>
           </div>
         </div>
+      </div>
+      </div>
+      <div type="german_original">
+        <!-- achtung! In BA-Arbeit steht Ausgaben von 1545 oder später, aber das war eigentlich schon die letzte... irgendwie....  -->
+        <!-- Hier: Ausgabe letzter Hand wie in Edition rechte Seite. Dass das nicht Aussage darüber tätigt, welche Ausgabe er genau benutzt haben könnte, ist halt doof(aber der Darstellung in dieser Edition geschuldet) - noch mal Sekundärliteratur befragen? -->
+        <!-- lb's sind erstmal nicht mit ausgezeichnet, weil sie nicht so wichtig sind - ist ja keine Edition des Luthertextes, außerdem ist fraglich, inwieweit diese original sind -->
+        <!-- Ligaturen sind aufgelöst -->
+        <!-- Zusatz "Aus dem Griechischen" in Ausg. 45ff. unter Überschrift von nächstem Abschnitt deutet doch auf Ausgabe von 1545... hmmm.... -->
+        <!-- HERr statt HERR in der Vorlage korrespondiert mit Pone in der Übersetzung oder was...? -->
+        <div corresp="#a.DAN" type="book">
+          <div corresp="#a.DAN.3" type="chapter">
+            <div type="text">
+          <ab rend="headline">Das Gebet Aſarie: Dani. iij.</ab><lb/><ab rend="subheading">Aus dem Griechiſchen.</ab>
+        <gb type="paragraph"/>
+        <ab type="verse" n="25"><seg rend="bold">VND Aſſaria ſtund mitten im glüenden Ofen, vnd that</seg> ſeinen Mund auff, betet vnd ſprach.</ab>
+        <gb type="paragraph"/>
+        <ab type="verse" n="26">GElobt ſeieſtu HERR, der Gott vnſer Veter, vnd dein Name mu&#x0364;ſſe gepreiſet vnd geehret werden ewiglich.</ab>
+        <ab type="verse" n="27">Denn du biſt Gerecht in allem das du vns gethan haſt, Alle deine Wercke ſind rechtſchaffen, vnd was du thuſt, das iſt recht, vnd alle deine Gerichte, ſind vnſtrefflich.</ab>
+        <ab type="verse" n="28">Du thuſt vns recht, das du vns geſtraffet haſt, mit ſolcher ſtraffe, die du vber vns haſt gehen laſſen, vnd vber Jeruſalem die heilige Stad vnſer Veter, Ja du thuſt recht vnd wol daran, vmb vnſer ſu&#x0364;nde willen.</ab>
+        <gb type="paragraph"/>
+        <ab type="verse" n="29">DEnn wir haben geſu&#x0364;ndigt vnd vbel gethan, Damit das wir von dir gewichen ſind, vnd allenthalben wider dich gethan haben,</ab>
+        <ab type="verse" n="30">Vnd deinen Geboten nicht gehorchet noch jr geachtet, das wir darnach theten, wie du vns befolhen haſt, auff das es vns wolgienge.</ab>
+        <ab type="verse" n="31">Darumb haſtu recht gethan, das du ſolches alles vber vns haſt gehen laſſen,</ab>
+        <ab type="verse" n="32">vnd vns gegeben in die hende vnſer Feinde der gottloſen bo&#x0364;ſen Leute, vnd dem vngerechten grauſamſten Ko&#x0364;nige auff Erden.
+        <gb type="paragraph"/>
+        </ab>
+        <ab type="verse" n="33">VND wir thu&#x0364;ren vnſern mund nicht auffthun, ſo ſind wir zu ſchanden vnd zu ſpot worden fur deinen Knechten, vnd fur allen die dich fu&#x0364;rchten.</ab>
+        <ab type="verse" n="34">Aber doch verſtoſſe vns nicht gar, vmb deines heiligen Namens willen, vnd verwirff deinen Bund nicht,</ab>
+        <ab type="verse" n="35">vnd nim deine Barmhertzigkeit nicht von vns, vmb Abrahams deines geliebten Freunds willen, vnd deines knechts Jſaac vnd Jſrael deines Heiligen,</ab>
+        <ab type="verse" n="36">welchen du verheiſſen haſt, jren Samen zu mehren, wie die Stern am Himel, vnd wie den ſand am Meer.
+        </ab>
+        <gb type="paragraph"/>
+        <ab type="verse" n="37">DEnn wir ſind geringer worden, denn alle Heiden, vnd ſind jtzt die verachteſten auff Erden, vmb vnſer ſu&#x0364;nden willen,</ab>
+        <ab type="verse" n="38">das wir nu keinen Fu&#x0364;rſten, Propheten noch Lerer mehr haben, vnd weder Brandopffer noch teglich Opffer, noch Speiſopffer, noch Reuchwerg, Vnd haben keine Stete, da wir fur dir opffern, vnd gnade finden mo&#x0364;chten.</ab>
+        <ab type="verse" n="39">Sondern mit betru&#x0364;btem hertzen vnd zurſchlagenem Geiſt komen wir fur dich,</ab>
+        <ab type="verse" n="40">als brechten wir Brandopffer von Widdern vnd Rindern, vnd viel tauſent fetter Schafe. Alſo wolteſtu vnſer opffer heuten fur dir gelten vnd angenem ſein laſſen, Denn du leſſeſt nicht zu ſchanden werden, die ſo auff dich hoffen.
+        </ab>
+        <gb type="paragraph"/>
+        <ab type="verse" n="41">ALſo komen wir nu mit gantzem hertzen, vnd ſuchen dein Angeſicht mit furcht.</ab>
+        <ab type="verse" n="42">Darumb las vns nicht zu ſchanden werden, Sondern thu vns HERr nach deiner Gnade, vnd nach deiner groſſen Barmhertzigkeit,</ab>
+        <ab type="verse" n="43">vnd errette vns nach deinen wunderthaten, vnd gib deinem Namen die Ehre,</ab>
+        <ab type="verse" n="44">Das ſich ſchemen mu&#x0364;ſſen alle, die deinen Knechten leid thun, vnd zuſchanden werden fur deiner groſſen macht vnd gewalt, das jre macht zurſto&#x0364;ret werde,</ab>
+        <ab type="verse" n="45">Damit ſie erfaren, das du biſt der HERR, der einige Gott, herrlich auff dem Erdboden.
+        </ab>
+        <gb type="paragraph"/>
+        <ab type="verse" n="46">VND die Diener des Ko&#x0364;niges, die ſie in den Ofen geworffen hatten, ho&#x0364;reten nicht auff, vnd worffen jmer zu ſchwefel vnd pech vnd werg, vnd du&#x0364;rre reiſer,</ab>
+        <ab type="verse" n="47">Das die Loh oben aus dem Ofen ſchlug, bey neun vnd vierzig ellen hoch,</ab>
+        <ab type="verse" n="48">vnd fraſs vmb ſich, vnd verbrante die Chaldeer, die es erreichte fur dem ofen.</ab>
+        <ab type="verse" n="49">Aber der Engel des HERRN trat mit denen, die bey Aſaria waren in den Ofen,</ab>
+        <ab type="verse" n="50">vnd ſties die Loh vom fewr aus dem Ofen, vnd machets im ofen, wie einen ku&#x0364;len thaw, Das das Fewr ſie gar nicht anru&#x0364;rete, noch ſchmertzete oder beſchedigte.</ab>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div type="notes">
+        <note target="#en01" type="Kommentar">sic!; Die ungewöhnlich anmutende Form des &lt;A&gt; ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein &lt;E&gt; schreiben. In der Tat ist anhand der deutschen Vorlage der vc. Pone zu erwarten. Zur Form des begonnenen &lt;E&gt; vgl. 235r23. Stattdessen muss sich Bretke zugunsten des n.sg.m. umentschieden haben während er den Buchstaben schrieb.</note>
+        <note>sic! Möglicherweise Prussismus</note>
+
       </div>
     </body>
   </text>
