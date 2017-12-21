@@ -13,15 +13,16 @@
           <persName xml:lang="lt" type="alternative">Jonas Bretkūnas</persName>
           <!-- Wenn man lustig ist, könnte man auch noch historische Schreibungen mit reinnehmen... -->
           </author>
-        <editor xml:id="edit_AK">Anne Königs</editor>
+        <!-- <editor xml:id="edit_AK">Anne Königs</editor> --> <!-- doppelt! -->
         <respStmt> <!-- In welcher Sprache soll das stehen?!? -->
           <resp>editiert (2015) und in TEI überführt (2017) von
         </resp>
-        <name>Anne Königs</name>
+        <name xml:id="edit_AK">Anne Königs</name>
         </respStmt>
       </titleStmt>
+      <extent><measure unit="words" quantity="333">Ungefähr 300 Wörter (tokens)</measure></extent><!-- genaue Zahl nachtragen! -->
       <publicationStmt>
-        <p>#Bearbeitung der BA-Arbeit "[Titel der Arbeit]" im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities. Version vor dem ersten Commit</p>
+        <p>Bearbeitung der BA-Arbeit "Der Apokryphentext „Das Gebet Asarie“ in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis." im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities.</p><!-- Anführungszeichen aufräumen! -->
       </publicationStmt>
       <sourceDesc>
         <msDesc><!-- ab hier.... -->
@@ -92,12 +93,18 @@
             <origin><p>Der evangelisch-lutherische Pfarrer <name type="person">Johannes Bretke</name> übersetzte die gesamte Bibel in der <origDate from="1579-03-06" to="1590-11-29">zweiten Hälfte des 16. Jahrhunderts</origDate> in <origPlace>Labiau und Königsberg im Herzogtum Preußen</origPlace>.</p>
             </origin>
             <provenance>
-              <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte der Übersetzer das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>. Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach Kėdainai verliehen, allerdings nicht für die von <name type="person">Chyliński</name> angefertigte Bibelübersetzung benutzt. Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">nach Göttingen</date>. Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet, woraufhin es in der Fachwelt als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen. Seit <date when="1979">1979</date> ist es im Bestand des Geheimen Staatsarchivs Preußischer Kulturbesitz. <date when="1982">1982</date> wurde es restauriert und die Einbände erneuert, danach nach München für Restaurationsarbeiten ausgeliehen.</p>
+              <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte der Übersetzer das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>. Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach Kėdainai verliehen, allerdings nicht für die von <name type="person">Chyliński</name> angefertigte Bibelübersetzung benutzt. Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">nach Göttingen</date>. Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet, woraufhin es in der Fachwelt als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen. Seit <date when="1979">1979</date> ist es im Bestand des Geheimen Staatsarchivs Preußischer Kulturbesitz. <date when="1982">1982</date> wurde es restauriert und die Einbände erneuert, danach nach München für Restaurationsarbeiten<!-- WHAT? --> ausgeliehen.</p>
             </provenance>
           </history>
         </msDesc>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <projectDesc><p>Edition eines Auszugs aus der ersten Bibelübersetzung ins Litauische, die im Jahre 1591 abgeschlossen wurde. Ziele sind einerseits das Einüben der Erstellung einer Edition im Kontext akademischer Lehre, andererseits die Zugänglichmachung des überlieferten Materials für die baltistische Forschung. In diesem Kontext soll auch eine Tokenisierung und manuelle Annotation von grammatischen und Lexikalischen Informationen zur Erstellung eines Wortindexes erfolgen.</p></projectDesc><!-- DRAFT!! -->
+      <editorialDecl><p>HIER KÖNNTE IHRE WERBUNG STEHEN</p><!-- Später! Sehr ausführlich! --></editorialDecl>
+      <refsDecl><p>Die Referenz auf ein Wort oder eine größere Einheit im Text richtet sich nach der Platzierung im Manuskript und baut sich folgendermaßen auf: Die Nummer der Blattzählung, gefolgt von der Seitenangabe (r für recto, v für verso) gibt die Seitenzahl an. Sie kann aus dem <att>n</att>-Attribut im Element <gi>pb</gi> zu Beginn einer Seite ausgelesen werden. Die Zeilennummer eines Wortes ist im <gi>lb</gi>-Element zu Beginn der Zeile und dort im <att>n</att>-Attribut festgehalten.</p></refsDecl>
+      <schemaRef url=""><!-- Muss noch eingefügt werden! --></schemaRef>
+    </encodingDesc>
     <!-- <revisionDesc>
       <listChange>
         <change>Erstmal rausgenommen und in @rend eingearbeitet.</change>
