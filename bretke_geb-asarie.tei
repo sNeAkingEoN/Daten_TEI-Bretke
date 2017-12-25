@@ -1,6 +1,6 @@
 <!-- TODO: Header fertig machen, Lücken füllen -->
 <!-- Hände komplett verlinkt?-->
-<!-- Kommentar einarbeiten, v.a. für @hand #h03 <note>KS: gestr. (a senkrecht, t 	waagerecht), helle Tinte, → 	˻uſzu˼ſiuntei</note> -->
+<!-- Kommentar einarbeiten, v.a. für @hand #h03 <note>KS: gestr. (a senkrecht, t 	waagerecht), helle Tinte, → 	˻uſzu˼ſiuntei</note> - #en03 sollte sich ggf. auch darauf beziehen bzw. ganz neuen Kommentar einarbeiten-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <!-- muss noch komplett gemacht werden.-->
@@ -276,7 +276,7 @@
               </subst>
                 <add instant="false">j</add>
             <del rend="overwrite" instant="unknown"><gap quantity="2" unit="chars" reason="illegible_and_crossed_out"/></del> takiu karoghimu,<lb n="15"/>kuri tu mumus
-            <!-- mal gucken, ob ich #interlinear mitangeben --><subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above" hand="#en03">uſzu</add></subst>ſiuntei, ir ant Jeruſa-<lb n="16" break="no"/>lemo <del rend="strikethrough" instant="true">ſczE</del><!-- GS:Sfk --> ſchwento Mieſto muſụ Tie-<lb n="17" break="no"/>wụ.Tu tikrai ir gerai darai tame,<lb n="18"/>delei muſụ Griekụ.</ab>
+            <!-- mal gucken, ob ich #interlinear mitangeben --><subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above">uſzu</add></subst>ſiuntei, ir ant Jeruſa-<lb n="16" break="no"/>lemo <del rend="strikethrough" instant="true">ſczE</del><!-- GS:Sfk --> ſchwento Mieſto muſụ Tie-<lb n="17" break="no"/>wụ.Tu tikrai ir gerai darai tame,<lb n="18"/>delei muſụ Griekụ.</ab>
             <gb type="paragraph"/>
             <lb n="19"/><ab type="verse" n="29">Neſa mes ſu<del xml:id="en03" rend="strikethrough" instant="false">ſsi</del> grieſchiom ir pikta<lb n="20"/>darem, tame iog nog tawens atſtoiom,<lb n="21"/>ir wiſsur priſch tawe darem,</ab>
             <ab type="verse" n="30"> ir tawa<lb n="22"/>priſakimụ neklauſem nei iụ atboiom,<lb n="23"/>ieib pagalei iụ giwentumbim, kaip tu<lb n="24"/>mumus priſak<del rend="strikethrough" instant="false"><choice><unclear cert="high">i</unclear><unclear cert="low">c</unclear></choice></del>ei, idant mumus gera<lb n="25"/>butụ.></ab>
