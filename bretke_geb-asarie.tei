@@ -1,6 +1,5 @@
 <!-- TODO: Header fertig machen, Lücken füllen -->
 <!-- Hände komplett verlinkt?-->
-<!-->
 <!-- Kommentar einarbeiten, v.a. für @hand #h03 <note>KS: gestr. (a senkrecht, t 	waagerecht), helle Tinte, → 	˻uſzu˼ſiuntei</note> -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -300,7 +299,7 @@
           <ab type="verse" n="42"> To-<lb n="27" break="no"/>del ne rodzik mus gedoie buti. Bet<lb n="28"/>darik mumus <seg rend="normal" type="god">Pone</seg> pagal tawa Malones,<lb n="29"/>ir pagal tawa didzios Mielaſchirdingiſ-<lb n="30" break="no"/>tes,</ab>
           <ab type="verse" n="43"> ir iſchgelbek mus pagal tawa<lb n="31"/>ſtebuklingụ̊ darbụ, ir důk tawam War-<lb n="32" break="no"/>dui Garbẹ,</ab>
           <ab type="verse" n="44"> idant ſuſsig<del instant="unknown" rend="strikethrough">i</del><!-- helle Tinte -->edintụ wiſs<unclear>i</unclear>,<lb n="33"/>kurie tawa Tarnus paſzeidz ir apge<unclear>d</unclear>inti<lb n="34"/>butụ delei tawa didzos ſilos ir ma<choice><unclear cert="high">c</unclear><unclear cert="low">i</unclear></choice>es,<lb n="35"/>ieib iụ̊ Sila iſchpuſtita butụ,</ab>
-          <ab type="verse" n="45"> idant anis<lb n="36"/>ſzinotụ, taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst> ſanti <seg rend="caps" type="god">Ponạ</seg> wiena-<lb n="37" break="no"/>tighị Diewa, ſ<seg xml:id="en11" target="#md01">c</seg>hlownạ ant Szemes.</ab>
+          <ab type="verse" n="45"> idant anis<lb n="36"/>ſzinotụ, taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst> ſanti <seg rend="caps" type="god">Ponạ</seg> wiena-<lb n="37" break="no"/>tighị Diewa, <ref target="#md01">ſ<seg xml:id="en11">c</seg>hlownạ</ref> ant Szemes.</ab>
           <ab xml:id="md01" type="marginal_gloss" hand="#h08">Herrlich</ab>
           <!-- Muss noch gelinkt werden....! -->
           <gb type="leaf" n="235"/>
@@ -311,7 +310,7 @@
           <fw type="header" place="top-center">Malda Aſario</fw>
           <gb type="paragraph"/>
           <lb n="1"/><ab type="verse" n="46">Bei Tarnai Karaliaus, kurie ios<lb n="2"/>ing Pecziụ buwa ịmætẹ, neſ
-          <subst><del>s</del><add>i</add></subst>lowe, bet <lb n="3"/>wiſsadai primete, Sier<metamark function="insert" target="#ml01 #md02"/>ạ ir <seg target="#ml02 md03">Smalạ</seg><!-- Verweis auf pikkis; pech einbauen! DONE! --><lb n="4"/>ir paků<choice><unclear hand="#h09" cert="high">l</unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/><!-- cert="0.95" eigentlich muss man das @cert hier rausnehmen, weil Entscheidung halt getroffen ist....! -->u, ir ſauſụ
+          <subst><del>s</del><add>i</add></subst>lowe, bet <lb n="3"/>wiſsadai primete, Sier<metamark function="insert" target="#ml01 #md02"/>ạ ir <ref target="#ml02 md03">Smalạ</ref><!-- Verweis auf pikkis; pech einbauen! DONE! --><lb n="4"/>ir paků<choice><unclear hand="#h09" cert="high">l</unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/><!-- cert="0.95" eigentlich muss man das @cert hier rausnehmen, weil Entscheidung halt getroffen ist....! -->u, ir ſauſụ
           <mod type="kommutative_variante" instant="false"><del rend="unmarked">krumụ</del><add rend="small_interlinear_above" hand="#h04">ſchakụ</add></mod>,</ab>
           <ab type="verse" n="47">
           <mod type="kommutative_variante" instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod><lb n="5"/>liepſna aukſchtai iſch pecziaus ſchoka,<lb n="6"/>
