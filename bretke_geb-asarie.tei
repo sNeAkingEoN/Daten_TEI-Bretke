@@ -15,7 +15,7 @@
           </author>
         <!-- <editor xml:id="edit_AK">Anne Königs</editor> --> <!-- doppelt! -->
         <respStmt> <!-- In welcher Sprache soll das stehen?!? -->
-          <resp>editiert (2015) und in TEI überführt (2017) von
+          <resp>ediert (2015) und in TEI überführt (2017) von
         </resp>
         <name xml:id="edit_AK">Anne Königs</name>
         </respStmt>
@@ -29,14 +29,15 @@
           <msIdentifier>
             <country>Deutschland</country>
             <settlement>Berlin</settlement>
-            <institution>Stiftung Preußischer Kulturbesitz</institution><!-- too much? -->
+            <institution>Stiftung Preußischer Kulturbesitz</institution><!-- too much? NÖ -->
             <repository>Geheimes Staatsarchiv Preußischer Kulturbesitz</repository>
             <idno>XX HA StUB Kgbg. 48</idno>
-            <altIdentifier type="former"><!-- gut so? -->
+            <altIdentifier type="former_owner"><!-- gut so? -->
             <!-- Quelle: Range Bausteine, S.9 - wie einbauen?!?-->
               <settlement>Königsberg</settlement><!-- Problem: historischer Ortsname, heute anders -->
               <institution>Königliche und Universitätsbibliothek</institution>
               <idno>Cod. MS. 1218</idno>
+              <note type="bibliographisch">Information entnommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note>
             </altIdentifier>
           </msIdentifier>
           <msContents>
@@ -44,7 +45,7 @@
               <locus>Gesamte Bibelübersetzung</locus>
               <author xml:lang="de">Johannes Bretke</author><!-- eigentlich ist er ja nur Übersetzer.... -->
               <author xml:lang="lt">Jonas Bretkūnas</author>
-              <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590</title>
+              <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographisch">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
               <!-- Quelle: Range, Bausteine S. 9 -->
               <textLang mainLang="olt">Old Lithuanian</textLang>
             </msItem>
@@ -228,8 +229,15 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <projectDesc><p>Edition eines Auszugs aus der ersten Bibelübersetzung ins Litauische, die im Jahre 1591 abgeschlossen wurde. Ziele sind einerseits das Einüben der Erstellung einer Edition im Kontext akademischer Lehre, andererseits die Zugänglichmachung des überlieferten Materials für die baltistische Forschung. In diesem Kontext soll auch eine Tokenisierung und manuelle Annotation von grammatischen und Lexikalischen Informationen zur Erstellung eines Wortindexes erfolgen.</p></projectDesc><!-- DRAFT!! -->
-      <editorialDecl><p>HIER KÖNNTE IHRE WERBUNG STEHEN</p><!-- Später! Sehr ausführlich! --></editorialDecl>
+      <projectDesc><p>Edition eines Auszugs aus der ersten Bibelübersetzung ins Litauische, die im Jahre 1591 abgeschlossen wurde. Ziele sind einerseits das Einüben der Erstellung einer Edition im Kontext akademischer Lehre, andererseits die Zugänglichmachung des überlieferten Materials für die baltistische Forschung. In diesem Kontext soll auch eine Tokenisierung und manuelle Annotation von grammatischen und lexikalischen Informationen zur Erstellung eines Wortindexes erfolgen.</p></projectDesc><!-- DRAFT!! -->
+      <editorialDecl><!-- Still unfinished -->
+      <p>In diesem korrekturarmen Textabschnitt werden Grund- und Korrekturschicht danach definiert, ob eine Korrektur, die Unterschiede verursacht, eindeutig als sofort, d.h. während des Schreibens, erfolgt ist oder erst später. Als Indiz für eine Sofortkorrektur (d.h. innerhalb der Grundschicht) dient, dass eine Durchstreichung in den Textfluss eingebettet ist, also rechts daneben weiter geschrieben wurde, oder ein Eingriff im Text über noch feuchter Tinte erfolgte, was daran zu erkennen ist, dass die Striche ineinander verlaufen sind.</p>
+      <!-- Darstellung von Grund- und Korrekturschicht? -->
+      <p>Prinzipiell werden alle verwendeten Zeichen so wiedergegeben, wie sie vom Autor<!-- Ref auf Bretke einfügen?! --> geschrieben bzw. intendiert wurden. Dabei ergaben sich für die Bewertung spezifische Fragen: die Verbindung aus Strichbuchstaben, z.B. ui <!-- Darstellung! --> oder iu ist nicht immer klar lesbar, dabei wird auf die verwendeten Wörter zurückgegriffen. ij wird immer ij gelesen, in diesem Textabschnitt findet sich kein ÿ.  Weiterhin verwendet Bretke verschiedenartige Diakritika über dem u, von denen hier nur der Kreis über dem u, ů, wiedergegeben wird, da nur dieser als möglicherweise bedeutungstragend gilt, da er manchmal auf nlit. uo hindeutet. Im Gegensatz zu anderen Bretke-Editionen<!-- Lit.-Ref. einbauen? --> wird dieser auch gelesen, wenn der Kreis nicht komplett geschlossen ist.
+      Gelegentlich kommen ę und æ für nlit. e vor, die ebenso dargestellt werden. Die nlit. Nasalvokale ą, ę, į und ų werden oft mit einem Punkt unter dem Basisgraphem dargestellt, der in der Edition auch so wieder gegeben wird, wenn er zu einem Strich langgezogen ist: ạ, ẹ, ị, ụ. Im Bereich der Konsonanten erfolgt ebenfalls keine Normalisierung, z.B. bleibt ſch für nlit. š und positionsabhängiges ſ. In der Handschrift Bretkes <!-- Autor! --> ist zuweilen ein t schwer von einem l zu unterscheiden. Es hat sich gezeigt, dass das l prinzipiell die längere Oberlänge hat. Bisweilen sind Majuskeln am Wortanfang schwer von Minuskeln zu unterscheiden, das betrifft vor allem K und k, S und ſ, W und w und L und l. Hier werden zweifelhafte Fälle nicht gekennzeichnet. Möglicherweise war eine Unterscheidung von U/V und I/J am Wortanfang nicht von Bretke intendiert, allerdings wird hier J gelesen, wenn die Schlaufe der Unterlänge geschlossen ist, ansonsten wird I gelesen. Die Interpunktion folgt der Vorlage, wobei . und , oft nicht leicht voneinander zu unterscheiden sind, in zwei Fällen steht ., und wird auf ein Zeichen reduziert. Der Bindestrich zur Worttrennung am Zeilenende wird hier durch entsprechene Tags gekennzeichnet. Ein weiteres Charakteristikum von Bretkes Handschrift sind die nicht immer deutlichen graphischen Wortgrenzen, deren ambivalente Fälle dem Faksimile zu entnehmen sind und nicht gesondert diskutiert werden.</p>
+      <!-- Zeicheninventar und Lesungsprobleme -> Entscheidungsgrundsätze -->
+      <!-- Konkret: in/ni/..., ij, u und Diakritika, e-Variationen, Nasalpunkte, w/v, Sibilanten(heißen die so?!), l/t, s/ſ, Groß- u. Kleinbuchstaben, U/V - I/J, Interpunktion, Worttrennung, graphische Wortgrenzen -->
+      </editorialDecl>
       <refsDecl><p>Die Referenz auf ein Wort oder eine größere Einheit im Text richtet sich nach der Platzierung im Manuskript und baut sich folgendermaßen auf: Die Nummer der Blattzählung, gefolgt von der Seitenangabe (r für recto, v für verso) gibt die Seitenzahl an. Sie kann aus dem <att>n</att>-Attribut im Element <gi>pb</gi> zu Beginn einer Seite ausgelesen werden. Die Zeilennummer eines Wortes ist im <gi>lb</gi>-Element zu Beginn der Zeile und dort im <att>n</att>-Attribut festgehalten.</p></refsDecl>
       <schemaRef url=""><!-- Muss noch eingefügt werden! --></schemaRef>
     </encodingDesc>
@@ -310,7 +318,7 @@
           <fw type="header" place="top-center">Malda Aſario</fw>
           <gb type="paragraph"/>
           <lb n="1"/><ab type="verse" n="46">Bei Tarnai Karaliaus, kurie ios<lb n="2"/>ing Pecziụ buwa ịmætẹ, neſ
-          <subst><del>s</del><add>i</add></subst>lowe, bet <lb n="3"/>wiſsadai primete, Sier<metamark function="insert" target="#ml01 #md02"/>ạ ir <ref target="#ml02 md03">Smalạ</ref><!-- Verweis auf pikkis; pech einbauen! DONE! --><lb n="4"/>ir paků<choice><unclear hand="#h09" cert="high">l</unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/><!-- cert="0.95" eigentlich muss man das @cert hier rausnehmen, weil Entscheidung halt getroffen ist....! -->u, ir ſauſụ
+          <subst><del>s</del><add>i</add></subst>lowe, bet <lb n="3"/>wiſsadai primete, Sier<metamark function="insert" target="#ml01 #md02"/>ạ ir <ref target="#ml02 md03">Smalạ</ref><!-- Verweis auf pikkis; pech einbauen! DONE! --><lb n="4"/>ir paků<choice><unclear cert="high"><seg hand="#h09">l</seg></unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/><!-- cert="0.95" eigentlich muss man das @cert hier rausnehmen, weil Entscheidung halt getroffen ist....! -->u, ir ſauſụ
           <mod type="kommutative_variante" instant="false"><del rend="unmarked">krumụ</del><add rend="small_interlinear_above" hand="#h04">ſchakụ</add></mod>,</ab>
           <ab type="verse" n="47">
           <mod type="kommutative_variante" instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod><lb n="5"/>liepſna aukſchtai iſch pecziaus ſchoka,<lb n="6"/>
