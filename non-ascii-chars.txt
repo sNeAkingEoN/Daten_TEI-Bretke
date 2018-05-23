@@ -5,3 +5,10 @@
 ạ
 ė
 ń ?
+
+„ &bdquo;
+“ &ldquo;
+‚ &sbquo;
+‘ &lsquo;
+⟨ U+27E8 U+10216
+⟩ U+27E9 U+10217
