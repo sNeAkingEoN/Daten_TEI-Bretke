@@ -11,7 +11,7 @@
         <author xml:id="auth_JB">
           <persName xml:lang="de" type="preferred">Johannes Bretke</persName>
           <persName xml:lang="lt" type="alternative">Jonas Bretkūnas</persName>
-          <!-- Wenn man lustig ist, könnte man auch noch historische Schreibungen mit reinnehmen... -->
+          <!-- Wenn man lustig ist, könnte man auch noch historische Schreibungen mit reinnehmen... Kann man aber auch lassen..? -->
           </author>
         <!-- <editor xml:id="edit_AK">Anne Königs</editor> --> <!-- doppelt! -->
         <respStmt> <!-- In welcher Sprache soll das stehen?!? -->
@@ -50,7 +50,6 @@
             <msItem class="this_volume"> <!-- dieser Band -->
               <locus>Fünfter Band der Bibelübersetzung</locus>
               <title>Penkta dalis Biblias Lietuwischkai Jano Bretkuno pergulditas</title>
-              <!-- resp - Anne Königs? -->
             </msItem><!-- dann noch für diesen Ausschnitt...? -->
             <msItem class="this_text">
               <locus from="234r1" to="235r15">ff.234r1-235r15</locus><!-- hier weiter machen... -->
@@ -70,7 +69,7 @@
                 </dimensions>
               </extent>
               <foliation><p>Wahrscheinlich durch den Autor selbst wurde eine Bogenzählung, zunächst in großen, dann kleinen Lateinischen Buchstaben (in deutscher Kursive) durchgeführt.</p>
-              <p>Es befinden sich drei Blattzählungen auf dem Manuskript. Die erste in kleinerer Schrift ist die älteste und Referenz für die Blattbezeichnungen. Die zweite, ebenfalls handschriftlich und mit Bleistift, stammt vom Fotograph Paul Koeppen und wurde zwischen 1950 und 1979 in Göttingen hinzugefügt (<ref target="#FaksSenasis4-5">Kessler 2013</ref>:VIII). Sie stimmt mit der ersten überein. Die dritte ist in schwarzer Tinte gestempelt und zählt drei Blätter weniger, weil sie das Titelblatt und die unbeschriebenen Blätter 68 und 227 auslässt.</p></foliation>
+              <p>Es befinden sich drei Blattzählungen auf dem Manuskript. Die erste in kleinerer Schrift ist die älteste und Referenz für die Blattbezeichnungen. Die zweite, ebenfalls handschriftlich und mit Bleistift, stammt vom Fotographen Paul Koeppen und wurde zwischen 1950 und 1979 in Göttingen hinzugefügt (<ref target="#FaksSenasis4-5">Kessler 2013</ref>:VIII). Sie stimmt mit der ersten überein. Die dritte, ebenfalls in Göttingen hinzugeügt, ist in schwarzer Tinte gestempelt und zählt drei Blätter weniger, weil sie das Titelblatt und die unbeschriebenen Blätter 68 und 227 auslässt.</p></foliation>
               <collation>Die letzte Lage besteht aus den Blättern 233 bis 237</collation>
               <condition>Das Manuskript ist in gutem Zustand und vollständig erhalten, vereinzelt finden sich kleine braune Flecken.</condition>
               </supportDesc>
@@ -78,7 +77,7 @@
                 <layout columns="1" writtenLines="38">Die Seite hat einen durch einen Falz festgelegten Rand, der gelegentlich für Korrekturen und Glossierungen genutzt wird. Die meisten Seiten, die nicht mit einer Überschrift beginnen, besitzen eine Art Kopfzeile direkt über dem einspaltigen Text, in der der (Kurz-)Titel des aktuellen Textes wiederholt wird. Die Seiten sind frei mit bis zu ungefähr 40 Zeilen beschrieben, im betrachteten Bereich umfasst eine Seite 38, 37 und 32 Zeilen.</layout>
               </layoutDesc>
             </objectDesc>
-            <handDesc resp="#edit_AK"><!--<p></p>-->
+            <handDesc resp="#edit_AK">
             <handNote xml:id="h01" scope="major" scribeRef="#auth_JB" script="antiqua" medium="brown-ink">Der litauische Haupttext ist verfasst in einer deutlich lesbaren Antiquaschrift. Die Überschriften sind in einer Art Kapitälchenschreibung verfasst. Deutsche Glossen und Bogensignaturen sind in einer deutschen Kursivschrift verfasst.</handNote>
             <handNote xml:id="h02" scope="minor" script="antiqua" medium="brown-ink">Zwei litauische Randglossen, möglicherweise ebenfalls von Bretke.</handNote>
             <handNote xml:id="h03" scope="minor" script="antiqua" medium="brown-ink">Korrekturen einzelner Silben, interlinear direkt über dem Wort, wahrscheinlich von Bretke selbst.</handNote>
@@ -86,8 +85,10 @@
             <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu tukſtanti (234v20). Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
             <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von Iſaac zu Iſaak 234v2. Schwarze Tinte, eher breitere Feder.</handNote>
             <handNote xml:id="h07" scope="minor" script="arabic-numbers" medium="brown-ink">Zahlen, die Wortreihenfolge neu organisieren. Alte Wortreihenfolge zeigt deutsche Vorlage bzw. Muttersprachlichkeit Bretkes. Möglicherweise von Bretke.</handNote>
-            <handNote xml:id="h08" scope="minor" script="german_cursive" medium="brown-ink">Deutsche Entsprechungen zu einzelnen litauischen Vokabeln S. 234v und 235r in margine. Möglicherweise von Bretke.</handNote>
+            <handNote xml:id="h08" scope="minor" script="german_cursive" medium="brown-ink">Deutsche Entsprechungen zu einzelnen litauischen Vokabeln S. 234v und 235r in margine sowie die Bogensignatur. Möglicherweise von Bretke.</handNote>
             <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink"><!-- dieses attribut ist anders als in BA beschrieben -->Strich über pakůlụ (235v4), intensivere Tinte.</handNote>
+            <handNote xml:id="h10" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä., unten mittig, unbekannte Herkunft</handNote>
+            <handNote xml:id="h11" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä. rechts unten von Fotographen Paul Koeppen, hinzugefügt <date notBefore="1950" notAfter="1979">zwischen 1950 und 1979</date> in Göttingen (<ref target="#FaksSenasis4-5">Kessler 2013</ref>:VIII)(ebenso wie die Stempelung)</handNote>
             </handDesc>
             <additions>Am Rand befinden sich gelegentlich Korrekturen, i.d.R. einzelne litauische Wörter, die zu substituieren sind. Des Weiteren wurden deutsche Wörter, wahrscheinlich zur Unterstützung des Übersetzungsprozesses, an den Rand geschrieben.</additions>
           </physDesc>
@@ -221,52 +222,61 @@
                   </imprint>
                 </monogr>
             </biblStruct>
+            <biblStruct xml:id="Luther_WA">
+              <monogr>
+                <author>Martin Luther</author>
+                <title level="m">Werke. Kritische Gesamtausgabe. Die Deutsche Bibel.</title>
+                <imprint>
+                  <date when="1961">1961</date>
+                  <pubPlace>Weimar</pubPlace>
+                  <publisher>Böhlau</publisher>
+                </imprint>
+                <biblScope unit="volume">12</biblScope>
+              </monogr>
+            </biblStruct>
             </listBibl>
           </additional>
         </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <projectDesc><p>Edition eines Auszugs aus der ersten Bibelübersetzung ins Litauische, die im Jahre 1591 abgeschlossen wurde. Ziele sind einerseits das Einüben der Erstellung einer Edition im Kontext akademischer Lehre, andererseits die Zugänglichmachung des überlieferten Materials für die baltistische Forschung. <!--In diesem Kontext soll auch eine Tokenisierung und manuelle Annotation von grammatischen und lexikalischen Informationen zur Erstellung eines Wortindexes erfolgen.--></p></projectDesc><!-- DRAFT!! Will ich das überhaupt schreiben?! -->
+      <projectDesc><p>Edition eines Auszugs aus der ersten Bibelübersetzung ins Litauische, die im Jahre 1591 abgeschlossen wurde. <!-- Ziele sind einerseits das Einüben der Erstellung einer Edition im Kontext akademischer Lehre, andererseits die Zugänglichmachung des überlieferten Materials für die baltistische Forschung. --><!--In diesem Kontext soll auch eine Tokenisierung und manuelle Annotation von grammatischen und lexikalischen Informationen zur Erstellung eines Wortindexes erfolgen.--></p></projectDesc>
       <editorialDecl><!-- Still unfinished -->
       <p>In diesem korrekturarmen Textabschnitt werden Grund- und Korrekturschicht danach definiert, ob eine Korrektur, die Unterschiede verursacht, eindeutig als sofort, d.h. während des Schreibens oder erst später, erfolgt ist. Als Indiz für eine Sofortkorrektur (d.h. innerhalb der Grundschicht) dient, dass eine Durchstreichung in den Textfluss eingebettet ist, also rechts daneben weiter geschrieben wurde, oder ein Eingriff im Text über noch feuchter Tinte erfolgte, was daran zu erkennen ist, dass die Striche ineinander verlaufen sind.</p>
-      <p>Prinzipiell werden alle verwendeten Zeichen so wiedergegeben, wie sie vom Autor<!-- Ref auf Bretke einfügen?! --> geschrieben bzw. intendiert wurden. Dabei ergaben sich für die Bewertung spezifische Fragen: die Verbindung aus Strichbuchstaben, z.B. ⟨ui⟩ oder ⟨iu⟩ ist nicht immer klar lesbar, dabei wird auf die verwendeten Wörter zurückgegriffen. ⟨ij⟩ wird immer ⟨ij⟩ gelesen, in diesem Textabschnitt findet sich kein ⟨ÿ⟩.  Weiterhin verwendet Bretke verschiedenartige Diakritika über dem ⟨u⟩, von denen hier nur der Kreis über dem ⟨u⟩, ⟨ů⟩, wiedergegeben wird, da nur dieser als möglicherweise bedeutungstragend gilt, da er manchmal auf nlit. ⟨uo⟩ hindeutet. Im Gegensatz zu anderen Bretke-Editionen<!-- Lit.-Ref. einbauen? Range... --> wird dieser auch gelesen, wenn der Kreis nicht komplett geschlossen ist.
-      Gelegentlich kommen ⟨ę⟩ und ⟨æ⟩ für nlit. ⟨e⟩ vor, die ebenso dargestellt werden. Die nlit. Nasalvokale ⟨ą⟩, ⟨ę⟩, ⟨į⟩ und ⟨ų⟩ werden oft mit einem Punkt unter dem Basisgraphem dargestellt, der in der Edition auch dann so wieder gegeben wird, wenn er zu einem Strich langgezogen ist: ⟨ạ⟩, ⟨ẹ⟩, ⟨ị⟩, ⟨ụ⟩. Im Bereich der Konsonanten erfolgt ebenfalls keine Normalisierung, z.B. bleibt ⟨ſch⟩ für nlit. ⟨š⟩ und positionsabhängiges ⟨ſ⟩. In der Handschrift Bretkes <!-- Autor! --> ist zuweilen ein ⟨t⟩ schwer von einem ⟨l⟩ zu unterscheiden. Es hat sich gezeigt, dass das ⟨l⟩ prinzipiell die längere Oberlänge hat. Bisweilen sind Majuskeln am Wortanfang schwer von Minuskeln zu unterscheiden, das betrifft vor allem ⟨K⟩ und ⟨k⟩, ⟨S⟩ und ⟨ſ⟩, ⟨W⟩ und ⟨w⟩ und ⟨L⟩ und ⟨l⟩. Hier werden zweifelhafte Fälle nicht gekennzeichnet. Möglicherweise war eine Unterscheidung von ⟨U⟩/⟨V⟩ und ⟨I⟩/⟨J⟩ am Wortanfang nicht von Bretke intendiert, allerdings wird hier ⟨J⟩ gelesen, wenn die Schlaufe der Unterlänge geschlossen ist, ansonsten wird ⟨I⟩ gelesen. Die Interpunktion folgt der Vorlage, wobei ⟨.⟩ und ⟨,⟩ oft nicht leicht voneinander zu unterscheiden sind, in zwei Fällen steht ⟨.,⟩ und wird auf ein Zeichen reduziert. Der Bindestrich zur Worttrennung am Zeilenende wird hier durch entsprechene Tags gekennzeichnet. Ein weiteres Charakteristikum von Bretkes Handschrift sind die nicht immer deutlichen graphischen Wortgrenzen, deren ambivalente Fälle dem Faksimile zu entnehmen sind und nicht gesondert diskutiert werden.</p>
+      <p>Prinzipiell werden alle verwendeten Zeichen so wiedergegeben, wie sie vom Schreiber Bretke<!-- Ref auf Bretke einfügen?! --> geschrieben bzw. intendiert wurden.<!-- anders formulieren... Fachwort von Plachta? --> Dabei ergaben sich für die Bewertung spezifische Fragen: die Verbindung aus Strichbuchstaben, z.B. ⟨ui⟩ oder ⟨iu⟩ ist nicht immer klar lesbar, dabei wird auf die verwendeten Wörter zurückgegriffen. ⟨ij⟩ wird immer ⟨ij⟩ gelesen, in diesem Textabschnitt findet sich kein ⟨ÿ⟩.  Weiterhin verwendet Bretke verschiedenartige Diakritika über dem ⟨u⟩, von denen hier nur der Kreis über dem ⟨u⟩, ⟨ů⟩, wiedergegeben wird, da nur dieser als möglicherweise bedeutungstragend gilt, da er manchmal auf nlit. ⟨uo⟩ hindeutet. Dieser wird auch gelesen, wenn der Kreis nicht komplett geschlossen ist.
+      Gelegentlich kommen ⟨ę⟩ und ⟨æ⟩ für nlit. ⟨e⟩ vor, die ebenso dargestellt werden. Die nlit. Nasalvokale ⟨ą⟩, ⟨ę⟩, ⟨į⟩ und ⟨ų⟩ werden oft mit einem Punkt unter dem Basisgraphem dargestellt, der in der Edition auch dann so wieder gegeben wird, wenn er zu einem Strich langgezogen ist: ⟨ạ⟩, ⟨ẹ⟩, ⟨ị⟩, ⟨ụ⟩. Im Bereich der Konsonanten erfolgt ebenfalls keine Normalisierung, z.B. bleibt ⟨ſch⟩ für nlit. ⟨š⟩ und positionsabhängiges ⟨ſ⟩. In der Handschrift Bretkes ist zuweilen ein ⟨t⟩ schwer von einem ⟨l⟩ zu unterscheiden. Es hat sich gezeigt, dass das ⟨l⟩ prinzipiell die längere Oberlänge hat. Bisweilen sind Majuskeln am Wortanfang schwer von Minuskeln zu unterscheiden, das betrifft vor allem ⟨K⟩ und ⟨k⟩, ⟨S⟩ und ⟨ſ⟩, ⟨W⟩ und ⟨w⟩ und ⟨L⟩ und ⟨l⟩. Hier werden zweifelhafte Fälle nicht gekennzeichnet. Möglicherweise war eine Unterscheidung von ⟨U⟩/⟨V⟩ und ⟨I⟩/⟨J⟩ am Wortanfang nicht von Bretke intendiert, allerdings wird hier ⟨J⟩ gelesen, wenn die Schlaufe der Unterlänge geschlossen ist, ansonsten wird ⟨I⟩ gelesen. Die Interpunktion folgt der Vorlage, wobei ⟨.⟩ und ⟨,⟩ oft nicht leicht voneinander zu unterscheiden sind, in zwei Fällen steht ⟨.,⟩ und wird auf ein Zeichen reduziert. Der Bindestrich zur Worttrennung am Zeilenende wird hier durch entsprechene Tags gekennzeichnet. Ein weiteres Charakteristikum von Bretkes Handschrift sind die nicht immer deutlichen graphischen Wortgrenzen, deren ambivalente Fälle dem Faksimile zu entnehmen sind und nicht gesondert ausgezeichnet werden.</p>
       </editorialDecl>
       <refsDecl><p>Die Referenz auf ein Wort oder eine größere Einheit im Text richtet sich nach der Platzierung im Manuskript und baut sich folgendermaßen auf: Die Nummer der Blattzählung, gefolgt von der Seitenangabe (r für recto, v für verso) gibt die Seitenzahl an. Sie kann aus dem <att>n</att>-Attribut im Element <gi>pb</gi> zu Beginn einer Seite ausgelesen werden. Die Zeilennummer eines Wortes ist im <gi>lb</gi>-Element zu Beginn der Zeile und dort im <att>n</att>-Attribut festgehalten.</p></refsDecl>
       <schemaRef url=""><!-- Muss noch eingefügt werden! --></schemaRef>
     </encodingDesc>
-    <!-- <revisionDesc>
-      <listChange>
-        <change>Erstmal rausgenommen und in @rend eingearbeitet.</change>
-      </listChange>
-    </revisionDesc> -->
+    <revisionDesc>
+      <change who="#edit_AK">First TEI Version, content not lemmatized</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="edited_text" hand="#h01">
+      <div type="edited_text" hand="#h01" xml:lang="olt" resp="#edit_AK">
       <!-- Struktur und Attributauswahl in starker Anlehnung an José Calvo Tello -->
       <div xml:id="a.DAN" type="book">
         <div xml:id="a.DAN.3" type="chapter">
           <div type="text">
             <gb type="leaf" n="234"/>
             <pb n="234r"/>
-            <!-- In die fw müssen noch die Hände und wie geschrieben ergänzt werden -->
-            <fw type="sheetSig" place="bot-centre">e</fw> <!-- die Werte von @type einfach gleich Deutsch? -->
-            <fw type="sheetNum" place="top-right">231</fw>
-            <fw type="sheetNum" place="bot-centre">234</fw>
-            <fw type="sheetNum" place="bot-right">234</fw>
+            <fw type="sheetSig" place="bot-centre" hand="#h08">e</fw>
+            <fw type="sheetNum" place="top-right" rend="stamp">231</fw>
+            <fw type="sheetNum" place="bot-centre" hand="#h10">234</fw>
+            <fw type="sheetNum" place="bot-right" hand="#h11">234</fw>
             <lb n="1"/><head type="mainTitle" rend="caps">Malda Asario /</head>
             <head type="subTitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
             <!-- Sprachen kenntlich machen: lat. & deu. - oder nicht? -->
             <!-- Position der Dateline angeben! -->
-            <dateline>A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04">1590. 4. Februa.</date></dateline>
+            <dateline><fw type="date" place="top-right">A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04" xml:lang="la"><!-- Sprachkürzel richtig? -->1590. 4. Februa.</date></fw></dateline>
             <!-- Attribute von <mod> sind vorläufig -->
             <gb type="paragraph"/>
             <lb n="4"/><ab type="verse" n="25">Bei Aſarias ſtoweia widui de-<lb n="5" break="no"/>ganczio pecziaus, ir atwere <mod type="kommutative_variante" instant="true"><del rend="parentheses">Naſrus</del> <add rend="inline">bur-<lb n="6" break="no"/>nạ</add></mod> ſawa, meldeſi ir biloia.</ab>
             <gb type="paragraph"/>
-            <lb n="7"/><ab type="verse" n="26">Pagirtas buk <seg rend="caps" type="god">Pon<!-- Beispiel für Vernetzung mit Notes --><subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></seg>
-            <!-- Dieser Kommentar muss noch irgendwo richtig eingesetzt werden...  -->, Diewas<lb n="8"/>muſu Tiewu, ir tawa Wardas tur pa-<lb n="9" break="no"/>girtas ir pagarbintas buti am<sic xml:id="en02">ſs</sic>inai.</ab>
+            <lb n="7"/><ab type="verse" n="26">Pagirtas buk <seg rend="caps" type="god">Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></seg>
+            , Diewas<lb n="8"/>muſu Tiewu, ir tawa Wardas tur pa-<lb n="9" break="no"/>girtas ir pagarbintas buti am<sic xml:id="en02">ſs</sic>inai.</ab>
             <ab type="verse" n="27">Ne-<lb n="10" break="no"/>ſa tu teiſus efsi wiſsame, ka mumus darei.<lb n="11"/>Wiſsi tawa Darbai eſti tikri, ir kạ<lb n="12"/>tu dar<choice><unclear cert="high">a<!-- für diese Variante wurde sich entschieden! --></unclear><unclear cert="low">e<gap  quantity="1" unit="chars" reason="illegible"/></unclear></choice>i, tatai eſti tieſa, ir tawa Sudas<lb n="13"/>ira be kaltibes.</ab>
             <ab type="verse" n="28">Tu mumus <sic>th</sic>ieſạ darai,<lb n="14"/>iog mus
               pak<subst instant="false">
@@ -279,41 +289,40 @@
               </subst>
                 <add instant="false">j</add>
             <del rend="overwrite" instant="unknown"><gap quantity="2" unit="chars" reason="illegible_and_crossed_out"/></del> takiu karoghimu,<lb n="15"/>kuri tu mumus
-            <!-- mal gucken, ob ich #interlinear mitangeben --><subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above">uſzu</add></subst>ſiuntei, ir ant Jeruſa-<lb n="16" break="no"/>lemo <del rend="strikethrough" instant="true">ſczE</del><!-- GS:Sfk --> ſchwento Mieſto muſụ Tie-<lb n="17" break="no"/>wụ.Tu tikrai ir gerai darai tame,<lb n="18"/>delei muſụ Griekụ.</ab>
+            <subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above">uſzu</add></subst>ſiuntei, ir ant Jeruſa-<lb n="16" break="no"/>lemo <del rend="strikethrough" instant="true">ſczE</del> ſchwento Mieſto muſụ Tie-<lb n="17" break="no"/>wụ.Tu tikrai ir gerai darai tame,<lb n="18"/>delei muſụ Griekụ.</ab>
             <gb type="paragraph"/>
             <lb n="19"/><ab type="verse" n="29">Neſa mes ſu<del xml:id="en03" rend="strikethrough" instant="false">ſsi</del> grieſchiom ir pikta<lb n="20"/>darem, tame iog nog tawens atſtoiom,<lb n="21"/>ir wiſsur priſch tawe darem,</ab>
             <ab type="verse" n="30"> ir tawa<lb n="22"/>priſakimụ neklauſem nei iụ atboiom,<lb n="23"/>ieib pagalei iụ giwentumbim, kaip tu<lb n="24"/>mumus priſak<del rend="strikethrough" instant="false"><choice><unclear cert="high">i</unclear><unclear cert="low">c</unclear></choice></del>ei, idant mumus gera<lb n="25"/>butụ.></ab>
             <ab type="verse" n="31">Todelei tu tikrai darei, iog<lb n="26"/>toktai wis ant muſu uſzleidai,</ab>
-            <ab type="verse" n="32"> ir mus<lb n="27"/>padawei rankoſna muſụ Neprieteliụ̊<!--Problem: Zeichendarstellung...--><lb n="28"/>Diewo neſsibĳ<!-- Achtung: Ligaturen ggf. auflösen -->anczuiu piktụ Szmoniụ,<lb n="29"/>ir neteiſamuiem wiſsụbaiſiauſiu Kara-<lb n="30"/>liůi.</ab>
+            <ab type="verse" n="32"> ir mus<lb n="27"/>padawei rankoſna muſụ Neprieteliụ̊<!--Problem: Zeichendarstellung... - fontabhängig --><lb n="28"/>Diewo neſsibijanczuiu piktụ Szmoniụ,<lb n="29"/>ir neteiſamuiem wiſsụbaiſiauſiu Kara-<lb n="30"/>liůi.</ab>
             <gb type="paragraph"/>
-            <lb n="31"/><ab type="verse" n="33">Bei mes nedrenſam ſawa burnos<lb n="32"/>atwerti, teip <del instant="false">˹mes</del> eſme apgedinti<lb n="33"/>ir teip iůku tapom po <supplied xml:id="en04" resp="#AK" reason="illegible">akim</supplied> tawa<lb n="34"/>Tarnụ, ir po akim wiſsụ taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice> bĳan-<lb n="35" break="no"/>cziụ̊iụ̊.</ab>
+            <lb n="31"/><ab type="verse" n="33">Bei mes nedrenſam ſawa burnos<lb n="32"/>atwerti, teip <del instant="false">˹mes</del> eſme apgedinti<lb n="33"/>ir teip iůku tapom po <supplied xml:id="en04" resp="#AK" reason="illegible">akim</supplied> tawa<lb n="34"/>Tarnụ, ir po akim wiſsụ taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice> bijan-<lb n="35" break="no"/>cziụ̊iụ̊.</ab>
             <ab type="verse" n="34">O wienok, nepatremk muſu<lb n="36"/>nodemais, delei tawa ſchwento Wardo,<lb n="37"/>nei <mod type="kommutative_variante"><del rend="parentheses" >paniekink</del> <add rend="inline">atmeſk</add></mod> tawa Sude-<lb n="38" break="no"/>reghimạ,</ab>
             <ab type="verse" n="35"> nei atimk tawa Mielaſchirdingiſtẹ
           <pb n="234v"/><fw type="header" place="top-centre">Malda Aſario</fw><lb n="1"/>nog muſụ, delei Abrahamo tawa mieloio<lb n="2"/><mod type="kommutative_variante" instant="true"><del instant="false" rend="parentheses_underlined">Genties</del> <add rend="inline">Prieteliaus</add></mod> ir tawa Tarno <sic xml:id="en05">Iſaa<subst hand="#h06" instant="false"><del>c</del><add hand="#h06">k</add></subst></sic><lb n="3"/>ir Iſraelo tawa Schwentoio,</ab>
           <ab type="verse" n="36"> kuriemus<lb n="4"/>tu ſzadeiei iụ ſeklạ padaukſinti, kaip<lb n="5"/>ſzwaigſdes po Dangumi, ir kaip Szieſ-<lb n="6" break="no"/><seg xml:id="en06">dr </seg>an pas Marias.</ab>
           <gb type="paragraph"/>
           <lb n="7"/><ab type="verse" n="37">Neſa mes kudeſni tapom, uſzu wiſ-<lb n="8" break="no"/>ſus Pagonus, ir eſme dabbar labai pa-<lb n="9" break="no"/>niekinti ant Szemes, delei muſụ Gr<unclear>ie</unclear>ku,</ab>
-          <lb n="10"/><ab type="verse" n="38">iog nụ newieno Kunigaikſchczio, Pra-<lb n="11" break="no"/>rako nei Mokitoio neturrim, nei wel<lb n="12"/>Sudeg<subst><del instant="false">a</del><add hand="#h03">ina</add></subst>ma affierạ nei dieniſchkạ affierạ,<lb n="13"/>nei walgamạ affierạ, nei Rukĳmạ.
+          <lb n="10"/><ab type="verse" n="38">iog nụ newieno Kunigaikſchczio, Pra-<lb n="11" break="no"/>rako nei Mokitoio neturrim, nei wel<lb n="12"/>Sudeg<subst><del instant="false">a</del><add hand="#h03">ina</add></subst>ma affierạ nei dieniſchkạ affierạ,<lb n="13"/>nei walgamạ affierạ, nei Rukijmạ.
           <lb n="14"/>Ir ne turrim newienos Wietos, kur po<lb n="15"/>tawa akim galetumbim affierawoti, ir<lb n="16"/>Malonẹ raſti.</ab>
           <ab type="verse" n="39">B<seg xml:id="en07">e</seg>t nuſsituſziju-<lb n="17" break="no"/>ſe Schirde ir ſudauſzita Dwaſse at-<lb n="18" break="no"/>eime <mod instant="unknown" rend="underline or strikethrough">mes</mod><!-- noch mal klar machen: GS oder KS? --> po tawa akim,</ab>
-          <ab type="verse" n="40"> kaip kada<lb n="19"/>atn<unclear>e</unclear>ſchdami Sudeg<subst instant="false"><del>a</del><add hand="#h03">ina</add></subst>mạ affierạ nog<lb n="20"/>Awinụ ir Iaucziů, ir daugia tukſ<del instant="inapplicable" rend="strikethrough">ch</del>-<lb n="21" break="no"/>tanti<add rend="right_side_addition" hand="#h05">es</add><!-- noch @hand ergänzen - andere Tinte --> Awiů. Schitaipo teſtow muſụ<lb n="22"/>affiera<del instant="true" xml:id="en09">s</del> ſchẹ dienạ po tawa akim mie-<lb n="23" break="no"/>la<del xml:id="en08">s</del>.Neſa tu ned<unclear>ů</unclear>ſi gedona <mod type="kommutative_variante" instant="true"><del rend="parentheses">ateiti</del> <add rend="inline">im-<lb n="24" break="no"/>pulti</add></mod> nuſsitikinczius tawimi.</ab>
+          <ab type="verse" n="40"> kaip kada<lb n="19"/>atn<unclear>e</unclear>ſchdami Sudeg<subst instant="false"><del>a</del><add hand="#h03">ina</add></subst>mạ affierạ nog<lb n="20"/>Awinụ ir Iaucziů, ir daugia tukſ<del instant="inapplicable" rend="strikethrough">ch</del>-<lb n="21" break="no"/>tanti<add rend="right_side_addition" hand="#h05">es</add> Awiů. Schitaipo teſtow muſụ<lb n="22"/>affiera<del instant="true" xml:id="en09">s</del> ſchẹ dienạ po tawa akim mie-<lb n="23" break="no"/>la<del xml:id="en08">s</del>.Neſa tu ned<unclear>ů</unclear>ſi gedona <mod type="kommutative_variante" instant="true"><del rend="parentheses">ateiti</del> <add rend="inline">im-<lb n="24" break="no"/>pulti</add></mod> nuſsitikinczius tawimi.</ab>
           <gb type="paragraph"/>
           <lb n="25"/><ab type="verse" n="41">Schitaip ateime mes nu wiſsa ſchir-<lb n="26" break="no"/>de<subst instant="false"><del>,</del><add>, ir</add></subst> ieſchkom tawa Weid<seg xml:id="en10">a</seg> ſu baime.</ab>
           <ab type="verse" n="42"> To-<lb n="27" break="no"/>del ne rodzik mus gedoie buti. Bet<lb n="28"/>darik mumus <seg rend="normal" type="god">Pone</seg> pagal tawa Malones,<lb n="29"/>ir pagal tawa didzios Mielaſchirdingiſ-<lb n="30" break="no"/>tes,</ab>
           <ab type="verse" n="43"> ir iſchgelbek mus pagal tawa<lb n="31"/>ſtebuklingụ̊ darbụ, ir důk tawam War-<lb n="32" break="no"/>dui Garbẹ,</ab>
-          <ab type="verse" n="44"> idant ſuſsig<del instant="unknown" rend="strikethrough">i</del><!-- helle Tinte -->edintụ wiſs<unclear>i</unclear>,<lb n="33"/>kurie tawa Tarnus paſzeidz ir apge<unclear>d</unclear>inti<lb n="34"/>butụ delei tawa didzos ſilos ir ma<choice><unclear cert="high">c</unclear><unclear cert="low">i</unclear></choice>es,<lb n="35"/>ieib iụ̊ Sila iſchpuſtita butụ,</ab>
+          <ab type="verse" n="44"> idant ſuſsig<del instant="unknown" rend="strikethrough, light ink">i</del>edintụ wiſs<unclear>i</unclear>,<lb n="33"/>kurie tawa Tarnus paſzeidz ir apge<unclear>d</unclear>inti<lb n="34"/>butụ delei tawa didzos ſilos ir ma<choice><unclear cert="high">c</unclear><unclear cert="low">i</unclear></choice>es,<lb n="35"/>ieib iụ̊ Sila iſchpuſtita butụ,</ab>
           <ab type="verse" n="45"> idant anis<lb n="36"/>ſzinotụ, taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst> ſanti <seg rend="caps" type="god">Ponạ</seg> wiena-<lb n="37" break="no"/>tighị Diewa, <ref target="#md01">ſ<seg xml:id="en11">c</seg>hlownạ</ref> ant Szemes.</ab>
           <ab xml:id="md01" type="marginal_gloss" hand="#h08">Herrlich</ab>
-          <!-- Muss noch gelinkt werden....! -->
           <gb type="leaf" n="235"/>
           <pb n="235r"/>
-          <fw type="sheetNum" place="top-right">232</fw>
-          <fw type="sheetNum" place="bot-centre">235</fw>
-          <fw type="sheetNum" place="bot-right">235</fw>
+          <fw type="sheetNum" place="top-right" rend="stamp">232</fw>
+          <fw type="sheetNum" place="bot-centre" hand="#h10">235</fw>
+          <fw type="sheetNum" place="bot-right" hand="#h11">235</fw>
           <fw type="header" place="top-center">Malda Aſario</fw>
           <gb type="paragraph"/>
           <lb n="1"/><ab type="verse" n="46">Bei Tarnai Karaliaus, kurie ios<lb n="2"/>ing Pecziụ buwa ịmætẹ, neſ
-          <subst><del>s</del><add>i</add></subst>lowe, bet <lb n="3"/>wiſsadai primete, Sier<metamark function="insert" target="#ml01 #md02"/>ạ ir <ref target="#ml02 md03">Smalạ</ref><!-- Verweis auf pikkis; pech einbauen! DONE! --><lb n="4"/>ir paků<choice><unclear cert="high"><seg hand="#h09">l</seg></unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/><!-- cert="0.95" eigentlich muss man das @cert hier rausnehmen, weil Entscheidung halt getroffen ist....! -->u, ir ſauſụ
+          <subst><del>s</del><add>i</add></subst>lowe, bet <lb n="3"/>wiſsadai primete, Sier<metamark function="insert" target="#ml01 #md02"/>ạ ir <ref target="#ml02 #md03">Smalạ</ref><lb n="4"/>ir paků<choice><unclear cert="high"><seg hand="#h09">l</seg></unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/>u, ir ſauſụ
           <mod type="kommutative_variante" instant="false"><del rend="unmarked">krumụ</del><add rend="small_interlinear_above" hand="#h04">ſchakụ</add></mod>,</ab>
           <ab type="verse" n="47">
           <mod type="kommutative_variante" instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod><lb n="5"/>liepſna aukſchtai iſch pecziaus ſchoka,<lb n="6"/>
@@ -331,20 +340,20 @@
               <ptr target="#tw02"/>
             </transpose>
           </listTranspose>
-           olek-<lb n="7" break="no"/><del instant="true">c<choice><unclear cert="high">a</unclear><unclear cert="low">u</unclear></choice></del>tụ<!-- Kein add, wa? --> aukſchtiniu,</ab>
+           olek-<lb n="7" break="no"/><del instant="true">c<choice><unclear cert="high">a</unclear><unclear cert="low">u</unclear></choice></del>tụ aukſchtiniu,</ab>
            <ab type="verse" n="48"> ir pagadinna ap-<lb n="8" break="no"/>linkui ſawe, ir ſudege Chaldeus,<lb n="9"/>kurius ſugawa ties Peczumi.</ab>
           <ab xml:id="ml01" type="marginal_gloss" hand="#h02">Sierka</ab>
-          <ab xml:id="md02" type="marginal_gloss" hand="#h08">ſchwefel</ab> <!-- auch hier: Verweise und Sprachen...! -->
+          <ab xml:id="md02" type="marginal_gloss" hand="#h08" xml:lang="de">ſchwefel</ab>
           <ab xml:id="ml02" type="marginal_gloss" hand="#h02">pikkis</ab>
-          <ab xml:id="md03" type="marginal_gloss" hand="#h08">pech</ab>
-          <ab xml:id="md04" type="marginal_gloss" hand="#h08">werk</ab>
-          <ab type="verse" n="49">O<lb n="10"/>Angelas <seg rend="caps" type="god">Pono</seg> eĳa ſu tais, kurie<lb n="11"/>pas Aſariạ buwa, ing Pæcziụ,</ab>
+          <ab xml:id="md03" type="marginal_gloss" hand="#h08" xml:lang="de">pech</ab>
+          <ab xml:id="md04" type="marginal_gloss" hand="#h08" xml:lang="de">werk</ab>
+          <ab type="verse" n="49">O<lb n="10"/>Angelas <seg rend="caps" type="god">Pono</seg> eija ſu tais, kurie<lb n="11"/>pas Aſariạ buwa, ing Pæcziụ,</ab>
           <ab type="verse" n="50"> ir iſch-<lb n="12" break="no"/>ſtume Liepſnạ Vgnies iſch pęcziaus,<lb n="13"/>ir padare pæczuie, kaip ſchaltạ<lb n="14"/>Raſạ, <mod type="kommutative_variante"  instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod> iụ Vgnis niekaip nedaſsi-<lb n="15" break="no"/>liteia, nei perſcheia, nei paſzeide.</ab>
         </div>
         </div>
       </div>
       </div>
-      <div type="german_original">
+      <div type="german_original" source="#Luther_WA pp. 521, 523" xml:lang="de"><!--  Frühneuhochdeutsch! -->
         <!-- achtung! In BA-Arbeit steht Ausgaben von 1545 oder später, aber das war eigentlich schon die letzte... irgendwie....  -->
         <!-- Hier: Ausgabe letzter Hand wie in Edition rechte Seite. Dass das nicht Aussage darüber tätigt, welche Ausgabe er genau benutzt haben könnte, ist halt doof(aber der Darstellung in dieser Edition geschuldet) - noch mal Sekundärliteratur befragen? -->
         <!-- lb's sind erstmal nicht mit ausgezeichnet, weil sie nicht so wichtig sind - ist ja keine Edition des Luthertextes, außerdem ist fraglich, inwieweit diese original sind -->
@@ -396,19 +405,19 @@
       </div>
       </div>
       </div>
-      <div type="notes">
-        <note target="#en01" type="Kommentar">sic!; Die ungewöhnlich anmutende Form des &lt;A&gt; ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein &lt;E&gt; schreiben. In der Tat ist anhand der deutschen Vorlage der vc. Pone zu erwarten. Zur Form des begonnenen &lt;E&gt; vgl. 235r23. Stattdessen muss sich Bretke zugunsten des n.sg.m. umentschieden haben während er den Buchstaben schrieb.</note>
+      <div xml:lang="de" type="notes">
+        <note target="#en01" type="Kommentar">sic!; Die ungewöhnlich anmutende Form des ⟨A⟩ ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein ⟨E⟩ schreiben. In der Tat ist anhand der deutschen Vorlage der Vokativ <hi rend="italics">Pone</hi> zu erwarten. Zur Form des begonnenen ⟨E⟩ vgl. 235r23. Stattdessen muss sich Bretke während er den Buchstaben schrieb zugunsten des Nominativ Singular Maskulinum umentschieden haben.</note>
         <note target="#en02">Möglicherweise Prussismus</note>
-        <note target="#en03">Die Senkrechtstriche erfassen zwar nur &lt;ſs&gt; und nicht &lt;i&gt;, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: pakorau -&gt; pakaraiej (234r14) und atſiuntei -&gt; uſzuſiuntei(234r15)</note>
-        <note target="#en04">Konjektur aus undeutlichem akimi</note><!-- Das sollte eigentlich mit <supplied> gemacht werden.... Oo EDIT: alles gut in Text wie's ist....-->
+        <note target="#en03">Die Senkrechtstriche erfassen zwar nur ⟨ſs⟩ und nicht ⟨i⟩, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <hi rend="italics">pakorau</hi> -&gt; <hi rend="italics">pakaraiej</hi> (234r14) und <hi rend="italics">atſiuntei</hi> -&gt; <hi rend="italics">uſzuſiuntei</hi> (234r15)</note>
+        <note target="#en04">Konjektur aus undeutlichem <hi rend="italics">akimi</hi></note>
         <note target="#en05">Keine Kasusendung</note>
         <note target="#en06">Keine Streichung</note>
-        <note target="#en07">Es befindet sich zwar ein Tintenfleck über dem &lt;e&gt;, der nicht auf die andere Seite durchdrückt, es ist allerdings im vom Bretke benutzten Schriftsystem unmotiviert,über diesen Buchstaben einen Punkt zu setzen. Er sieht eher wie ein versehentlicher Klecks als ein bewusst gesetzter Punkt aus, weshalb er nicht als Diakritikum gelesen wird.</note>
+        <note target="#en07">Es befindet sich zwar ein Tintenfleck über dem ⟨e⟩, der nicht auf die andere Seite durchdrückt, es ist allerdings im vom Bretke benutzten Schriftsystem unmotiviert, über diesen Buchstaben einen Punkt zu setzen. Er sieht eher wie ein versehentlicher Klecks als ein bewusst gesetzter Punkt aus, weshalb er nicht als Diakritikum gelesen wird.</note>
         <note target="#en08">gestrichen bei fast noch feuchter Tinte</note>
-        <note target="#en08 #en09">Die Streichrichtung und -farbe sowie der grammatische Zusammenhang legen nahe, dass diese beiden Streichungen zusammen erfolgt sind. Die Streichung von mie-|la[s] erfolgte über noch fast feuchter Tinte, sodass deshalb auch die Streichung von affiera[s] der Grundschicht zuzurechnen ist.</note>
-        <note target="#en10">Der Abstrich des a ist ziemlich weit nach unten geraten, was auf den ersten Blick wirkt, als sei er mit einem möglichen Nasalpunkt verbunden. Diese Lesung ist aber bei genauerem Hinsehen nicht haltbar</note>
-        <note target="#en11">Über dem &lt;c&gt; befindet sich ein Strich, der mit dem Wortanfang in einem Zug geschrieben sein muss, da die Tinte genau gleich ist. Entweder ist er zufällig gesetzt worden (z.B. weil Bretke schon zum &lt;h&gt; ansetzen wollte) oder er dient dazu, auf die deutsche Entsprechung herrlich i.marg. zu verweisen. Letzteres wäre ein Indiz dafür, dass die deutschen Wörter tatsächlich von Bretke stammen und Teil des Übersetzungsprozesses waren. Ersteres scheint allerdings näherliegend.</note>
-        <note target="#en12">Der Strich auf dem &lt;l&gt;, der mit dickerer Tinte als der Fließtext der Grundschicht gesetzt ist, könnte verschiedene Bedeutungen haben. Zunächst könnte er die Oberlänge des &lt;l&gt; verstärken wollen,um es eindeutiger vom &lt;t&gt; zu unterscheiden. Dies scheint aber nicht sehr wahrscheinlich,da er sich dazu nicht ausreichend dem Duktus der Schrift anpasst. Viel wahrscheinlicher ist hingegen, dass er auf die deutsche Entsprechung werk i.marg. verweisen soll.</note>
+        <note target="#en08 #en09">Die Streichrichtung und -farbe sowie der grammatische Zusammenhang legen nahe, dass diese beiden Streichungen zusammen erfolgt sind. Die Streichung von <hi rend="italics">mie-</hi>|<hi rend="italics">la</hi>[<hi rend="italics">s</hi>] erfolgte über noch fast feuchter Tinte, sodass deshalb auch die Streichung von <hi rend="italics">affiera</hi>[<hi rend="italics">s</hi>] der Grundschicht zuzurechnen ist.</note>
+        <note target="#en10">Der Abstrich des ⟨a⟩ ist ziemlich weit nach unten geraten, was auf den ersten Blick wirkt, als sei er mit einem möglichen Nasalpunkt verbunden. Diese Lesung ist aber bei genauerem Hinsehen nicht haltbar</note>
+        <note target="#en11">Über dem ⟨c⟩ befindet sich ein Strich, der mit dem Wortanfang in einem Zug geschrieben sein muss, da die Tinte genau gleich ist. Entweder ist er zufällig gesetzt worden (z.B. weil Bretke schon zum ⟨h⟩ ansetzen wollte) oder er dient dazu, auf die deutsche Entsprechung <hi rend="italics">herrlich</hi> i.marg. zu verweisen. Letzteres wäre ein Indiz dafür, dass die deutschen Wörter tatsächlich von Bretke stammen und Teil des Übersetzungsprozesses waren. Ersteres scheint allerdings näherliegend.</note>
+        <note target="#en12">Der Strich auf dem ⟨l⟩, der mit dickerer Tinte als der Fließtext der Grundschicht gesetzt ist, könnte verschiedene Bedeutungen haben. Zunächst könnte er die Oberlänge des ⟨l⟩ verstärken wollen,um es eindeutiger vom ⟨t⟩ zu unterscheiden. Dies scheint aber nicht sehr wahrscheinlich,da er sich dazu nicht ausreichend dem Duktus der Schrift anpasst. Viel wahrscheinlicher ist hingegen, dass er auf die deutsche Entsprechung <hi rend="italics">werk</hi> i.marg. verweisen soll.</note>
       </div>
     </body>
   </text>
