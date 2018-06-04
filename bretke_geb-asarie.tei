@@ -240,6 +240,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
+      <!-- Muss hier angegeben werden, wie interlineare Korrekturen von Bretke sind/ausgezeichnet werden...? -->
       <projectDesc><p>Edition eines Auszugs aus der ersten Bibelübersetzung ins Litauische, die im Jahre 1591 abgeschlossen wurde. <!-- Ziele sind einerseits das Einüben der Erstellung einer Edition im Kontext akademischer Lehre, andererseits die Zugänglichmachung des überlieferten Materials für die baltistische Forschung. --><!--In diesem Kontext soll auch eine Tokenisierung und manuelle Annotation von grammatischen und lexikalischen Informationen zur Erstellung eines Wortindexes erfolgen.--></p></projectDesc>
       <editorialDecl><!-- Still unfinished -->
       <p>In diesem korrekturarmen Textabschnitt werden Grund- und Korrekturschicht danach definiert, ob eine Korrektur, die Unterschiede verursacht, eindeutig als sofort, d.h. während des Schreibens oder erst später, erfolgt ist. Als Indiz für eine Sofortkorrektur (d.h. innerhalb der Grundschicht) dient, dass eine Durchstreichung in den Textfluss eingebettet ist, also rechts daneben weiter geschrieben wurde, oder ein Eingriff im Text über noch feuchter Tinte erfolgte, was daran zu erkennen ist, dass die Striche ineinander verlaufen sind.</p>
