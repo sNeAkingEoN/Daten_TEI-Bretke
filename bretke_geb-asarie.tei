@@ -10,10 +10,11 @@
       <titleStmt>
         <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas.
         </title>
-        <author xml:id="auth_JB">
-          <persName xml:lang="de" type="preferred">Johannes Bretke</persName>
-          <persName xml:lang="lt" type="alternative">Jonas Bretkūnas</persName>
-          <!-- Wenn man lustig ist, könnte man auch noch historische Schreibungen mit reinnehmen... Kann man aber auch lassen..? -->
+        <author ref="#auth_JB">
+          <!-- <persName xml:lang="de" type="preferred">Johannes Bretke</persName>
+          <persName xml:lang="lt" type="alternative">Jonas Bretkūnas</persName> -->
+          <!-- Nachgucken (wo?, wie Name in Titel geschrieben ist....!) -->
+          Ian[as] Bretkun[as] <!-- Quelle: Range 1992a:9 -->
           </author>
         <!-- <editor xml:id="edit_AK">Anne Königs</editor> --> <!-- doppelt! -->
         <respStmt> <!-- In welcher Sprache soll das stehen?!? -->
@@ -27,6 +28,13 @@
         <p>Bearbeitung der Bachelorarbeit „Der Apokryphentext ‚Das Gebet Asarie‘ in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis.“ im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities.</p>
       </publicationStmt>
       <sourceDesc>
+        <listPerson>
+          <person  xml:id="auth_JB">
+            <persName xml:lang="de" type="preferred">Johannes Bretke</persName>
+            <persName xml:lang="lt" type="alternative">Jonas Bretkūnas</persName>
+            <!-- braucht noch: Lebensdaten, .... -->
+          </person>
+        </listPerson>
         <msDesc>
           <msIdentifier>
             <country>Deutschland</country>
@@ -44,8 +52,7 @@
           <msContents>
             <msItem class="whole_bible"> <!-- gesamte Bibelübersetzung -->
               <locus>Gesamte Bibelübersetzung</locus>
-              <author xml:lang="de">Johannes Bretke</author><!-- eigentlich ist er ja nur Übersetzer.... -->
-              <author xml:lang="lt">Jonas Bretkūnas</author>
+              <author ref="#auth_JB"></author>
               <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographisch">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
               <textLang mainLang="olt">Old Lithuanian</textLang><!-- nachprüfen, wo ich angeben muss, woher der Code kommt...? -->
             </msItem>
@@ -95,10 +102,10 @@
             <additions>Am Rand befinden sich gelegentlich Korrekturen, i.d.R. einzelne litauische Wörter, die zu substituieren sind. Des Weiteren wurden deutsche Wörter, wahrscheinlich zur Unterstützung des Übersetzungsprozesses, an den Rand geschrieben.</additions>
           </physDesc>
           <history>
-            <origin><p>Der evangelisch-lutherische Pfarrer <name type="person">Johannes Bretke</name> übersetzte die gesamte Bibel in der <origDate from="1579-03-06" to="1590-11-29">zweiten Hälfte des 16. Jahrhunderts</origDate> in <origPlace>Labiau und Königsberg im Herzogtum Preußen</origPlace>(<ref target="#Range-Bausteine">Range 1992</ref>:1-7).</p>
+            <origin><p>Der evangelisch-lutherische Pfarrer <name type="person" ref="#auth_JB">Johannes Bretke</name> übersetzte die gesamte Bibel in der <origDate from="1579-03-06" to="1590-11-29">zweiten Hälfte des 16. Jahrhunderts</origDate> in <origPlace>Labiau und Königsberg im Herzogtum Preußen</origPlace>(<ref target="#Range-Bausteine">Range 1992</ref>:1-7).</p>
             </origin>
             <provenance>
-              <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte der Übersetzer das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>(<ref target="#Range-Bausteine">Range 1992</ref>:9). Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach Kėdainai verliehen, allerdings nicht für die von <name type="person">Chyliński</name> angefertigte Bibelübersetzung benutzt (<ref target="#Falkenhahn">Falkenhahn 1941</ref>:235-245). Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">1877</date> nach Göttingen (<ref target="#Bezzenberger">Bezzenberger 1877</ref>:X, XXXVII). Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt (<ref target="#Range-Bausteine">Range 1992</ref>:9) und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet (<ref target="#FaksSenasis1">Kluge 1996</ref>:XIV), woraufhin es in der Fachwelt allerdings als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen (<ref target="#FaksSenasis">Scholz und Range 2002</ref>:XII). Seit <date when="1979">1979</date> ist es im Bestand des Geheimen Staatsarchivs Preußischer Kulturbesitz. <date when="1982">1982</date> wurde es restauriert und die Einbände erneuert, danach nach München für Restaurationsarbeiten ausgeliehen (<ref target="#Range-Bausteine">Range 1992</ref>:16, <ref target="#FaksNavias1">Range und Scholz 1991</ref>:IX).</p>
+              <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte <rs ref="#auth_JB">der Übersetzer</rs> das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>(<ref target="#Range-Bausteine">Range 1992</ref>:9). Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach Kėdainai verliehen, allerdings nicht für die von <name type="person">Chyliński</name> angefertigte Bibelübersetzung benutzt (<ref target="#Falkenhahn">Falkenhahn 1941</ref>:235-245). Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">1877</date> nach Göttingen (<ref target="#Bezzenberger">Bezzenberger 1877</ref>:X, XXXVII). Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt (<ref target="#Range-Bausteine">Range 1992</ref>:9) und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet (<ref target="#FaksSenasis1">Kluge 1996</ref>:XIV), woraufhin es in der Fachwelt allerdings als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen (<ref target="#FaksSenasis">Scholz und Range 2002</ref>:XII). Seit <date when="1979">1979</date> ist es im Bestand des Geheimen Staatsarchivs Preußischer Kulturbesitz. <date when="1982">1982</date> wurde es restauriert und die Einbände erneuert, danach nach München für Restaurationsarbeiten ausgeliehen (<ref target="#Range-Bausteine">Range 1992</ref>:16, <ref target="#FaksNavias1">Range und Scholz 1991</ref>:IX).</p>
             </provenance>
           </history>
           <additional>
