@@ -10,11 +10,8 @@
       <titleStmt>
         <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas.
         </title>
-        <author ref="#auth_JB">
-          <!-- <persName xml:lang="de" type="preferred">Johannes Bretke</persName>
-          <persName xml:lang="lt" type="alternative">Jonas Bretkūnas</persName> -->
-          <!-- Nachgucken (wo?, wie Name in Titel geschrieben ist....!) -->
-          Ian[as] Bretkun[as] <!-- Quelle: Range 1992a:9 -->
+        <author ref="#auth_JB" source="#Range-Bausteine p. 9">
+          Ian[as] Bretkun[as]
           </author>
         <!-- <editor xml:id="edit_AK">Anne Königs</editor> --> <!-- doppelt! -->
         <respStmt> <!-- In welcher Sprache soll das stehen?!? -->
@@ -25,13 +22,15 @@
       </titleStmt>
       <extent><measure unit="words" quantity="333">Ungefähr 300 Wörter (tokens)</measure></extent><!-- genaue Zahl nachtragen! -->
       <publicationStmt>
-        <p>Bearbeitung der Bachelorarbeit „Der Apokryphentext ‚Das Gebet Asarie‘ in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis.“ im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities.</p>
+        <p>Bearbeitung der Bachelorarbeit <ref target="#original_edition">„Der Apokryphentext ‚Das Gebet Asarie‘ in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis.“</ref> im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities.</p>
       </publicationStmt>
       <sourceDesc>
         <listPerson>
-          <person  xml:id="auth_JB">
+          <person  xml:id="auth_JB" source="#original_edition pp. 7f.">
             <persName xml:lang="de" type="preferred">Johannes Bretke</persName>
             <persName xml:lang="lt" type="alternative">Jonas Bretkūnas</persName>
+            <birth when="1536"/>
+            <death when="1602"/>
             <!-- braucht noch: Lebensdaten, .... -->
           </person>
         </listPerson>
@@ -77,8 +76,8 @@
                   <width>21,3</width>
                 </dimensions>
               </extent>
-              <foliation><p>Wahrscheinlich durch den Autor selbst wurde eine Bogenzählung, zunächst in großen, dann kleinen Lateinischen Buchstaben (in deutscher Kursive) durchgeführt.</p>
-              <p>Es befinden sich drei Blattzählungen auf dem Manuskript. Die erste in kleinerer Schrift ist die älteste und Referenz für die Blattbezeichnungen. Die zweite, ebenfalls handschriftlich und mit Bleistift, stammt vom Fotographen Paul Koeppen und wurde zwischen 1950 und 1979 in Göttingen hinzugefügt (<ref target="#FaksSenasis4-5">Kessler 2013</ref>:VIII). Sie stimmt mit der ersten überein. Die dritte, ebenfalls in Göttingen hinzugeügt, ist in schwarzer Tinte gestempelt und zählt drei Blätter weniger, weil sie das Titelblatt und die unbeschriebenen Blätter 68 und 227 auslässt.</p></foliation>
+              <foliation><p>Wahrscheinlich durch <rs ref="#auth_JB">den Autor</rs> selbst wurde eine Bogenzählung, zunächst in großen, dann kleinen Lateinischen Buchstaben (in deutscher Kursive) durchgeführt.</p>
+              <p>Es befinden sich drei Blattzählungen auf dem Manuskript. Die erste in kleinerer Schrift ist die älteste und Referenz für die Blattbezeichnungen. Die zweite, ebenfalls handschriftlich und mit Bleistift, stammt vom Fotographen <name type="person">Paul Koeppen</name> und wurde zwischen 1950 und 1979 in Göttingen hinzugefügt (<ref target="#FaksSenasis4-5">Kessler 2013</ref>:VIII). Sie stimmt mit der ersten überein. Die dritte, ebenfalls in Göttingen hinzugeügt, ist in schwarzer Tinte gestempelt und zählt drei Blätter weniger, weil sie das Titelblatt und die unbeschriebenen Blätter 68 und 227 auslässt.</p></foliation>
               <collation>Die letzte Lage besteht aus den Blättern 233 bis 237</collation>
               <condition>Das Manuskript ist in gutem Zustand und vollständig erhalten, vereinzelt finden sich kleine braune Flecken.</condition>
               </supportDesc>
@@ -241,6 +240,15 @@
                   <publisher>Böhlau</publisher>
                 </imprint>
                 <biblScope unit="volume">12</biblScope>
+              </monogr>
+            </biblStruct>
+            <biblStruct xml:id="original_edition">
+              <monogr>
+                <title>Der Apokryphentext „Das Gebet Asarie“ in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis.</title>
+                <author ref="#edit_ak">Anne Königs</author>
+                <imprint>
+                  <date>2015</date>
+                </imprint>
               </monogr>
             </biblStruct>
             </listBibl>
