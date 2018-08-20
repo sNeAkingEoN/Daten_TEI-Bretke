@@ -40,17 +40,17 @@
             <country>Deutschland</country>
             <settlement>Berlin</settlement>
             <institution>Stiftung Preußischer Kulturbesitz</institution>
-            <repository>Geheimes Staatsarchiv Preußischer Kulturbesitz</repository>
+            <repository corresp="http://d-nb.info/gnd/2122805-X">Geheimes Staatsarchiv Preußischer Kulturbesitz</repository>
             <idno>XX HA StUB Kgbg. 48</idno>
             <altIdentifier type="former_owner">
-              <settlement>Königsberg</settlement><!-- Problem: historischer Ortsname, heute anders. Lösen mit GND-Link?-->
-              <institution>Königliche und Universitätsbibliothek</institution>
+              <settlement>Königsberg</settlement>
+              <institution corresp="http://d-nb.info/gnd/507002-8">Königliche und Universitätsbibliothek</institution><!-- 1827-1918 -->
               <idno>Cod. MS. 1218</idno>
               <note type="bibliographisch">Information entnommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <msItem class="whole_bible"> <!-- gesamte Bibelübersetzung -->
+            <msItem class="whole_bible" corresp="http://d-nb.info/gnd/4006406-2"> <!-- gesamte Bibelübersetzung, GND: gesamte Bibel -->
               <locus>Gesamte Bibelübersetzung</locus>
               <author ref="#auth_JB"></author>
               <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographisch">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
@@ -102,7 +102,8 @@
             <additions>Am Rand befinden sich gelegentlich Korrekturen, i.d.R. einzelne litauische Wörter, die zu substituieren sind. Des Weiteren wurden deutsche Wörter, wahrscheinlich zur Unterstützung des Übersetzungsprozesses, an den Rand geschrieben.</additions>
           </physDesc>
           <history>
-            <origin><p>Der evangelisch-lutherische Pfarrer <name type="person" ref="#auth_JB">Johannes Bretke</name> übersetzte die gesamte Bibel in der <origDate from="1579-03-06" to="1590-11-29">zweiten Hälfte des 16. Jahrhunderts</origDate> in <origPlace>Labiau<note><idno type="GND">5038275-5</idno></note> und Königsberg<note><idno type="GND">4031541-1</idno></note> im Herzogtum Preußen</origPlace>(<ref target="#Range-Bausteine">Range 1992</ref>:1-7).</p>
+            <origin><p>Der evangelisch-lutherische Pfarrer <name type="person" ref="#auth_JB">Johannes Bretke</name> übersetzte die gesamte Bibel in der <origDate from="1579-03-06" to="1590-11-29">zweiten Hälfte des 16. Jahrhunderts</origDate> in
+            <origPlace><name type="place" corresp="http://d-nb.info/gnd/5038275-5">Labiau</name><!-- nimmt Kreis Labiau, nicht Stadt --> und <name type="place" corresp="http://d-nb.info/gnd/4031541-1">Königsberg</name> im <name type="place" corresp=" 	http://d-nb.info/gnd/4137053-3">Herzogtum</name> Preußen</origPlace>(<ref target="#Range-Bausteine">Range 1992</ref>:1-7).</p>
             </origin>
             <provenance>
               <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte <rs ref="#auth_JB">der Übersetzer</rs> das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>(<ref target="#Range-Bausteine">Range 1992</ref>:9). Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach Kėdainai verliehen, allerdings nicht für die von <name type="person">Chyliński</name> angefertigte Bibelübersetzung benutzt (<ref target="#Falkenhahn">Falkenhahn 1941</ref>:235-245). Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">1877</date> nach Göttingen (<ref target="#Bezzenberger">Bezzenberger 1877</ref>:X, XXXVII). Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt (<ref target="#Range-Bausteine">Range 1992</ref>:9) und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet (<ref target="#FaksSenasis1">Kluge 1996</ref>:XIV), woraufhin es in der Fachwelt allerdings als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen (<ref target="#FaksSenasis">Scholz und Range 2002</ref>:XII). Seit <date when="1979">1979</date> ist es im Bestand des Geheimen Staatsarchivs Preußischer Kulturbesitz. <date when="1982">1982</date> wurde es restauriert und die Einbände erneuert, danach nach München für Restaurationsarbeiten ausgeliehen (<ref target="#Range-Bausteine">Range 1992</ref>:16, <ref target="#FaksNavias1">Range und Scholz 1991</ref>:IX).</p>
@@ -278,7 +279,10 @@
     <body>
       <div type="edited_text" hand="#h01" xml:lang="olt" resp="#edit_AK">
       <!-- Struktur und Attributauswahl in starker Anlehnung an José Calvo Tello -->
-      <div xml:id="a.DAN" type="book">
+      <div type="work" corresp="http://d-nb.info/gnd/4006406-2"> <!-- Bibel -->
+      <div type="testament" corresp="http://d-nb.info/gnd/4001515-4"> <!-- Altes Testament -->
+      <div xml:id="a" type="part" corresp="http://d-nb.info/gnd/1120969395"> <!--alttestamentl. Apokryphen -->
+      <div xml:id="a.DAN" type="book" corresp="http://d-nb.info/gnd/4680211-3">
         <div xml:id="a.DAN.3" type="chapter">
           <div type="text">
             <gb type="leaf" n="234"/>
@@ -373,6 +377,9 @@
         </div>
         </div>
       </div>
+      </div> <!-- alttestamentl. Apokryphen  -->
+      </div> <!-- Altes Testament -->
+      </div> <!-- Bibel -->
       </div>
       <div type="german_original" source="#Luther_WA pp. 521, 523" xml:lang="de"><!--  Frühneuhochdeutsch! -->
         <!-- achtung! In BA-Arbeit steht Ausgaben von 1545 oder später, aber das war eigentlich schon die letzte... irgendwie....  -->
@@ -381,8 +388,11 @@
         <!-- Ligaturen sind aufgelöst -->
         <!-- Zusatz "Aus dem Griechischen" in Ausg. 45ff. unter Überschrift von nächstem Abschnitt deutet doch auf Ausgabe von 1545... hmmm.... -->
         <!-- HERr statt HERR in der Vorlage korrespondiert mit Pone in der Übersetzung oder was...? -->
-        <div corresp="#a.DAN" type="book">
-          <div corresp="#a.DAN.3" type="chapter">
+        <div type="work" corresp="http://d-nb.info/gnd/4006406-2"> <!-- Bibel -->
+        <div type="testament" corresp="http://d-nb.info/gnd/4001515-4"> <!-- Altes Testament -->
+        <div synch="#a" type="part" corresp="http://d-nb.info/gnd/1120969395"> <!--alttestamentl. Apokryphen -->
+        <div synch="#a.DAN" type="book" corresp="http://d-nb.info/gnd/4680211-3">
+          <div synch="#a.DAN.3" type="chapter">
             <div type="text">
           <ab rend="headline">Das Gebet Aſarie: Dani. iij.</ab><lb/><ab rend="subheading">Aus dem Griechiſchen.</ab>
         <gb type="paragraph"/>
@@ -423,6 +433,9 @@
         <ab type="verse" n="49">Aber der Engel des HERRN trat mit denen, die bey Aſaria waren in den Ofen,</ab>
         <ab type="verse" n="50">vnd ſties die Loh vom fewr aus dem Ofen, vnd machets im ofen, wie einen ku&#x0364;len thaw, Das das Fewr ſie gar nicht anru&#x0364;rete, noch ſchmertzete oder beſchedigte.</ab>
         </div>
+      </div> <!-- alttestamentl. Apokryphen  -->
+      </div> <!-- Altes Testament -->
+      </div> <!-- Bibel -->
       </div>
       </div>
       </div>
