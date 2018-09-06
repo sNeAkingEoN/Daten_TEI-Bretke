@@ -298,8 +298,7 @@
             <head type="subTitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
             <!-- Sprachen kenntlich machen: lat. & deu. - oder nicht? -->
             <!-- Position der Dateline angeben! -->
-            <dateline><fw type="date" place="top-right">A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04" xml:lang="la"><!-- Sprachkürzel richtig? Nicht vielleicht eher Deutsch?-->1590. 4. Februa.</date></fw></dateline>
-            <!-- Attribute von <mod> sind vorläufig -->
+            <dateline><fw type="date" place="top-right">A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04" xml:lang="de">1590. 4. Februa.</date></fw></dateline>
             <gb type="paragraph"/>
             <lb n="4"/><ab type="verse" n="25">Bei Aſarias ſtoweia widui de-<lb n="5" break="no"/>ganczio pecziaus, ir atwere <mod type="kommutative_variante" instant="true"><del rend="parentheses">Naſrus</del> <add rend="inline">bur-<lb n="6" break="no"/>nạ</add></mod> ſawa, meldeſi ir biloia.</ab>
             <gb type="paragraph"/>
