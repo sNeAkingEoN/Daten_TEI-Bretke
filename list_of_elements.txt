@@ -1,0 +1,100 @@
+
+{http://www.tei-c.org/ns/1.0}handNote : medium | {http://www.w3.org/XML/1998/namespace}id | scribeRef | scope | script | 
+{http://www.tei-c.org/ns/1.0}series
+{http://www.tei-c.org/ns/1.0}foliation
+{http://www.tei-c.org/ns/1.0}idno : type | 
+{http://www.tei-c.org/ns/1.0}p
+{http://www.tei-c.org/ns/1.0}biblScope : unit | 
+{http://www.tei-c.org/ns/1.0}text
+{http://www.tei-c.org/ns/1.0}textLang : mainLang | 
+{http://www.tei-c.org/ns/1.0}seg : type | rend | hand | {http://www.w3.org/XML/1998/namespace}id | 
+{http://www.tei-c.org/ns/1.0}editorialDecl
+{http://www.tei-c.org/ns/1.0}country
+{http://www.tei-c.org/ns/1.0}msDesc
+{http://www.tei-c.org/ns/1.0}settlement
+{http://www.tei-c.org/ns/1.0}att
+{http://www.tei-c.org/ns/1.0}physDesc
+{http://www.tei-c.org/ns/1.0}msIdentifier
+{http://www.tei-c.org/ns/1.0}gap : unit | reason | quantity | 
+{http://www.tei-c.org/ns/1.0}collation
+{http://www.tei-c.org/ns/1.0}listBibl
+{http://www.tei-c.org/ns/1.0}change : who | 
+{http://www.tei-c.org/ns/1.0}watermark
+{http://www.tei-c.org/ns/1.0}extent : resp | 
+{http://www.tei-c.org/ns/1.0}additional
+{http://www.tei-c.org/ns/1.0}additions
+{http://www.tei-c.org/ns/1.0}gb : type | n | 
+{http://www.tei-c.org/ns/1.0}title : type | level | 
+{http://www.tei-c.org/ns/1.0}head : type | rend | 
+{http://www.tei-c.org/ns/1.0}layout : columns | writtenLines | 
+{http://www.tei-c.org/ns/1.0}supplied : {http://www.w3.org/XML/1998/namespace}id | reason | resp | 
+{http://www.tei-c.org/ns/1.0}mod : type | rend | instant | 
+{http://www.tei-c.org/ns/1.0}persName : type | {http://www.w3.org/XML/1998/namespace}lang | 
+{http://www.tei-c.org/ns/1.0}biblStruct : {http://www.w3.org/XML/1998/namespace}id | 
+{http://www.tei-c.org/ns/1.0}resp
+{http://www.tei-c.org/ns/1.0}width
+{http://www.tei-c.org/ns/1.0}refsDecl
+{http://www.tei-c.org/ns/1.0}monogr
+{http://www.tei-c.org/ns/1.0}msContents
+{http://www.tei-c.org/ns/1.0}support : resp | 
+{http://www.tei-c.org/ns/1.0}locus : to | from | 
+{http://www.tei-c.org/ns/1.0}titleStmt
+{http://www.tei-c.org/ns/1.0}listPerson
+{http://www.tei-c.org/ns/1.0}dateline
+{http://www.tei-c.org/ns/1.0}supportDesc : material | 
+{http://www.tei-c.org/ns/1.0}institution : corresp | 
+{http://www.tei-c.org/ns/1.0}publisher
+{http://www.tei-c.org/ns/1.0}origPlace
+{http://www.tei-c.org/ns/1.0}respStmt
+{http://www.tei-c.org/ns/1.0}objectDesc : form | 
+{http://www.tei-c.org/ns/1.0}imprint
+{http://www.tei-c.org/ns/1.0}transpose
+{http://www.tei-c.org/ns/1.0}repository : corresp | 
+{http://www.tei-c.org/ns/1.0}publicationStmt
+{http://www.tei-c.org/ns/1.0}listTranspose
+{http://www.tei-c.org/ns/1.0}measure : type | unit | quantity | 
+{http://www.tei-c.org/ns/1.0}pubPlace
+{http://www.tei-c.org/ns/1.0}sic : {http://www.w3.org/XML/1998/namespace}id | 
+{http://www.tei-c.org/ns/1.0}unclear : cert | 
+{http://www.tei-c.org/ns/1.0}death : when | 
+{http://www.tei-c.org/ns/1.0}altIdentifier : type | 
+{http://www.tei-c.org/ns/1.0}metamark : {http://www.w3.org/XML/1998/namespace}id | target | place | function | 
+{http://www.tei-c.org/ns/1.0}name : type | {http://www.w3.org/XML/1998/namespace}id | corresp | ref | 
+{http://www.tei-c.org/ns/1.0}dimensions : type | unit | scope | 
+{http://www.tei-c.org/ns/1.0}del : rend | instant | {http://www.w3.org/XML/1998/namespace}id | 
+{http://www.tei-c.org/ns/1.0}layoutDesc : resp | 
+{http://www.tei-c.org/ns/1.0}hi : rend | 
+{http://www.tei-c.org/ns/1.0}body
+{http://www.tei-c.org/ns/1.0}add : rend | instant | hand | 
+{http://www.tei-c.org/ns/1.0}height
+{http://www.tei-c.org/ns/1.0}provenance
+{http://www.tei-c.org/ns/1.0}birth : when | 
+{http://www.tei-c.org/ns/1.0}gi
+{http://www.tei-c.org/ns/1.0}choice
+{http://www.tei-c.org/ns/1.0}author : source | ref | 
+{http://www.tei-c.org/ns/1.0}acquisition
+{http://www.tei-c.org/ns/1.0}handDesc : resp | 
+{http://www.tei-c.org/ns/1.0}condition
+{http://www.tei-c.org/ns/1.0}note : type | target | 
+{http://www.tei-c.org/ns/1.0}history
+{http://www.tei-c.org/ns/1.0}ref : target | 
+{http://www.tei-c.org/ns/1.0}person : {http://www.w3.org/XML/1998/namespace}id | source | 
+{http://www.tei-c.org/ns/1.0}sourceDesc
+{http://www.tei-c.org/ns/1.0}origDate : to | from | 
+{http://www.tei-c.org/ns/1.0}msItem : corresp | class | 
+{http://www.tei-c.org/ns/1.0}fw : type | rend | place | hand | 
+{http://www.tei-c.org/ns/1.0}rs : ref | 
+{http://www.tei-c.org/ns/1.0}subst : {http://www.w3.org/XML/1998/namespace}id | instant | hand | 
+{http://www.tei-c.org/ns/1.0}revisionDesc
+{http://www.tei-c.org/ns/1.0}lb : break | n | 
+{http://www.tei-c.org/ns/1.0}schemaRef : url | 
+{http://www.tei-c.org/ns/1.0}ptr : target | 
+{http://www.tei-c.org/ns/1.0}div : {http://www.w3.org/XML/1998/namespace}id | synch | hand | source | type | {http://www.w3.org/XML/1998/namespace}lang | corresp | resp | 
+{http://www.tei-c.org/ns/1.0}origin
+{http://www.tei-c.org/ns/1.0}pb : facs | n | 
+{http://www.tei-c.org/ns/1.0}fileDesc
+{http://www.tei-c.org/ns/1.0}ab : {http://www.w3.org/XML/1998/namespace}id | hand | type | rend | n | {http://www.w3.org/XML/1998/namespace}lang | 
+{http://www.tei-c.org/ns/1.0}projectDesc
+{http://www.tei-c.org/ns/1.0}encodingDesc
+{http://www.tei-c.org/ns/1.0}teiHeader
+{http://www.tei-c.org/ns/1.0}date : {http://www.w3.org/XML/1998/namespace}lang | when | notAfter | notBefore | 
