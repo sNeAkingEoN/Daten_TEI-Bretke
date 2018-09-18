@@ -32,7 +32,6 @@
             <birth when="1536"/>
             <death when="1602"/>
             <idno type="GND">119067897</idno>
-            <!-- braucht noch: Lebensdaten, .... -->
           </person>
         </listPerson>
         <msDesc>
@@ -46,14 +45,14 @@
               <settlement>Königsberg</settlement>
               <institution corresp="http://d-nb.info/gnd/507002-8">Königliche und Universitätsbibliothek</institution><!-- 1827-1918 -->
               <idno>Cod. MS. 1218</idno>
-              <note type="bibliographisch">Information entnommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note>
+              <note type="bibliographical">Information entnommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <msItem class="whole_bible" corresp="http://d-nb.info/gnd/4006406-2"> <!-- gesamte Bibelübersetzung, GND: gesamte Bibel -->
               <locus>Gesamte Bibelübersetzung</locus>
               <author ref="#auth_JB"></author>
-              <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographisch">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
+              <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographical">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
               <textLang mainLang="olt">Old Lithuanian</textLang><!-- nachprüfen, wo ich angeben muss, woher der Code kommt...? -->
             </msItem>
             <msItem class="this_volume"> <!-- dieser Band -->
@@ -290,12 +289,12 @@
           <div type="text">
             <gb type="leaf" n="234"/>
             <pb n="234r" facs="facs/BrB_V_234r.pdf"/>
-            <fw type="sheetSig" place="bot-centre" hand="#h08">e</fw>
-            <fw type="sheetNum" place="top-right" rend="stamp">231</fw>
-            <fw type="sheetNum" place="bot-centre" hand="#h10">234</fw>
-            <fw type="sheetNum" place="bot-right" hand="#h11">234</fw>
-            <lb n="1"/><head type="mainTitle" rend="caps">Malda Asario /</head>
-            <head type="subTitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
+            <fw type="sheet_signature" place="bot-centre" hand="#h08">e</fw>
+            <fw type="sheet_number" place="top-right" rend="stamp">231</fw>
+            <fw type="sheet_number" place="bot-centre" hand="#h10">234</fw>
+            <fw type="sheet_number" place="bot-right" hand="#h11">234</fw>
+            <lb n="1"/><head type="main_title" rend="caps">Malda Asario /</head>
+            <head type="subtitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
             <!-- Sprachen kenntlich machen: lat. & deu. - oder nicht? -->
             <!-- Position der Dateline angeben! -->
             <dateline><fw type="date" place="top-right">A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04" xml:lang="de">1590. 4. Februa.</date></fw></dateline>
@@ -343,9 +342,9 @@
           <ab xml:id="md01" type="marginal_gloss" hand="#h08" xml:lang="de">Herrlich</ab>
           <gb type="leaf" n="235"/>
           <pb n="235r" facs="facs/BrB_V_235r.pdf"/>
-          <fw type="sheetNum" place="top-right" rend="stamp">232</fw>
-          <fw type="sheetNum" place="bot-centre" hand="#h10">235</fw>
-          <fw type="sheetNum" place="bot-right" hand="#h11">235</fw>
+          <fw type="sheet_number" place="top-right" rend="stamp">232</fw>
+          <fw type="sheet_number" place="bot-centre" hand="#h10">235</fw>
+          <fw type="sheet_number" place="bot-right" hand="#h11">235</fw>
           <fw type="header" place="top-center">Malda Aſario</fw>
           <gb type="paragraph"/>
           <lb n="1"/><ab type="verse" n="46">Bei Tarnai Karaliaus, kurie ios<lb n="2"/>ing Pecziụ buwa ịmætẹ, neſ
@@ -396,7 +395,7 @@
         <div synch="#a.DAN" type="book" corresp="http://d-nb.info/gnd/4680211-3">
           <div synch="#a.DAN.3" type="chapter">
             <div type="text">
-          <ab rend="headline">Das Gebet Aſarie: Dani. iij.</ab><lb/><ab rend="subheading">Aus dem Griechiſchen.</ab>
+          <head type="main_title">Das Gebet Aſarie: Dani. iij.</head><lb/><head type="subtitle">Aus dem Griechiſchen.</head>
         <gb type="paragraph"/>
         <ab type="verse" n="25"><seg rend="bold">VND Aſſaria ſtund mitten im glüenden Ofen, vnd that</seg> ſeinen Mund auff, betet vnd ſprach.</ab>
         <gb type="paragraph"/>
@@ -442,18 +441,18 @@
     </div> <!-- Bibel -->
   </div> <!-- Deutsche Vorlage -->
       <div xml:lang="de" type="notes">
-        <note target="#en01" type="Kommentar">sic!; Die ungewöhnlich anmutende Form des ⟨A⟩ ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein ⟨E⟩ schreiben. In der Tat ist anhand der deutschen Vorlage der Vokativ <hi rend="italics">Pone</hi> zu erwarten. Zur Form des begonnenen ⟨E⟩ vgl. 235r23. Stattdessen muss sich Bretke während er den Buchstaben schrieb zugunsten des Nominativ Singular Maskulinum umentschieden haben.</note>
-        <note target="#en02">Möglicherweise Prussismus</note>
-        <note target="#en03">Die Senkrechtstriche erfassen zwar nur ⟨ſs⟩ und nicht ⟨i⟩, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <hi rend="italics">pakorau</hi> -&gt; <hi rend="italics">pakaraiej</hi> (234r14) und <hi rend="italics">atſiuntei</hi> -&gt; <hi rend="italics">uſzuſiuntei</hi> (234r15)</note>
-        <note target="#en04">Konjektur aus undeutlichem <hi rend="italics">akimi</hi></note>
-        <note target="#en05">Keine Kasusendung</note>
-        <note target="#en06">Keine Streichung</note>
-        <note target="#en07">Es befindet sich zwar ein Tintenfleck über dem ⟨e⟩, der nicht auf die andere Seite durchdrückt, es ist allerdings im vom Bretke benutzten Schriftsystem unmotiviert, über diesen Buchstaben einen Punkt zu setzen. Er sieht eher wie ein versehentlicher Klecks als ein bewusst gesetzter Punkt aus, weshalb er nicht als Diakritikum gelesen wird.</note>
-        <note target="#en08">gestrichen bei fast noch feuchter Tinte</note>
-        <note target="#en08 #en09">Die Streichrichtung und -farbe sowie der grammatische Zusammenhang legen nahe, dass diese beiden Streichungen zusammen erfolgt sind. Die Streichung von <hi rend="italics">mie-</hi>|<hi rend="italics">la</hi>[<hi rend="italics">s</hi>] erfolgte über noch fast feuchter Tinte, sodass deshalb auch die Streichung von <hi rend="italics">affiera</hi>[<hi rend="italics">s</hi>] der Grundschicht zuzurechnen ist.</note>
-        <note target="#en10">Der Abstrich des ⟨a⟩ ist ziemlich weit nach unten geraten, was auf den ersten Blick wirkt, als sei er mit einem möglichen Nasalpunkt verbunden. Diese Lesung ist aber bei genauerem Hinsehen nicht haltbar</note>
-        <note target="#en11">Über dem ⟨c⟩ befindet sich ein Strich, der mit dem Wortanfang in einem Zug geschrieben sein muss, da die Tinte genau gleich ist. Entweder ist er zufällig gesetzt worden (z.B. weil Bretke schon zum ⟨h⟩ ansetzen wollte) oder er dient dazu, auf die deutsche Entsprechung <hi rend="italics">herrlich</hi> i.marg. zu verweisen. Letzteres wäre ein Indiz dafür, dass die deutschen Wörter tatsächlich von Bretke stammen und Teil des Übersetzungsprozesses waren. Ersteres scheint allerdings näherliegend.</note>
-        <note target="#en12">Der Strich auf dem ⟨l⟩, der mit dickerer Tinte als der Fließtext der Grundschicht gesetzt ist, könnte verschiedene Bedeutungen haben. Zunächst könnte er die Oberlänge des ⟨l⟩ verstärken wollen,um es eindeutiger vom ⟨t⟩ zu unterscheiden. Dies scheint aber nicht sehr wahrscheinlich,da er sich dazu nicht ausreichend dem Duktus der Schrift anpasst. Viel wahrscheinlicher ist hingegen, dass er auf die deutsche Entsprechung <hi rend="italics">werk</hi> i.marg. verweisen soll.</note>
+        <note target="#en01" type="comment" subtype="paleographical">sic!; Die ungewöhnlich anmutende Form des ⟨A⟩ ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein ⟨E⟩ schreiben. In der Tat ist anhand der deutschen Vorlage der Vokativ <hi rend="italics">Pone</hi> zu erwarten. Zur Form des begonnenen ⟨E⟩ vgl. 235r23. Stattdessen muss sich Bretke während er den Buchstaben schrieb zugunsten des Nominativ Singular Maskulinum umentschieden haben.</note>
+        <note target="#en02" type="comment" subtype="linguistic">Möglicherweise Prussismus</note>
+        <note target="#en03" type="comment" subtype="paleographical">Die Senkrechtstriche erfassen zwar nur ⟨ſs⟩ und nicht ⟨i⟩, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <hi rend="italics">pakorau</hi> -&gt; <hi rend="italics">pakaraiej</hi> (234r14) und <hi rend="italics">atſiuntei</hi> -&gt; <hi rend="italics">uſzuſiuntei</hi> (234r15)</note>
+        <note target="#en04" type="comment" subtype="paleographical">Konjektur aus undeutlichem <hi rend="italics">akimi</hi></note>
+        <note target="#en05" type="comment" subtype="linguistic">Keine Kasusendung</note>
+        <note target="#en06" type="comment" subtype="paleographical">Keine Streichung</note>
+        <note target="#en07" type="comment" subtype="paleographical">Es befindet sich zwar ein Tintenfleck über dem ⟨e⟩, der nicht auf die andere Seite durchdrückt, es ist allerdings im vom Bretke benutzten Schriftsystem unmotiviert, über diesen Buchstaben einen Punkt zu setzen. Er sieht eher wie ein versehentlicher Klecks als ein bewusst gesetzter Punkt aus, weshalb er nicht als Diakritikum gelesen wird.</note>
+        <note target="#en08" type="comment" subtype="paleographical">gestrichen bei fast noch feuchter Tinte</note>
+        <note target="#en08 #en09" type="comment" subtype="paleographical">Die Streichrichtung und -farbe sowie der grammatische Zusammenhang legen nahe, dass diese beiden Streichungen zusammen erfolgt sind. Die Streichung von <hi rend="italics">mie-</hi>|<hi rend="italics">la</hi>[<hi rend="italics">s</hi>] erfolgte über noch fast feuchter Tinte, sodass deshalb auch die Streichung von <hi rend="italics">affiera</hi>[<hi rend="italics">s</hi>] der Grundschicht zuzurechnen ist.</note>
+        <note target="#en10" type="comment" subtype="paleographical">Der Abstrich des ⟨a⟩ ist ziemlich weit nach unten geraten, was auf den ersten Blick wirkt, als sei er mit einem möglichen Nasalpunkt verbunden. Diese Lesung ist aber bei genauerem Hinsehen nicht haltbar</note>
+        <note target="#en11" type="comment" subtype="paleographical">Über dem ⟨c⟩ befindet sich ein Strich, der mit dem Wortanfang in einem Zug geschrieben sein muss, da die Tinte genau gleich ist. Entweder ist er zufällig gesetzt worden (z.B. weil Bretke schon zum ⟨h⟩ ansetzen wollte) oder er dient dazu, auf die deutsche Entsprechung <hi rend="italics">herrlich</hi> i.marg. zu verweisen. Letzteres wäre ein Indiz dafür, dass die deutschen Wörter tatsächlich von Bretke stammen und Teil des Übersetzungsprozesses waren. Ersteres scheint allerdings näherliegend.</note>
+        <note target="#en12" type="comment" subtype="paleographical">Der Strich auf dem ⟨l⟩, der mit dickerer Tinte als der Fließtext der Grundschicht gesetzt ist, könnte verschiedene Bedeutungen haben. Zunächst könnte er die Oberlänge des ⟨l⟩ verstärken wollen,um es eindeutiger vom ⟨t⟩ zu unterscheiden. Dies scheint aber nicht sehr wahrscheinlich,da er sich dazu nicht ausreichend dem Duktus der Schrift anpasst. Viel wahrscheinlicher ist hingegen, dass er auf die deutsche Entsprechung <hi rend="italics">werk</hi> i.marg. verweisen soll.</note>
       </div>
     </body>
   </text>

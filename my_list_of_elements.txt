@@ -1,29 +1,5 @@
-
 {http://www.tei-c.org/ns/1.0}p
- 
-{http://www.tei-c.org/ns/1.0}acquisition
-{http://www.tei-c.org/ns/1.0}handDesc : resp | 
-{http://www.tei-c.org/ns/1.0}condition
-{http://www.tei-c.org/ns/1.0}note : type | target | 
-{http://www.tei-c.org/ns/1.0}history
-{http://www.tei-c.org/ns/1.0}ref : target | 
-{http://www.tei-c.org/ns/1.0}person : {http://www.w3.org/XML/1998/namespace}id | source | 
-{http://www.tei-c.org/ns/1.0}sourceDesc
-{http://www.tei-c.org/ns/1.0}origDate : to | from | 
-{http://www.tei-c.org/ns/1.0}msItem : corresp | class | 
-{http://www.tei-c.org/ns/1.0}fw : type | rend | place | hand | 
-{http://www.tei-c.org/ns/1.0}rs : ref | 
-{http://www.tei-c.org/ns/1.0}subst : {http://www.w3.org/XML/1998/namespace}id | instant | hand | 
-{http://www.tei-c.org/ns/1.0}revisionDesc
 {http://www.tei-c.org/ns/1.0}lb : break | n | 
 {http://www.tei-c.org/ns/1.0}schemaRef : url | 
-{http://www.tei-c.org/ns/1.0}ptr : target | 
 {http://www.tei-c.org/ns/1.0}div : {http://www.w3.org/XML/1998/namespace}id | synch | hand | source | type | {http://www.w3.org/XML/1998/namespace}lang | corresp | resp | 
-{http://www.tei-c.org/ns/1.0}origin
-{http://www.tei-c.org/ns/1.0}pb : facs | n | 
-{http://www.tei-c.org/ns/1.0}fileDesc
-{http://www.tei-c.org/ns/1.0}ab : {http://www.w3.org/XML/1998/namespace}id | hand | type | rend | n | {http://www.w3.org/XML/1998/namespace}lang | 
-{http://www.tei-c.org/ns/1.0}projectDesc
-{http://www.tei-c.org/ns/1.0}encodingDesc
-{http://www.tei-c.org/ns/1.0}teiHeader
-{http://www.tei-c.org/ns/1.0}date : {http://www.w3.org/XML/1998/namespace}lang | when | notAfter | notBefore | 
+
