@@ -280,7 +280,7 @@
   <text>
     <body>
       <div type="edited_text" hand="#h01" xml:lang="olt" resp="#edit_AK">
-      <!-- Struktur und Attributauswahl in starker Anlehnung an José Calvo Tello -->
+      <!-- Struktur und Attributauswahl in starker Anlehnung an https://github.com/morethanbooks/XML-TEI-Bible -->
       <div type="work" corresp="http://d-nb.info/gnd/4006406-2"> <!-- Bibel -->
       <div type="testament" corresp="http://d-nb.info/gnd/4001515-4"> <!-- Altes Testament -->
       <div xml:id="a" type="part" corresp="http://d-nb.info/gnd/1120969395"> <!--alttestamentl. Apokryphen -->
@@ -293,11 +293,12 @@
             <fw type="sheet_number" place="top-right" rend="stamp">231</fw>
             <fw type="sheet_number" place="bot-centre" hand="#h10">234</fw>
             <fw type="sheet_number" place="bot-right" hand="#h11">234</fw>
+            <dateline><fw type="date" place="top-right">A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04" xml:lang="de">1590. 4. Februa.</date></fw></dateline>
+
             <lb n="1"/><head type="main_title" rend="caps">Malda Asario /</head>
             <head type="subtitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
             <!-- Sprachen kenntlich machen: lat. & deu. - oder nicht? -->
             <!-- Position der Dateline angeben! -->
-            <dateline><fw type="date" place="top-right">A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04" xml:lang="de">1590. 4. Februa.</date></fw></dateline>
             <gb type="paragraph"/>
             <lb n="4"/><ab type="verse" n="25">Bei Aſarias ſtoweia widui de-<lb n="5" break="no"/>ganczio pecziaus, ir atwere <mod type="kommutative_variante" instant="true"><del rend="parentheses">Naſrus</del> <add rend="inline">bur-<lb n="6" break="no"/>nạ</add></mod> ſawa, meldeſi ir biloia.</ab>
             <gb type="paragraph"/>
@@ -399,7 +400,7 @@
         <gb type="paragraph"/>
         <ab type="verse" n="25"><seg rend="bold">VND Aſſaria ſtund mitten im glüenden Ofen, vnd that</seg> ſeinen Mund auff, betet vnd ſprach.</ab>
         <gb type="paragraph"/>
-        <ab type="verse" n="26">GElobt ſeieſtu HERR, der Gott vnſer Veter, vnd dein Name mu&#x0364;ſſe gepreiſet vnd geehret werden ewiglich.</ab>
+        <ab type="verse" n="26">GElobt ſeieſtu <seg rend="caps" type="god">herr</seg>, der Gott vnſer Veter, vnd dein Name mu&#x0364;ſſe gepreiſet vnd geehret werden ewiglich.</ab>
         <ab type="verse" n="27">Denn du biſt Gerecht in allem das du vns gethan haſt, Alle deine Wercke ſind rechtſchaffen, vnd was du thuſt, das iſt recht, vnd alle deine Gerichte, ſind vnſtrefflich.</ab>
         <ab type="verse" n="28">Du thuſt vns recht, das du vns geſtraffet haſt, mit ſolcher ſtraffe, die du vber vns haſt gehen laſſen, vnd vber Jeruſalem die heilige Stad vnſer Veter, Ja du thuſt recht vnd wol daran, vmb vnſer ſu&#x0364;nde willen.</ab>
         <gb type="paragraph"/>
@@ -422,16 +423,16 @@
         </ab>
         <gb type="paragraph"/>
         <ab type="verse" n="41">ALſo komen wir nu mit gantzem hertzen, vnd ſuchen dein Angeſicht mit furcht.</ab>
-        <ab type="verse" n="42">Darumb las vns nicht zu ſchanden werden, Sondern thu vns HERr nach deiner Gnade, vnd nach deiner groſſen Barmhertzigkeit,</ab>
+        <ab type="verse" n="42">Darumb las vns nicht zu ſchanden werden, Sondern thu vns <seg rend="caps" type="god">her</seg>r nach deiner Gnade, vnd nach deiner groſſen Barmhertzigkeit,</ab>
         <ab type="verse" n="43">vnd errette vns nach deinen wunderthaten, vnd gib deinem Namen die Ehre,</ab>
         <ab type="verse" n="44">Das ſich ſchemen mu&#x0364;ſſen alle, die deinen Knechten leid thun, vnd zuſchanden werden fur deiner groſſen macht vnd gewalt, das jre macht zurſto&#x0364;ret werde,</ab>
-        <ab type="verse" n="45">Damit ſie erfaren, das du biſt der HERR, der einige Gott, herrlich auff dem Erdboden.
+        <ab type="verse" n="45">Damit ſie erfaren, das du biſt der <seg rend="caps" type="god">herr</seg>, der einige Gott, herrlich auff dem Erdboden.
         </ab>
         <gb type="paragraph"/>
         <ab type="verse" n="46">VND die Diener des Ko&#x0364;niges, die ſie in den Ofen geworffen hatten, ho&#x0364;reten nicht auff, vnd worffen jmer zu ſchwefel vnd pech vnd werg, vnd du&#x0364;rre reiſer,</ab>
         <ab type="verse" n="47">Das die Loh oben aus dem Ofen ſchlug, bey neun vnd vierzig ellen hoch,</ab>
         <ab type="verse" n="48">vnd fraſs vmb ſich, vnd verbrante die Chaldeer, die es erreichte fur dem ofen.</ab>
-        <ab type="verse" n="49">Aber der Engel des HERRN trat mit denen, die bey Aſaria waren in den Ofen,</ab>
+        <ab type="verse" n="49">Aber der Engel des <seg rend="caps" type="god">herrn</seg> trat mit denen, die bey Aſaria waren in den Ofen,</ab>
         <ab type="verse" n="50">vnd ſties die Loh vom fewr aus dem Ofen, vnd machets im ofen, wie einen ku&#x0364;len thaw, Das das Fewr ſie gar nicht anru&#x0364;rete, noch ſchmertzete oder beſchedigte.</ab>
       </div> <!-- Text -->
     </div> <!-- Kapitel  -->
