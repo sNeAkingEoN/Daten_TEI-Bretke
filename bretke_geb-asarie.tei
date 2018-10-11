@@ -287,7 +287,7 @@
       <div xml:id="a.DAN" type="book" corresp="http://d-nb.info/gnd/4680211-3">
         <div xml:id="a.DAN.3" type="chapter">
           <div type="text">
-            <gb type="leaf" n="234"/>
+            <gb type="sheet" n="234"/>
             <pb n="234r" facs="facs/BrB_V_234r.pdf"/>
             <fw type="sheet_signature" place="bot-centre" hand="#h08">e</fw>
             <fw type="sheet_number" place="top-right" rend="stamp">231</fw>
@@ -340,7 +340,7 @@
           <ab type="verse" n="44"> idant ſuſsig<del instant="unknown" rend="strikethrough, light ink">i</del>edintụ wiſs<unclear>i</unclear>,<lb n="33"/>kurie tawa Tarnus paſzeidz ir apge<unclear>d</unclear>inti<lb n="34"/>butụ delei tawa didzos ſilos ir ma<choice><unclear cert="high">c</unclear><unclear cert="low">i</unclear></choice>es,<lb n="35"/>ieib iụ̊ Sila iſchpuſtita butụ,</ab>
           <ab type="verse" n="45"> idant anis<lb n="36"/>ſzinotụ, taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst> ſanti <seg rend="caps" type="god">Ponạ</seg> wiena-<lb n="37" break="no"/>tighị Diewa, <ref target="#md01">ſ<seg xml:id="en11">c</seg>hlownạ</ref> ant Szemes.</ab>
           <ab xml:id="md01" type="marginal_gloss" hand="#h08" xml:lang="de">Herrlich</ab>
-          <gb type="leaf" n="235"/>
+          <gb type="sheet" n="235"/>
           <pb n="235r" facs="facs/BrB_V_235r.pdf"/>
           <fw type="sheet_number" place="top-right" rend="stamp">232</fw>
           <fw type="sheet_number" place="bot-centre" hand="#h10">235</fw>
