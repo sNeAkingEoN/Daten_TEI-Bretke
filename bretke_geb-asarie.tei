@@ -90,11 +90,11 @@
             <handNote xml:id="h02" scope="minor" script="antiqua" medium="brown-ink">Zwei litauische Randglossen, möglicherweise ebenfalls von Bretke.</handNote>
             <handNote xml:id="h03" scope="minor" script="antiqua" medium="brown-ink">Korrekturen einzelner Silben, interlinear direkt über dem Wort, wahrscheinlich von Bretke selbst.</handNote>
             <handNote xml:id="h04" scope="minor" script="antiqua" medium="brown-ink">Interlinearglossen von Wortvarianten, möglicherweise von Bretke.</handNote>
-            <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu tukſtanti (234v20). Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
-            <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von Iſaac zu Iſaak 234v2. Schwarze Tinte, eher breitere Feder.</handNote>
+            <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu <hi rend="italics">tukſtanti</hi> (234v20). Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
+            <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von <hi>Iſaac</hi> zu <hi rend="italics">Iſaak</hi> (234v2). Schwarze Tinte, eher breitere Feder.</handNote>
             <handNote xml:id="h07" scope="minor" script="arabic-numbers" medium="brown-ink">Zahlen, die Wortreihenfolge neu organisieren. Alte Wortreihenfolge zeigt deutsche Vorlage bzw. Muttersprachlichkeit Bretkes. Möglicherweise von Bretke.</handNote>
             <handNote xml:id="h08" scope="minor" script="german_cursive" medium="brown-ink">Deutsche Entsprechungen zu einzelnen litauischen Vokabeln S. 234v und 235r in margine sowie die Bogensignatur. Möglicherweise von Bretke.</handNote>
-            <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink">Strich über pakůlụ (235v4), intensivere Tinte.</handNote>
+            <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink">Strich über <hi rend="italics">pakůlụ</hi> (235v4), intensivere Tinte.</handNote>
             <handNote xml:id="h10" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä., unten mittig, unbekannte Herkunft</handNote>
             <handNote xml:id="h11" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä. rechts unten von Fotographen Paul Koeppen, hinzugefügt <date notBefore="1950" notAfter="1979">zwischen 1950 und 1979</date> in Göttingen (<ref target="#FaksSenasis4-5">Kessler 2013</ref>:VIII)(ebenso wie die Stempelung)</handNote>
             </handDesc>
@@ -294,7 +294,6 @@
             <fw type="sheet_number" place="bot-centre" hand="#h10">234</fw>
             <fw type="sheet_number" place="bot-right" hand="#h11">234</fw>
             <dateline><fw type="date" place="top-right">A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04" xml:lang="de">1590. 4. Februa.</date></fw></dateline>
-
             <lb n="1"/><head type="main_title" rend="caps">Malda Asario /</head>
             <head type="subtitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
             <!-- Sprachen kenntlich machen: lat. & deu. - oder nicht? -->
