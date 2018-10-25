@@ -301,7 +301,7 @@
             <gb type="paragraph"/>
             <lb n="4"/><ab type="verse" n="25">Bei Aſarias ſtoweia widui de-<lb n="5" break="no"/>ganczio pecziaus, ir atwere <mod type="lexical_alternative" instant="true"><del rend="parentheses">Naſrus</del> <add rend="inline">bur-<lb n="6" break="no"/>nạ</add></mod> ſawa, meldeſi ir biloia.</ab>
             <gb type="paragraph"/>
-            <lb n="7"/><ab type="verse" n="26">Pagirtas buk <seg rend="caps" type="god">Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></seg>
+            <lb n="7"/><ab type="verse" n="26">Pagirtas buk <seg rend="caps" type="nomen_sacrum">Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></seg>
             , Diewas<lb n="8"/>muſu Tiewu, ir tawa Wardas tur pa-<lb n="9" break="no"/>girtas ir pagarbintas buti am<sic xml:id="en02">ſs</sic>inai.</ab>
             <ab type="verse" n="27">Ne-<lb n="10" break="no"/>ſa tu teiſus efsi wiſsame, ka mumus darei.<lb n="11"/>Wiſsi tawa Darbai eſti tikri, ir kạ<lb n="12"/>tu dar<choice><unclear cert="high">a<!-- für diese Variante wurde sich entschieden! --></unclear><unclear cert="low">e<gap  quantity="1" unit="chars" reason="illegible"/></unclear></choice>i, tatai eſti tieſa, ir tawa Sudas<lb n="13"/>ira be kaltibes.</ab>
             <ab type="verse" n="28">Tu mumus <sic>th</sic>ieſạ darai,<lb n="14"/>iog mus
@@ -335,10 +335,10 @@
           <ab type="verse" n="40"> kaip kada<lb n="19"/>atn<unclear>e</unclear>ſchdami Sudeg<subst instant="false"><del>a</del><add hand="#h03">ina</add></subst>mạ affierạ nog<lb n="20"/>Awinụ ir Iaucziů, ir daugia tukſ<del instant="unknown" rend="strikethrough">ch</del>-<lb n="21" break="no"/>tanti<add rend="right_side_addition" hand="#h05">es</add> Awiů. Schitaipo teſtow muſụ<lb n="22"/>affiera<del instant="true" xml:id="en09">s</del> ſchẹ dienạ po tawa akim mie-<lb n="23" break="no"/>la<del xml:id="en08">s</del>.Neſa tu ned<unclear>ů</unclear>ſi gedona <mod type="lexical_alternative" instant="true"><del rend="parentheses">ateiti</del> <add rend="inline">im-<lb n="24" break="no"/>pulti</add></mod> nuſsitikinczius tawimi.</ab>
           <gb type="paragraph"/>
           <lb n="25"/><ab type="verse" n="41">Schitaip ateime mes nu wiſsa ſchir-<lb n="26" break="no"/>de<subst instant="false"><del>,</del><add>, ir</add></subst> ieſchkom tawa Weid<seg xml:id="en10">a</seg> ſu baime.</ab>
-          <ab type="verse" n="42"> To-<lb n="27" break="no"/>del ne rodzik mus gedoie buti. Bet<lb n="28"/>darik mumus <seg rend="normal" type="god">Pone</seg> pagal tawa Malones,<lb n="29"/>ir pagal tawa didzios Mielaſchirdingiſ-<lb n="30" break="no"/>tes,</ab>
+          <ab type="verse" n="42"> To-<lb n="27" break="no"/>del ne rodzik mus gedoie buti. Bet<lb n="28"/>darik mumus <seg rend="normal" type="nomen_sacrum">Pone</seg> pagal tawa Malones,<lb n="29"/>ir pagal tawa didzios Mielaſchirdingiſ-<lb n="30" break="no"/>tes,</ab>
           <ab type="verse" n="43"> ir iſchgelbek mus pagal tawa<lb n="31"/>ſtebuklingụ̊ darbụ, ir důk tawam War-<lb n="32" break="no"/>dui Garbẹ,</ab>
           <ab type="verse" n="44"> idant ſuſsig<del instant="unknown" rend="strikethrough, light ink">i</del>edintụ wiſs<unclear>i</unclear>,<lb n="33"/>kurie tawa Tarnus paſzeidz ir apge<unclear>d</unclear>inti<lb n="34"/>butụ delei tawa didzos ſilos ir ma<choice><unclear cert="high">c</unclear><unclear cert="low">i</unclear></choice>es,<lb n="35"/>ieib iụ̊ Sila iſchpuſtita butụ,</ab>
-          <ab type="verse" n="45"> idant anis<lb n="36"/>ſzinotụ, taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst> ſanti <seg rend="caps" type="god">Ponạ</seg> wiena-<lb n="37" break="no"/>tighị Diewa, <ref target="#md01">ſ<seg xml:id="en11">c</seg>hlownạ</ref> ant Szemes.</ab>
+          <ab type="verse" n="45"> idant anis<lb n="36"/>ſzinotụ, taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst> ſanti <seg rend="caps" type="nomen_sacrum">Ponạ</seg> wiena-<lb n="37" break="no"/>tighị Diewa, <ref target="#md01">ſ<seg xml:id="en11">c</seg>hlownạ</ref> ant Szemes.</ab>
           <ab xml:id="md01" type="marginal_gloss" hand="#h08" xml:lang="de">Herrlich</ab>
           <gb type="sheet" n="235"/>
           <pb n="235r" facs="facs/BrB_V_235r.pdf"/>
@@ -373,7 +373,7 @@
           <ab xml:id="ml02" type="marginal_gloss" hand="#h02">pikkis</ab>
           <ab xml:id="md03" type="marginal_gloss" hand="#h08" xml:lang="de">pech</ab>
           <ab xml:id="md04" type="marginal_gloss" hand="#h08" xml:lang="de">werk</ab>
-          <ab type="verse" n="49">O<lb n="10"/>Angelas <seg rend="caps" type="god">Pono</seg> eija ſu tais, kurie<lb n="11"/>pas Aſariạ buwa, ing Pæcziụ,</ab>
+          <ab type="verse" n="49">O<lb n="10"/>Angelas <seg rend="caps" type="nomen_sacrum">Pono</seg> eija ſu tais, kurie<lb n="11"/>pas Aſariạ buwa, ing Pæcziụ,</ab>
           <ab type="verse" n="50"> ir iſch-<lb n="12" break="no"/>ſtume Liepſnạ Vgnies iſch pęcziaus,<lb n="13"/>ir padare pæczuie, kaip ſchaltạ<lb n="14"/>Raſạ, <mod type="lexical_alternative"  instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod> iụ Vgnis niekaip nedaſsi-<lb n="15" break="no"/>liteia, nei perſcheia, nei paſzeide.</ab>
         </div>
         </div>
@@ -399,7 +399,7 @@
         <gb type="paragraph"/>
         <ab type="verse" n="25"><seg rend="bold">VND Aſſaria ſtund mitten im glüenden Ofen, vnd that</seg> ſeinen Mund auff, betet vnd ſprach.</ab>
         <gb type="paragraph"/>
-        <ab type="verse" n="26">GElobt ſeieſtu <seg rend="caps" type="god">herr</seg>, der Gott vnſer Veter, vnd dein Name mu&#x0364;ſſe gepreiſet vnd geehret werden ewiglich.</ab>
+        <ab type="verse" n="26">GElobt ſeieſtu <seg rend="caps" type="nomen_sacrum">herr</seg>, der Gott vnſer Veter, vnd dein Name mu&#x0364;ſſe gepreiſet vnd geehret werden ewiglich.</ab>
         <ab type="verse" n="27">Denn du biſt Gerecht in allem das du vns gethan haſt, Alle deine Wercke ſind rechtſchaffen, vnd was du thuſt, das iſt recht, vnd alle deine Gerichte, ſind vnſtrefflich.</ab>
         <ab type="verse" n="28">Du thuſt vns recht, das du vns geſtraffet haſt, mit ſolcher ſtraffe, die du vber vns haſt gehen laſſen, vnd vber Jeruſalem die heilige Stad vnſer Veter, Ja du thuſt recht vnd wol daran, vmb vnſer ſu&#x0364;nde willen.</ab>
         <gb type="paragraph"/>
@@ -422,16 +422,16 @@
         </ab>
         <gb type="paragraph"/>
         <ab type="verse" n="41">ALſo komen wir nu mit gantzem hertzen, vnd ſuchen dein Angeſicht mit furcht.</ab>
-        <ab type="verse" n="42">Darumb las vns nicht zu ſchanden werden, Sondern thu vns <seg rend="caps" type="god">her</seg>r nach deiner Gnade, vnd nach deiner groſſen Barmhertzigkeit,</ab>
+        <ab type="verse" n="42">Darumb las vns nicht zu ſchanden werden, Sondern thu vns <seg rend="caps" type="nomen_sacrum">her</seg>r nach deiner Gnade, vnd nach deiner groſſen Barmhertzigkeit,</ab>
         <ab type="verse" n="43">vnd errette vns nach deinen wunderthaten, vnd gib deinem Namen die Ehre,</ab>
         <ab type="verse" n="44">Das ſich ſchemen mu&#x0364;ſſen alle, die deinen Knechten leid thun, vnd zuſchanden werden fur deiner groſſen macht vnd gewalt, das jre macht zurſto&#x0364;ret werde,</ab>
-        <ab type="verse" n="45">Damit ſie erfaren, das du biſt der <seg rend="caps" type="god">herr</seg>, der einige Gott, herrlich auff dem Erdboden.
+        <ab type="verse" n="45">Damit ſie erfaren, das du biſt der <seg rend="caps" type="nomen_sacrum">herr</seg>, der einige Gott, herrlich auff dem Erdboden.
         </ab>
         <gb type="paragraph"/>
         <ab type="verse" n="46">VND die Diener des Ko&#x0364;niges, die ſie in den Ofen geworffen hatten, ho&#x0364;reten nicht auff, vnd worffen jmer zu ſchwefel vnd pech vnd werg, vnd du&#x0364;rre reiſer,</ab>
         <ab type="verse" n="47">Das die Loh oben aus dem Ofen ſchlug, bey neun vnd vierzig ellen hoch,</ab>
         <ab type="verse" n="48">vnd fraſs vmb ſich, vnd verbrante die Chaldeer, die es erreichte fur dem ofen.</ab>
-        <ab type="verse" n="49">Aber der Engel des <seg rend="caps" type="god">herrn</seg> trat mit denen, die bey Aſaria waren in den Ofen,</ab>
+        <ab type="verse" n="49">Aber der Engel des <seg rend="caps" type="nomen_sacrum">herrn</seg> trat mit denen, die bey Aſaria waren in den Ofen,</ab>
         <ab type="verse" n="50">vnd ſties die Loh vom fewr aus dem Ofen, vnd machets im ofen, wie einen ku&#x0364;len thaw, Das das Fewr ſie gar nicht anru&#x0364;rete, noch ſchmertzete oder beſchedigte.</ab>
       </div> <!-- Text -->
     </div> <!-- Kapitel  -->
