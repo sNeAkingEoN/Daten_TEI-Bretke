@@ -52,7 +52,7 @@
             <msItem class="whole_bible" corresp="http://d-nb.info/gnd/4006406-2"> <!-- gesamte Bibelübersetzung, GND: gesamte Bibel -->
               <locus>Gesamte Bibelübersetzung</locus>
               <author ref="#auth_JB"></author>
-              <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographical">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
+              <title><seg rend="caps" type="title">Biblia</seg> tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographical">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
               <textLang mainLang="olt">Old Lithuanian</textLang><!-- nachprüfen, wo ich angeben muss, woher der Code kommt...? -->
             </msItem>
             <msItem class="this_volume"> <!-- dieser Band -->
@@ -397,7 +397,7 @@
             <div type="text">
           <head type="main_title">Das Gebet Aſarie: Dani. iij.</head><lb/><head type="subtitle">Aus dem Griechiſchen.</head>
         <gb type="paragraph"/>
-        <ab type="verse" n="25"><seg rend="bold">Vnd Aſſaria ſtund mitten im glüenden Ofen, vnd that</seg> ſeinen Mund auff, betet vnd ſprach.</ab>
+        <ab type="verse" n="25">Vnd Aſſaria ſtund mitten im glüenden Ofen, vnd that ſeinen Mund auff, betet vnd ſprach.</ab>
         <gb type="paragraph"/>
         <ab type="verse" n="26">Gelobt ſeieſtu <seg rend="caps" type="nomen_sacrum">herr</seg>, der Gott vnſer Veter, vnd dein Name mu&#x0364;ſſe gepreiſet vnd geehret werden ewiglich.</ab>
         <ab type="verse" n="27">Denn du biſt Gerecht in allem das du vns gethan haſt, Alle deine Wercke ſind rechtſchaffen, vnd was du thuſt, das iſt recht, vnd alle deine Gerichte, ſind vnſtrefflich.</ab>
