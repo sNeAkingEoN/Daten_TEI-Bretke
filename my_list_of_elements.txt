@@ -1,0 +1,5 @@
+{http://www.tei-c.org/ns/1.0}p
+{http://www.tei-c.org/ns/1.0}lb : break | n | 
+{http://www.tei-c.org/ns/1.0}schemaRef : url | 
+{http://www.tei-c.org/ns/1.0}div : {http://www.w3.org/XML/1998/namespace}id | synch | hand | source | type | {http://www.w3.org/XML/1998/namespace}lang | corresp | resp | 
+

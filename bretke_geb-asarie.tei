@@ -22,7 +22,7 @@
       </titleStmt>
       <!--<extent><measure unit="words" quantity="333">Ungefähr 300 Wörter (tokens)</measure></extent>--><!-- genaue Zahl nachtragen! -->
       <publicationStmt>
-        <p>Bearbeitung der Bachelorarbeit <ref target="#original_edition">„Der Apokryphentext ‚Das Gebet Asarie‘ in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis.“</ref> im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities.</p>
+        <p>Bearbeitung der Bachelorarbeit <ref target="#original_edition">„Der Apokryphentext ‚Das Gebet Asarie‘ in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis.“</ref> im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities. Beides unveröffentlicht.</p>
       </publicationStmt>
       <sourceDesc>
         <listPerson>
@@ -32,7 +32,6 @@
             <birth when="1536"/>
             <death when="1602"/>
             <idno type="GND">119067897</idno>
-            <!-- braucht noch: Lebensdaten, .... -->
           </person>
         </listPerson>
         <msDesc>
@@ -46,14 +45,14 @@
               <settlement>Königsberg</settlement>
               <institution corresp="http://d-nb.info/gnd/507002-8">Königliche und Universitätsbibliothek</institution><!-- 1827-1918 -->
               <idno>Cod. MS. 1218</idno>
-              <note type="bibliographisch">Information entnommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note>
+              <note type="bibliographical">Information entnommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <msItem class="whole_bible" corresp="http://d-nb.info/gnd/4006406-2"> <!-- gesamte Bibelübersetzung, GND: gesamte Bibel -->
               <locus>Gesamte Bibelübersetzung</locus>
               <author ref="#auth_JB"></author>
-              <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographisch">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
+              <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographical">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
               <textLang mainLang="olt">Old Lithuanian</textLang><!-- nachprüfen, wo ich angeben muss, woher der Code kommt...? -->
             </msItem>
             <msItem class="this_volume"> <!-- dieser Band -->
@@ -91,11 +90,11 @@
             <handNote xml:id="h02" scope="minor" script="antiqua" medium="brown-ink">Zwei litauische Randglossen, möglicherweise ebenfalls von Bretke.</handNote>
             <handNote xml:id="h03" scope="minor" script="antiqua" medium="brown-ink">Korrekturen einzelner Silben, interlinear direkt über dem Wort, wahrscheinlich von Bretke selbst.</handNote>
             <handNote xml:id="h04" scope="minor" script="antiqua" medium="brown-ink">Interlinearglossen von Wortvarianten, möglicherweise von Bretke.</handNote>
-            <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu tukſtanti (234v20). Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
-            <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von Iſaac zu Iſaak 234v2. Schwarze Tinte, eher breitere Feder.</handNote>
+            <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu <hi rend="italics">tukſtanti</hi> (234v20). Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
+            <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von <hi>Iſaac</hi> zu <hi rend="italics">Iſaak</hi> (234v2). Schwarze Tinte, eher breitere Feder.</handNote>
             <handNote xml:id="h07" scope="minor" script="arabic-numbers" medium="brown-ink">Zahlen, die Wortreihenfolge neu organisieren. Alte Wortreihenfolge zeigt deutsche Vorlage bzw. Muttersprachlichkeit Bretkes. Möglicherweise von Bretke.</handNote>
             <handNote xml:id="h08" scope="minor" script="german_cursive" medium="brown-ink">Deutsche Entsprechungen zu einzelnen litauischen Vokabeln S. 234v und 235r in margine sowie die Bogensignatur. Möglicherweise von Bretke.</handNote>
-            <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink">Strich über pakůlụ (235v4), intensivere Tinte.</handNote>
+            <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink">Strich über <hi rend="italics">pakůlụ</hi> (235v4), intensivere Tinte.</handNote>
             <handNote xml:id="h10" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä., unten mittig, unbekannte Herkunft</handNote>
             <handNote xml:id="h11" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä. rechts unten von Fotographen Paul Koeppen, hinzugefügt <date notBefore="1950" notAfter="1979">zwischen 1950 und 1979</date> in Göttingen (<ref target="#FaksSenasis4-5">Kessler 2013</ref>:VIII)(ebenso wie die Stempelung)</handNote>
             </handDesc>
@@ -103,11 +102,14 @@
           </physDesc>
           <history>
             <origin><p>Der evangelisch-lutherische Pfarrer <name type="person" ref="#auth_JB">Johannes Bretke</name> übersetzte die gesamte Bibel in der <origDate from="1579-03-06" to="1590-11-29">zweiten Hälfte des 16. Jahrhunderts</origDate> in
-            <origPlace><name type="place" corresp="http://d-nb.info/gnd/5038275-5">Labiau</name><!-- nimmt Kreis Labiau, nicht Stadt --> und <name type="place" corresp="http://d-nb.info/gnd/4031541-1">Königsberg</name> im <name type="place" corresp=" 	http://d-nb.info/gnd/4137053-3">Herzogtum</name> Preußen</origPlace>(<ref target="#Range-Bausteine">Range 1992</ref>:1-7).</p>
+            <origPlace><name type="place" corresp="http://d-nb.info/gnd/5038275-5">Labiau</name><!-- nimmt Kreis Labiau, nicht Stadt --> und <name type="place" corresp="http://d-nb.info/gnd/4031541-1">Königsberg</name> im <name type="place" corresp="http://d-nb.info/gnd/4137053-3">Herzogtum</name> Preußen</origPlace>(<ref target="#Range-Bausteine">Range 1992</ref>:1-7).</p>
             </origin>
             <provenance>
-              <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte <rs ref="#auth_JB">der Übersetzer</rs> das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>(<ref target="#Range-Bausteine">Range 1992</ref>:9). Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach Kėdainai verliehen, allerdings nicht für die von <name type="person">Chyliński</name> angefertigte Bibelübersetzung benutzt (<ref target="#Falkenhahn">Falkenhahn 1941</ref>:235-245). Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">1877</date> nach Göttingen (<ref target="#Bezzenberger">Bezzenberger 1877</ref>:X, XXXVII). Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt (<ref target="#Range-Bausteine">Range 1992</ref>:9) und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet (<ref target="#FaksSenasis1">Kluge 1996</ref>:XIV), woraufhin es in der Fachwelt allerdings als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen (<ref target="#FaksSenasis">Scholz und Range 2002</ref>:XII). Seit <date when="1979">1979</date> ist es im Bestand des Geheimen Staatsarchivs Preußischer Kulturbesitz. <date when="1982">1982</date> wurde es restauriert und die Einbände erneuert, danach nach München für Restaurationsarbeiten ausgeliehen (<ref target="#Range-Bausteine">Range 1992</ref>:16, <ref target="#FaksNavias1">Range und Scholz 1991</ref>:IX).</p>
+              <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte <rs ref="#auth_JB">der Übersetzer</rs> das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>(<ref target="#Range-Bausteine">Range 1992</ref>:9). Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach Kėdainai verliehen, allerdings nicht für die von <name type="person">S. B. Chyliński</name> angefertigte Bibelübersetzung benutzt (<ref target="#Falkenhahn">Falkenhahn 1941</ref>:235-245). Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">1877</date> nach Göttingen (<ref target="#Bezzenberger">Bezzenberger 1877</ref>:X, XXXVII). Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt (<ref target="#Range-Bausteine">Range 1992</ref>:9) und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet (<ref target="#FaksSenasis1">Kluge 1996</ref>:XIV), woraufhin es in der Fachwelt allerdings als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen (<ref target="#FaksSenasis">Scholz und Range 2002</ref>:XII).</p>
             </provenance>
+            <acquisition>
+              <p>Seit <date when="1979">1979</date> ist es im Bestand des Geheimen Staatsarchivs Preußischer Kulturbesitz. <date when="1982">1982</date> wurde es restauriert und die Einbände erneuert, danach nach München für Restaurationsarbeiten ausgeliehen (<ref target="#Range-Bausteine">Range 1992</ref>:16, <ref target="#FaksNavias1">Range und Scholz 1991</ref>:IX).</p>
+            </acquisition>
           </history>
           <additional>
             <listBibl>
@@ -278,29 +280,28 @@
   <text>
     <body>
       <div type="edited_text" hand="#h01" xml:lang="olt" resp="#edit_AK">
-      <!-- Struktur und Attributauswahl in starker Anlehnung an José Calvo Tello -->
+      <!-- Struktur und Attributauswahl in starker Anlehnung an https://github.com/morethanbooks/XML-TEI-Bible -->
       <div type="work" corresp="http://d-nb.info/gnd/4006406-2"> <!-- Bibel -->
       <div type="testament" corresp="http://d-nb.info/gnd/4001515-4"> <!-- Altes Testament -->
       <div xml:id="a" type="part" corresp="http://d-nb.info/gnd/1120969395"> <!--alttestamentl. Apokryphen -->
       <div xml:id="a.DAN" type="book" corresp="http://d-nb.info/gnd/4680211-3">
         <div xml:id="a.DAN.3" type="chapter">
           <div type="text">
-            <gb type="leaf" n="234"/>
+            <gb type="sheet" n="234"/>
             <pb n="234r" facs="facs/BrB_V_234r.pdf"/>
-            <fw type="sheetSig" place="bot-centre" hand="#h08">e</fw>
-            <fw type="sheetNum" place="top-right" rend="stamp">231</fw>
-            <fw type="sheetNum" place="bot-centre" hand="#h10">234</fw>
-            <fw type="sheetNum" place="bot-right" hand="#h11">234</fw>
-            <lb n="1"/><head type="mainTitle" rend="caps">Malda Asario /</head>
-            <head type="subTitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
+            <fw type="sheet_signature" place="bot-centre" hand="#h08">e</fw>
+            <fw type="sheet_number" place="top-right" rend="stamp">231</fw>
+            <fw type="sheet_number" place="bot-centre" hand="#h10">234</fw>
+            <fw type="sheet_number" place="bot-right" hand="#h11">234</fw>
+            <dateline><fw type="date" place="top-right">A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04" xml:lang="de">1590. 4. Februa.</date></fw></dateline>
+            <lb n="1"/><head type="main_title" rend="caps">Malda Asario /</head>
+            <head type="subtitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
             <!-- Sprachen kenntlich machen: lat. & deu. - oder nicht? -->
             <!-- Position der Dateline angeben! -->
-            <dateline><fw type="date" place="top-right">A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04" xml:lang="la"><!-- Sprachkürzel richtig? Nicht vielleicht eher Deutsch?-->1590. 4. Februa.</date></fw></dateline>
-            <!-- Attribute von <mod> sind vorläufig -->
             <gb type="paragraph"/>
-            <lb n="4"/><ab type="verse" n="25">Bei Aſarias ſtoweia widui de-<lb n="5" break="no"/>ganczio pecziaus, ir atwere <mod type="kommutative_variante" instant="true"><del rend="parentheses">Naſrus</del> <add rend="inline">bur-<lb n="6" break="no"/>nạ</add></mod> ſawa, meldeſi ir biloia.</ab>
+            <lb n="4"/><ab type="verse" n="25">Bei Aſarias ſtoweia widui de-<lb n="5" break="no"/>ganczio pecziaus, ir atwere <mod type="lexical_alternative" instant="true"><del rend="parentheses">Naſrus</del> <add rend="inline">bur-<lb n="6" break="no"/>nạ</add></mod> ſawa, meldeſi ir biloia.</ab>
             <gb type="paragraph"/>
-            <lb n="7"/><ab type="verse" n="26">Pagirtas buk <seg rend="caps" type="god">Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></seg>
+            <lb n="7"/><ab type="verse" n="26">Pagirtas buk <seg rend="caps" type="nomen_sacrum">Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></seg>
             , Diewas<lb n="8"/>muſu Tiewu, ir tawa Wardas tur pa-<lb n="9" break="no"/>girtas ir pagarbintas buti am<sic xml:id="en02">ſs</sic>inai.</ab>
             <ab type="verse" n="27">Ne-<lb n="10" break="no"/>ſa tu teiſus efsi wiſsame, ka mumus darei.<lb n="11"/>Wiſsi tawa Darbai eſti tikri, ir kạ<lb n="12"/>tu dar<choice><unclear cert="high">a<!-- für diese Variante wurde sich entschieden! --></unclear><unclear cert="low">e<gap  quantity="1" unit="chars" reason="illegible"/></unclear></choice>i, tatai eſti tieſa, ir tawa Sudas<lb n="13"/>ira be kaltibes.</ab>
             <ab type="verse" n="28">Tu mumus <sic>th</sic>ieſạ darai,<lb n="14"/>iog mus
@@ -321,36 +322,36 @@
             <ab type="verse" n="31">Todelei tu tikrai darei, iog<lb n="26"/>toktai wis ant muſu uſzleidai,</ab>
             <ab type="verse" n="32"> ir mus<lb n="27"/>padawei rankoſna muſụ Neprieteliụ̊<!--Problem: Zeichendarstellung... - fontabhängig --><lb n="28"/>Diewo neſsibijanczuiu piktụ Szmoniụ,<lb n="29"/>ir neteiſamuiem wiſsụbaiſiauſiu Kara-<lb n="30"/>liůi.</ab>
             <gb type="paragraph"/>
-            <lb n="31"/><ab type="verse" n="33">Bei mes nedrenſam ſawa burnos<lb n="32"/>atwerti, teip <del instant="false">˹mes</del> eſme apgedinti<lb n="33"/>ir teip iůku tapom po <supplied xml:id="en04" resp="#AK" reason="illegible">akim</supplied> tawa<lb n="34"/>Tarnụ, ir po akim wiſsụ taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice> bijan-<lb n="35" break="no"/>cziụ̊iụ̊.</ab>
-            <ab type="verse" n="34">O wienok, nepatremk muſu<lb n="36"/>nodemais, delei tawa ſchwento Wardo,<lb n="37"/>nei <mod type="kommutative_variante"><del rend="parentheses" >paniekink</del> <add rend="inline">atmeſk</add></mod> tawa Sude-<lb n="38" break="no"/>reghimạ,</ab>
+            <lb n="31"/><ab type="verse" n="33">Bei mes nedrenſam ſawa burnos<lb n="32"/>atwerti, teip <del instant="false">mes</del> eſme apgedinti<lb n="33"/>ir teip iůku tapom po <supplied xml:id="en04" resp="#AK" reason="illegible">akim</supplied> tawa<lb n="34"/>Tarnụ, ir po akim wiſsụ taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice> bijan-<lb n="35" break="no"/>cziụ̊iụ̊.</ab>
+            <ab type="verse" n="34">O wienok, nepatremk muſu<lb n="36"/>nodemais, delei tawa ſchwento Wardo,<lb n="37"/>nei <mod type="lexical_alternative"><del rend="parentheses">paniekink</del> <add rend="inline">atmeſk</add></mod> tawa Sude-<lb n="38" break="no"/>reghimạ,</ab>
             <ab type="verse" n="35"> nei atimk tawa Mielaſchirdingiſtẹ
-          <pb n="234v" facs="facs/BrB_V_234v.pdf"/><fw type="header" place="top-centre">Malda Aſario</fw><lb n="1"/>nog muſụ, delei Abrahamo tawa mieloio<lb n="2"/><mod type="kommutative_variante" instant="true"><del instant="false" rend="parentheses_underlined">Genties</del> <add rend="inline">Prieteliaus</add></mod> ir tawa Tarno <sic xml:id="en05">Iſaa<subst hand="#h06" instant="false"><del>c</del><add hand="#h06">k</add></subst></sic><lb n="3"/>ir Iſraelo tawa Schwentoio,</ab>
+          <pb n="234v" facs="facs/BrB_V_234v.pdf"/><fw type="header" place="top-centre">Malda Aſario</fw><lb n="1"/>nog muſụ, delei Abrahamo tawa mieloio<lb n="2"/><mod type="lexical_alternative" instant="true"><del instant="false" rend="parentheses_underlined">Genties</del> <add rend="inline">Prieteliaus</add></mod> ir tawa Tarno <sic xml:id="en05">Iſaa<subst hand="#h06" instant="false"><del>c</del><add hand="#h06">k</add></subst></sic><lb n="3"/>ir Iſraelo tawa Schwentoio,</ab>
           <ab type="verse" n="36"> kuriemus<lb n="4"/>tu ſzadeiei iụ ſeklạ padaukſinti, kaip<lb n="5"/>ſzwaigſdes po Dangumi, ir kaip Szieſ-<lb n="6" break="no"/><seg xml:id="en06">dr </seg>an pas Marias.</ab>
           <gb type="paragraph"/>
           <lb n="7"/><ab type="verse" n="37">Neſa mes kudeſni tapom, uſzu wiſ-<lb n="8" break="no"/>ſus Pagonus, ir eſme dabbar labai pa-<lb n="9" break="no"/>niekinti ant Szemes, delei muſụ Gr<unclear>ie</unclear>ku,</ab>
           <lb n="10"/><ab type="verse" n="38">iog nụ newieno Kunigaikſchczio, Pra-<lb n="11" break="no"/>rako nei Mokitoio neturrim, nei wel<lb n="12"/>Sudeg<subst><del instant="false">a</del><add hand="#h03">ina</add></subst>ma affierạ nei dieniſchkạ affierạ,<lb n="13"/>nei walgamạ affierạ, nei Rukijmạ.
           <lb n="14"/>Ir ne turrim newienos Wietos, kur po<lb n="15"/>tawa akim galetumbim affierawoti, ir<lb n="16"/>Malonẹ raſti.</ab>
           <ab type="verse" n="39">B<seg xml:id="en07">e</seg>t nuſsituſziju-<lb n="17" break="no"/>ſe Schirde ir ſudauſzita Dwaſse at-<lb n="18" break="no"/>eime <mod instant="unknown" rend="underline or strikethrough">mes</mod><!-- noch mal klar machen: GS oder KS? --> po tawa akim,</ab>
-          <ab type="verse" n="40"> kaip kada<lb n="19"/>atn<unclear>e</unclear>ſchdami Sudeg<subst instant="false"><del>a</del><add hand="#h03">ina</add></subst>mạ affierạ nog<lb n="20"/>Awinụ ir Iaucziů, ir daugia tukſ<del instant="inapplicable" rend="strikethrough">ch</del>-<lb n="21" break="no"/>tanti<add rend="right_side_addition" hand="#h05">es</add> Awiů. Schitaipo teſtow muſụ<lb n="22"/>affiera<del instant="true" xml:id="en09">s</del> ſchẹ dienạ po tawa akim mie-<lb n="23" break="no"/>la<del xml:id="en08">s</del>.Neſa tu ned<unclear>ů</unclear>ſi gedona <mod type="kommutative_variante" instant="true"><del rend="parentheses">ateiti</del> <add rend="inline">im-<lb n="24" break="no"/>pulti</add></mod> nuſsitikinczius tawimi.</ab>
+          <ab type="verse" n="40"> kaip kada<lb n="19"/>atn<unclear>e</unclear>ſchdami Sudeg<subst instant="false"><del>a</del><add hand="#h03">ina</add></subst>mạ affierạ nog<lb n="20"/>Awinụ ir Iaucziů, ir daugia tukſ<del instant="unknown" rend="strikethrough">ch</del>-<lb n="21" break="no"/>tanti<add rend="right_side_addition" hand="#h05">es</add> Awiů. Schitaipo teſtow muſụ<lb n="22"/>affiera<del instant="true" xml:id="en09">s</del> ſchẹ dienạ po tawa akim mie-<lb n="23" break="no"/>la<del xml:id="en08">s</del>.Neſa tu ned<unclear>ů</unclear>ſi gedona <mod type="lexical_alternative" instant="true"><del rend="parentheses">ateiti</del> <add rend="inline">im-<lb n="24" break="no"/>pulti</add></mod> nuſsitikinczius tawimi.</ab>
           <gb type="paragraph"/>
           <lb n="25"/><ab type="verse" n="41">Schitaip ateime mes nu wiſsa ſchir-<lb n="26" break="no"/>de<subst instant="false"><del>,</del><add>, ir</add></subst> ieſchkom tawa Weid<seg xml:id="en10">a</seg> ſu baime.</ab>
-          <ab type="verse" n="42"> To-<lb n="27" break="no"/>del ne rodzik mus gedoie buti. Bet<lb n="28"/>darik mumus <seg rend="normal" type="god">Pone</seg> pagal tawa Malones,<lb n="29"/>ir pagal tawa didzios Mielaſchirdingiſ-<lb n="30" break="no"/>tes,</ab>
+          <ab type="verse" n="42"> To-<lb n="27" break="no"/>del ne rodzik mus gedoie buti. Bet<lb n="28"/>darik mumus <seg rend="normal" type="nomen_sacrum">Pone</seg> pagal tawa Malones,<lb n="29"/>ir pagal tawa didzios Mielaſchirdingiſ-<lb n="30" break="no"/>tes,</ab>
           <ab type="verse" n="43"> ir iſchgelbek mus pagal tawa<lb n="31"/>ſtebuklingụ̊ darbụ, ir důk tawam War-<lb n="32" break="no"/>dui Garbẹ,</ab>
           <ab type="verse" n="44"> idant ſuſsig<del instant="unknown" rend="strikethrough, light ink">i</del>edintụ wiſs<unclear>i</unclear>,<lb n="33"/>kurie tawa Tarnus paſzeidz ir apge<unclear>d</unclear>inti<lb n="34"/>butụ delei tawa didzos ſilos ir ma<choice><unclear cert="high">c</unclear><unclear cert="low">i</unclear></choice>es,<lb n="35"/>ieib iụ̊ Sila iſchpuſtita butụ,</ab>
-          <ab type="verse" n="45"> idant anis<lb n="36"/>ſzinotụ, taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst> ſanti <seg rend="caps" type="god">Ponạ</seg> wiena-<lb n="37" break="no"/>tighị Diewa, <ref target="#md01">ſ<seg xml:id="en11">c</seg>hlownạ</ref> ant Szemes.</ab>
+          <ab type="verse" n="45"> idant anis<lb n="36"/>ſzinotụ, taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst> ſanti <seg rend="caps" type="nomen_sacrum">Ponạ</seg> wiena-<lb n="37" break="no"/>tighị Diewa, <ref target="#md01">ſ<seg xml:id="en11">c</seg>hlownạ</ref> ant Szemes.</ab>
           <ab xml:id="md01" type="marginal_gloss" hand="#h08" xml:lang="de">Herrlich</ab>
-          <gb type="leaf" n="235"/>
+          <gb type="sheet" n="235"/>
           <pb n="235r" facs="facs/BrB_V_235r.pdf"/>
-          <fw type="sheetNum" place="top-right" rend="stamp">232</fw>
-          <fw type="sheetNum" place="bot-centre" hand="#h10">235</fw>
-          <fw type="sheetNum" place="bot-right" hand="#h11">235</fw>
+          <fw type="sheet_number" place="top-right" rend="stamp">232</fw>
+          <fw type="sheet_number" place="bot-centre" hand="#h10">235</fw>
+          <fw type="sheet_number" place="bot-right" hand="#h11">235</fw>
           <fw type="header" place="top-center">Malda Aſario</fw>
           <gb type="paragraph"/>
           <lb n="1"/><ab type="verse" n="46">Bei Tarnai Karaliaus, kurie ios<lb n="2"/>ing Pecziụ buwa ịmætẹ, neſ
           <subst><del>s</del><add>i</add></subst>lowe, bet <lb n="3"/>wiſsadai primete, Sier<metamark function="insert" target="#ml01 #md02"/>ạ ir <ref target="#ml02 #md03">Smalạ</ref><lb n="4"/>ir paků<choice><unclear cert="high"><seg hand="#h09">l</seg></unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/>u, ir ſauſụ
-          <mod type="kommutative_variante" instant="false"><del rend="unmarked">krumụ</del><add rend="small_interlinear_above" hand="#h04">ſchakụ</add></mod>,</ab>
+          <mod type="lexical_alternative" instant="false"><del rend="unmarked">krumụ</del><add rend="small_interlinear_above" hand="#h04">ſchakụ</add></mod>,</ab>
           <ab type="verse" n="47">
-          <mod type="kommutative_variante" instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod><lb n="5"/>liepſna aukſchtai iſch pecziaus ſchoka,<lb n="6"/>
+          <mod type="lexical_alternative" instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod><lb n="5"/>liepſna aukſchtai iſch pecziaus ſchoka,<lb n="6"/>
           <seg xml:id="tw01">kaip</seg><metamark function="transposition" target="#tw01 #h07" place="above">1</metamark>
           <seg xml:id="tw02">dewines</seg><metamark function="transposition" target="#tw02 #h07" place="above">5</metamark>
           <seg xml:id="tw03">bei</seg><metamark function="transposition" target="#tw03 #h07" place="above">4</metamark>
@@ -372,8 +373,8 @@
           <ab xml:id="ml02" type="marginal_gloss" hand="#h02">pikkis</ab>
           <ab xml:id="md03" type="marginal_gloss" hand="#h08" xml:lang="de">pech</ab>
           <ab xml:id="md04" type="marginal_gloss" hand="#h08" xml:lang="de">werk</ab>
-          <ab type="verse" n="49">O<lb n="10"/>Angelas <seg rend="caps" type="god">Pono</seg> eija ſu tais, kurie<lb n="11"/>pas Aſariạ buwa, ing Pæcziụ,</ab>
-          <ab type="verse" n="50"> ir iſch-<lb n="12" break="no"/>ſtume Liepſnạ Vgnies iſch pęcziaus,<lb n="13"/>ir padare pæczuie, kaip ſchaltạ<lb n="14"/>Raſạ, <mod type="kommutative_variante"  instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod> iụ Vgnis niekaip nedaſsi-<lb n="15" break="no"/>liteia, nei perſcheia, nei paſzeide.</ab>
+          <ab type="verse" n="49">O<lb n="10"/>Angelas <seg rend="caps" type="nomen_sacrum">Pono</seg> eija ſu tais, kurie<lb n="11"/>pas Aſariạ buwa, ing Pæcziụ,</ab>
+          <ab type="verse" n="50"> ir iſch-<lb n="12" break="no"/>ſtume Liepſnạ Vgnies iſch pęcziaus,<lb n="13"/>ir padare pæczuie, kaip ſchaltạ<lb n="14"/>Raſạ, <mod type="lexical_alternative"  instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod> iụ Vgnis niekaip nedaſsi-<lb n="15" break="no"/>liteia, nei perſcheia, nei paſzeide.</ab>
         </div>
         </div>
       </div>
@@ -394,64 +395,64 @@
         <div synch="#a.DAN" type="book" corresp="http://d-nb.info/gnd/4680211-3">
           <div synch="#a.DAN.3" type="chapter">
             <div type="text">
-          <ab rend="headline">Das Gebet Aſarie: Dani. iij.</ab><lb/><ab rend="subheading">Aus dem Griechiſchen.</ab>
+          <head type="main_title">Das Gebet Aſarie: Dani. iij.</head><lb/><head type="subtitle">Aus dem Griechiſchen.</head>
         <gb type="paragraph"/>
-        <ab type="verse" n="25"><seg rend="bold">VND Aſſaria ſtund mitten im glüenden Ofen, vnd that</seg> ſeinen Mund auff, betet vnd ſprach.</ab>
+        <ab type="verse" n="25"><seg rend="bold">Vnd Aſſaria ſtund mitten im glüenden Ofen, vnd that</seg> ſeinen Mund auff, betet vnd ſprach.</ab>
         <gb type="paragraph"/>
-        <ab type="verse" n="26">GElobt ſeieſtu HERR, der Gott vnſer Veter, vnd dein Name mu&#x0364;ſſe gepreiſet vnd geehret werden ewiglich.</ab>
+        <ab type="verse" n="26">Gelobt ſeieſtu <seg rend="caps" type="nomen_sacrum">herr</seg>, der Gott vnſer Veter, vnd dein Name mu&#x0364;ſſe gepreiſet vnd geehret werden ewiglich.</ab>
         <ab type="verse" n="27">Denn du biſt Gerecht in allem das du vns gethan haſt, Alle deine Wercke ſind rechtſchaffen, vnd was du thuſt, das iſt recht, vnd alle deine Gerichte, ſind vnſtrefflich.</ab>
         <ab type="verse" n="28">Du thuſt vns recht, das du vns geſtraffet haſt, mit ſolcher ſtraffe, die du vber vns haſt gehen laſſen, vnd vber Jeruſalem die heilige Stad vnſer Veter, Ja du thuſt recht vnd wol daran, vmb vnſer ſu&#x0364;nde willen.</ab>
         <gb type="paragraph"/>
-        <ab type="verse" n="29">DEnn wir haben geſu&#x0364;ndigt vnd vbel gethan, Damit das wir von dir gewichen ſind, vnd allenthalben wider dich gethan haben,</ab>
+        <ab type="verse" n="29">Denn wir haben geſu&#x0364;ndigt vnd vbel gethan, Damit das wir von dir gewichen ſind, vnd allenthalben wider dich gethan haben,</ab>
         <ab type="verse" n="30">Vnd deinen Geboten nicht gehorchet noch jr geachtet, das wir darnach theten, wie du vns befolhen haſt, auff das es vns wolgienge.</ab>
         <ab type="verse" n="31">Darumb haſtu recht gethan, das du ſolches alles vber vns haſt gehen laſſen,</ab>
         <ab type="verse" n="32">vnd vns gegeben in die hende vnſer Feinde der gottloſen bo&#x0364;ſen Leute, vnd dem vngerechten grauſamſten Ko&#x0364;nige auff Erden.
         </ab>
         <gb type="paragraph"/>
-        <ab type="verse" n="33">VND wir thu&#x0364;ren vnſern mund nicht auffthun, ſo ſind wir zu ſchanden vnd zu ſpot worden fur deinen Knechten, vnd fur allen die dich fu&#x0364;rchten.</ab>
+        <ab type="verse" n="33">Vnd wir thu&#x0364;ren vnſern mund nicht auffthun, ſo ſind wir zu ſchanden vnd zu ſpot worden fur deinen Knechten, vnd fur allen die dich fu&#x0364;rchten.</ab>
         <ab type="verse" n="34">Aber doch verſtoſſe vns nicht gar, vmb deines heiligen Namens willen, vnd verwirff deinen Bund nicht,</ab>
         <ab type="verse" n="35">vnd nim deine Barmhertzigkeit nicht von vns, vmb Abrahams deines geliebten Freunds willen, vnd deines knechts Jſaac vnd Jſrael deines Heiligen,</ab>
         <ab type="verse" n="36">welchen du verheiſſen haſt, jren Samen zu mehren, wie die Stern am Himel, vnd wie den ſand am Meer.
         </ab>
         <gb type="paragraph"/>
-        <ab type="verse" n="37">DEnn wir ſind geringer worden, denn alle Heiden, vnd ſind jtzt die verachteſten auff Erden, vmb vnſer ſu&#x0364;nden willen,</ab>
+        <ab type="verse" n="37">Denn wir ſind geringer worden, denn alle Heiden, vnd ſind jtzt die verachteſten auff Erden, vmb vnſer ſu&#x0364;nden willen,</ab>
         <ab type="verse" n="38">das wir nu keinen Fu&#x0364;rſten, Propheten noch Lerer mehr haben, vnd weder Brandopffer noch teglich Opffer, noch Speiſopffer, noch Reuchwerg, Vnd haben keine Stete, da wir fur dir opffern, vnd gnade finden mo&#x0364;chten.</ab>
         <ab type="verse" n="39">Sondern mit betru&#x0364;btem hertzen vnd zurſchlagenem Geiſt komen wir fur dich,</ab>
         <ab type="verse" n="40">als brechten wir Brandopffer von Widdern vnd Rindern, vnd viel tauſent fetter Schafe. Alſo wolteſtu vnſer opffer heuten fur dir gelten vnd angenem ſein laſſen, Denn du leſſeſt nicht zu ſchanden werden, die ſo auff dich hoffen.
         </ab>
         <gb type="paragraph"/>
-        <ab type="verse" n="41">ALſo komen wir nu mit gantzem hertzen, vnd ſuchen dein Angeſicht mit furcht.</ab>
-        <ab type="verse" n="42">Darumb las vns nicht zu ſchanden werden, Sondern thu vns HERr nach deiner Gnade, vnd nach deiner groſſen Barmhertzigkeit,</ab>
+        <ab type="verse" n="41">Alſo komen wir nu mit gantzem hertzen, vnd ſuchen dein Angeſicht mit furcht.</ab>
+        <ab type="verse" n="42">Darumb las vns nicht zu ſchanden werden, Sondern thu vns <seg rend="caps" type="nomen_sacrum">her</seg>r nach deiner Gnade, vnd nach deiner groſſen Barmhertzigkeit,</ab>
         <ab type="verse" n="43">vnd errette vns nach deinen wunderthaten, vnd gib deinem Namen die Ehre,</ab>
         <ab type="verse" n="44">Das ſich ſchemen mu&#x0364;ſſen alle, die deinen Knechten leid thun, vnd zuſchanden werden fur deiner groſſen macht vnd gewalt, das jre macht zurſto&#x0364;ret werde,</ab>
-        <ab type="verse" n="45">Damit ſie erfaren, das du biſt der HERR, der einige Gott, herrlich auff dem Erdboden.
+        <ab type="verse" n="45">Damit ſie erfaren, das du biſt der <seg rend="caps" type="nomen_sacrum">herr</seg>, der einige Gott, herrlich auff dem Erdboden.
         </ab>
         <gb type="paragraph"/>
-        <ab type="verse" n="46">VND die Diener des Ko&#x0364;niges, die ſie in den Ofen geworffen hatten, ho&#x0364;reten nicht auff, vnd worffen jmer zu ſchwefel vnd pech vnd werg, vnd du&#x0364;rre reiſer,</ab>
+        <ab type="verse" n="46">Vnd die Diener des Ko&#x0364;niges, die ſie in den Ofen geworffen hatten, ho&#x0364;reten nicht auff, vnd worffen jmer zu ſchwefel vnd pech vnd werg, vnd du&#x0364;rre reiſer,</ab>
         <ab type="verse" n="47">Das die Loh oben aus dem Ofen ſchlug, bey neun vnd vierzig ellen hoch,</ab>
         <ab type="verse" n="48">vnd fraſs vmb ſich, vnd verbrante die Chaldeer, die es erreichte fur dem ofen.</ab>
-        <ab type="verse" n="49">Aber der Engel des HERRN trat mit denen, die bey Aſaria waren in den Ofen,</ab>
+        <ab type="verse" n="49">Aber der Engel des <seg rend="caps" type="nomen_sacrum">herrn</seg> trat mit denen, die bey Aſaria waren in den Ofen,</ab>
         <ab type="verse" n="50">vnd ſties die Loh vom fewr aus dem Ofen, vnd machets im ofen, wie einen ku&#x0364;len thaw, Das das Fewr ſie gar nicht anru&#x0364;rete, noch ſchmertzete oder beſchedigte.</ab>
-        </div>
-      </div> <!-- alttestamentl. Apokryphen  -->
+      </div> <!-- Text -->
+    </div> <!-- Kapitel  -->
+  </div> <!-- Buch -->
+</div> <!-- alttestamentl. Apokryphen -->
       </div> <!-- Altes Testament -->
-      </div> <!-- Bibel -->
-      </div>
-      </div>
-      </div>
+    </div> <!-- Bibel -->
+  </div> <!-- Deutsche Vorlage -->
       <div xml:lang="de" type="notes">
-        <note target="#en01" type="Kommentar">sic!; Die ungewöhnlich anmutende Form des ⟨A⟩ ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein ⟨E⟩ schreiben. In der Tat ist anhand der deutschen Vorlage der Vokativ <hi rend="italics">Pone</hi> zu erwarten. Zur Form des begonnenen ⟨E⟩ vgl. 235r23. Stattdessen muss sich Bretke während er den Buchstaben schrieb zugunsten des Nominativ Singular Maskulinum umentschieden haben.</note>
-        <note target="#en02">Möglicherweise Prussismus</note>
-        <note target="#en03">Die Senkrechtstriche erfassen zwar nur ⟨ſs⟩ und nicht ⟨i⟩, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <hi rend="italics">pakorau</hi> -&gt; <hi rend="italics">pakaraiej</hi> (234r14) und <hi rend="italics">atſiuntei</hi> -&gt; <hi rend="italics">uſzuſiuntei</hi> (234r15)</note>
-        <note target="#en04">Konjektur aus undeutlichem <hi rend="italics">akimi</hi></note>
-        <note target="#en05">Keine Kasusendung</note>
-        <note target="#en06">Keine Streichung</note>
-        <note target="#en07">Es befindet sich zwar ein Tintenfleck über dem ⟨e⟩, der nicht auf die andere Seite durchdrückt, es ist allerdings im vom Bretke benutzten Schriftsystem unmotiviert, über diesen Buchstaben einen Punkt zu setzen. Er sieht eher wie ein versehentlicher Klecks als ein bewusst gesetzter Punkt aus, weshalb er nicht als Diakritikum gelesen wird.</note>
-        <note target="#en08">gestrichen bei fast noch feuchter Tinte</note>
-        <note target="#en08 #en09">Die Streichrichtung und -farbe sowie der grammatische Zusammenhang legen nahe, dass diese beiden Streichungen zusammen erfolgt sind. Die Streichung von <hi rend="italics">mie-</hi>|<hi rend="italics">la</hi>[<hi rend="italics">s</hi>] erfolgte über noch fast feuchter Tinte, sodass deshalb auch die Streichung von <hi rend="italics">affiera</hi>[<hi rend="italics">s</hi>] der Grundschicht zuzurechnen ist.</note>
-        <note target="#en10">Der Abstrich des ⟨a⟩ ist ziemlich weit nach unten geraten, was auf den ersten Blick wirkt, als sei er mit einem möglichen Nasalpunkt verbunden. Diese Lesung ist aber bei genauerem Hinsehen nicht haltbar</note>
-        <note target="#en11">Über dem ⟨c⟩ befindet sich ein Strich, der mit dem Wortanfang in einem Zug geschrieben sein muss, da die Tinte genau gleich ist. Entweder ist er zufällig gesetzt worden (z.B. weil Bretke schon zum ⟨h⟩ ansetzen wollte) oder er dient dazu, auf die deutsche Entsprechung <hi rend="italics">herrlich</hi> i.marg. zu verweisen. Letzteres wäre ein Indiz dafür, dass die deutschen Wörter tatsächlich von Bretke stammen und Teil des Übersetzungsprozesses waren. Ersteres scheint allerdings näherliegend.</note>
-        <note target="#en12">Der Strich auf dem ⟨l⟩, der mit dickerer Tinte als der Fließtext der Grundschicht gesetzt ist, könnte verschiedene Bedeutungen haben. Zunächst könnte er die Oberlänge des ⟨l⟩ verstärken wollen,um es eindeutiger vom ⟨t⟩ zu unterscheiden. Dies scheint aber nicht sehr wahrscheinlich,da er sich dazu nicht ausreichend dem Duktus der Schrift anpasst. Viel wahrscheinlicher ist hingegen, dass er auf die deutsche Entsprechung <hi rend="italics">werk</hi> i.marg. verweisen soll.</note>
+        <note target="#en01" type="comment" subtype="paleographical">sic!; Die ungewöhnlich anmutende Form des ⟨A⟩ ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein ⟨E⟩ schreiben. In der Tat ist anhand der deutschen Vorlage der Vokativ <hi rend="italics">Pone</hi> zu erwarten. Zur Form des begonnenen ⟨E⟩ vgl. 235r23. Stattdessen muss sich Bretke während er den Buchstaben schrieb zugunsten des Nominativ Singular Maskulinum umentschieden haben.</note>
+        <note target="#en02" type="comment" subtype="linguistic">Möglicherweise Prussismus</note>
+        <note target="#en03" type="comment" subtype="paleographical">Die Senkrechtstriche erfassen zwar nur ⟨ſs⟩ und nicht ⟨i⟩, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <hi rend="italics">pakorau</hi> -&gt; <hi rend="italics">pakaraiej</hi> (234r14) und <hi rend="italics">atſiuntei</hi> -&gt; <hi rend="italics">uſzuſiuntei</hi> (234r15)</note>
+        <note target="#en04" type="comment" subtype="paleographical">Konjektur aus undeutlichem <hi rend="italics">akimi</hi></note>
+        <note target="#en05" type="comment" subtype="linguistic">Keine Kasusendung</note>
+        <note target="#en06" type="comment" subtype="paleographical">Keine Streichung</note>
+        <note target="#en07" type="comment" subtype="paleographical">Es befindet sich zwar ein Tintenfleck über dem ⟨e⟩, der nicht auf die andere Seite durchdrückt, es ist allerdings im vom Bretke benutzten Schriftsystem unmotiviert, über diesen Buchstaben einen Punkt zu setzen. Er sieht eher wie ein versehentlicher Klecks als ein bewusst gesetzter Punkt aus, weshalb er nicht als Diakritikum gelesen wird.</note>
+        <note target="#en08" type="comment" subtype="paleographical">gestrichen bei fast noch feuchter Tinte</note>
+        <note target="#en08 #en09" type="comment" subtype="paleographical">Die Streichrichtung und -farbe sowie der grammatische Zusammenhang legen nahe, dass diese beiden Streichungen zusammen erfolgt sind. Die Streichung von <hi rend="italics">mie-</hi>|<hi rend="italics">la</hi>[<hi rend="italics">s</hi>] erfolgte über noch fast feuchter Tinte, sodass deshalb auch die Streichung von <hi rend="italics">affiera</hi>[<hi rend="italics">s</hi>] der Grundschicht zuzurechnen ist.</note>
+        <note target="#en10" type="comment" subtype="paleographical">Der Abstrich des ⟨a⟩ ist ziemlich weit nach unten geraten, was auf den ersten Blick wirkt, als sei er mit einem möglichen Nasalpunkt verbunden. Diese Lesung ist aber bei genauerem Hinsehen nicht haltbar</note>
+        <note target="#en11" type="comment" subtype="paleographical">Über dem ⟨c⟩ befindet sich ein Strich, der mit dem Wortanfang in einem Zug geschrieben sein muss, da die Tinte genau gleich ist. Entweder ist er zufällig gesetzt worden (z.B. weil Bretke schon zum ⟨h⟩ ansetzen wollte) oder er dient dazu, auf die deutsche Entsprechung <hi rend="italics">herrlich</hi> i.marg. zu verweisen. Letzteres wäre ein Indiz dafür, dass die deutschen Wörter tatsächlich von Bretke stammen und Teil des Übersetzungsprozesses waren. Ersteres scheint allerdings näherliegend.</note>
+        <note target="#en12" type="comment" subtype="paleographical">Der Strich auf dem ⟨l⟩, der mit dickerer Tinte als der Fließtext der Grundschicht gesetzt ist, könnte verschiedene Bedeutungen haben. Zunächst könnte er die Oberlänge des ⟨l⟩ verstärken wollen,um es eindeutiger vom ⟨t⟩ zu unterscheiden. Dies scheint aber nicht sehr wahrscheinlich,da er sich dazu nicht ausreichend dem Duktus der Schrift anpasst. Viel wahrscheinlicher ist hingegen, dass er auf die deutsche Entsprechung <hi rend="italics">werk</hi> i.marg. verweisen soll.</note>
       </div>
     </body>
   </text>
