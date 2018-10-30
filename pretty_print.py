@@ -4,7 +4,7 @@ xml_decl = '<?xml version="1.0" encoding="UTF-8"?>'
 mk_doctype = '<!DOCTYPE SYSTEM "tei_ha_digipub_ak.dtd">'
 
 filnom = 'bretke_geb-asarie.tei'
-outfile = 'edtion_bretke_asarie.tei'
+outfile = 'edition_bretke_asarie.tei'
 
 parser = etree.XMLParser(remove_blank_text=True)
 root = etree.parse(filnom, parser).getroot()
