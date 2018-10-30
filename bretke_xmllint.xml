@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE SYSTEM "tei_ha_digipub_ak.dtd">
+<!-- DOCTYPE einfügen!!! -->
+<!-- TODO: Header fertig machen, Lücken füllen -->
+<!-- Hände komplett verlinkt?-->
+<!-- Kommentar einarbeiten, v.a. für @hand #h03 <note>KS: gestr. (a senkrecht, t 	waagerecht), helle Tinte, → 	˻uſzu˼ſiuntei</note> - #en03 sollte sich ggf. auch darauf beziehen bzw. ganz neuen Kommentar einarbeiten-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <!-- muss noch komplett gemacht werden.-->
