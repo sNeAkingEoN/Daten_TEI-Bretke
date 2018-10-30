@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE somename SYSTEM "tei_ha_digipub_ak.dtd">
+<!DOCTYPE tei_bretke SYSTEM "tei_bretke_ak.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <!-- muss noch komplett gemacht werden.-->
