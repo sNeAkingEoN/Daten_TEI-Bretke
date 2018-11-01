@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- DOCTYPE einfügen!!! -->
 <!-- TODO: Header fertig machen, Lücken füllen -->
-<!-- Hände komplett verlinkt?-->
-<!-- Kommentar einarbeiten, v.a. für @hand #h03 <note>KS: gestr. (a senkrecht, t 	waagerecht), helle Tinte, → 	˻uſzu˼ſiuntei</note> - #en03 sollte sich ggf. auch darauf beziehen bzw. ganz neuen Kommentar einarbeiten-->
+<!-- Kommentar einarbeiten, v.a. für @hand #h03 <note>KS: gestr. (a senkrecht, t 	waagerecht), helle Tinte, → 	˻uſzu˼ſiuntei</note> - #en03 sollte sich ggf. auch darauf beziehen bzw. ganz neuen Kommentar einarbeiten - Erledigt, oder?!?-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <!-- muss noch komplett gemacht werden.-->
@@ -106,6 +105,7 @@
             </origin>
             <provenance>
               <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte <rs ref="#auth_JB">der Übersetzer</rs> das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>(<ref target="#Range-Bausteine">Range 1992</ref>:9). Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach Kėdainai verliehen, allerdings nicht für die von <name type="person">S. B. Chyliński</name> angefertigte Bibelübersetzung benutzt (<ref target="#Falkenhahn">Falkenhahn 1941</ref>:235-245). Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">1877</date> nach Göttingen (<ref target="#Bezzenberger">Bezzenberger 1877</ref>:X, XXXVII). Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt (<ref target="#Range-Bausteine">Range 1992</ref>:9) und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet (<ref target="#FaksSenasis1">Kluge 1996</ref>:XIV), woraufhin es in der Fachwelt allerdings als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen (<ref target="#FaksSenasis">Scholz und Range 2002</ref>:XII).</p>
+              <p>Von Bretkes<!-- auszeichnen als Person...? --> Hand ist dieser Text nur im einzigen bekannten Manuskript überliefert.<!-- Belegen? --></p>
             </provenance>
             <acquisition>
               <p>Seit <date when="1979">1979</date> ist es im Bestand des Geheimen Staatsarchivs Preußischer Kulturbesitz. <date when="1982">1982</date> wurde es restauriert und die Einbände erneuert, danach nach München für Restaurationsarbeiten ausgeliehen (<ref target="#Range-Bausteine">Range 1992</ref>:16, <ref target="#FaksNavias1">Range und Scholz 1991</ref>:IX).</p>
@@ -261,20 +261,51 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <!-- Muss hier angegeben werden, wie interlineare Korrekturen von Bretke sind/ausgezeichnet werden...? -->
-      <projectDesc><p>Edition eines Auszugs aus der ersten Bibelübersetzung ins Litauische, die im Jahre 1591 abgeschlossen wurde.</p>
-      <!-- Ergänzen: Absatz zu Art (diplomatisch, linguistisch, nicht textkritisch....) & Zielen der Edition -->
+      <projectDesc>
+        <p>Edition eines Auszugs aus der ersten Bibelübersetzung ins Litauische, die im Jahre 1591 abgeschlossen wurde. Die vorliegenden TEI-Daten sind auf Grundlage der <ref target="#original_edition">Printedition</ref> erstellt.</p><!-- Ergänzen: Absatz zu Art (diplomatisch, linguistisch, nicht textkritisch....) & Zielen der Edition -->
+        <p>Ziel ist zum Einen die maschinenlesbare Darstellung des edierten Textabschnittes, zum Anderen die Möglichkeit, die Daten linguistisch aufbereitet zur Verfügung zu stellen, damit auf Grundlage dieser automatisch ein Wortverzeichnis erstellt werden kann.</p>
       </projectDesc>
+      <samplingDecl>
+        <p>Dieser Text umfasst den Text <quote type="subtitle" xml:lang="olt">Malda Asario</quote> aus dem dritten Buch Daniel der Apykryphen des Alten Testaments der Bibel.<!-- Irgendwie noch markieren - GND-Verlinkung hierher? --> aus dem Manuskript der Übersetzung von <rs ref="#auth_JB">Johannes Bretke</rs>. Es werden der gesamte Text sowie alle vorhandenen Marginalien, Markierungen und Metainformationen (Datum) dargestellt.</p>
+      </samplingDecl>
       <editorialDecl><!-- Still unfinished -->
-      <p>In diesem korrekturarmen Textabschnitt werden Grund- und Korrekturschicht danach definiert, ob eine Korrektur, die Unterschiede verursacht, eindeutig als sofort, d.h. während des Schreibens oder erst später, erfolgt ist. Als Indiz für eine Sofortkorrektur (d.h. innerhalb der Grundschicht) dient, dass eine Durchstreichung in den Textfluss eingebettet ist, also rechts daneben weiter geschrieben wurde, oder ein Eingriff im Text über noch feuchter Tinte erfolgte, was daran zu erkennen ist, dass die Striche ineinander verlaufen sind.</p>
-      <p>Prinzipiell werden alle verwendeten Zeichen so wiedergegeben, wie sie <rs ref="#auth_JB">vom Schreiber Bretke</rs> geschrieben bzw. intendiert wurden.<!-- anders formulieren... Fachwort von Plachta? - wahrscheinlich "diplomatischer Abdruck" --> Dabei ergaben sich für die Bewertung spezifische Fragen: die Verbindung aus Strichbuchstaben, z.B. ⟨ui⟩ oder ⟨iu⟩ ist nicht immer klar lesbar, dabei wird auf die verwendeten Wörter zurückgegriffen. ⟨ij⟩ wird immer ⟨ij⟩ gelesen, in diesem Textabschnitt findet sich kein ⟨ÿ⟩.  Weiterhin verwendet Bretke verschiedenartige Diakritika über dem ⟨u⟩, von denen hier nur der Kreis über dem ⟨u⟩, ⟨ů⟩, wiedergegeben wird, da nur dieser als möglicherweise bedeutungstragend gilt, da er manchmal auf nlit. ⟨uo⟩ hindeutet. Dieser wird auch gelesen, wenn der Kreis nicht komplett geschlossen ist.
-      Gelegentlich kommen ⟨ę⟩ und ⟨æ⟩ für nlit. ⟨e⟩ vor, die ebenso dargestellt werden. Die nlit. Nasalvokale ⟨ą⟩, ⟨ę⟩, ⟨į⟩ und ⟨ų⟩ werden oft mit einem Punkt unter dem Basisgraphem dargestellt, der in der Edition auch dann so wieder gegeben wird, wenn er zu einem Strich langgezogen ist: ⟨ạ⟩, ⟨ẹ⟩, ⟨ị⟩, ⟨ụ⟩. Im Bereich der Konsonanten erfolgt ebenfalls keine Normalisierung bzw. Modernisierung, z.B. bleibt ⟨ſch⟩ für nlit. ⟨š⟩ und positionsabhängiges ⟨ſ⟩. In der Handschrift Bretkes ist zuweilen ein ⟨t⟩ schwer von einem ⟨l⟩ zu unterscheiden. Es hat sich gezeigt, dass das ⟨l⟩ prinzipiell die längere Oberlänge hat. Bisweilen sind Majuskeln am Wortanfang schwer von Minuskeln zu unterscheiden, das betrifft vor allem ⟨K⟩ und ⟨k⟩, ⟨S⟩ und ⟨ſ⟩, ⟨W⟩ und ⟨w⟩ und ⟨L⟩ und ⟨l⟩. Hier werden zweifelhafte Fälle nicht gekennzeichnet. Möglicherweise war eine Unterscheidung von ⟨U⟩/⟨V⟩ und ⟨I⟩/⟨J⟩ am Wortanfang nicht von Bretke intendiert, allerdings wird hier ⟨J⟩ gelesen, wenn die Schlaufe der Unterlänge geschlossen ist, ansonsten wird ⟨I⟩ gelesen. Die Interpunktion folgt der Vorlage, wobei ⟨.⟩ und ⟨,⟩ oft nicht leicht voneinander zu unterscheiden sind, in zwei Fällen steht ⟨.,⟩ und wird auf ein Zeichen reduziert. Der Bindestrich zur Worttrennung am Zeilenende wird hier durch entsprechene Tags gekennzeichnet. Ein weiteres Charakteristikum von Bretkes Handschrift sind die nicht immer deutlichen graphischen Wortgrenzen, deren ambivalente Fälle dem Faksimile zu entnehmen sind und nicht gesondert ausgezeichnet werden. Zeilenumbrüche werden ebenfalls gekennzeichnet, Worttrenner werden gekennzeichnet, erfolgt keine explizite Kennzeichnung, so wurde die Zeile am Wortende beendet.</p>
+        <p>In diesem korrekturarmen Textabschnitt werden Grund- und Korrekturschicht danach definiert, ob eine Korrektur, die Unterschiede verursacht, eindeutig als sofort, d.h. während des Schreibens oder erst später, erfolgt ist. Als Indiz für eine Sofortkorrektur (d.h. innerhalb der Grundschicht) dient, dass eine Durchstreichung in den Textfluss eingebettet ist, also rechts daneben weiter geschrieben wurde, oder ein Eingriff im Text über noch feuchter Tinte erfolgte, was daran zu erkennen ist, dass die Striche ineinander verlaufen sind.</p>
+        <correction method="markup" status="medium">
+          <p>Bei der Übertragung der Printedition in TEI wurde keine Fehlerkorrektur vorgenommen.</p>
+        </correction>
+        <normalization method="silent">
+          <p>Prinzipiell werden alle verwendeten Zeichen so wiedergegeben, wie sie <rs ref="#auth_JB">vom Schreiber Bretke</rs> geschrieben bzw. intendiert wurden.<!-- anders formulieren... Fachwort von Plachta? - wahrscheinlich "diplomatischer Abdruck" --> Dabei ergaben sich für die Bewertung spezifische Fragen: die Verbindung aus Strichbuchstaben, z.B. ⟨ui⟩ oder ⟨iu⟩ ist nicht immer klar lesbar, dabei wird auf die verwendeten Wörter zurückgegriffen. ⟨ij⟩ wird immer ⟨ij⟩ gelesen, in diesem Textabschnitt findet sich kein ⟨ÿ⟩. Weiterhin verwendet Bretke verschiedenartige Diakritika über dem ⟨u⟩, von denen hier nur der Kreis über dem ⟨u⟩, ⟨ů⟩, wiedergegeben wird, da nur dieser als möglicherweise bedeutungstragend gilt, da er manchmal auf nlit. ⟨uo⟩ hindeutet. Dieser wird auch gelesen, wenn der Kreis nicht komplett geschlossen ist. Gelegentlich kommen ⟨ę⟩ und ⟨æ⟩ für nlit. ⟨e⟩ vor, die ebenso dargestellt werden. Die nlit. Nasalvokale ⟨ą⟩, ⟨ę⟩, ⟨į⟩ und ⟨ų⟩ werden oft mit einem Punkt unter dem Basisgraphem dargestellt, der in der Edition auch dann so wieder gegeben wird, wenn er zu einem Strich langgezogen ist: ⟨ạ⟩, ⟨ẹ⟩, ⟨ị⟩, ⟨ụ⟩. Im Bereich der Konsonanten erfolgt ebenfalls keine Normalisierung bzw. Modernisierung, z.B. bleibt ⟨ſch⟩ für nlit. ⟨š⟩ und positionsabhängiges ⟨ſ⟩. In der Handschrift Bretkes ist zuweilen ein ⟨t⟩ schwer von einem ⟨l⟩ zu unterscheiden. Es hat sich gezeigt, dass das ⟨l⟩ prinzipiell die längere Oberlänge hat. Bisweilen sind Majuskeln am Wortanfang schwer von Minuskeln zu unterscheiden, das betrifft vor allem ⟨K⟩ und ⟨k⟩, ⟨S⟩ und ⟨ſ⟩, ⟨W⟩ und ⟨w⟩ und ⟨L⟩ und ⟨l⟩. Hier werden zweifelhafte Fälle nicht gekennzeichnet. Möglicherweise war eine Unterscheidung von ⟨U⟩/⟨V⟩ und ⟨I⟩/⟨J⟩ am Wortanfang nicht von Bretke intendiert, allerdings wird hier ⟨J⟩ gelesen, wenn die Schlaufe der Unterlänge geschlossen ist, ansonsten wird ⟨I⟩ gelesen. Ein weiteres Charakteristikum von Bretkes Handschrift sind die nicht immer deutlichen graphischen Wortgrenzen, deren ambivalente Fälle dem Faksimile zu entnehmen sind und nicht gesondert ausgezeichnet werden.</p>
+        </normalization>
+        <punctuation>
+          <p>Die Interpunktion folgt der Vorlage, wobei ⟨.⟩ und ⟨,⟩ oft nicht leicht voneinander zu unterscheiden sind, in zwei Fällen steht ⟨.,⟩ und wird auf ein Zeichen reduziert.</p>
+        </punctuation>
+        <hyphenation eol="all">
+          <p>Das Manuskript benutzt doppelte Bindestriche zur Trennung von Wörtern am Zeilenende, die mit einfachen Bindestrichen wiedergegeben werden.</p>
+        </hyphenation>
+        <segmentation>
+          <p>Der Text ist nach Bibelversen in <gi>ab</gi>-Elemente eingeteilt. <att>n</att> gibt dabei die Versnummer an. Zusätzlich wird die Struktur des Manuskripts (Blätter, Seiten, Absätze, Zeilen) durch unäre <gi>gb</gi>, <gi>pb</gi>, <gi>lb</gi>-Elemente abgebildet.</p>
+        </segmentation>
+        <interpretation>
+          <p>Die linguistische Analyse der Printedition wurde nicht übernommen, es finden sich aber sprachliche und paläographische Angaben in den <gi>note</gi>-Elementen. Außerdem wurde die wahrscheinlichste Vorlage, die Lutherbibel von 1545 (vgl. <ref target="#Luther_WA">Werkausgabe Luther</ref>) zum Vergleich eingefügt.</p>
+        </interpretation>
       </editorialDecl>
-      <refsDecl><p>Die Referenz auf ein Wort oder eine größere Einheit im Text richtet sich nach der Platzierung im Manuskript und baut sich folgendermaßen auf: Die Nummer der Blattzählung, gefolgt von der Seitenangabe (r für recto, v für verso) gibt die Seitenzahl an. Sie kann aus dem <att>n</att>-Attribut im Element <gi>pb</gi> zu Beginn einer Seite ausgelesen werden. Die Zeilennummer eines Wortes ist im <gi>lb</gi>-Element zu Beginn der Zeile und dort im <att>n</att>-Attribut festgehalten.</p></refsDecl>
-      <schemaRef url=""><!-- Muss noch eingefügt werden! --></schemaRef>
+      <tagsDecl><!-- vielleicht rauslassen...? -->
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="lb">
+            Als Defaultwert ist <att>break</att> yes, d.h., dass das Wort nicht auf die folgende Zeile umgebrochen wird.</tagUsage>
+          <tagUsage gi="subst">Kennzeichnet Korrekturen im Manuskript selbst.</tagUsage>
+          <tagUsage gi="mod">Kennzeichnet lexikalische Varianten im Manuskript.</tagUsage>
+          <tagUsage gi="unclear">Kennzeichnet unklare Lesungen.</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <refsDecl>
+        <p>Die Referenz auf ein Wort oder eine größere Einheit im Text richtet sich nach der Platzierung im Manuskript und baut sich folgendermaßen auf: Die Nummer der Blattzählung, gefolgt von der Seitenangabe (r für recto, v für verso) gibt die Seitenzahl an. Sie kann aus dem <att>n</att>-Attribut im Element <gi>pb</gi> zu Beginn einer Seite ausgelesen werden. Die Zeilennummer eines Wortes ist im <gi>lb</gi>-Element zu Beginn der Zeile und dort im <att>n</att>-Attribut festgehalten.</p>
+        <p>Die Bibelstelle kann aus den <gi>div</gi>-Elementen für Buch und Kapitel und den <gi>ab</gi>-Elementen, die im <att>n</att>-Attribut die Versnummer angeben, bestimmt werden.</p>
+      </refsDecl>
+      <schemaRef url=""><!-- Muss noch eingefügt werden! - oder auslassen, weil eher in Doctype-Declaration reingeschrieben wird...?  --></schemaRef>
     </encodingDesc>
     <revisionDesc>
-      <change who="#edit_AK">First TEI Version, content not lemmatized</change>
+      <change who="#edit_AK">Erste Version: Auszeichnung aller im Manuskript vorkommenden Phänomene, verzeichnet Anmerkungen und den Text der (mutmaßlichen) Vorlage. Linguistische Analyse der Printausgabe ist nicht enthalten. Tokenisierung und grammatikalische Annotation sind für eine spätere Version vorgesehen.</change>
     </revisionDesc>
   </teiHeader>
   <text>
