@@ -7,11 +7,8 @@
     <!-- muss noch komplett gemacht werden.-->
     <fileDesc>
       <titleStmt>
-        <title>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas.
-        </title>
-        <author ref="#auth_JB" source="#Range-Bausteine p. 9">
-          Ian[as] Bretkun[as]
-          </author>
+        <title>Malda Asario</title>
+        <author ref="#auth_JB" source="#Range-Bausteine p. 9">Ian[as] Bretkun[as]</author>
         <!-- <editor xml:id="edit_AK">Anne Königs</editor> --> <!-- doppelt! -->
         <respStmt> <!-- In welcher Sprache soll das stehen?!? -->
           <resp>ediert (2015) und in TEI überführt (2017/2018) von
