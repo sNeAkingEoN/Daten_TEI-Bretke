@@ -49,7 +49,7 @@
               <locus>Gesamte Bibelübersetzung</locus>
               <author ref="#auth_JB"></author>
               <title><seg rend="caps" type="title">Biblia</seg> tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographical">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
-              <textLang mainLang="olt">Old Lithuanian</textLang><!-- nachprüfen, wo ich angeben muss, woher der Code kommt...? -->
+              <textLang mainLang="lit">Old Lithuanian</textLang>
             </msItem>
             <msItem class="this_volume"> <!-- dieser Band -->
               <locus>Fünfter Band der Bibelübersetzung</locus>
@@ -121,117 +121,117 @@
                   </imprint>
                 </monogr>
                 <series>
-                <title>Beiträge zur Kultur- u. Kirchengeschichte Altpreussens</title>
-                <biblScope>31</biblScope>
-              </series>
-            </biblStruct>
-            <biblStruct xml:id="Range-Bausteine">
-              <monogr>
-                <author>Jochen Dieter Range</author>
-              <title level='m' type="main">Bausteine zur Bretke-Forschung</title><title type="sub">Kommentarband zur Bretke-Edition (NT)</title>
-              <imprint>
-                <date when="1992">1992</date>
-                <pubPlace>Paderborn et al.</pubPlace>
-                <publisher>Schöningh</publisher>
-              </imprint>
-            </monogr>
-            <series>
-              <title level='s'>Biblia Slavica</title>
-              <biblScope>Serie VI</biblScope>
-              <title level='s'>Supplementum Biblia Lithuanica</title>
-              <title>Reihe 3: Kommentarbände</title>
-              <biblScope>1</biblScope>
-            </series>
-          </biblStruct>
-          <biblStruct xml:id="FaksSenasis4-5">
-            <monogr>
-              <author>Stephan Kessler</author>
-              <title level='m'>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas. Faksimile der Handschrift</title>
-              <imprint>
-                <date when="2013">2013</date>
-                <pubPlace>Paderborn et al.</pubPlace>
-                <publisher>Schöningh</publisher>
-              </imprint>
-              <biblScope unit="volume">4/5</biblScope>
-            </monogr>
-            <series>
-              <title level='s'>Biblia Slavica</title>
-              <biblScope>Serie VI</biblScope>
-              <title level='s'>Supplementum Biblia Lithuanica</title>
-              <title>Reihe 1: Faksimilebände</title>
-              <biblScope>4/5</biblScope>
-            </series>
-          </biblStruct>
-          <biblStruct xml:id="FaksSenasis1">
-            <monogr>
-              <author>Friedemann Kluge</author>
-              <title level='m'>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas. Faksimile der Handschrift</title>
-              <imprint>
-                <date when="1996">1996</date>
-                <pubPlace>Paderborn et al.</pubPlace>
-                <publisher>Schöningh</publisher>
-              </imprint>
-              <biblScope unit="volume">1</biblScope>
-            </monogr>
-            <series>
-              <title level='s'>Biblia Slavica</title>
-              <biblScope>Serie VI</biblScope>
-              <title level='s'>Supplementum Biblia Lithuanica</title>
-              <title>Reihe 1: Faksimilebände</title>
-              <biblScope>1</biblScope>
-            </series>
-          </biblStruct>
-          <biblStruct xml:id="FaksSenasis2-3">
-            <monogr>
-              <author>Friedrich Scholz</author>
-              <author>Jochen Dieter Range</author>
-              <title level='m'>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas. Faksimile der Handschrift</title>
-              <imprint>
-                <date when="2002">2002</date>
-                <pubPlace>Paderborn et al.</pubPlace>
-                <publisher>Schöningh</publisher>
-              </imprint>
-              <biblScope unit="volume">2/3</biblScope>
-            </monogr>
-            <series>
-              <title level='s'>Biblia Slavica</title>
-              <biblScope>Serie VI</biblScope>
-              <title level='s'>Supplementum Biblia Lithuanica</title>
-              <title>Reihe 1: Faksimilebände</title>
-              <biblScope>2/3</biblScope>
-            </series>
-          </biblStruct>
-          <biblStruct xml:id="FaksNavias1">
-            <monogr>
-              <author>Jochen Dieter Range</author>
-              <author>Friedrich Scholz</author>
-              <title level='m'>Navias Testamentas. Faksimile der Handschrift</title>
-              <imprint>
-                <date when="1991">1991</date>
-                <pubPlace>Paderborn et al.</pubPlace>
-                <publisher>Schöningh</publisher>
-              </imprint>
-              <biblScope unit="volume">1</biblScope>
-            </monogr>
-            <series>
-              <title level='s'>Biblia Slavica</title>
-              <biblScope>Serie VI</biblScope>
-              <title level='s'>Supplementum Biblia Lithuanica</title>
-              <biblScope>7</biblScope>
-            </series>
-          </biblStruct>
-          <biblStruct xml:id="Bezzenberger">
+                  <title>Beiträge zur Kultur- u. Kirchengeschichte Altpreussens</title>
+                  <biblScope>31</biblScope>
+                </series>
+              </biblStruct>
+              <biblStruct xml:id="Range-Bausteine">
                 <monogr>
-                  <author>Adalbert Bezzenberger</author>
-                  <title level="m">Beiträge zur Geschichte der litauischen Sprache auf Grund litauischer Texte des XVI. und XVII. Jahrhunderts.</title>
+                  <author>Jochen Dieter Range</author>
+                  <title level='m' type="main">Bausteine zur Bretke-Forschung</title><title type="sub">Kommentarband zur Bretke-Edition (NT)</title>
                   <imprint>
-                    <date when="1877">1877</date>
-                    <pubPlace>Göttingen</pubPlace>
-                    <publisher>Peppmüller</publisher>
+                    <date when="1992">1992</date>
+                    <pubPlace>Paderborn et al.</pubPlace>
+                    <publisher>Schöningh</publisher>
                   </imprint>
                 </monogr>
+                <series>
+                  <title level='s'>Biblia Slavica</title>
+                  <biblScope>Serie VI</biblScope>
+                  <title level='s'>Supplementum Biblia Lithuanica</title>
+                  <title>Reihe 3: Kommentarbände</title>
+                  <biblScope>1</biblScope>
+                </series>
+              </biblStruct>
+              <biblStruct xml:id="FaksSenasis4-5">
+                <monogr>
+                  <author>Stephan Kessler</author>
+                  <title level='m'>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas. Faksimile der Handschrift</title>
+                  <imprint>
+                    <date when="2013">2013</date>
+                    <pubPlace>Paderborn et al.</pubPlace>
+                    <publisher>Schöningh</publisher>
+                  </imprint>
+                  <biblScope unit="volume">4/5</biblScope>
+                </monogr>
+                <series>
+                  <title level='s'>Biblia Slavica</title>
+                  <biblScope>Serie VI</biblScope>
+                  <title level='s'>Supplementum Biblia Lithuanica</title>
+                  <title>Reihe 1: Faksimilebände</title>
+                  <biblScope>4/5</biblScope>
+                </series>
+              </biblStruct>
+              <biblStruct xml:id="FaksSenasis1">
+                <monogr>
+                  <author>Friedemann Kluge</author>
+                  <title level='m'>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas. Faksimile der Handschrift</title>
+                  <imprint>
+                    <date when="1996">1996</date>
+                    <pubPlace>Paderborn et al.</pubPlace>
+                    <publisher>Schöningh</publisher>
+                  </imprint>
+                  <biblScope unit="volume">1</biblScope>
+                </monogr>
+                <series>
+                  <title level='s'>Biblia Slavica</title>
+                  <biblScope>Serie VI</biblScope>
+                  <title level='s'>Supplementum Biblia Lithuanica</title>
+                  <title>Reihe 1: Faksimilebände</title>
+                  <biblScope>1</biblScope>
+                </series>
+              </biblStruct>
+              <biblStruct xml:id="FaksSenasis2-3">
+              <monogr>
+                <author>Friedrich Scholz</author>
+                <author>Jochen Dieter Range</author>
+                <title level='m'>BIBLIA tatai eſti Wiſsas Schwentas Raſchtas. Faksimile der Handschrift</title>
+                <imprint>
+                  <date when="2002">2002</date>
+                  <pubPlace>Paderborn et al.</pubPlace>
+                  <publisher>Schöningh</publisher>
+                </imprint>
+                <biblScope unit="volume">2/3</biblScope>
+              </monogr>
+              <series>
+                <title level='s'>Biblia Slavica</title>
+                <biblScope>Serie VI</biblScope>
+                <title level='s'>Supplementum Biblia Lithuanica</title>
+                <title>Reihe 1: Faksimilebände</title>
+                <biblScope>2/3</biblScope>
+              </series>
             </biblStruct>
-            <biblStruct xml:id="Luther_WA">
+              <biblStruct xml:id="FaksNavias1">
+              <monogr>
+                <author>Jochen Dieter Range</author>
+                <author>Friedrich Scholz</author>
+                <title level='m'>Navias Testamentas. Faksimile der Handschrift</title>
+                <imprint>
+                  <date when="1991">1991</date>
+                  <pubPlace>Paderborn et al.</pubPlace>
+                  <publisher>Schöningh</publisher>
+                </imprint>
+                <biblScope unit="volume">1</biblScope>
+              </monogr>
+              <series>
+                <title level='s'>Biblia Slavica</title>
+                <biblScope>Serie VI</biblScope>
+                <title level='s'>Supplementum Biblia Lithuanica</title>
+                <biblScope>7</biblScope>
+              </series>
+            </biblStruct>
+              <biblStruct xml:id="Bezzenberger">
+              <monogr>
+                <author>Adalbert Bezzenberger</author>
+                <title level="m">Beiträge zur Geschichte der litauischen Sprache auf Grund litauischer Texte des XVI. und XVII. Jahrhunderts.</title>
+                <imprint>
+                  <date when="1877">1877</date>
+                  <pubPlace>Göttingen</pubPlace>
+                  <publisher>Peppmüller</publisher>
+                </imprint>
+              </monogr>
+            </biblStruct>
+              <biblStruct xml:id="Luther_WA">
               <monogr>
                 <author>Martin Luther</author>
                 <title level="m">Werke. Kritische Gesamtausgabe. Die Deutsche Bibel.</title>
@@ -243,9 +243,9 @@
                 <biblScope unit="volume">12</biblScope>
               </monogr>
             </biblStruct>
-            <biblStruct xml:id="original_edition">
+              <biblStruct xml:id="original_edition">
               <monogr>
-                <title>Der Apokryphentext „Das Gebet Asarie“ in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis.</title>
+                <title>Der Apokryphentext <title>Das Gebet Asarie</title> in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis.</title>
                 <author ref="#edit_ak">Anne Königs</author>
                 <imprint>
                   <date>2015</date>
@@ -266,7 +266,7 @@
         <p>Dieser Text umfasst den Text <quote type="subtitle" xml:lang="lit">Malda Asario</quote> aus dem dritten Buch Daniel der Apykryphen des Alten Testaments der Bibel.<!-- Irgendwie noch markieren - GND-Verlinkung hierher? --> aus dem Manuskript der Übersetzung von <rs ref="#auth_JB">Johannes Bretke</rs>. Es werden der gesamte Text sowie alle vorhandenen Marginalien, Markierungen und Metainformationen (Datum) dargestellt.</p>
       </samplingDecl>
       <editorialDecl><!-- Still unfinished -->
-        <p>In diesem korrekturarmen Textabschnitt werden Grund- und Korrekturschicht danach definiert, ob eine Korrektur, die Unterschiede verursacht, eindeutig als sofort, d.h. während des Schreibens oder erst später, erfolgt ist. Als Indiz für eine Sofortkorrektur (d.h. innerhalb der Grundschicht) dient, dass eine Durchstreichung in den Textfluss eingebettet ist, also rechts daneben weiter geschrieben wurde, oder ein Eingriff im Text über noch feuchter Tinte erfolgte, was daran zu erkennen ist, dass die Striche ineinander verlaufen sind.</p>
+        <p>In diesem korrekturarmen Textabschnitt werden Grund- und Korrekturschicht danach definiert, ob eine Korrektur, die Unterschiede verursacht, eindeutig als sofort, d.h. während des Schreibens oder erst später, erfolgt ist. Als Indiz für eine Sofortkorrektur (d.h. innerhalb der Grundschicht) dient, dass eine Durchstreichung in den Textfluss eingebettet ist, also rechts daneben weiter geschrieben wurde, oder ein Eingriff im Text über noch feuchter Tinte erfolgte, was daran zu erkennen ist, dass die Striche ineinander verlaufen sind. Die Zugehörigkeit zu einer der beiden Schichten wird durch das Attribut <att>instant</att> ausgedrückt, wobei der Wert <val>yes</val> auf die Grundschicht und <val>no</val> auf die Korrekturschicht hindeuten und <val>unknown</val> bedeutet, dass keine Zuordnung vorgenommen werden konnte.</p>
         <correction method="markup" status="medium">
           <p>Bei der Übertragung der Printedition in TEI wurde keine Fehlerkorrektur vorgenommen.</p>
         </correction>
