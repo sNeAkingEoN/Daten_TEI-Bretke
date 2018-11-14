@@ -35,7 +35,7 @@
             <settlement>Berlin</settlement>
             <institution>Stiftung Preußischer Kulturbesitz</institution>
             <repository corresp="http://d-nb.info/gnd/2122805-X">Geheimes Staatsarchiv Preußischer Kulturbesitz</repository>
-            <idno>XX HA StUB Kgbg. 48</idno>
+            <idno>XX HA StUB Kgbg. 48</idno><!-- Signatur, unter der Manuskript geführt wird -->
             <altIdentifier type="former_owner">
               <settlement>Königsberg</settlement>
               <institution corresp="http://d-nb.info/gnd/507002-8">Königliche und Universitätsbibliothek</institution><!-- 1827-1918 -->
@@ -358,7 +358,7 @@
             <ab type="verse" n="31">Todelei tu tikrai darei, iog<lb n="26"/>toktai wis ant muſu uſzleidai,</ab>
             <ab type="verse" n="32"> ir mus<lb n="27"/>padawei rankoſna muſụ Neprieteliụ̊<!--Problem: Zeichendarstellung... - fontabhängig --><lb n="28"/>Diewo neſsibijanczuiu piktụ Szmoniụ,<lb n="29"/>ir neteiſamuiem wiſsụbaiſiauſiu Kara-<lb n="30"/>liůi.</ab>
             <gb type="paragraph"/>
-            <lb n="31"/><ab type="verse" n="33">Bei mes nedrenſam ſawa burnos<lb n="32"/>atwerti, teip <del instant="false">mes</del> eſme apgedinti<lb n="33"/>ir teip iůku tapom po <supplied xml:id="en04" resp="#AK" reason="illegible">akim</supplied> tawa<lb n="34"/>Tarnụ, ir po akim wiſsụ taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice> bijan-<lb n="35" break="no"/>cziụ̊iụ̊.</ab>
+            <lb n="31"/><ab type="verse" n="33">Bei mes nedrenſam ſawa burnos<lb n="32"/>atwerti, teip <del instant="false">mes</del> eſme apgedinti<lb n="33"/>ir teip iůku tapom po <supplied xml:id="en04" resp="#edit_AK" reason="illegible">akim</supplied> tawa<lb n="34"/>Tarnụ, ir po akim wiſsụ taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice> bijan-<lb n="35" break="no"/>cziụ̊iụ̊.</ab>
             <ab type="verse" n="34">O wienok, nepatremk muſu<lb n="36"/>nodemais, delei tawa ſchwento Wardo,<lb n="37"/>nei <mod type="lexical_alternative"><del rend="parentheses">paniekink</del> <add rend="inline">atmeſk</add></mod> tawa Sude-<lb n="38" break="no"/>reghimạ,</ab>
             <ab type="verse" n="35"> nei atimk tawa Mielaſchirdingiſtẹ
           <pb n="234v" facs="facs/BrB_V_234v.pdf"/><fw type="header" place="top-centre">Malda Aſario</fw><lb n="1"/>nog muſụ, delei Abrahamo tawa mieloio<lb n="2"/><mod type="lexical_alternative" instant="true"><del instant="false" rend="parentheses_underlined">Genties</del> <add rend="inline">Prieteliaus</add></mod> ir tawa Tarno <sic xml:id="en05">Iſaa<subst hand="#h06" instant="false"><del>c</del><add hand="#h06">k</add></subst></sic><lb n="3"/>ir Iſraelo tawa Schwentoio,</ab>
