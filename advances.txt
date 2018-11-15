@@ -1,0 +1,13 @@
+Pretty Print:
+- muss ich mir noch mal genaue Regeln überlegen - das Python-Skript macht seine Arbeit
+- xmllint kann das ähnlich:
+xmllint --format FILENAME.xml > bretke_xmllint.xml
+
+Validierung: 
+- scheint zu funktionieren, aber DTD muss noch erweitert werden. Hoffentlich klappt es dann!
+- dafür Branch validateMe kreiiert, der darf dann hier reingezogen werden
+    Syntax:
+    xmllint --dtdvalid DTD.dtd --noout fileWithoutDTD.xml
+    oder:
+    xmllint --valid --noout fileWithDTD.xml
+Gesehen hier: http://fahdshariff.blogspot.com/2011/10/validating-xml-with-xmllint.html
