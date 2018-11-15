@@ -3,7 +3,7 @@ from lxml import etree
 # xml_decl = '<?xml version="1.0" encoding="UTF-8"?>'
 # mk_doctype = '<!DOCTYPE SYSTEM tei_ha_digipub_ak.dtd>'
 
-my_file = 'edtion_bretke_asarie.tei'
+my_file = 'edition_bretke_asarie.tei'
 
 parser = etree.XMLParser(dtd_validation=True)
 root = etree.parse(my_file, parser).getroot()

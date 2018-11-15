@@ -1,7 +1,7 @@
 from lxml import etree
 
 xml_decl = '<?xml version="1.0" encoding="UTF-8"?>'
-mk_doctype = '<!DOCTYPE tei_doctype SYSTEM "tei_ha_digipub_ak.dtd">'
+mk_doctype = '<!DOCTYPE TEI SYSTEM "tei_all.dtd">'
 
 filnom = 'bretke_geb-asarie.tei'
 outfile = 'edition_bretke_asarie.tei'
