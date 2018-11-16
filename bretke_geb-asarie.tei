@@ -329,19 +329,119 @@
             <fw type="sheet_number" place="top-right" rend="stamp">231</fw>
             <fw type="sheet_number" place="bot-centre" hand="#h10">234</fw>
             <fw type="sheet_number" place="bot-right" hand="#h11">234</fw>
-            <dateline><fw type="date" place="top-right"><date when="1590-02-04" xml:lang="lat">A.̊  1590. 4. Februa.</date></fw></dateline>
-            <lb n="1"/><head type="main_title" rend="caps">Malda Asario /</head>
-            <head type="subtitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
-            <!-- Sprachen kenntlich machen: lat. & deu. - oder nicht? -->
-            <!-- Position der Dateline angeben! -->
+            <dateline><fw type="date" place="top-right"><date when="1590-02-04" xml:lang="lat">A.̊  1590. 4. Februa.</date></fw></dateline><!-- hier auch tokenisieren? -->
+            <lb n="1"/>
+            <head type="main_title" rend="caps">
+              <w xml:id="tok-234r1-001" lemma="malda" pos="sf." msd="n.sg.">Malda</w>
+              <w xml:id="tok-234r1-002" lemma="Asarias" pos="NP" msd="g.sg.">Asario</w>
+              <pc>/</pc>
+            </head>
+            <head type="subtitle">
+              <lb n="2"/>
+              <w xml:id="tok-234r2-003" lemma="Danielius*" pos="sm." msd="ad.sg.">Danielip</w>
+              <w xml:id="tok-234r2-004" lemma="trečias" pos="nm.o." msd="l.sg.m.">trecziame</w>
+              <w xml:id="tok-234r2-005" lemma="paguldymas" pos="sm." msd="l.sg.">pagul-<lb n="3" break="no"/>dime</w>
+              <pc>.</pc>
+              <w xml:id="tok-234r3-006" lemma="iš" pos="prp.+g." msd="--">Iſch</w>
+              <w xml:id="tok-234r3-007" lemma="grekiškas" pos="sm." msd="g.sg.">Griekiſchko</w>
+              <pc>.</pc>
+              </head>
             <gb type="paragraph"/>
-            <lb n="4"/><ab type="verse" n="25">Bei Aſarias ſtoweia widui de-<lb n="5" break="no"/>ganczio pecziaus, ir atwere <mod type="lexical_alternative" instant="true"><del rend="parentheses">Naſrus</del> <add rend="inline">bur-<lb n="6" break="no"/>nạ</add></mod> ſawa, meldeſi ir biloia.</ab>
+            <lb n="4"/>
+            <ab type="verse" n="25">
+              <w xml:id="tok-234r4-008" lemma="bei">Bei</w>
+              <w xml:id="tok-234r4-009">Aſarias</w>
+              <w xml:id="tok-234r4-010">ſtoweia</w>
+              <w xml:id="tok-234r4-011">widui</w>
+<w xml:id="tok-234r4-012">de-<lb n="5" break="no"/>ganczio</w>
+<w xml:id="tok-234r5-013">pecziaus</w>
+<pc>,</pc>
+<w xml:id="tok-234r5-014">ir</w>
+<w xml:id="tok-234r5-015">atwere</w>
+<mod type="lexical_alternative" instant="true">
+<del rend="parentheses">
+<w xml:id="tok-234r5-016">Naſrus</w>
+</del>
+<add rend="inline">
+<w xml:id="tok-234r5-017">bur-<lb n="6" break="no"/>nạ</w>
+</add>
+</mod>
+<w xml:id="tok-234r6-018">ſawa</w>
+<pc>,</pc>
+<w xml:id="tok-234r6-019">meldeſi</w>
+<w xml:id="tok-234r6-020">ir</w>
+<w xml:id="tok-234r6-021">biloia</w>
+<pc>.</pc>
+</ab>
             <gb type="paragraph"/>
-            <lb n="7"/><ab type="verse" n="26">Pagirtas buk <seg rend="caps" type="nomen_sacrum">Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></seg>
-            , Diewas<lb n="8"/>muſu Tiewu, ir tawa Wardas tur pa-<lb n="9" break="no"/>girtas ir pagarbintas buti am<sic xml:id="en02">ſs</sic>inai.</ab>
-            <ab type="verse" n="27">Ne-<lb n="10" break="no"/>ſa tu teiſus efsi wiſsame, ka mumus darei.<lb n="11"/>Wiſsi tawa Darbai eſti tikri, ir kạ<lb n="12"/>tu dar<choice><unclear cert="high">a<!-- für diese Variante wurde sich entschieden! --></unclear><unclear cert="low">e<gap  quantity="1" unit="chars" reason="illegible"/></unclear></choice>i, tatai eſti tieſa, ir tawa Sudas<lb n="13"/>ira be kaltibes.</ab>
-            <ab type="verse" n="28">Tu mumus <sic>th</sic>ieſạ darai,<lb n="14"/>iog mus
-              pak<subst instant="false">
+            <lb n="7"/><ab type="verse" n="26">
+            <w xml:id="tok-234r7-022">Pagirtas</w>
+            <w xml:id="tok-234r7-023">buk</w>
+            <w xml:id="tok-234r7-024"><seg rend="caps" type="nomen_sacrum">Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></seg></w>
+            <pc>,</pc>
+            <w xml:id="tok-234r7-025">Diewas</w>
+            <lb n="8"/>
+            <w xml:id="tok-234r8-026">muſu</w>
+            <w xml:id="tok-234r8-027">Tiewu</w>
+            <pc>,</pc>
+            <w xml:id="tok-234r8-028">ir</w>
+            <w xml:id="tok-234r8-029">tawa</w>
+            <w xml:id="tok-234r8-030">Wardas</w>
+            <w xml:id="tok-234r8-031">tur</w>
+            <w xml:id="tok-234r8-032">pa-<lb n="9" break="no"/>girtas</w>
+            <w xml:id="tok-234r9-033">ir</w>
+            <w xml:id="tok-234r9-034">pagarbintas</w>
+            <w xml:id="tok-234r9-035">buti</w>
+            <w xml:id="tok-234r9-036">am<sic xml:id="en02">ſs</sic>inai</w>
+            <pc>.</pc>
+            </ab>
+            <ab type="verse" n="27">
+              <w xml:id="tok-234r9-037">Ne-<lb n="10" break="no"/>ſa</w>
+              <w xml:id="tok-234r10-038">tu</w>
+              <w xml:id="tok-234r10-039">teiſus</w>
+            <w xml:id="tok-234r10-040">efsi</w>
+            <w xml:id="tok-234r10-041">wiſsame</w>
+            <pc>,</pc>
+            <w>ka</w>
+            <w>mumus</w>
+            <w>darei</w>
+            <pc>.</pc>
+            <lb n="11"/>
+            <w>Wiſsi</w>
+            <w>tawa</w>
+            <w>Darbai</w>
+            <w>eſti</w>
+            <w>tikri</w>
+            <pc>,</pc>
+            <w>ir</w>
+            <w>kạ</w>
+            <lb n="12"/>
+            <w>tu</w>
+            <w>dar<choice><unclear cert="high">a</unclear><unclear cert="low">e<gap quantity="1" unit="chars" reason="illegible"/></unclear></choice>i</w>
+            <pc>,</pc>
+            <w>tatai</w>
+            <w>eſti</w>
+            <w>tieſa</w>
+            <pc>,</pc>
+            <w>ir</w>
+            <w>tawa</w>
+            <w>Sudas</w>
+            <lb n="13"/>
+            <w>ira</w>
+            <w>be</w>
+            <w>kaltibes</w>
+            <pc>.</pc>
+            </ab>
+            <ab type="verse" n="28">
+            <w>Tu</w>
+            <w>mumus</w>
+            <w><sic>th</sic>ieſạ</w>
+            <w>darai</w>
+            <pc>,</pc>
+            <lb n="14"/>
+            <w>iog</w>
+            <w>mus</w>
+            <w>pak<subst instant="false">
                 <del rend="extend_letter">o</del>
                 <add rend="inline">a</add>
               </subst>ra
@@ -350,15 +450,92 @@
                 <add rend="inline">ie</add>
               </subst>
                 <add instant="false">j</add>
-            <del rend="overwrite" instant="unknown"><gap quantity="2" unit="chars" reason="illegible_and_crossed_out"/></del> takiu karoghimu,<lb n="15"/>kuri tu mumus
-            <subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above">uſzu</add></subst>ſiuntei, ir ant Jeruſa-<lb n="16" break="no"/>lemo <del rend="strikethrough" instant="true">ſczE</del> ſchwento Mieſto muſụ Tie-<lb n="17" break="no"/>wụ.Tu tikrai ir gerai darai tame,<lb n="18"/>delei muſụ Griekụ.</ab>
+            <del rend="overwrite" instant="unknown"><gap quantity="2" unit="chars" reason="illegible_and_crossed_out"/></del>
+          </w>
+          <w>takiu</w>
+            <w>karoghimu</w>
+            <pc>,</pc>
+            <lb n="15"/>
+            <w>kuri</w>
+            <w>tu</w>
+            <w>mumus</w>
+            <w><subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above">uſzu</add></subst>ſiuntei</w>
+            <pc>,</pc>
+            <w>ir</w>
+            <w>ant</w>
+            <w>Jeruſa-<lb n="16" break="no"/>lemo</w>
+            <del rend="strikethrough" instant="true">ſczE</del>
+            <w>ſchwento</w>
+            <w>Mieſto</w>
+            <w>muſụ</w>
+            <w>Tie-<lb n="17" break="no"/>wụ</w>
+            <pc>.</pc>
+            <w>Tu</w>
+            <w>tikrai</w>
+            <w>ir</w>
+            <w>gerai</w>
+            <w>darai</w>
+            <w>tame</w>
+            <pc>,</pc>
+            <lb n="18"/>
+            <w>delei</w>
+            <w>muſụ Griekụ</w>
+            <pc>.</pc>
+          </ab>
             <gb type="paragraph"/>
-            <lb n="19"/><ab type="verse" n="29">Neſa mes ſu<del xml:id="en03" rend="strikethrough" instant="false">ſsi</del> grieſchiom ir pikta<lb n="20"/>darem, tame iog nog tawens atſtoiom,<lb n="21"/>ir wiſsur priſch tawe darem,</ab>
-            <ab type="verse" n="30"> ir tawa<lb n="22"/>priſakimụ neklauſem nei iụ atboiom,<lb n="23"/>ieib pagalei iụ giwentumbim, kaip tu<lb n="24"/>mumus priſak<del rend="strikethrough" instant="false"><choice><unclear cert="high">i</unclear><unclear cert="low">c</unclear></choice></del>ei, idant mumus gera<lb n="25"/>butụ.></ab>
-            <ab type="verse" n="31">Todelei tu tikrai darei, iog<lb n="26"/>toktai wis ant muſu uſzleidai,</ab>
+            <lb n="19"/>
+            <ab type="verse" n="29">
+            <w>Neſa</w>
+            <w>mes</w>
+            <w>ſu<del xml:id="en03" rend="strikethrough" instant="false">ſsi</del>grieſchiom</w>
+            <w>ir</w>
+            <w>pikta<lb n="20"/>darem</w>
+            <pc>,</pc>
+            <w>tame</w>
+            <w>iog</w>
+            <w>nog</w>
+            <w>tawens</w>
+            <w>atſtoiom</w>
+            <pc>,</pc>
+            <lb n="21"/>
+            <w>ir</w>
+            <w>wiſsur</w>
+            <w>priſch</w>
+            <w>tawe</w>
+            <w>darem</w>
+            <pc>,</pc>
+            </ab>
+            <ab type="verse" n="30">
+            <w>ir</w>
+            <w>tawa<lb n="22"/>priſakimụ</w>
+            <w>neklauſem</w>
+            <w>nei</w>
+            <w>iụ</w>
+            <w>atboiom</w>
+            <pc>,</pc>
+            <lb n="23"/>
+            <w>ieib</w>
+            <w>pagalei</w>
+            <w>iụ</w>
+            <w>giwentumbim</w>
+            <pc>,</pc>
+            <w>kaip</w>
+            <w>tu</w>
+            <lb n="24"/>
+            <w>mumus</w>
+            <w>priſak<del rend="strikethrough" instant="false"><choice><unclear cert="high">i</unclear><unclear cert="low">c</unclear></choice></del>ei</w>
+            <pc>,</pc>
+            <w>idant mumus gera<lb n="25"/>butụ</w>.</ab>
+            <ab type="verse" n="31">Todelei tu tikrai darei<pc>,</pc>
+            <w>iog</w>
+            <lb n="26"/>toktai wis ant muſu uſzleidai,</ab>
             <ab type="verse" n="32"> ir mus<lb n="27"/>padawei rankoſna muſụ Neprieteliụ̊<!--Problem: Zeichendarstellung... - fontabhängig --><lb n="28"/>Diewo neſsibijanczuiu piktụ Szmoniụ,<lb n="29"/>ir neteiſamuiem wiſsụbaiſiauſiu Kara-<lb n="30"/>liůi.</ab>
             <gb type="paragraph"/>
-            <lb n="31"/><ab type="verse" n="33">Bei mes nedrenſam ſawa burnos<lb n="32"/>atwerti, teip <del instant="false">mes</del> eſme apgedinti<lb n="33"/>ir teip iůku tapom po <supplied xml:id="en04" resp="#edit_AK" reason="illegible">akim</supplied> tawa<lb n="34"/>Tarnụ, ir po akim wiſsụ taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice> bijan-<lb n="35" break="no"/>cziụ̊iụ̊.</ab>
+            <lb n="31"/><ab type="verse" n="33">Bei mes nedrenſam ſawa burnos<lb n="32"/>atwerti<pc>,</pc>
+            <w>teip</w>
+            <del instant="false">mes</del> eſme apgedinti<lb n="33"/>ir teip iůku tapom po <supplied xml:id="en04" resp="#edit_AK" reason="illegible">akim</supplied> tawa<lb n="34"/>Tarnụ<pc>,</pc>
+            <w>ir</w>
+            po akim wiſsụ taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice> bijan-<lb n="35" break="no"/>cziụ̊iụ̊.</ab>
             <ab type="verse" n="34">O wienok, nepatremk muſu<lb n="36"/>nodemais, delei tawa ſchwento Wardo,<lb n="37"/>nei <mod type="lexical_alternative"><del rend="parentheses">paniekink</del> <add rend="inline">atmeſk</add></mod> tawa Sude-<lb n="38" break="no"/>reghimạ,</ab>
             <ab type="verse" n="35"> nei atimk tawa Mielaſchirdingiſtẹ
           <pb n="234v" facs="facs/BrB_V_234v.pdf"/><fw type="header" place="top-centre">Malda Aſario</fw><lb n="1"/>nog muſụ, delei Abrahamo tawa mieloio<lb n="2"/><mod type="lexical_alternative" instant="true"><del instant="false" rend="parentheses_underlined">Genties</del> <add rend="inline">Prieteliaus</add></mod> ir tawa Tarno <sic xml:id="en05">Iſaa<subst hand="#h06" instant="false"><del>c</del><add hand="#h06">k</add></subst></sic><lb n="3"/>ir Iſraelo tawa Schwentoio,</ab>
