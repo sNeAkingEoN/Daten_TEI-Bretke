@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- DOCTYPE einfügen!!! -->
-<!-- TODO: DOCTYPE o.ä. einfügen!-->
+<!-- TODO: DOCTYPE o.ä. einfügen! -> das macht Skript für prettifiete Datei :)-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <!-- muss noch komplett gemacht werden.-->
