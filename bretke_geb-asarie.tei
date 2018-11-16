@@ -329,7 +329,7 @@
             <fw type="sheet_number" place="top-right" rend="stamp">231</fw>
             <fw type="sheet_number" place="bot-centre" hand="#h10">234</fw>
             <fw type="sheet_number" place="bot-right" hand="#h11">234</fw>
-            <dateline><fw type="date" place="top-right">A.̊<!-- Problem: Zeichendarstellung... --><date when="1590-02-04" xml:lang="lat">1590. 4. Februa.</date></fw></dateline>
+            <dateline><fw type="date" place="top-right"><date when="1590-02-04" xml:lang="lat">A.̊  1590. 4. Februa.</date></fw></dateline>
             <lb n="1"/><head type="main_title" rend="caps">Malda Asario /</head>
             <head type="subtitle"><lb n="2"/>Danielip trecziame pagul-<lb n="3" break="no"/>dime. Iſch Griekiſchko.</head>
             <!-- Sprachen kenntlich machen: lat. & deu. - oder nicht? -->
