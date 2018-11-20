@@ -525,46 +525,404 @@
             <w>mumus</w>
             <w>priſak<del rend="strikethrough" instant="false"><choice><unclear cert="high">i</unclear><unclear cert="low">c</unclear></choice></del>ei</w>
             <pc>,</pc>
-            <w>idant mumus gera<lb n="25"/>butụ</w>.</ab>
-            <ab type="verse" n="31">Todelei tu tikrai darei<pc>,</pc>
+            <w>idant</w>
+            <w>mumus</w>
+            <w>gera<lb n="25"/>butụ</w>
+            <pc>.</pc>
+          </ab>
+            <ab type="verse" n="31"><w>Todelei</w>
+            <w>tu</w>
+            <w>tikrai</w>
+            <w>darei</w>
+            <pc>,</pc>
             <w>iog</w>
-            <lb n="26"/>toktai wis ant muſu uſzleidai,</ab>
-            <ab type="verse" n="32"> ir mus<lb n="27"/>padawei rankoſna muſụ Neprieteliụ̊<!--Problem: Zeichendarstellung... - fontabhängig --><lb n="28"/>Diewo neſsibijanczuiu piktụ Szmoniụ,<lb n="29"/>ir neteiſamuiem wiſsụbaiſiauſiu Kara-<lb n="30"/>liůi.</ab>
+            <lb n="26"/><w>toktai</w>
+            <w>wis</w>
+            <w>ant</w>
+            <w>muſu</w>
+            <w>uſzleidai</w>
+<pc>,</pc>
+</ab>
+            <ab type="verse" n="32"><w>ir</w>
+            <w>mus</w>
+            <lb n="27"/>
+            <w>padawei</w>
+            <w>rankoſna</w>
+            <w>muſụ</w>
+            <w>Neprieteliụ̊<!--Problem: Zeichendarstellung... - fontabhängig --></w>
+            <lb n="28"/>
+            <w>Diewo</w>
+            <w>neſsibijanczuiu</w>
+            <w>piktụ</w>
+            <w>Szmoniụ</w>
+            <pc>,</pc>
+            <lb n="29"/><w>ir</w>
+            <w>neteiſamuiem</w>
+            <w>wiſsụbaiſiauſiu</w>
+            <w>Kara-<lb n="30"/>liůi</w>
+            <pc>.</pc>
+          </ab>
             <gb type="paragraph"/>
-            <lb n="31"/><ab type="verse" n="33">Bei mes nedrenſam ſawa burnos<lb n="32"/>atwerti<pc>,</pc>
+            <lb n="31"/>
+            <ab type="verse" n="33"><w>Bei</w>
+            <w>mes</w>
+            <w>nedrenſam</w>
+            <w>ſawa</w>
+            <w>burnos</w>
+            <lb n="32"/>
+            <w>atwerti</w>
+            <pc>,</pc>
             <w>teip</w>
-            <del instant="false">mes</del> eſme apgedinti<lb n="33"/>ir teip iůku tapom po <supplied xml:id="en04" resp="#edit_AK" reason="illegible">akim</supplied> tawa<lb n="34"/>Tarnụ<pc>,</pc>
+            <w><del instant="false">mes</del></w>
+            <w>eſme</w>
+            <w>apgedinti</w>
+            <lb n="33"/>
             <w>ir</w>
-            po akim wiſsụ taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice> bijan-<lb n="35" break="no"/>cziụ̊iụ̊.</ab>
-            <ab type="verse" n="34">O wienok, nepatremk muſu<lb n="36"/>nodemais, delei tawa ſchwento Wardo,<lb n="37"/>nei <mod type="lexical_alternative"><del rend="parentheses">paniekink</del> <add rend="inline">atmeſk</add></mod> tawa Sude-<lb n="38" break="no"/>reghimạ,</ab>
-            <ab type="verse" n="35"> nei atimk tawa Mielaſchirdingiſtẹ
-          <pb n="234v" facs="facs/BrB_V_234v.pdf"/><fw type="header" place="top-centre">Malda Aſario</fw><lb n="1"/>nog muſụ, delei Abrahamo tawa mieloio<lb n="2"/><mod type="lexical_alternative" instant="true"><del instant="false" rend="parentheses_underlined">Genties</del> <add rend="inline">Prieteliaus</add></mod> ir tawa Tarno <sic xml:id="en05">Iſaa<subst hand="#h06" instant="false"><del>c</del><add hand="#h06">k</add></subst></sic><lb n="3"/>ir Iſraelo tawa Schwentoio,</ab>
-          <ab type="verse" n="36"> kuriemus<lb n="4"/>tu ſzadeiei iụ ſeklạ padaukſinti, kaip<lb n="5"/>ſzwaigſdes po Dangumi, ir kaip Szieſ-<lb n="6" break="no"/><seg xml:id="en06">dr </seg>an pas Marias.</ab>
+            <w>teip</w>
+            <w>iůku</w>
+            <w>tapom</w>
+            <w>po</w>
+            <w><supplied xml:id="en04" resp="#edit_AK" reason="illegible">akim</supplied></w>
+            <w>tawa</w>
+            <lb n="34"/>
+            <w>Tarnụ</w>
+            <pc>,</pc>
+            <w>ir</w>
+            <w>po</w>
+            <w>akim</w>
+            <w>wiſsụ</w>
+            <w>taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice></w> <w>bijan-<lb n="35" break="no"/>cziụ̊iụ̊</w>
+            <pc>.</pc>
+          </ab>
+            <ab type="verse" n="34"><w>O</w>
+            <w>wienok</w>
+            <pc>,</pc>
+            <w>nepatremk</w>
+            <w>muſu<lb n="36"/>
+            <w>nodemais</w>
+            <pc>,</pc>
+            <w>delei</w>
+            <w>tawa</w>
+            <w>ſchwento</w>
+            <w>Wardo</w>
+<pc>,</pc>
+<lb n="37"/>nei <mod type="lexical_alternative"><del rend="parentheses">paniekink</del> <add rend="inline">atmeſk</add></mod> tawa</w>
+            <w>Sude-<lb n="38" break="no"/>reghimạ</w>
+            <pc>,</pc>
+          </ab>
+          <ab type="verse" n="35">
+            <w>nei</w>
+            <w>atimk</w>
+            <w>tawa</w>
+            <w>Mielaſchirdingiſtẹ</w>
+            <pb n="234v" facs="facs/BrB_V_234v.pdf"/><fw type="header" place="top-centre"><w>Malda</w>
+            <w>Aſario</w></fw>
+            <lb n="1"/>
+            <w>nog</w>
+            <w>muſụ</w>
+            <pc>,</pc>
+            <w>delei</w>
+            <w>Abrahamo</w>
+            <w>tawa</w>
+            <w>mieloio</w>
+            <lb n="2"/>
+            <mod type="lexical_alternative" instant="true">
+              <w><del instant="false" rend="parentheses_underlined">Genties</del></w>
+              <w><add rend="inline">Prieteliaus</add></w>
+            </mod><w>ir</w>
+            <w>tawa</w>
+            <w>Tarno</w>
+            <w><sic xml:id="en05">Iſaa<subst hand="#h06" instant="false"><del>c</del><add hand="#h06">k</add></subst></sic></w>
+            <lb n="3"/>
+            <w>ir</w>
+            <w>Iſraelo</w>
+            <w>tawa</w>
+            <w>Schwentoio</w>
+            <pc>,</pc>
+          </ab>
+          <ab type="verse" n="36">
+            <w>kuriemus</w>
+            <lb n="4"/>
+            <w>tu</w>
+            <w>ſzadeiei</w>
+            <w>iụ</w>
+            <w>ſeklạ</w>
+            <w>padaukſinti</w>
+            <pc>,</pc>
+            <w>kaip</w>
+            <lb n="5"/>
+            <w>ſzwaigſdes</w>
+            <w>po</w>
+            <w>Dangumi</w>
+            <pc>,</pc>
+            <w>ir</w>
+            <w>kaip</w>
+            <w>Szieſ-<lb n="6" break="no"/><seg xml:id="en06">dr </seg>an</w>
+            <w>pas</w>
+            <w>Marias</w>
+            <pc>.</pc>
+          </ab>
           <gb type="paragraph"/>
-          <lb n="7"/><ab type="verse" n="37">Neſa mes kudeſni tapom, uſzu wiſ-<lb n="8" break="no"/>ſus Pagonus, ir eſme dabbar labai pa-<lb n="9" break="no"/>niekinti ant Szemes, delei muſụ Gr<unclear>ie</unclear>ku,</ab>
-          <lb n="10"/><ab type="verse" n="38">iog nụ newieno Kunigaikſchczio, Pra-<lb n="11" break="no"/>rako nei Mokitoio neturrim, nei wel<lb n="12"/>Sudeg<subst><del instant="false">a</del><add hand="#h03">ina</add></subst>ma affierạ nei dieniſchkạ affierạ,<lb n="13"/>nei walgamạ affierạ, nei Rukijmạ.
-          <lb n="14"/>Ir ne turrim newienos Wietos, kur po<lb n="15"/>tawa akim galetumbim affierawoti, ir<lb n="16"/>Malonẹ raſti.</ab>
-          <ab type="verse" n="39">B<seg xml:id="en07">e</seg>t nuſsituſziju-<lb n="17" break="no"/>ſe Schirde ir ſudauſzita Dwaſse at-<lb n="18" break="no"/>eime <mod instant="unknown" rend="underline or strikethrough">mes</mod><!-- noch mal klar machen: GS oder KS? --> po tawa akim,</ab>
-          <ab type="verse" n="40"> kaip kada<lb n="19"/>atn<unclear>e</unclear>ſchdami Sudeg<subst instant="false"><del>a</del><add hand="#h03">ina</add></subst>mạ affierạ nog<lb n="20"/>Awinụ ir Iaucziů, ir daugia tukſ<del instant="unknown" rend="strikethrough">ch</del>-<lb n="21" break="no"/>tanti<add rend="right_side_addition" hand="#h05">es</add> Awiů. Schitaipo teſtow muſụ<lb n="22"/>affiera<del instant="true" xml:id="en09">s</del> ſchẹ dienạ po tawa akim mie-<lb n="23" break="no"/>la<del xml:id="en08">s</del>.Neſa tu ned<unclear>ů</unclear>ſi gedona <mod type="lexical_alternative" instant="true"><del rend="parentheses">ateiti</del> <add rend="inline">im-<lb n="24" break="no"/>pulti</add></mod> nuſsitikinczius tawimi.</ab>
+          <lb n="7"/><ab type="verse" n="37">
+          <w>Neſa</w>
+          <w>mes</w>
+          <w>kudeſni</w>
+          <w>tapom</w>
+          <pc>,</pc>
+          <w>uſzu</w>
+          <w>wiſ-<lb n="8" break="no"/>ſus</w>
+          <w>Pagonus</w>
+          <pc>,</pc>
+          <w>ir</w>
+          <w>eſme</w>
+          <w>dabbar</w>
+          <w>labai</w>
+          <w>pa-<lb n="9" break="no"/>niekinti</w>
+          <w>ant</w>
+            <w>Szemes</w>
+            <pc>,</pc>
+            <w>delei</w>
+            <w>muſụ</w>
+            <w>Gr<unclear>ie</unclear>ku</w>
+            <pc>,</pc>
+          </ab>
+          <lb n="10"/>
+          <ab type="verse" n="38">
+            <w>iog</w>
+            <w>nụ</w>
+            <w>newieno</w>
+            <w>Kunigaikſchczio</w>
+            <pc>,</pc>
+            <w>Pra-<lb n="11" break="no"/>rako</w>
+            <w>nei</w>
+            <w>Mokitoio</w>
+            <w>neturrim</w>
+            <pc>,</pc>
+            <w>nei</w>
+            <w>wel</w>
+            <lb n="12"/>
+            <w>Sudeg<subst><del instant="false">a</del><add hand="#h03">ina</add></subst>ma</w>
+            <w>affierạ</w>
+            <w>nei</w>
+            <w>dieniſchkạ</w>
+            <w>affierạ</w>
+            <pc>,</pc>
+            <lb n="13"/>
+            <w>nei</w>
+            <w>walgamạ</w>
+            <w>affierạ</w>
+            <pc>,</pc>
+            <w>nei</w>
+            <w>Rukijmạ</w>
+            <pc>.</pc>
+            <lb n="14"/>
+            <w>Ir</w>
+            <w>ne</w>
+            <w>turrim</w>
+            <w>newienos</w>
+            <w>Wietos</w>
+            <pc>,</pc>
+            <w>kur</w>
+            <w>po</w>
+            <lb n="15"/>
+            <w>tawa</w>
+            <w>akim</w>
+            <w>galetumbim</w>
+            <w>affierawoti</w>
+            <pc>,</pc>
+            <w>ir</w>
+            <lb n="16"/>
+            <w>Malonẹ</w>
+            <w>raſti</w>
+            <pc>.</pc>
+          </ab>
+          <ab type="verse" n="39">
+            <w>B<seg xml:id="en07">e</seg>t</w>
+            <w>nuſsituſziju-<lb n="17" break="no"/>ſe</w>
+            <w>Schirde</w>
+            <w>ir</w>
+            <w>ſudauſzita</w>
+            <w>Dwaſse</w>
+            <w>at-<lb n="18" break="no"/>eime</w>
+            <w><mod instant="unknown" rend="underline or strikethrough">mes</mod></w><!-- noch mal klar machen: GS oder KS? -->
+            <w>po</w>
+            <w>tawa</w>
+            <w>akim</w>
+            <pc>,</pc>
+          </ab>
+          <ab type="verse" n="40">
+            <w>kaip</w>
+            <w>kada<lb n="19"/>atn<unclear>e</unclear>ſchdami</w>
+            <w>Sudeg<subst instant="false"><del>a</del><add hand="#h03">ina</add></subst>mạ</w>
+            <w>affierạ</w>
+            <w>nog</w>
+            <lb n="20"/>
+            <w>Awinụ</w>
+            <w>ir</w>
+            <w>Iaucziů</w>
+            <pc>,</pc>
+            <w>ir</w>
+            <w>daugia</w>
+            <w>tukſ<del instant="unknown" rend="strikethrough">ch</del>-<lb n="21" break="no"/>tanti<add rend="right_side_addition" hand="#h05">es</add></w>
+            <w>Awiů</w>
+            <pc>.</pc>
+            <w>Schitaipo</w>
+            <w>teſtow</w>
+            <w>muſụ</w>
+            <lb n="22"/>
+            <w>affiera<del instant="true" xml:id="en09">s</del></w>
+            <w>ſchẹ</w>
+            <w>dienạ</w>
+            <w>po</w>
+            <w>tawa</w>
+            <w>akim</w>
+            <w>mie-<lb n="23" break="no"/>la<del xml:id="en08">s</del></w>
+            <pc>.</pc>
+            <w>Neſa</w>
+            <w>tu</w>
+            <w>ned<unclear>ů</unclear>ſi</w>
+            <w>gedona</w>
+            <mod type="lexical_alternative" instant="true">
+              <w><del rend="parentheses">ateiti</del></w>
+              <w><add rend="inline">im-<lb n="24" break="no"/>pulti</add></w>
+            </mod>
+            <w>nuſsitikinczius</w>
+            <w>tawimi</w>
+            <pc>.</pc>
+          </ab>
           <gb type="paragraph"/>
-          <lb n="25"/><ab type="verse" n="41">Schitaip ateime mes nu wiſsa ſchir-<lb n="26" break="no"/>de<subst instant="false"><del>,</del><add>, ir</add></subst> ieſchkom tawa Weid<seg xml:id="en10">a</seg> ſu baime.</ab>
-          <ab type="verse" n="42"> To-<lb n="27" break="no"/>del ne rodzik mus gedoie buti. Bet<lb n="28"/>darik mumus <seg rend="normal" type="nomen_sacrum">Pone</seg> pagal tawa Malones,<lb n="29"/>ir pagal tawa didzios Mielaſchirdingiſ-<lb n="30" break="no"/>tes,</ab>
-          <ab type="verse" n="43"> ir iſchgelbek mus pagal tawa<lb n="31"/>ſtebuklingụ̊ darbụ, ir důk tawam War-<lb n="32" break="no"/>dui Garbẹ,</ab>
-          <ab type="verse" n="44"> idant ſuſsig<del instant="unknown" rend="strikethrough, light ink">i</del>edintụ wiſs<unclear>i</unclear>,<lb n="33"/>kurie tawa Tarnus paſzeidz ir apge<unclear>d</unclear>inti<lb n="34"/>butụ delei tawa didzos ſilos ir ma<choice><unclear cert="high">c</unclear><unclear cert="low">i</unclear></choice>es,<lb n="35"/>ieib iụ̊ Sila iſchpuſtita butụ,</ab>
-          <ab type="verse" n="45"> idant anis<lb n="36"/>ſzinotụ, taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst> ſanti <seg rend="caps" type="nomen_sacrum">Ponạ</seg> wiena-<lb n="37" break="no"/>tighị Diewa, <ref target="#md01">ſ<seg xml:id="en11">c</seg>hlownạ</ref> ant Szemes.</ab>
+          <lb n="25"/><ab type="verse" n="41">
+          <w>Schitaip</w>
+          <w>ateime</w>
+          <w>mes</w>
+          <w>nu</w>
+          <w>wiſsa</w>
+          <w>ſchir-<lb n="26" break="no"/>de</w>
+          <subst instant="false"><del><pc>,</pc></del>
+            <add>
+              <pc>,</pc>
+              <w>ir</w>
+            </add>
+          </subst>
+          <w>ieſchkom</w>
+          <w>tawa</w>
+          <w>Weid<seg xml:id="en10">a</seg></w>
+          <w>ſu</w>
+          <w>baime</w>
+          <pc>.</pc>
+        </ab>
+        <ab type="verse" n="42">
+          <w>To-<lb n="27" break="no"/>del</w>
+            <w>ne</w>
+            <w>rodzik</w>
+            <w>mus</w>
+            <w>gedoie</w>
+            <w>buti</w>
+            <pc>.</pc>
+            <w>Bet</w>
+            <lb n="28"/>
+            <w>darik</w>
+            <w>mumus</w>
+            <seg rend="normal" type="nomen_sacrum"><w>Pone</w></seg>
+            <w>pagal</w>
+            <w>tawa</w>
+            <w>Malones</w>
+<pc>,</pc>
+<lb n="29"/><w>ir</w>
+            <w>pagal</w>
+            <w>tawa</w>
+            <w>didzios</w>
+            <w>Mielaſchirdingiſ-<lb n="30" break="no"/>tes</w>
+            <pc>,</pc>
+          </ab>
+          <ab type="verse" n="43"><w>ir</w>
+            <w>iſchgelbek</w>
+            <w>mus</w>
+            <w>pagal</w>
+            <w>tawa<lb n="31"/>ſtebuklingụ̊ </w>
+            <w>darbụ</w>
+            <pc>,</pc>
+            <w>ir</w>
+            <w>důk</w>
+            <w>tawam</w>
+            <w>War-<lb n="32" break="no"/>dui</w>
+            <w>Garbẹ</w>
+            <pc>,</pc>
+          </ab>
+          <ab type="verse" n="44">
+            <w>idant</w>
+            <w>ſuſsig<del instant="unknown" rend="strikethrough, light ink">i</del>edintụ</w>
+            <w>wiſs<unclear>i</unclear></w>
+            <pc>,</pc>
+            <lb n="33"/>
+            <w>kurie</w>
+            <w>tawa</w>
+            <w>Tarnus</w>
+            <w>paſzeidz</w>
+            <w>ir</w>
+            <w>apge<unclear>d</unclear>inti</w>
+            <lb n="34"/>
+            <w>butụ</w>
+            <w>delei</w>
+            <w>tawa</w>
+            <w>didzos</w>
+            <w>ſilos</w>
+            <w>ir</w>
+            <w>ma<choice><unclear cert="high">c</unclear><unclear cert="low">i</unclear></choice>es</w>
+            <pc>,</pc>
+            <lb n="35"/>
+            <w>ieib</w>
+            <w>iụ̊ </w>
+            <w>Sila</w>
+            <w>iſchpuſtita</w>
+            <w>butụ</w>
+            <pc>,</pc>
+          </ab>
+          <ab type="verse" n="45">
+            <w>idant</w>
+            <w>anis</w>
+            <lb n="36"/>
+            <w>ſzinotụ</w>
+            <pc>,</pc>
+            <w>taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst></w>
+            <w>ſanti</w>
+            <seg rend="caps" type="nomen_sacrum">Ponạ</seg>
+            <w>wiena-<lb n="37" break="no"/>tighị</w>
+            <w>Diewa</w>
+            <pc>,</pc>
+            <ref target="#md01"><w>ſ<seg xml:id="en11">c</seg>hlownạ</w></ref>
+            <w>ant</w>
+            <w>Szemes</w>
+            <pc>.</pc>
+          </ab>
           <ab xml:id="md01" type="marginal_gloss" hand="#h08" xml:lang="ger">Herrlich</ab>
           <gb type="sheet" n="235"/>
           <pb n="235r" facs="facs/BrB_V_235r.pdf"/>
           <fw type="sheet_number" place="top-right" rend="stamp">232</fw>
           <fw type="sheet_number" place="bot-centre" hand="#h10">235</fw>
           <fw type="sheet_number" place="bot-right" hand="#h11">235</fw>
+          <!-- Hier weiter für Tokenisierung :) (und oben das deutsche...?!?) -->
           <fw type="header" place="top-center">Malda Aſario</fw>
           <gb type="paragraph"/>
-          <lb n="1"/><ab type="verse" n="46">Bei Tarnai Karaliaus, kurie ios<lb n="2"/>ing Pecziụ buwa ịmætẹ, neſ
-          <subst><del>s</del><add>i</add></subst>lowe, bet <lb n="3"/>wiſsadai primete, Sier<metamark function="insert" target="#ml01 #md02"/>ạ ir <ref target="#ml02 #md03">Smalạ</ref><lb n="4"/>ir paků<choice><unclear cert="high"><seg hand="#h09">l</seg></unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/>u, ir ſauſụ
-          <mod type="lexical_alternative" instant="false"><del rend="unmarked">krumụ</del><add rend="small_interlinear_above" hand="#h04">ſchakụ</add></mod>,</ab>
+          <lb n="1"/><ab type="verse" n="46">Bei Tarnai Karaliaus
+<pc>,</pc>
+kurie ios<lb n="2"/>ing Pecziụ buwa ịmætẹ
+<pc>,</pc>
+neſ
+          <subst><del>s</del><add>i</add></subst>lowe
+<pc>,</pc>
+bet <lb n="3"/>wiſsadai primete
+<pc>,</pc>
+Sier<metamark function="insert" target="#ml01 #md02"/>ạ ir <ref target="#ml02 #md03">Smalạ</ref><lb n="4"/>ir paků<choice><unclear cert="high"><seg hand="#h09">l</seg></unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/>u
+<pc>,</pc>
+ir ſauſụ
+          <mod type="lexical_alternative" instant="false"><del rend="unmarked">krumụ</del><add rend="small_interlinear_above" hand="#h04">ſchakụ</add></mod>
+<pc>,</pc>
+</ab>
           <ab type="verse" n="47">
-          <mod type="lexical_alternative" instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod><lb n="5"/>liepſna aukſchtai iſch pecziaus ſchoka,<lb n="6"/>
+          <mod type="lexical_alternative" instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod><lb n="5"/>liepſna aukſchtai iſch pecziaus ſchoka
+<pc>,</pc>
+<lb n="6"/>
           <seg xml:id="tw01">kaip</seg><metamark function="transposition" target="#tw01 #h07" place="above">1</metamark>
           <seg xml:id="tw02">dewines</seg><metamark function="transposition" target="#tw02 #h07" place="above">5</metamark>
           <seg xml:id="tw03">bei</seg><metamark function="transposition" target="#tw03 #h07" place="above">4</metamark>
@@ -579,15 +937,41 @@
               <ptr target="#tw02"/>
             </transpose>
           </listTranspose>
-           olek-<lb n="7" break="no"/><del instant="true">c<choice><unclear cert="high">a</unclear><unclear cert="low">u</unclear></choice></del>tụ aukſchtiniu,</ab>
-           <ab type="verse" n="48"> ir pagadinna ap-<lb n="8" break="no"/>linkui ſawe, ir ſudege Chaldeus,<lb n="9"/>kurius ſugawa ties Peczumi.</ab>
+           olek-<lb n="7" break="no"/><del instant="true">c<choice><unclear cert="high">a</unclear><unclear cert="low">u</unclear></choice></del>tụ aukſchtiniu
+<pc>,</pc>
+</ab>
+           <ab type="verse" n="48"> ir pagadinna ap-<lb n="8" break="no"/>linkui ſawe
+<pc>,</pc>
+ir ſudege Chaldeus
+<pc>,</pc>
+<lb n="9"/>kurius ſugawa ties Peczumi
+<pc>.</pc>
+</ab>
           <ab xml:id="ml01" type="marginal_gloss" hand="#h02">Sierka</ab>
           <ab xml:id="md02" type="marginal_gloss" hand="#h08" xml:lang="ger">ſchwefel</ab>
           <ab xml:id="ml02" type="marginal_gloss" hand="#h02">pikkis</ab>
           <ab xml:id="md03" type="marginal_gloss" hand="#h08" xml:lang="ger">pech</ab>
           <ab xml:id="md04" type="marginal_gloss" hand="#h08" xml:lang="ger">werk</ab>
-          <ab type="verse" n="49">O<lb n="10"/>Angelas <seg rend="caps" type="nomen_sacrum">Pono</seg> eija ſu tais, kurie<lb n="11"/>pas Aſariạ buwa, ing Pæcziụ,</ab>
-          <ab type="verse" n="50"> ir iſch-<lb n="12" break="no"/>ſtume Liepſnạ Vgnies iſch pęcziaus,<lb n="13"/>ir padare pæczuie, kaip ſchaltạ<lb n="14"/>Raſạ, <mod type="lexical_alternative"  instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod> iụ Vgnis niekaip nedaſsi-<lb n="15" break="no"/>liteia, nei perſcheia, nei paſzeide.</ab>
+          <ab type="verse" n="49">O<lb n="10"/>Angelas <seg rend="caps" type="nomen_sacrum">Pono</seg> eija ſu tais
+<pc>,</pc>
+kurie<lb n="11"/>pas Aſariạ buwa
+<pc>,</pc>
+ing Pæcziụ
+<pc>,</pc>
+</ab>
+          <ab type="verse" n="50"> ir iſch-<lb n="12" break="no"/>ſtume Liepſnạ Vgnies iſch pęcziaus
+<pc>,</pc>
+<lb n="13"/>ir padare pæczuie
+<pc>,</pc>
+kaip ſchaltạ<lb n="14"/>Raſạ
+<pc>,</pc>
+<mod type="lexical_alternative"  instant="false"><del rend="unmarked">kaip</del><add rend="small_interlinear_above" hand="#h04">iog</add></mod> iụ Vgnis niekaip nedaſsi-<lb n="15" break="no"/>liteia
+<pc>,</pc>
+nei perſcheia
+<pc>,</pc>
+nei paſzeide
+<pc>.</pc>
+</ab>
         </div>
         </div>
       </div>
