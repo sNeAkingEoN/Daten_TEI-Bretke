@@ -22,7 +22,7 @@ xml = '{' + xml_ns + '}'
 
 nss = {'tei': 'http://www.tei-c.org/ns/1.0', 'xml': 'http://www.w3.org/XML/1998/namespace'}
 
-tokenlist = root.xpath('//tei:div[@type="edited_text"]//tei:w|//tei:div[@type="edited_text"]//tei:pc|//tei:div[@type="edited_text"]//tei:lb', namespaces=nss) 
+tokenlist = root.xpath('//tei:div[@type="edited_text"]//tei:w|//tei:div[@type="edited_text"]//tei:pc|//tei:div[@type="edited_text"]//tei:lb|//tei:div[@type="edited_text"]//tei:pb', namespaces=nss) 
 # tokenlist = root.xpath('//tei:div[@type="edited_text"]//tei:w', namespaces=nss) # so geht's
 
 
@@ -37,6 +37,7 @@ print(len(tokenlist))
 # generiere automatisch token-id :):
 linenr = 0
 tok_count = 0
+page_name = ''
 for token in tokenlist: 
     if token.tag == '{}w'.format(tei): 
         if '{}id'.format(xml) in token.attrib:
@@ -47,12 +48,19 @@ for token in tokenlist:
                 print("falsches token?")
         else:
             tok_count += 1
-            token.set('{}id'.format(xml), 'tok-234rll-{}'.format(tok_count)) # forläufig - funktioniert nur für die erste Seite!
-        print(tok_count)
-    print(token.text)
+            token.set('{}id'.format(xml), 'tok-{}{:0>2}-{:0>3}'.format(page_name, linenr, tok_count)) 
+    #     print(tok_count)
+    # print(token.text)
     if token.tag == '{}lb'.format(tei):
-        linenr +=1
-    # print(linenr)
+        linenr = token.attrib['n']
+        print("line", linenr)
+    if token.tag == '{}pb'.format(tei):
+        # print("page number gefunden!")
+        if 'n' in token.attrib:
+            print("ja!")
+            page_name = token.attrib['n']
+            print("page_name", page_name)
+            
 
 outstr = etree.tostring(root, encoding='unicode', pretty_print=True)
 
