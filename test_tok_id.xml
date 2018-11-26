@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <!-- muss noch komplett gemacht werden.-->
@@ -23,7 +25,7 @@
         <listPerson>
           <person xml:id="auth_JB" source="#original_edition pp. 7f.">
             <persName xml:lang="ger" type="preferred">Johannes Bretke</persName>
-            <persName xml:lang="lit" type="alternative">Jonas Bretkūnas</persName>
+            <persName xml:lang="lit" type="alternative">Jonas Bretk&#x016b;nas</persName>
             <birth when="1536"/>
             <death when="1602"/>
             <idno type="GND">119067897</idno>
@@ -50,7 +52,7 @@
               <!-- gesamte Bibelübersetzung, GND: gesamte Bibel -->
               <locus>Gesamte Bibelübersetzung</locus>
               <author ref="#auth_JB"/>
-              <title><seg rend="caps" type="title">Biblia</seg> tatai eſti Wiſsas Schwentas Raſchtas, Lietuwiſchkai pergulditas per Ianạ Bretkunạ Lietuwos Plebonạ <sic>Karaliacziue</sic> 1590<note type="bibliographical">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
+              <title><seg rend="caps" type="title">Biblia</seg> tatai e&#x017f;ti Wi&#x017f;sas Schwentas Ra&#x017f;chtas, Lietuwi&#x017f;chkai pergulditas per Ian&#x1ea1; Bretkun&#x1ea1; Lietuwos Plebon&#x1ea1; <sic>Karaliacziue</sic> 1590<note type="bibliographical">Titelangabe übernommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note></title>
               <textLang mainLang="lit">Old Lithuanian</textLang>
             </msItem>
             <msItem class="this_volume">
@@ -62,7 +64,7 @@
             <msItem class="this_text">
               <locus from="234r1" to="235r15">ff.234r1-235r15</locus>
               <!-- hier weiter machen... -->
-              <title>Malda Aſaria</title>
+              <title>Malda A&#x017f;aria</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -95,11 +97,11 @@
               <handNote xml:id="h02" scope="minor" script="antiqua" medium="brown-ink">Zwei litauische Randglossen, möglicherweise ebenfalls von Bretke.</handNote>
               <handNote xml:id="h03" scope="minor" script="antiqua" medium="brown-ink">Korrekturen einzelner Silben, interlinear direkt über dem Wort, wahrscheinlich von Bretke selbst.</handNote>
               <handNote xml:id="h04" scope="minor" script="antiqua" medium="brown-ink">Interlinearglossen von Wortvarianten, möglicherweise von Bretke.</handNote>
-              <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu <q type="linguistic_material">tukſtanti</q> (234v20). Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
-              <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von <q type="linguistic_material">Iſaac</q> zu <q type="linguistic_material">Iſaak</q> (234v2). Schwarze Tinte, eher breitere Feder.</handNote>
+              <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu <q type="linguistic_material">tuk&#x017f;tanti</q> (234v20). Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
+              <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von <q type="linguistic_material">I&#x017f;aac</q> zu <q type="linguistic_material">I&#x017f;aak</q> (234v2). Schwarze Tinte, eher breitere Feder.</handNote>
               <handNote xml:id="h07" scope="minor" script="arabic-numbers" medium="brown-ink">Zahlen, die Wortreihenfolge neu organisieren. Alte Wortreihenfolge zeigt deutsche Vorlage bzw. Muttersprachlichkeit Bretkes. Möglicherweise von Bretke.</handNote>
               <handNote xml:id="h08" scope="minor" script="german_cursive" medium="brown-ink">Deutsche Entsprechungen zu einzelnen litauischen Vokabeln S. 234v und 235r in margine sowie die Bogensignatur. Möglicherweise von Bretke.</handNote>
-              <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink">Strich über <q type="linguistic_material">pakůlụ</q> (235v4), intensivere Tinte.</handNote>
+              <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink">Strich über <q type="linguistic_material">paku&#x030a;l&#x1ee5;</q> (235v4), intensivere Tinte.</handNote>
               <handNote xml:id="h10" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä., unten mittig, unbekannte Herkunft</handNote>
               <handNote xml:id="h11" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä. rechts unten von Fotographen Paul Koeppen, hinzugefügt <date notBefore="1950" notAfter="1979">zwischen 1950 und 1979</date> in Göttingen (<ref target="#FaksSenasis4-5">Kessler 2013</ref>:VIII)(ebenso wie die Stempelung)</handNote>
             </handDesc>
@@ -110,7 +112,7 @@
               <p>Der evangelisch-lutherische Pfarrer <name type="person" ref="#auth_JB">Johannes Bretke</name> übersetzte die gesamte Bibel in der <origDate from="1579-03-06" to="1590-11-29">zweiten Hälfte des 16. Jahrhunderts</origDate> in <origPlace><name type="place" corresp="http://d-nb.info/gnd/5038275-5">Labiau</name><!-- nimmt Kreis Labiau, nicht Stadt --> und <name type="place" corresp="http://d-nb.info/gnd/4031541-1">Königsberg</name> im <name type="place" corresp="http://d-nb.info/gnd/4137053-3">Herzogtum</name> Preußen</origPlace>(<ref target="#Range-Bausteine">Range 1992</ref>:1-7).</p>
             </origin>
             <provenance>
-              <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte <rs ref="#auth_JB">der Übersetzer</rs> das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>(<ref target="#Range-Bausteine">Range 1992</ref>:9). Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach Kėdainai verliehen, allerdings nicht für die von <name type="person">S. B. Chyliński</name> angefertigte Bibelübersetzung benutzt (<ref target="#Falkenhahn">Falkenhahn 1941</ref>:235-245). Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">1877</date> nach Göttingen (<ref target="#Bezzenberger">Bezzenberger 1877</ref>:X, XXXVII). Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt (<ref target="#Range-Bausteine">Range 1992</ref>:9) und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet (<ref target="#FaksSenasis1">Kluge 1996</ref>:XIV), woraufhin es in der Fachwelt allerdings als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen (<ref target="#FaksSenasis">Scholz und Range 2002</ref>:XII).</p>
+              <p>Kurz vor seinem Tod im Jahr <date when="1602">1602</date> verkaufte <rs ref="#auth_JB">der Übersetzer</rs> das Manuskript, das nie gedruckt wurde, an den Herzog von Preußen, <name type="person">Georg Friedrich</name>(<ref target="#Range-Bausteine">Range 1992</ref>:9). Zwischen <date notBefore="1662" notAfter="1664">1662 und 1664</date> wurde das Manuskript nach K&#x0117;dainai verliehen, allerdings nicht für die von <name type="person">S. B. Chyliński</name> angefertigte Bibelübersetzung benutzt (<ref target="#Falkenhahn">Falkenhahn 1941</ref>:235-245). Nachdem es durch <name type="person">Ph. Fortunatov</name> in das Interesse der baltistischen Forschung gerückt wurde, entlieh <name type="person">A. Bezzenberger</name> es <date when="1877">1877</date> nach Göttingen (<ref target="#Bezzenberger">Bezzenberger 1877</ref>:X, XXXVII). Bis <date notBefore="1941" notAfter="1945">Ende des 2. Weltkriegs</date> wurde es in der Königlichen und Universitätsbibliothek Königsberg unter der Signatur <idno>Cod. MS. 1218</idno> aufbewahrt (<ref target="#Range-Bausteine">Range 1992</ref>:9) und dann aus dem Kriegschaos von dem Historiker <name type="person">Reinhard Wittram</name> (1902-1973) gerettet (<ref target="#FaksSenasis1">Kluge 1996</ref>:XIV), woraufhin es in der Fachwelt allerdings als verschollen galt. Erst <date notBefore="1950">nach 1950</date> gelangte es in den Besitz des staatlichen Archivlagers in Göttingen (<ref target="#FaksSenasis">Scholz und Range 2002</ref>:XII).</p>
               <p>Von Bretkes<!-- auszeichnen als Person...? --> Hand ist dieser Text nur im einzigen bekannten Manuskript überliefert.<!-- Belegen? --></p>
             </provenance>
             <acquisition>
@@ -156,7 +158,7 @@
               <biblStruct xml:id="FaksSenasis4-5">
                 <monogr>
                   <author>Stephan Kessler</author>
-                  <title level="m">BIBLIA tatai eſti Wiſsas Schwentas Raſchtas. Faksimile der Handschrift</title>
+                  <title level="m">BIBLIA tatai e&#x017f;ti Wi&#x017f;sas Schwentas Ra&#x017f;chtas. Faksimile der Handschrift</title>
                   <imprint>
                     <date when="2013">2013</date>
                     <pubPlace>Paderborn et al.</pubPlace>
@@ -175,7 +177,7 @@
               <biblStruct xml:id="FaksSenasis1">
                 <monogr>
                   <author>Friedemann Kluge</author>
-                  <title level="m">BIBLIA tatai eſti Wiſsas Schwentas Raſchtas. Faksimile der Handschrift</title>
+                  <title level="m">BIBLIA tatai e&#x017f;ti Wi&#x017f;sas Schwentas Ra&#x017f;chtas. Faksimile der Handschrift</title>
                   <imprint>
                     <date when="1996">1996</date>
                     <pubPlace>Paderborn et al.</pubPlace>
@@ -195,7 +197,7 @@
                 <monogr>
                   <author>Friedrich Scholz</author>
                   <author>Jochen Dieter Range</author>
-                  <title level="m">BIBLIA tatai eſti Wiſsas Schwentas Raſchtas. Faksimile der Handschrift</title>
+                  <title level="m">BIBLIA tatai e&#x017f;ti Wi&#x017f;sas Schwentas Ra&#x017f;chtas. Faksimile der Handschrift</title>
                   <imprint>
                     <date when="2002">2002</date>
                     <pubPlace>Paderborn et al.</pubPlace>
@@ -282,7 +284,7 @@
           <p>Bei der Übertragung der Printedition in TEI wurde keine Fehlerkorrektur vorgenommen.</p>
         </correction>
         <normalization method="silent">
-          <p>Prinzipiell werden alle verwendeten Zeichen so wiedergegeben, wie sie <rs ref="#auth_JB">vom Schreiber Bretke</rs> geschrieben bzw. intendiert wurden.<!-- anders formulieren... Fachwort von Plachta? - wahrscheinlich "diplomatischer Abdruck" --> Dabei ergaben sich für die Bewertung spezifische Fragen: die Verbindung aus Strichbuchstaben, z.B. <q type="graphematic">ui</q> oder <q type="graphematic">iu</q> ist nicht immer klar lesbar, dabei wird auf die verwendeten Wörter zurückgegriffen. <q type="graphematic">ij</q> wird immer <q type="graphematic">ij</q> gelesen, in diesem Textabschnitt findet sich kein <q type="graphematic">ÿ</q>. Weiterhin verwendet Bretke verschiedenartige Diakritika über dem <q type="graphematic">u</q>, von denen hier nur der Kreis über dem <q type="graphematic">u</q>, <q type="graphematic">ů</q>, wiedergegeben wird, da nur dieser als möglicherweise bedeutungstragend gilt, da er manchmal auf nlit. <q type="graphematic">uo</q> hindeutet. Dieser wird auch gelesen, wenn der Kreis nicht komplett geschlossen ist. Gelegentlich kommen <q type="graphematic">ę</q> und <q type="graphematic">æ</q> für nlit. <q type="graphematic">e</q> vor, die ebenso dargestellt werden. Die nlit. Nasalvokale <q type="graphematic">ą</q>, <q type="graphematic">ę</q>, <q type="graphematic">į</q> und <q type="graphematic">ų</q> werden oft mit einem Punkt unter dem Basisgraphem dargestellt, der in der Edition auch dann so wieder gegeben wird, wenn er zu einem Strich langgezogen ist: <q type="graphematic">ạ</q>, <q type="graphematic">ẹ</q>, <q type="graphematic">ị</q>, <q type="graphematic">ụ</q>. Im Bereich der Konsonanten erfolgt ebenfalls keine Normalisierung bzw. Modernisierung, z.B. bleibt <q type="graphematic">ſch</q> für nlit. <q type="graphematic">š</q> und positionsabhängiges <q type="graphematic">ſ</q>. In der Handschrift Bretkes ist zuweilen ein <q type="graphematic">t</q> schwer von einem <q type="graphematic">l</q> zu unterscheiden. Es hat sich gezeigt, dass das <q type="graphematic">l</q> prinzipiell die längere Oberlänge hat. Bisweilen sind Majuskeln am Wortanfang schwer von Minuskeln zu unterscheiden, das betrifft vor allem <q type="graphematic">K</q> und <q type="graphematic">k</q>, <q type="graphematic">S</q> und <q type="graphematic">ſ</q>, <q type="graphematic">W</q> und <q type="graphematic">w</q> und <q type="graphematic">L</q> und <q type="graphematic">l</q>. Hier werden zweifelhafte Fälle nicht gekennzeichnet. Möglicherweise war eine Unterscheidung von <q type="graphematic">U</q>/<q type="graphematic">V</q> und <q type="graphematic">I</q>/<q type="graphematic">J</q> am Wortanfang nicht von Bretke intendiert, allerdings wird hier <q type="graphematic">J</q> gelesen, wenn die Schlaufe der Unterlänge geschlossen ist, ansonsten wird <q type="graphematic">I</q> gelesen. Ein weiteres Charakteristikum von Bretkes Handschrift sind die nicht immer deutlichen graphischen Wortgrenzen, deren ambivalente Fälle dem Faksimile zu entnehmen sind und nicht gesondert ausgezeichnet werden. Nicht erwartete Schreibungen werden mit <gi>sic</gi> gekennzeichnet.</p>
+          <p>Prinzipiell werden alle verwendeten Zeichen so wiedergegeben, wie sie <rs ref="#auth_JB">vom Schreiber Bretke</rs> geschrieben bzw. intendiert wurden.<!-- anders formulieren... Fachwort von Plachta? - wahrscheinlich "diplomatischer Abdruck" --> Dabei ergaben sich für die Bewertung spezifische Fragen: die Verbindung aus Strichbuchstaben, z.B. <q type="graphematic">ui</q> oder <q type="graphematic">iu</q> ist nicht immer klar lesbar, dabei wird auf die verwendeten Wörter zurückgegriffen. <q type="graphematic">ij</q> wird immer <q type="graphematic">ij</q> gelesen, in diesem Textabschnitt findet sich kein <q type="graphematic">ÿ</q>. Weiterhin verwendet Bretke verschiedenartige Diakritika über dem <q type="graphematic">u</q>, von denen hier nur der Kreis über dem <q type="graphematic">u</q>, <q type="graphematic">u&#x030a;</q>, wiedergegeben wird, da nur dieser als möglicherweise bedeutungstragend gilt, da er manchmal auf nlit. <q type="graphematic">uo</q> hindeutet. Dieser wird auch gelesen, wenn der Kreis nicht komplett geschlossen ist. Gelegentlich kommen <q type="graphematic">&#x0119;</q> und <q type="graphematic">&#x00e6;</q> für nlit. <q type="graphematic">e</q> vor, die ebenso dargestellt werden. Die nlit. Nasalvokale <q type="graphematic">&#x0105;</q>, <q type="graphematic">&#x0119;</q>, <q type="graphematic">&#012f;</q> und <q type="graphematic">&#x0173;</q> werden oft mit einem Punkt unter dem Basisgraphem dargestellt, der in der Edition auch dann so wieder gegeben wird, wenn er zu einem Strich langgezogen ist: <q type="graphematic">&#x1ea1;</q>, <q type="graphematic">&#x1eb9;</q>, <q type="graphematic">&#x1ecb;</q>, <q type="graphematic">&#x1ee5;</q>. Im Bereich der Konsonanten erfolgt ebenfalls keine Normalisierung bzw. Modernisierung, z.B. bleibt <q type="graphematic">&#x017f;ch</q> für nlit. <q type="graphematic">&#x0161;</q> und positionsabhängiges <q type="graphematic">&#x017f;</q>. In der Handschrift Bretkes ist zuweilen ein <q type="graphematic">t</q> schwer von einem <q type="graphematic">l</q> zu unterscheiden. Es hat sich gezeigt, dass das <q type="graphematic">l</q> prinzipiell die längere Oberlänge hat. Bisweilen sind Majuskeln am Wortanfang schwer von Minuskeln zu unterscheiden, das betrifft vor allem <q type="graphematic">K</q> und <q type="graphematic">k</q>, <q type="graphematic">S</q> und <q type="graphematic">&#x017f;</q>, <q type="graphematic">W</q> und <q type="graphematic">w</q> und <q type="graphematic">L</q> und <q type="graphematic">l</q>. Hier werden zweifelhafte Fälle nicht gekennzeichnet. Möglicherweise war eine Unterscheidung von <q type="graphematic">U</q>/<q type="graphematic">V</q> und <q type="graphematic">I</q>/<q type="graphematic">J</q> am Wortanfang nicht von Bretke intendiert, allerdings wird hier <q type="graphematic">J</q> gelesen, wenn die Schlaufe der Unterlänge geschlossen ist, ansonsten wird <q type="graphematic">I</q> gelesen. Ein weiteres Charakteristikum von Bretkes Handschrift sind die nicht immer deutlichen graphischen Wortgrenzen, deren ambivalente Fälle dem Faksimile zu entnehmen sind und nicht gesondert ausgezeichnet werden. Nicht erwartete Schreibungen werden mit <gi>sic</gi> gekennzeichnet.</p>
         </normalization>
         <punctuation>
           <p>Die Interpunktion folgt der Vorlage, wobei <q type="graphematic">.</q> und <q type="graphematic">,</q> oft nicht leicht voneinander zu unterscheiden sind, in zwei Fällen steht <q type="graphematic">.,</q> und wird auf ein Zeichen reduziert.</p>
@@ -347,7 +349,7 @@
                     <fw type="sheet_number" place="bot-right" hand="#h11">234</fw>
                     <dateline>
                       <fw type="date" place="top-right">
-                        <date when="1590-02-04" xml:lang="lat">A.̊  1590. 4. Februa.</date>
+                        <date when="1590-02-04" xml:lang="lat">A.&#x030a;  1590. 4. Februa.</date>
                       </fw>
                     </dateline>
                     <!-- hier auch tokenisieren? -nö! -->
@@ -363,16 +365,16 @@
                       <w lemma="trečias" pos="nm.o." msd="l.sg.m." xml:id="tok-234r02-004">trecziame</w>
                       <w lemma="paguldymas" pos="sm." msd="l.sg." xml:id="tok-234r02-005">pagul-<lb n="3" break="no"/>dime</w>
                       <pc>.</pc>
-                      <w lemma="iš" pos="prp.+g." msd="--" xml:id="tok-234r03-006">Iſch</w>
-                      <w lemma="grekiškas" pos="sm." msd="g.sg." xml:id="tok-234r03-007">Griekiſchko</w>
+                      <w lemma="i&#x0161;" pos="prp.+g." msd="--" xml:id="tok-234r03-006">I&#x017f;ch</w>
+                      <w lemma="greki&#x0161;kas" pos="sm." msd="g.sg." xml:id="tok-234r03-007">Grieki&#x017f;chko</w>
                       <pc>.</pc>
                     </head>
                     <gb type="paragraph"/>
                     <lb n="4"/>
                     <ab type="verse" n="25">
                       <w lemma="bei" xml:id="tok-234r04-008">Bei</w>
-                      <w xml:id="tok-234r04-009">Aſarias</w>
-                      <w xml:id="tok-234r04-010">ſtoweia</w>
+                      <w xml:id="tok-234r04-009">A&#x017f;arias</w>
+                      <w xml:id="tok-234r04-010">&#x017f;toweia</w>
                       <w xml:id="tok-234r04-011">widui</w>
                       <w xml:id="tok-234r04-012">de-<lb n="5" break="no"/>ganczio</w>
                       <w xml:id="tok-234r05-013">pecziaus</w>
@@ -381,15 +383,15 @@
                       <w xml:id="tok-234r05-015">atwere</w>
                       <mod type="lexical_alternative" instant="true">
                         <del rend="parentheses">
-                          <w xml:id="tok-234r05-016">Naſrus</w>
+                          <w xml:id="tok-234r05-016">Na&#x017f;rus</w>
                         </del>
                         <add rend="inline">
-                          <w xml:id="tok-234r05-017">bur-<lb n="6" break="no"/>nạ</w>
+                          <w xml:id="tok-234r05-017">bur-<lb n="6" break="no"/>n&#x1ea1;</w>
                         </add>
                       </mod>
-                      <w xml:id="tok-234r06-018">ſawa</w>
+                      <w xml:id="tok-234r06-018">&#x017f;awa</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r06-019">meldeſi</w>
+                      <w xml:id="tok-234r06-019">melde&#x017f;i</w>
                       <w xml:id="tok-234r06-020">ir</w>
                       <w xml:id="tok-234r06-021">biloia</w>
                       <pc>.</pc>
@@ -405,7 +407,7 @@
                       <pc>,</pc>
                       <w xml:id="tok-234r07-025">Diewas</w>
                       <lb n="8"/>
-                      <w xml:id="tok-234r08-026">muſu</w>
+                      <w xml:id="tok-234r08-026">mu&#x017f;u</w>
                       <w xml:id="tok-234r08-027">Tiewu</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r08-028">ir</w>
@@ -416,36 +418,36 @@
                       <w xml:id="tok-234r09-033">ir</w>
                       <w xml:id="tok-234r09-034">pagarbintas</w>
                       <w xml:id="tok-234r09-035">buti</w>
-                      <w xml:id="tok-234r09-036">am<sic xml:id="en02">ſs</sic>inai</w>
+                      <w xml:id="tok-234r09-036">am<sic xml:id="en02">&#x017f;s</sic>inai</w>
                       <pc>.</pc>
                     </ab>
                     <ab type="verse" n="27">
-                      <w xml:id="tok-234r09-037">Ne-<lb n="10" break="no"/>ſa</w>
+                      <w xml:id="tok-234r09-037">Ne-<lb n="10" break="no"/>&#x017f;a</w>
                       <w xml:id="tok-234r10-038">tu</w>
-                      <w xml:id="tok-234r10-039">teiſus</w>
+                      <w xml:id="tok-234r10-039">tei&#x017f;us</w>
                       <w xml:id="tok-234r10-040">efsi</w>
-                      <w xml:id="tok-234r10-041">wiſsame</w>
+                      <w xml:id="tok-234r10-041">wi&#x017f;same</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r10-042">ka</w>
                       <w xml:id="tok-234r10-043">mumus</w>
                       <w xml:id="tok-234r10-044">darei</w>
                       <pc>.</pc>
                       <lb n="11"/>
-                      <w xml:id="tok-234r11-045">Wiſsi</w>
+                      <w xml:id="tok-234r11-045">Wi&#x017f;si</w>
                       <w xml:id="tok-234r11-046">tawa</w>
                       <w xml:id="tok-234r11-047">Darbai</w>
-                      <w xml:id="tok-234r11-048">eſti</w>
+                      <w xml:id="tok-234r11-048">e&#x017f;ti</w>
                       <w xml:id="tok-234r11-049">tikri</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r11-050">ir</w>
-                      <w xml:id="tok-234r11-051">kạ</w>
+                      <w xml:id="tok-234r11-051">k&#x1ea1;</w>
                       <lb n="12"/>
                       <w xml:id="tok-234r12-052">tu</w>
                       <w xml:id="tok-234r12-053">dar<choice><unclear cert="high">a</unclear><unclear cert="low">e<gap quantity="1" unit="chars" reason="illegible"/></unclear></choice>i</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r12-054">tatai</w>
-                      <w xml:id="tok-234r12-055">eſti</w>
-                      <w xml:id="tok-234r12-056">tieſa</w>
+                      <w xml:id="tok-234r12-055">e&#x017f;ti</w>
+                      <w xml:id="tok-234r12-056">tie&#x017f;a</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r12-057">ir</w>
                       <w xml:id="tok-234r12-058">tawa</w>
@@ -459,7 +461,7 @@
                     <ab type="verse" n="28">
                       <w xml:id="tok-234r13-063">Tu</w>
                       <w xml:id="tok-234r13-064">mumus</w>
-                      <w xml:id="tok-234r13-065"><sic>th</sic>ieſạ</w>
+                      <w xml:id="tok-234r13-065"><sic>th</sic>ie&#x017f;&#x1ea1;</w>
                       <w xml:id="tok-234r13-066">darai</w>
                       <pc>,</pc>
                       <lb n="14"/>
@@ -477,16 +479,16 @@
                       <w xml:id="tok-234r15-072">kuri</w>
                       <w xml:id="tok-234r15-073">tu</w>
                       <w xml:id="tok-234r15-074">mumus</w>
-                      <w xml:id="tok-234r15-075"><subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above">uſzu</add></subst>ſiuntei</w>
+                      <w xml:id="tok-234r15-075"><subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above">u&#x017f;zu</add></subst>&#x017f;iuntei</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r15-076">ir</w>
                       <w xml:id="tok-234r15-077">ant</w>
-                      <w xml:id="tok-234r15-078">Jeruſa-<lb n="16" break="no"/>lemo</w>
-                      <del rend="strikethrough" instant="true">ſczE</del>
-                      <w xml:id="tok-234r16-079">ſchwento</w>
-                      <w xml:id="tok-234r16-080">Mieſto</w>
-                      <w xml:id="tok-234r16-081">muſụ</w>
-                      <w xml:id="tok-234r16-082">Tie-<lb n="17" break="no"/>wụ</w>
+                      <w xml:id="tok-234r15-078">Jeru&#x017f;a-<lb n="16" break="no"/>lemo</w>
+                      <del rend="strikethrough" instant="true">&#x017f;czE</del>
+                      <w xml:id="tok-234r16-079">&#x017f;chwento</w>
+                      <w xml:id="tok-234r16-080">Mie&#x017f;to</w>
+                      <w xml:id="tok-234r16-081">mu&#x017f;&#x1ee5;</w>
+                      <w xml:id="tok-234r16-082">Tie-<lb n="17" break="no"/>w&#x1ee5;</w>
                       <pc>.</pc>
                       <w xml:id="tok-234r17-083">Tu</w>
                       <w xml:id="tok-234r17-084">tikrai</w>
@@ -497,16 +499,16 @@
                       <pc>,</pc>
                       <lb n="18"/>
                       <w xml:id="tok-234r18-089">delei</w>
-                      <w xml:id="tok-234r18-090">muſụ</w>
-                      <w xml:id="tok-234r18-091">Griekụ</w>
+                      <w xml:id="tok-234r18-090">mu&#x017f;&#x1ee5;</w>
+                      <w xml:id="tok-234r18-091">Griek&#x1ee5;</w>
                       <pc>.</pc>
                     </ab>
                     <gb type="paragraph"/>
                     <lb n="19"/>
                     <ab type="verse" n="29">
-                      <w xml:id="tok-234r19-092">Neſa</w>
+                      <w xml:id="tok-234r19-092">Ne&#x017f;a</w>
                       <w xml:id="tok-234r19-093">mes</w>
-                      <w xml:id="tok-234r19-094">ſu<del xml:id="en03" rend="strikethrough" instant="false">ſsi</del>grieſchiom</w>
+                      <w xml:id="tok-234r19-094">&#x017f;u<del xml:id="en03" rend="strikethrough" instant="false">&#x017f;si</del>grie&#x017f;chiom</w>
                       <w xml:id="tok-234r19-095">ir</w>
                       <w xml:id="tok-234r19-096">pikta</w>
                       <lb n="20"/>
@@ -516,12 +518,12 @@
                       <w xml:id="tok-234r20-099">iog</w>
                       <w xml:id="tok-234r20-100">nog</w>
                       <w xml:id="tok-234r20-101">tawens</w>
-                      <w xml:id="tok-234r20-102">atſtoiom</w>
+                      <w xml:id="tok-234r20-102">at&#x017f;toiom</w>
                       <pc>,</pc>
                       <lb n="21"/>
                       <w xml:id="tok-234r21-103">ir</w>
-                      <w xml:id="tok-234r21-104">wiſsur</w>
-                      <w xml:id="tok-234r21-105">priſch</w>
+                      <w xml:id="tok-234r21-104">wi&#x017f;sur</w>
+                      <w xml:id="tok-234r21-105">pri&#x017f;ch</w>
                       <w xml:id="tok-234r21-106">tawe</w>
                       <w xml:id="tok-234r21-107">darem</w>
                       <pc>,</pc>
@@ -530,29 +532,29 @@
                       <w xml:id="tok-234r21-108">ir</w>
                       <w xml:id="tok-234r21-109">tawa</w>
                       <lb n="22"/>
-                      <w xml:id="tok-234r22-110">priſakimụ</w>
-                      <w xml:id="tok-234r22-111">neklauſem</w>
+                      <w xml:id="tok-234r22-110">pri&#x017f;akim&#x1ee5;</w>
+                      <w xml:id="tok-234r22-111">neklau&#x017f;em</w>
                       <w xml:id="tok-234r22-112">nei</w>
-                      <w xml:id="tok-234r22-113">iụ</w>
+                      <w xml:id="tok-234r22-113">i&#x1ee5;</w>
                       <w xml:id="tok-234r22-114">atboiom</w>
                       <pc>,</pc>
                       <lb n="23"/>
                       <w xml:id="tok-234r23-115">ieib</w>
                       <w xml:id="tok-234r23-116">pagalei</w>
-                      <w xml:id="tok-234r23-117">iụ</w>
+                      <w xml:id="tok-234r23-117">i&#x1ee5;</w>
                       <w xml:id="tok-234r23-118">giwentumbim</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r23-119">kaip</w>
                       <w xml:id="tok-234r23-120">tu</w>
                       <lb n="24"/>
                       <w xml:id="tok-234r24-121">mumus</w>
-                      <w xml:id="tok-234r24-122">priſak<del rend="strikethrough" instant="false"><choice><unclear cert="high">i</unclear><unclear cert="low">c</unclear></choice></del>ei</w>
+                      <w xml:id="tok-234r24-122">pri&#x017f;ak<del rend="strikethrough" instant="false"><choice><unclear cert="high">i</unclear><unclear cert="low">c</unclear></choice></del>ei</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r24-123">idant</w>
                       <w xml:id="tok-234r24-124">mumus</w>
                       <w xml:id="tok-234r24-125">gera</w>
                       <lb n="25"/>
-                      <w xml:id="tok-234r25-126">butụ</w>
+                      <w xml:id="tok-234r25-126">but&#x1ee5;</w>
                       <pc>.</pc>
                     </ab>
                     <ab type="verse" n="31">
@@ -566,8 +568,8 @@
                       <w xml:id="tok-234r26-132">toktai</w>
                       <w xml:id="tok-234r26-133">wis</w>
                       <w xml:id="tok-234r26-134">ant</w>
-                      <w xml:id="tok-234r26-135">muſu</w>
-                      <w xml:id="tok-234r26-136">uſzleidai</w>
+                      <w xml:id="tok-234r26-135">mu&#x017f;u</w>
+                      <w xml:id="tok-234r26-136">u&#x017f;zleidai</w>
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="32">
@@ -575,20 +577,20 @@
                       <w xml:id="tok-234r26-138">mus</w>
                       <lb n="27"/>
                       <w xml:id="tok-234r27-139">padawei</w>
-                      <w xml:id="tok-234r27-140">rankoſna</w>
-                      <w xml:id="tok-234r27-141">muſụ</w>
-                      <w xml:id="tok-234r27-142">Neprieteliụ̊</w>
+                      <w xml:id="tok-234r27-140">ranko&#x017f;na</w>
+                      <w xml:id="tok-234r27-141">mu&#x017f;&#x1ee5;</w>
+                      <w xml:id="tok-234r27-142">Neprieteli&#x1ee5;&#x030a;</w>
                       <lb n="28"/>
                       <w xml:id="tok-234r28-143">Diewo</w>
-                      <w xml:id="tok-234r28-144">neſsibijanczuiu</w>
-                      <w xml:id="tok-234r28-145">piktụ</w>
-                      <w xml:id="tok-234r28-146">Szmoniụ</w>
+                      <w xml:id="tok-234r28-144">ne&#x017f;sibijanczuiu</w>
+                      <w xml:id="tok-234r28-145">pikt&#x1ee5;</w>
+                      <w xml:id="tok-234r28-146">Szmoni&#x1ee5;</w>
                       <pc>,</pc>
                       <lb n="29"/>
                       <w xml:id="tok-234r29-147">ir</w>
-                      <w xml:id="tok-234r29-148">neteiſamuiem</w>
-                      <w xml:id="tok-234r29-149">wiſsụbaiſiauſiu</w>
-                      <w xml:id="tok-234r29-150">Kara-<lb n="30"/>liůi</w>
+                      <w xml:id="tok-234r29-148">netei&#x017f;amuiem</w>
+                      <w xml:id="tok-234r29-149">wi&#x017f;s&#x1ee5;bai&#x017f;iau&#x017f;iu</w>
+                      <w xml:id="tok-234r29-150">Kara-<lb n="30"/>liu&#x030a;i</w>
                       <pc>.</pc>
                     </ab>
                     <gb type="paragraph"/>
@@ -596,8 +598,8 @@
                     <ab type="verse" n="33">
                       <w xml:id="tok-234r31-151">Bei</w>
                       <w xml:id="tok-234r31-152">mes</w>
-                      <w xml:id="tok-234r31-153">nedrenſam</w>
-                      <w xml:id="tok-234r31-154">ſawa</w>
+                      <w xml:id="tok-234r31-153">nedren&#x017f;am</w>
+                      <w xml:id="tok-234r31-154">&#x017f;awa</w>
                       <w xml:id="tok-234r31-155">burnos</w>
                       <lb n="32"/>
                       <w xml:id="tok-234r32-156">atwerti</w>
@@ -606,12 +608,12 @@
                       <w xml:id="tok-234r32-158">
                         <del instant="false">mes</del>
                       </w>
-                      <w xml:id="tok-234r32-159">eſme</w>
+                      <w xml:id="tok-234r32-159">e&#x017f;me</w>
                       <w xml:id="tok-234r32-160">apgedinti</w>
                       <lb n="33"/>
                       <w xml:id="tok-234r33-161">ir</w>
                       <w xml:id="tok-234r33-162">teip</w>
-                      <w xml:id="tok-234r33-163">iůku</w>
+                      <w xml:id="tok-234r33-163">iu&#x030a;ku</w>
                       <w xml:id="tok-234r33-164">tapom</w>
                       <w xml:id="tok-234r33-165">po</w>
                       <supplied xml:id="en04" resp="#edit_AK" reason="illegible">
@@ -619,14 +621,14 @@
                       </supplied>
                       <w xml:id="tok-234r33-167">tawa</w>
                       <lb n="34"/>
-                      <w xml:id="tok-234r34-168">Tarnụ</w>
+                      <w xml:id="tok-234r34-168">Tarn&#x1ee5;</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r34-169">ir</w>
                       <w xml:id="tok-234r34-170">po</w>
                       <w xml:id="tok-234r34-171">akim</w>
-                      <w xml:id="tok-234r34-172">wiſsụ</w>
+                      <w xml:id="tok-234r34-172">wi&#x017f;s&#x1ee5;</w>
                       <w xml:id="tok-234r34-173">taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice></w>
-                      <w xml:id="tok-234r34-174">bijan-<lb n="35" break="no"/>cziụ̊iụ̊</w>
+                      <w xml:id="tok-234r34-174">bijan-<lb n="35" break="no"/>czi&#x1ee5;&#x030a;i&#x1ee5;&#x030a;</w>
                       <pc>.</pc>
                     </ab>
                     <ab type="verse" n="34">
@@ -634,13 +636,13 @@
                       <w xml:id="tok-234r35-176">wienok</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r35-177">nepatremk</w>
-                      <w xml:id="tok-234r35-178">muſu</w>
+                      <w xml:id="tok-234r35-178">mu&#x017f;u</w>
                       <lb n="36"/>
                       <w xml:id="tok-234r36-179">nodemais</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r36-180">delei</w>
                       <w xml:id="tok-234r36-181">tawa</w>
-                      <w xml:id="tok-234r36-182">ſchwento</w>
+                      <w xml:id="tok-234r36-182">&#x017f;chwento</w>
                       <w xml:id="tok-234r36-183">Wardo</w>
                       <pc>,</pc>
                       <lb n="37"/>
@@ -650,26 +652,26 @@
                           <w xml:id="tok-234r37-185">paniekink</w>
                         </del>
                         <add rend="inline">
-                          <w xml:id="tok-234r37-186">atmeſk</w>
+                          <w xml:id="tok-234r37-186">atme&#x017f;k</w>
                         </add>
                       </mod>
                       <w xml:id="tok-234r37-187">tawa</w>
-                      <w xml:id="tok-234r37-188">Sude-<lb n="38" break="no"/>reghimạ</w>
+                      <w xml:id="tok-234r37-188">Sude-<lb n="38" break="no"/>reghim&#x1ea1;</w>
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="35">
                       <w xml:id="tok-234r38-189">nei</w>
                       <w xml:id="tok-234r38-190">atimk</w>
                       <w xml:id="tok-234r38-191">tawa</w>
-                      <w xml:id="tok-234r38-192">Mielaſchirdingiſtẹ</w>
+                      <w xml:id="tok-234r38-192">Miela&#x017f;chirdingi&#x017f;t&#x1eb9;</w>
                       <pb n="234v" facs="facs/BrB_V_234v.pdf"/>
                       <fw type="header" place="top-centre">
                         <w xml:id="tok-234v38-193">Malda</w>
-                        <w xml:id="tok-234v38-194">Aſario</w>
+                        <w xml:id="tok-234v38-194">A&#x017f;ario</w>
                       </fw>
                       <lb n="1"/>
                       <w xml:id="tok-234v01-195">nog</w>
-                      <w xml:id="tok-234v01-196">muſụ</w>
+                      <w xml:id="tok-234v01-196">mu&#x017f;&#x1ee5;</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v01-197">delei</w>
                       <w xml:id="tok-234v01-198">Abrahamo</w>
@@ -688,11 +690,11 @@
                       <w xml:id="tok-234v02-204">tawa</w>
                       <w xml:id="tok-234v02-205">Tarno</w>
                       <w xml:id="tok-234v02-206">
-                        <sic xml:id="en05">Iſaa<subst hand="#h06" instant="false"><del>c</del><add hand="#h06">k</add></subst></sic>
+                        <sic xml:id="en05">I&#x017f;aa<subst hand="#h06" instant="false"><del>c</del><add hand="#h06">k</add></subst></sic>
                       </w>
                       <lb n="3"/>
                       <w xml:id="tok-234v03-207">ir</w>
-                      <w xml:id="tok-234v03-208">Iſraelo</w>
+                      <w xml:id="tok-234v03-208">I&#x017f;raelo</w>
                       <w xml:id="tok-234v03-209">tawa</w>
                       <w xml:id="tok-234v03-210">Schwentoio</w>
                       <pc>,</pc>
@@ -701,20 +703,20 @@
                       <w xml:id="tok-234v03-211">kuriemus</w>
                       <lb n="4"/>
                       <w xml:id="tok-234v04-212">tu</w>
-                      <w xml:id="tok-234v04-213">ſzadeiei</w>
-                      <w xml:id="tok-234v04-214">iụ</w>
-                      <w xml:id="tok-234v04-215">ſeklạ</w>
-                      <w xml:id="tok-234v04-216">padaukſinti</w>
+                      <w xml:id="tok-234v04-213">&#x017f;zadeiei</w>
+                      <w xml:id="tok-234v04-214">i&#x1ee5;</w>
+                      <w xml:id="tok-234v04-215">&#x017f;ekl&#x1ea1;</w>
+                      <w xml:id="tok-234v04-216">padauk&#x017f;inti</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v04-217">kaip</w>
                       <lb n="5"/>
-                      <w xml:id="tok-234v05-218">ſzwaigſdes</w>
+                      <w xml:id="tok-234v05-218">&#x017f;zwaig&#x017f;des</w>
                       <w xml:id="tok-234v05-219">po</w>
                       <w xml:id="tok-234v05-220">Dangumi</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v05-221">ir</w>
                       <w xml:id="tok-234v05-222">kaip</w>
-                      <w xml:id="tok-234v05-223">Szieſ-<lb n="6" break="no"/><seg xml:id="en06">dr</seg>an</w>
+                      <w xml:id="tok-234v05-223">Szie&#x017f;-<lb n="6" break="no"/><seg xml:id="en06">dr</seg>an</w>
                       <w xml:id="tok-234v06-224">pas</w>
                       <w xml:id="tok-234v06-225">Marias</w>
                       <pc>.</pc>
@@ -722,17 +724,17 @@
                     <gb type="paragraph"/>
                     <lb n="7"/>
                     <ab type="verse" n="37">
-                      <w xml:id="tok-234v07-226">Neſa</w>
+                      <w xml:id="tok-234v07-226">Ne&#x017f;a</w>
                       <w xml:id="tok-234v07-227">mes</w>
-                      <w xml:id="tok-234v07-228">kudeſni</w>
+                      <w xml:id="tok-234v07-228">kude&#x017f;ni</w>
                       <w xml:id="tok-234v07-229">tapom</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234v07-230">uſzu</w>
-                      <w xml:id="tok-234v07-231">wiſ-<lb n="8" break="no"/>ſus</w>
+                      <w xml:id="tok-234v07-230">u&#x017f;zu</w>
+                      <w xml:id="tok-234v07-231">wi&#x017f;-<lb n="8" break="no"/>&#x017f;us</w>
                       <w xml:id="tok-234v08-232">Pagonus</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v08-233">ir</w>
-                      <w xml:id="tok-234v08-234">eſme</w>
+                      <w xml:id="tok-234v08-234">e&#x017f;me</w>
                       <w xml:id="tok-234v08-235">dabbar</w>
                       <w xml:id="tok-234v08-236">labai</w>
                       <w xml:id="tok-234v08-237">pa-<lb n="9" break="no"/>niekinti</w>
@@ -740,16 +742,16 @@
                       <w xml:id="tok-234v09-239">Szemes</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v09-240">delei</w>
-                      <w xml:id="tok-234v09-241">muſụ</w>
+                      <w xml:id="tok-234v09-241">mu&#x017f;&#x1ee5;</w>
                       <w xml:id="tok-234v09-242">Gr<unclear>ie</unclear>ku</w>
                       <pc>,</pc>
                     </ab>
                     <lb n="10"/>
                     <ab type="verse" n="38">
                       <w xml:id="tok-234v10-243">iog</w>
-                      <w xml:id="tok-234v10-244">nụ</w>
+                      <w xml:id="tok-234v10-244">n&#x1ee5;</w>
                       <w xml:id="tok-234v10-245">newieno</w>
-                      <w xml:id="tok-234v10-246">Kunigaikſchczio</w>
+                      <w xml:id="tok-234v10-246">Kunigaik&#x017f;chczio</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v10-247">Pra-<lb n="11" break="no"/>rako</w>
                       <w xml:id="tok-234v11-248">nei</w>
@@ -760,18 +762,18 @@
                       <w xml:id="tok-234v11-252">wel</w>
                       <lb n="12"/>
                       <w xml:id="tok-234v12-253">Sudeg<subst><del instant="false">a</del><add hand="#h03">ina</add></subst>ma</w>
-                      <w xml:id="tok-234v12-254">affierạ</w>
+                      <w xml:id="tok-234v12-254">affier&#x1ea1;</w>
                       <w xml:id="tok-234v12-255">nei</w>
-                      <w xml:id="tok-234v12-256">dieniſchkạ</w>
-                      <w xml:id="tok-234v12-257">affierạ</w>
+                      <w xml:id="tok-234v12-256">dieni&#x017f;chk&#x1ea1;</w>
+                      <w xml:id="tok-234v12-257">affier&#x1ea1;</w>
                       <pc>,</pc>
                       <lb n="13"/>
                       <w xml:id="tok-234v13-258">nei</w>
-                      <w xml:id="tok-234v13-259">walgamạ</w>
-                      <w xml:id="tok-234v13-260">affierạ</w>
+                      <w xml:id="tok-234v13-259">walgam&#x1ea1;</w>
+                      <w xml:id="tok-234v13-260">affier&#x1ea1;</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v13-261">nei</w>
-                      <w xml:id="tok-234v13-262">Rukijmạ</w>
+                      <w xml:id="tok-234v13-262">Rukijm&#x1ea1;</w>
                       <pc>.</pc>
                       <lb n="14"/>
                       <w xml:id="tok-234v14-263">Ir</w>
@@ -790,17 +792,17 @@
                       <pc>,</pc>
                       <w xml:id="tok-234v15-274">ir</w>
                       <lb n="16"/>
-                      <w xml:id="tok-234v16-275">Malonẹ</w>
-                      <w xml:id="tok-234v16-276">raſti</w>
+                      <w xml:id="tok-234v16-275">Malon&#x1eb9;</w>
+                      <w xml:id="tok-234v16-276">ra&#x017f;ti</w>
                       <pc>.</pc>
                     </ab>
                     <ab type="verse" n="39">
                       <w xml:id="tok-234v16-277">B<seg xml:id="en07">e</seg>t</w>
-                      <w xml:id="tok-234v16-278">nuſsituſziju-<lb n="17" break="no"/>ſe</w>
+                      <w xml:id="tok-234v16-278">nu&#x017f;situ&#x017f;ziju-<lb n="17" break="no"/>&#x017f;e</w>
                       <w xml:id="tok-234v17-279">Schirde</w>
                       <w xml:id="tok-234v17-280">ir</w>
-                      <w xml:id="tok-234v17-281">ſudauſzita</w>
-                      <w xml:id="tok-234v17-282">Dwaſse</w>
+                      <w xml:id="tok-234v17-281">&#x017f;udau&#x017f;zita</w>
+                      <w xml:id="tok-234v17-282">Dwa&#x017f;se</w>
                       <w xml:id="tok-234v17-283">at-<lb n="18" break="no"/>eime</w>
                       <w xml:id="tok-234v18-284">
                         <mod instant="unknown" rend="underline or strikethrough">mes</mod>
@@ -815,35 +817,35 @@
                       <w xml:id="tok-234v18-288">kaip</w>
                       <w xml:id="tok-234v18-289">kada</w>
                       <lb n="19"/>
-                      <w xml:id="tok-234v19-290">atn<unclear>e</unclear>ſchdami</w>
-                      <w xml:id="tok-234v19-291">Sudeg<subst instant="false"><del>a</del><add hand="#h03">ina</add></subst>mạ</w>
-                      <w xml:id="tok-234v19-292">affierạ</w>
+                      <w xml:id="tok-234v19-290">atn<unclear>e</unclear>&#x017f;chdami</w>
+                      <w xml:id="tok-234v19-291">Sudeg<subst instant="false"><del>a</del><add hand="#h03">ina</add></subst>m&#x1ea1;</w>
+                      <w xml:id="tok-234v19-292">affier&#x1ea1;</w>
                       <w xml:id="tok-234v19-293">nog</w>
                       <lb n="20"/>
-                      <w xml:id="tok-234v20-294">Awinụ</w>
+                      <w xml:id="tok-234v20-294">Awin&#x1ee5;</w>
                       <w xml:id="tok-234v20-295">ir</w>
-                      <w xml:id="tok-234v20-296">Iaucziů</w>
+                      <w xml:id="tok-234v20-296">Iaucziu&#x030a;</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v20-297">ir</w>
                       <w xml:id="tok-234v20-298">daugia</w>
-                      <w xml:id="tok-234v20-299">tukſ<del instant="unknown" rend="strikethrough">ch</del>-<lb n="21" break="no"/>tanti<add rend="right_side_addition" hand="#h05">es</add></w>
-                      <w xml:id="tok-234v21-300">Awiů</w>
+                      <w xml:id="tok-234v20-299">tuk&#x017f;<del instant="unknown" rend="strikethrough">ch</del>-<lb n="21" break="no"/>tanti<add rend="right_side_addition" hand="#h05">es</add></w>
+                      <w xml:id="tok-234v21-300">Awiu&#x030a;</w>
                       <pc>.</pc>
                       <w xml:id="tok-234v21-301">Schitaipo</w>
-                      <w xml:id="tok-234v21-302">teſtow</w>
-                      <w xml:id="tok-234v21-303">muſụ</w>
+                      <w xml:id="tok-234v21-302">te&#x017f;tow</w>
+                      <w xml:id="tok-234v21-303">mu&#x017f;&#x1ee5;</w>
                       <lb n="22"/>
                       <w xml:id="tok-234v22-304">affiera<del instant="true" xml:id="en09">s</del></w>
-                      <w xml:id="tok-234v22-305">ſchẹ</w>
-                      <w xml:id="tok-234v22-306">dienạ</w>
+                      <w xml:id="tok-234v22-305">&#x017f;ch&#x1eb9;</w>
+                      <w xml:id="tok-234v22-306">dien&#x1ea1;</w>
                       <w xml:id="tok-234v22-307">po</w>
                       <w xml:id="tok-234v22-308">tawa</w>
                       <w xml:id="tok-234v22-309">akim</w>
                       <w xml:id="tok-234v22-310">mie-<lb n="23" break="no"/>la<del xml:id="en08">s</del></w>
                       <pc>.</pc>
-                      <w xml:id="tok-234v23-311">Neſa</w>
+                      <w xml:id="tok-234v23-311">Ne&#x017f;a</w>
                       <w xml:id="tok-234v23-312">tu</w>
-                      <w xml:id="tok-234v23-313">ned<unclear>ů</unclear>ſi</w>
+                      <w xml:id="tok-234v23-313">ned<unclear>u&#x030a;</unclear>&#x017f;i</w>
                       <w xml:id="tok-234v23-314">gedona</w>
                       <mod type="lexical_alternative" instant="true">
                         <w xml:id="tok-234v23-315">
@@ -853,7 +855,7 @@
                           <add rend="inline">im-<lb n="24" break="no"/>pulti</add>
                         </w>
                       </mod>
-                      <w xml:id="tok-234v24-317">nuſsitikinczius</w>
+                      <w xml:id="tok-234v24-317">nu&#x017f;sitikinczius</w>
                       <w xml:id="tok-234v24-318">tawimi</w>
                       <pc>.</pc>
                     </ab>
@@ -864,8 +866,8 @@
                       <w xml:id="tok-234v25-320">ateime</w>
                       <w xml:id="tok-234v25-321">mes</w>
                       <w xml:id="tok-234v25-322">nu</w>
-                      <w xml:id="tok-234v25-323">wiſsa</w>
-                      <w xml:id="tok-234v25-324">ſchir-<lb n="26" break="no"/>de</w>
+                      <w xml:id="tok-234v25-323">wi&#x017f;sa</w>
+                      <w xml:id="tok-234v25-324">&#x017f;chir-<lb n="26" break="no"/>de</w>
                       <subst instant="false">
                         <del>
                           <pc>,</pc>
@@ -875,10 +877,10 @@
                           <w xml:id="tok-234v26-325">ir</w>
                         </add>
                       </subst>
-                      <w xml:id="tok-234v26-326">ieſchkom</w>
+                      <w xml:id="tok-234v26-326">ie&#x017f;chkom</w>
                       <w xml:id="tok-234v26-327">tawa</w>
                       <w xml:id="tok-234v26-328">Weid<seg xml:id="en10">a</seg></w>
-                      <w xml:id="tok-234v26-329">ſu</w>
+                      <w xml:id="tok-234v26-329">&#x017f;u</w>
                       <w xml:id="tok-234v26-330">baime</w>
                       <pc>.</pc>
                     </ab>
@@ -906,71 +908,71 @@
                       <w xml:id="tok-234v29-345">pagal</w>
                       <w xml:id="tok-234v29-346">tawa</w>
                       <w xml:id="tok-234v29-347">didzios</w>
-                      <w xml:id="tok-234v29-348">Mielaſchirdingiſ-<lb n="30" break="no"/>tes</w>
+                      <w xml:id="tok-234v29-348">Miela&#x017f;chirdingi&#x017f;-<lb n="30" break="no"/>tes</w>
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="43">
                       <w xml:id="tok-234v30-349">ir</w>
-                      <w xml:id="tok-234v30-350">iſchgelbek</w>
+                      <w xml:id="tok-234v30-350">i&#x017f;chgelbek</w>
                       <w xml:id="tok-234v30-351">mus</w>
                       <w xml:id="tok-234v30-352">pagal</w>
                       <w xml:id="tok-234v30-353">tawa</w>
                       <lb n="31"/>
-                      <w xml:id="tok-234v31-354">ſtebuklingụ̊ </w>
-                      <w xml:id="tok-234v31-355">darbụ</w>
+                      <w xml:id="tok-234v31-354">&#x017f;tebukling&#x1ee5;&#x030a; </w>
+                      <w xml:id="tok-234v31-355">darb&#x1ee5;</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v31-356">ir</w>
-                      <w xml:id="tok-234v31-357">důk</w>
+                      <w xml:id="tok-234v31-357">du&#x030a;k</w>
                       <w xml:id="tok-234v31-358">tawam</w>
                       <w xml:id="tok-234v31-359">War-<lb n="32" break="no"/>dui</w>
-                      <w xml:id="tok-234v32-360">Garbẹ</w>
+                      <w xml:id="tok-234v32-360">Garb&#x1eb9;</w>
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="44">
                       <w xml:id="tok-234v32-361">idant</w>
-                      <w xml:id="tok-234v32-362">ſuſsig<del instant="unknown" rend="strikethrough, light ink">i</del>edintụ</w>
-                      <w xml:id="tok-234v32-363">wiſs<unclear>i</unclear></w>
+                      <w xml:id="tok-234v32-362">&#x017f;u&#x017f;sig<del instant="unknown" rend="strikethrough, light ink">i</del>edint&#x1ee5;</w>
+                      <w xml:id="tok-234v32-363">wi&#x017f;s<unclear>i</unclear></w>
                       <pc>,</pc>
                       <lb n="33"/>
                       <w xml:id="tok-234v33-364">kurie</w>
                       <w xml:id="tok-234v33-365">tawa</w>
                       <w xml:id="tok-234v33-366">Tarnus</w>
-                      <w xml:id="tok-234v33-367">paſzeidz</w>
+                      <w xml:id="tok-234v33-367">pa&#x017f;zeidz</w>
                       <w xml:id="tok-234v33-368">ir</w>
                       <w xml:id="tok-234v33-369">apge<unclear>d</unclear>inti</w>
                       <lb n="34"/>
-                      <w xml:id="tok-234v34-370">butụ</w>
+                      <w xml:id="tok-234v34-370">but&#x1ee5;</w>
                       <w xml:id="tok-234v34-371">delei</w>
                       <w xml:id="tok-234v34-372">tawa</w>
                       <w xml:id="tok-234v34-373">didzos</w>
-                      <w xml:id="tok-234v34-374">ſilos</w>
+                      <w xml:id="tok-234v34-374">&#x017f;ilos</w>
                       <w xml:id="tok-234v34-375">ir</w>
                       <w xml:id="tok-234v34-376">ma<choice><unclear cert="high">c</unclear><unclear cert="low">i</unclear></choice>es</w>
                       <pc>,</pc>
                       <lb n="35"/>
                       <w xml:id="tok-234v35-377">ieib</w>
-                      <w xml:id="tok-234v35-378">iụ̊ </w>
+                      <w xml:id="tok-234v35-378">i&#x1ee5;&#x030a; </w>
                       <w xml:id="tok-234v35-379">Sila</w>
-                      <w xml:id="tok-234v35-380">iſchpuſtita</w>
-                      <w xml:id="tok-234v35-381">butụ</w>
+                      <w xml:id="tok-234v35-380">i&#x017f;chpu&#x017f;tita</w>
+                      <w xml:id="tok-234v35-381">but&#x1ee5;</w>
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="45">
                       <w xml:id="tok-234v35-382">idant</w>
                       <w xml:id="tok-234v35-383">anis</w>
                       <lb n="36"/>
-                      <w xml:id="tok-234v36-384">ſzinotụ</w>
+                      <w xml:id="tok-234v36-384">&#x017f;zinot&#x1ee5;</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v36-385">taw<subst instant="true"><del><choice><unclear cert="medium">a</unclear><unclear cert="medium">o</unclear></choice></del><add>e</add></subst></w>
-                      <w xml:id="tok-234v36-386">ſanti</w>
+                      <w xml:id="tok-234v36-386">&#x017f;anti</w>
                       <seg rend="caps" type="nomen_sacrum">
-                        <w xml:id="tok-234v36-387">Ponạ</w>
+                        <w xml:id="tok-234v36-387">Pon&#x1ea1;</w>
                       </seg>
-                      <w xml:id="tok-234v36-388">wiena-<lb n="37" break="no"/>tighị</w>
+                      <w xml:id="tok-234v36-388">wiena-<lb n="37" break="no"/>tigh&#x1ecb;</w>
                       <w xml:id="tok-234v37-389">Diewa</w>
                       <pc>,</pc>
                       <ref target="#md01">
-                        <w xml:id="tok-234v37-390">ſ<seg xml:id="en11">c</seg>hlownạ</w>
+                        <w xml:id="tok-234v37-390">&#x017f;<seg xml:id="en11">c</seg>hlown&#x1ea1;</w>
                       </ref>
                       <w xml:id="tok-234v37-391">ant</w>
                       <w xml:id="tok-234v37-392">Szemes</w>
@@ -985,7 +987,7 @@
                     <!-- Hier weiter für Tokenisierung :) (und oben das deutsche...?!?) -->
                     <fw type="header" place="top-center">
                       <w xml:id="tok-235r37-393">Malda</w>
-                      <w xml:id="tok-235r37-394">Aſario</w>
+                      <w xml:id="tok-235r37-394">A&#x017f;ario</w>
                     </fw>
                     <gb type="paragraph"/>
                     <lb n="1"/>
@@ -998,34 +1000,34 @@
                       <w xml:id="tok-235r01-399">ios</w>
                       <lb n="2"/>
                       <w xml:id="tok-235r02-400">ing</w>
-                      <w xml:id="tok-235r02-401">Pecziụ</w>
+                      <w xml:id="tok-235r02-401">Peczi&#x1ee5;</w>
                       <w xml:id="tok-235r02-402">buwa</w>
-                      <w xml:id="tok-235r02-403">ịmætẹ</w>
+                      <w xml:id="tok-235r02-403">&#x1ecb;m&#x00e6;t&#x1eb9;</w>
                       <pc>,</pc>
-                      <w xml:id="tok-235r02-404">neſ<subst><del>s</del><add>i</add></subst>lowe</w>
+                      <w xml:id="tok-235r02-404">ne&#x017f;<subst><del>s</del><add>i</add></subst>lowe</w>
                       <pc>,</pc>
                       <w xml:id="tok-235r02-405">bet</w>
                       <lb n="3"/>
-                      <w xml:id="tok-235r03-406">wiſsadai</w>
+                      <w xml:id="tok-235r03-406">wi&#x017f;sadai</w>
                       <w xml:id="tok-235r03-407">primete</w>
                       <pc>,</pc>
-                      <w xml:id="tok-235r03-408">Sier<metamark function="insert" target="#ml01 #md02"/>ạ</w>
+                      <w xml:id="tok-235r03-408">Sier<metamark function="insert" target="#ml01 #md02"/>&#x1ea1;</w>
                       <w xml:id="tok-235r03-409">ir</w>
                       <ref target="#ml02 #md03">
-                        <w xml:id="tok-235r03-410">Smalạ</w>
+                        <w xml:id="tok-235r03-410">Smal&#x1ea1;</w>
                       </ref>
                       <lb n="4"/>
                       <w xml:id="tok-235r04-411">ir</w>
-                      <w xml:id="tok-235r04-412">paků<choice><unclear cert="high"><seg hand="#h09">l</seg></unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/>u</w>
+                      <w xml:id="tok-235r04-412">paku&#x030a;<choice><unclear cert="high"><seg hand="#h09">l</seg></unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/>u</w>
                       <pc>,</pc>
                       <w xml:id="tok-235r04-413">ir</w>
-                      <w xml:id="tok-235r04-414">ſauſụ</w>
+                      <w xml:id="tok-235r04-414">&#x017f;au&#x017f;&#x1ee5;</w>
                       <mod type="lexical_alternative" instant="false">
                         <del rend="unmarked">
-                          <w xml:id="tok-235r04-415">krumụ</w>
+                          <w xml:id="tok-235r04-415">krum&#x1ee5;</w>
                         </del>
                         <add rend="small_interlinear_above" hand="#h04">
-                          <w xml:id="tok-235r04-416">ſchakụ</w>
+                          <w xml:id="tok-235r04-416">&#x017f;chak&#x1ee5;</w>
                         </add>
                       </mod>
                       <pc>,</pc>
@@ -1040,11 +1042,11 @@
                         </add>
                       </mod>
                       <lb n="5"/>
-                      <w xml:id="tok-235r05-419">liepſna</w>
-                      <w xml:id="tok-235r05-420">aukſchtai</w>
-                      <w xml:id="tok-235r05-421">iſch</w>
+                      <w xml:id="tok-235r05-419">liep&#x017f;na</w>
+                      <w xml:id="tok-235r05-420">auk&#x017f;chtai</w>
+                      <w xml:id="tok-235r05-421">i&#x017f;ch</w>
                       <w xml:id="tok-235r05-422">pecziaus</w>
-                      <w xml:id="tok-235r05-423">ſchoka</w>
+                      <w xml:id="tok-235r05-423">&#x017f;choka</w>
                       <pc>,</pc>
                       <lb n="6"/>
                       <seg xml:id="tw01">
@@ -1064,7 +1066,7 @@
                       </seg>
                       <metamark function="transposition" target="#tw04 #h07" place="above">2</metamark>
                       <seg xml:id="tw05">
-                        <w xml:id="tok-235r06-428">deſchimtis</w>
+                        <w xml:id="tok-235r06-428">de&#x017f;chimtis</w>
                       </seg>
                       <metamark function="transposition" target="#tw05 #h07" place="above">3</metamark>
                       <listTranspose>
@@ -1076,23 +1078,23 @@
                           <ptr target="#tw02"/>
                         </transpose>
                       </listTranspose>
-                      <w xml:id="tok-235r06-429">olek-<lb n="7" break="no"/><del instant="true">c<choice><unclear cert="high">a</unclear><unclear cert="low">u</unclear></choice></del>tụ</w>
-                      <w xml:id="tok-235r07-430">aukſchtiniu</w>
+                      <w xml:id="tok-235r06-429">olek-<lb n="7" break="no"/><del instant="true">c<choice><unclear cert="high">a</unclear><unclear cert="low">u</unclear></choice></del>t&#x1ee5;</w>
+                      <w xml:id="tok-235r07-430">auk&#x017f;chtiniu</w>
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="48">
                       <w xml:id="tok-235r07-431">ir</w>
                       <w xml:id="tok-235r07-432">pagadinna</w>
                       <w xml:id="tok-235r07-433">ap-<lb n="8" break="no"/>linkui</w>
-                      <w xml:id="tok-235r08-434">ſawe</w>
+                      <w xml:id="tok-235r08-434">&#x017f;awe</w>
                       <pc>,</pc>
                       <w xml:id="tok-235r08-435">ir</w>
-                      <w xml:id="tok-235r08-436">ſudege</w>
+                      <w xml:id="tok-235r08-436">&#x017f;udege</w>
                       <w xml:id="tok-235r08-437">Chaldeus</w>
                       <pc>,</pc>
                       <lb n="9"/>
                       <w xml:id="tok-235r09-438">kurius</w>
-                      <w xml:id="tok-235r09-439">ſugawa</w>
+                      <w xml:id="tok-235r09-439">&#x017f;ugawa</w>
                       <w xml:id="tok-235r09-440">ties</w>
                       <w xml:id="tok-235r09-441">Peczumi</w>
                       <pc>.</pc>
@@ -1100,7 +1102,7 @@
                     <ab xml:id="ml01" type="marginal_gloss" hand="#h02">
                       <w xml:id="tok-235r09-442">Sierka</w>
                     </ab>
-                    <ab xml:id="md02" type="marginal_gloss" hand="#h08" xml:lang="ger">ſchwefel</ab>
+                    <ab xml:id="md02" type="marginal_gloss" hand="#h08" xml:lang="ger">&#x017f;chwefel</ab>
                     <ab xml:id="ml02" type="marginal_gloss" hand="#h02">
                       <w xml:id="tok-235r09-443">pikkis</w>
                     </ab>
@@ -1114,36 +1116,36 @@
                         <w xml:id="tok-235r10-446">Pono</w>
                       </seg>
                       <w xml:id="tok-235r10-447">eija</w>
-                      <w xml:id="tok-235r10-448">ſu</w>
+                      <w xml:id="tok-235r10-448">&#x017f;u</w>
                       <w xml:id="tok-235r10-449">tais</w>
                       <pc>,</pc>
                       <w xml:id="tok-235r10-450">kurie</w>
                       <lb n="11"/>
                       <w xml:id="tok-235r11-451">pas</w>
-                      <w xml:id="tok-235r11-452">Aſariạ</w>
+                      <w xml:id="tok-235r11-452">A&#x017f;ari&#x1ea1;</w>
                       <w xml:id="tok-235r11-453">buwa</w>
                       <pc>,</pc>
                       <w xml:id="tok-235r11-454">ing</w>
-                      <w xml:id="tok-235r11-455">Pæcziụ</w>
+                      <w xml:id="tok-235r11-455">P&#x00e6;czi&#x1ee5;</w>
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="50">
                       <w xml:id="tok-235r11-456">ir</w>
-                      <w xml:id="tok-235r11-457">iſch-<lb n="12" break="no"/>ſtume</w>
-                      <w xml:id="tok-235r12-458">Liepſnạ</w>
+                      <w xml:id="tok-235r11-457">i&#x017f;ch-<lb n="12" break="no"/>&#x017f;tume</w>
+                      <w xml:id="tok-235r12-458">Liep&#x017f;n&#x1ea1;</w>
                       <w xml:id="tok-235r12-459">Vgnies</w>
-                      <w xml:id="tok-235r12-460">iſch</w>
-                      <w xml:id="tok-235r12-461">pęcziaus</w>
+                      <w xml:id="tok-235r12-460">i&#x017f;ch</w>
+                      <w xml:id="tok-235r12-461">p&#x0119;cziaus</w>
                       <pc>,</pc>
                       <lb n="13"/>
                       <w xml:id="tok-235r13-462">ir</w>
                       <w xml:id="tok-235r13-463">padare</w>
-                      <w xml:id="tok-235r13-464">pæczuie</w>
+                      <w xml:id="tok-235r13-464">p&#x00e6;czuie</w>
                       <pc>,</pc>
                       <w xml:id="tok-235r13-465">kaip</w>
-                      <w xml:id="tok-235r13-466">ſchaltạ</w>
+                      <w xml:id="tok-235r13-466">&#x017f;chalt&#x1ea1;</w>
                       <lb n="14"/>
-                      <w xml:id="tok-235r14-467">Raſạ</w>
+                      <w xml:id="tok-235r14-467">Ra&#x017f;&#x1ea1;</w>
                       <pc>,</pc>
                       <mod type="lexical_alternative" instant="false">
                         <del rend="unmarked">
@@ -1153,16 +1155,16 @@
                           <w xml:id="tok-235r14-469">iog</w>
                         </add>
                       </mod>
-                      <w xml:id="tok-235r14-470">iụ</w>
+                      <w xml:id="tok-235r14-470">i&#x1ee5;</w>
                       <w xml:id="tok-235r14-471">Vgnis</w>
                       <w xml:id="tok-235r14-472">niekaip</w>
-                      <w xml:id="tok-235r14-473">nedaſsi-<lb n="15" break="no"/>liteia</w>
+                      <w xml:id="tok-235r14-473">neda&#x017f;si-<lb n="15" break="no"/>liteia</w>
                       <pc>,</pc>
                       <w xml:id="tok-235r15-474">nei</w>
-                      <w xml:id="tok-235r15-475">perſcheia</w>
+                      <w xml:id="tok-235r15-475">per&#x017f;cheia</w>
                       <pc>,</pc>
                       <w xml:id="tok-235r15-476">nei</w>
-                      <w xml:id="tok-235r15-477">paſzeide</w>
+                      <w xml:id="tok-235r15-477">pa&#x017f;zeide</w>
                       <pc>.</pc>
                     </ab>
                   </div>
@@ -1192,46 +1194,46 @@
               <div synch="#a.DAN" type="book" corresp="http://d-nb.info/gnd/4680211-3">
                 <div synch="#a.DAN.3" type="chapter">
                   <div type="text">
-                    <head type="main_title">Das Gebet Aſarie: Dani. iij.</head>
+                    <head type="main_title">Das Gebet A&#x017f;arie: Dani. iij.</head>
                     <lb/>
-                    <head type="subtitle">Aus dem Griechiſchen.</head>
+                    <head type="subtitle">Aus dem Griechi&#x017f;chen.</head>
                     <gb type="paragraph"/>
-                    <ab type="verse" n="25">Vnd Aſſaria ſtund mitten im glüenden Ofen, vnd that ſeinen Mund auff, betet vnd ſprach.</ab>
+                    <ab type="verse" n="25">Vnd A&#x017f;&#x017f;aria &#x017f;tund mitten im glüenden Ofen, vnd that &#x017f;einen Mund auff, betet vnd &#x017f;prach.</ab>
                     <gb type="paragraph"/>
-                    <ab type="verse" n="26">Gelobt ſeieſtu <seg rend="caps" type="nomen_sacrum">herr</seg>, der Gott vnſer Veter, vnd dein Name muͤſſe gepreiſet vnd geehret werden ewiglich.</ab>
-                    <ab type="verse" n="27">Denn du biſt Gerecht in allem das du vns gethan haſt, Alle deine Wercke ſind rechtſchaffen, vnd was du thuſt, das iſt recht, vnd alle deine Gerichte, ſind vnſtrefflich.</ab>
-                    <ab type="verse" n="28">Du thuſt vns recht, das du vns geſtraffet haſt, mit ſolcher ſtraffe, die du vber vns haſt gehen laſſen, vnd vber Jeruſalem die heilige Stad vnſer Veter, Ja du thuſt recht vnd wol daran, vmb vnſer ſuͤnde willen.</ab>
+                    <ab type="verse" n="26">Gelobt &#x017f;eie&#x017f;tu <seg rend="caps" type="nomen_sacrum">herr</seg>, der Gott vn&#x017f;er Veter, vnd dein Name muͤ&#x017f;&#x017f;e geprei&#x017f;et vnd geehret werden ewiglich.</ab>
+                    <ab type="verse" n="27">Denn du bi&#x017f;t Gerecht in allem das du vns gethan ha&#x017f;t, Alle deine Wercke &#x017f;ind recht&#x017f;chaffen, vnd was du thu&#x017f;t, das i&#x017f;t recht, vnd alle deine Gerichte, &#x017f;ind vn&#x017f;trefflich.</ab>
+                    <ab type="verse" n="28">Du thu&#x017f;t vns recht, das du vns ge&#x017f;traffet ha&#x017f;t, mit &#x017f;olcher &#x017f;traffe, die du vber vns ha&#x017f;t gehen la&#x017f;&#x017f;en, vnd vber Jeru&#x017f;alem die heilige Stad vn&#x017f;er Veter, Ja du thu&#x017f;t recht vnd wol daran, vmb vn&#x017f;er &#x017f;uͤnde willen.</ab>
                     <gb type="paragraph"/>
-                    <ab type="verse" n="29">Denn wir haben geſuͤndigt vnd vbel gethan, Damit das wir von dir gewichen ſind, vnd allenthalben wider dich gethan haben,</ab>
-                    <ab type="verse" n="30">Vnd deinen Geboten nicht gehorchet noch jr geachtet, das wir darnach theten, wie du vns befolhen haſt, auff das es vns wolgienge.</ab>
-                    <ab type="verse" n="31">Darumb haſtu recht gethan, das du ſolches alles vber vns haſt gehen laſſen,</ab>
-                    <ab type="verse" n="32">vnd vns gegeben in die hende vnſer Feinde der gottloſen boͤſen Leute, vnd dem vngerechten grauſamſten Koͤnige auff Erden.
+                    <ab type="verse" n="29">Denn wir haben ge&#x017f;uͤndigt vnd vbel gethan, Damit das wir von dir gewichen &#x017f;ind, vnd allenthalben wider dich gethan haben,</ab>
+                    <ab type="verse" n="30">Vnd deinen Geboten nicht gehorchet noch jr geachtet, das wir darnach theten, wie du vns befolhen ha&#x017f;t, auff das es vns wolgienge.</ab>
+                    <ab type="verse" n="31">Darumb ha&#x017f;tu recht gethan, das du &#x017f;olches alles vber vns ha&#x017f;t gehen la&#x017f;&#x017f;en,</ab>
+                    <ab type="verse" n="32">vnd vns gegeben in die hende vn&#x017f;er Feinde der gottlo&#x017f;en boͤ&#x017f;en Leute, vnd dem vngerechten grau&#x017f;am&#x017f;ten Koͤnige auff Erden.
         </ab>
                     <gb type="paragraph"/>
-                    <ab type="verse" n="33">Vnd wir thuͤren vnſern mund nicht auffthun, ſo ſind wir zu ſchanden vnd zu ſpot worden fur deinen Knechten, vnd fur allen die dich fuͤrchten.</ab>
-                    <ab type="verse" n="34">Aber doch verſtoſſe vns nicht gar, vmb deines heiligen Namens willen, vnd verwirff deinen Bund nicht,</ab>
-                    <ab type="verse" n="35">vnd nim deine Barmhertzigkeit nicht von vns, vmb Abrahams deines geliebten Freunds willen, vnd deines knechts Jſaac vnd Jſrael deines Heiligen,</ab>
-                    <ab type="verse" n="36">welchen du verheiſſen haſt, jren Samen zu mehren, wie die Stern am Himel, vnd wie den ſand am Meer.
+                    <ab type="verse" n="33">Vnd wir thuͤren vn&#x017f;ern mund nicht auffthun, &#x017f;o &#x017f;ind wir zu &#x017f;chanden vnd zu &#x017f;pot worden fur deinen Knechten, vnd fur allen die dich fuͤrchten.</ab>
+                    <ab type="verse" n="34">Aber doch ver&#x017f;to&#x017f;&#x017f;e vns nicht gar, vmb deines heiligen Namens willen, vnd verwirff deinen Bund nicht,</ab>
+                    <ab type="verse" n="35">vnd nim deine Barmhertzigkeit nicht von vns, vmb Abrahams deines geliebten Freunds willen, vnd deines knechts J&#x017f;aac vnd J&#x017f;rael deines Heiligen,</ab>
+                    <ab type="verse" n="36">welchen du verhei&#x017f;&#x017f;en ha&#x017f;t, jren Samen zu mehren, wie die Stern am Himel, vnd wie den &#x017f;and am Meer.
         </ab>
                     <gb type="paragraph"/>
-                    <ab type="verse" n="37">Denn wir ſind geringer worden, denn alle Heiden, vnd ſind jtzt die verachteſten auff Erden, vmb vnſer ſuͤnden willen,</ab>
-                    <ab type="verse" n="38">das wir nu keinen Fuͤrſten, Propheten noch Lerer mehr haben, vnd weder Brandopffer noch teglich Opffer, noch Speiſopffer, noch Reuchwerg, Vnd haben keine Stete, da wir fur dir opffern, vnd gnade finden moͤchten.</ab>
-                    <ab type="verse" n="39">Sondern mit betruͤbtem hertzen vnd zurſchlagenem Geiſt komen wir fur dich,</ab>
-                    <ab type="verse" n="40">als brechten wir Brandopffer von Widdern vnd Rindern, vnd viel tauſent fetter Schafe. Alſo wolteſtu vnſer opffer heuten fur dir gelten vnd angenem ſein laſſen, Denn du leſſeſt nicht zu ſchanden werden, die ſo auff dich hoffen.
+                    <ab type="verse" n="37">Denn wir &#x017f;ind geringer worden, denn alle Heiden, vnd &#x017f;ind jtzt die verachte&#x017f;ten auff Erden, vmb vn&#x017f;er &#x017f;uͤnden willen,</ab>
+                    <ab type="verse" n="38">das wir nu keinen Fuͤr&#x017f;ten, Propheten noch Lerer mehr haben, vnd weder Brandopffer noch teglich Opffer, noch Spei&#x017f;opffer, noch Reuchwerg, Vnd haben keine Stete, da wir fur dir opffern, vnd gnade finden moͤchten.</ab>
+                    <ab type="verse" n="39">Sondern mit betruͤbtem hertzen vnd zur&#x017f;chlagenem Gei&#x017f;t komen wir fur dich,</ab>
+                    <ab type="verse" n="40">als brechten wir Brandopffer von Widdern vnd Rindern, vnd viel tau&#x017f;ent fetter Schafe. Al&#x017f;o wolte&#x017f;tu vn&#x017f;er opffer heuten fur dir gelten vnd angenem &#x017f;ein la&#x017f;&#x017f;en, Denn du le&#x017f;&#x017f;e&#x017f;t nicht zu &#x017f;chanden werden, die &#x017f;o auff dich hoffen.
         </ab>
                     <gb type="paragraph"/>
-                    <ab type="verse" n="41">Alſo komen wir nu mit gantzem hertzen, vnd ſuchen dein Angeſicht mit furcht.</ab>
-                    <ab type="verse" n="42">Darumb las vns nicht zu ſchanden werden, Sondern thu vns <seg rend="caps" type="nomen_sacrum">her</seg>r nach deiner Gnade, vnd nach deiner groſſen Barmhertzigkeit,</ab>
+                    <ab type="verse" n="41">Al&#x017f;o komen wir nu mit gantzem hertzen, vnd &#x017f;uchen dein Ange&#x017f;icht mit furcht.</ab>
+                    <ab type="verse" n="42">Darumb las vns nicht zu &#x017f;chanden werden, Sondern thu vns <seg rend="caps" type="nomen_sacrum">her</seg>r nach deiner Gnade, vnd nach deiner gro&#x017f;&#x017f;en Barmhertzigkeit,</ab>
                     <ab type="verse" n="43">vnd errette vns nach deinen wunderthaten, vnd gib deinem Namen die Ehre,</ab>
-                    <ab type="verse" n="44">Das ſich ſchemen muͤſſen alle, die deinen Knechten leid thun, vnd zuſchanden werden fur deiner groſſen macht vnd gewalt, das jre macht zurſtoͤret werde,</ab>
-                    <ab type="verse" n="45">Damit ſie erfaren, das du biſt der <seg rend="caps" type="nomen_sacrum">herr</seg>, der einige Gott, herrlich auff dem Erdboden.
+                    <ab type="verse" n="44">Das &#x017f;ich &#x017f;chemen muͤ&#x017f;&#x017f;en alle, die deinen Knechten leid thun, vnd zu&#x017f;chanden werden fur deiner gro&#x017f;&#x017f;en macht vnd gewalt, das jre macht zur&#x017f;toͤret werde,</ab>
+                    <ab type="verse" n="45">Damit &#x017f;ie erfaren, das du bi&#x017f;t der <seg rend="caps" type="nomen_sacrum">herr</seg>, der einige Gott, herrlich auff dem Erdboden.
         </ab>
                     <gb type="paragraph"/>
-                    <ab type="verse" n="46">Vnd die Diener des Koͤniges, die ſie in den Ofen geworffen hatten, hoͤreten nicht auff, vnd worffen jmer zu ſchwefel vnd pech vnd werg, vnd duͤrre reiſer,</ab>
-                    <ab type="verse" n="47">Das die Loh oben aus dem Ofen ſchlug, bey neun vnd vierzig ellen hoch,</ab>
-                    <ab type="verse" n="48">vnd fraſs vmb ſich, vnd verbrante die Chaldeer, die es erreichte fur dem ofen.</ab>
-                    <ab type="verse" n="49">Aber der Engel des <seg rend="caps" type="nomen_sacrum">herrn</seg> trat mit denen, die bey Aſaria waren in den Ofen,</ab>
-                    <ab type="verse" n="50">vnd ſties die Loh vom fewr aus dem Ofen, vnd machets im ofen, wie einen kuͤlen thaw, Das das Fewr ſie gar nicht anruͤrete, noch ſchmertzete oder beſchedigte.</ab>
+                    <ab type="verse" n="46">Vnd die Diener des Koͤniges, die &#x017f;ie in den Ofen geworffen hatten, hoͤreten nicht auff, vnd worffen jmer zu &#x017f;chwefel vnd pech vnd werg, vnd duͤrre rei&#x017f;er,</ab>
+                    <ab type="verse" n="47">Das die Loh oben aus dem Ofen &#x017f;chlug, bey neun vnd vierzig ellen hoch,</ab>
+                    <ab type="verse" n="48">vnd fra&#x017f;s vmb &#x017f;ich, vnd verbrante die Chaldeer, die es erreichte fur dem ofen.</ab>
+                    <ab type="verse" n="49">Aber der Engel des <seg rend="caps" type="nomen_sacrum">herrn</seg> trat mit denen, die bey A&#x017f;aria waren in den Ofen,</ab>
+                    <ab type="verse" n="50">vnd &#x017f;ties die Loh vom fewr aus dem Ofen, vnd machets im ofen, wie einen kuͤlen thaw, Das das Fewr &#x017f;ie gar nicht anruͤrete, noch &#x017f;chmertzete oder be&#x017f;chedigte.</ab>
                   </div>
                   <!-- Text -->
                 </div>
@@ -1249,7 +1251,7 @@
       <div xml:lang="ger" type="notes">
         <note target="#en01" type="comment" subtype="paleographical">sic!; Die ungewöhnlich anmutende Form des <q type="graphematic">A</q> ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein <q type="graphematic">E</q> schreiben. In der Tat ist anhand der deutschen Vorlage der Vokativ <q type="linguistic_material">Pone</q> zu erwarten. Zur Form des begonnenen <q type="graphematic">E</q> vgl. 235r23. Stattdessen muss sich Bretke während er den Buchstaben schrieb zugunsten des Nominativ Singular Maskulinum umentschieden haben.</note>
         <note target="#en02" type="comment" subtype="linguistic">Möglicherweise Prussismus</note>
-        <note target="#en03" type="comment" subtype="paleographical">Die Senkrechtstriche erfassen zwar nur <q type="graphematic">ſs</q> und nicht <q type="graphematic">i</q>, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <q type="linguistic_material">pakorau</q> -&gt; <q type="linguistic_material">pakaraiej</q> (234r14) und <q type="linguistic_material">atſiuntei</q> -&gt; <q type="linguistic_material">uſzuſiuntei</q> (234r15)</note>
+        <note target="#en03" type="comment" subtype="paleographical">Die Senkrechtstriche erfassen zwar nur <q type="graphematic">&#x017f;s</q> und nicht <q type="graphematic">i</q>, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <q type="linguistic_material">pakorau</q> -&gt; <q type="linguistic_material">pakaraiej</q> (234r14) und <q type="linguistic_material">at&#x017f;iuntei</q> -&gt; <q type="linguistic_material">u&#x017f;zu&#x017f;iuntei</q> (234r15)</note>
         <note target="#en04" type="comment" subtype="paleographical">Konjektur aus undeutlichem <q type="linguistic_material">akimi</q></note>
         <note target="#en05" type="comment" subtype="linguistic">Keine Kasusendung</note>
         <note target="#en06" type="comment" subtype="paleographical">Keine Streichung</note>

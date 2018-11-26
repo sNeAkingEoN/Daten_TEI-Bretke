@@ -6,15 +6,12 @@ chars = {'̊': '&#x030a;', 'ſ': '&#x017f;', 'ạ': '&#x1ea1;', 'ẹ': '&#x1eb9;
 
 escapes = {v: k for k, v in chars.items()} # falls man das ganze mal umdrehen möchte
 
-filename = os.path.normpath('edition_bretke_asarie.tei')
 
-def use_escapes():
-    with open(filename, 'r') as infile:
-        text = infile.read()
 
+def use_escapes(instring):
     outstring = ''
     used = []
-    for char in text:
+    for char in instring:
         if uni.category(char) == 'Mn' or uni.category(char) == 'Ll':
             for tc in chars:
                 if char == tc:
@@ -24,14 +21,21 @@ def use_escapes():
 
     print(set(used))
     print(len(set(used)), len(chars))
-
-    with open('test_chars.xml', 'w') as outfile:
-        outfile.write(outstring)
+    return outstring
 
 def test_stuff():
     for char in chars.keys():
         print(char, uni.category(char))
 
-if __name__ == '__main__':
-    use_escapes()
+def standalone():
+    infile = os.path.normpath('bretke_geb-asarie.tei')
+    outfile = os.path.normpath('bretke_chars_changed.tei')
+    with open(infile, 'r') as infi:
+        text = infi.read()
+    text = use_escapes(text)
+    with open (outfile, 'w') as oufi:
+        oufi.write(text)
 
+
+if __name__ == '__main__':
+    standalone()
