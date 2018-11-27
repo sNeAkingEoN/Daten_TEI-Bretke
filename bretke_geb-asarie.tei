@@ -15,7 +15,9 @@
         <name xml:id="edit_AK">Anne Königs</name>
         </respStmt>
       </titleStmt>
-      <!--<extent><measure unit="words" quantity="333">Ungefähr 300 Wörter (tokens)</measure></extent>--><!-- genaue Zahl nachtragen! -->
+      <extent>
+        <measure unit="words" quantity="477">477 Wörter (tokens)</measure>
+      </extent>
       <publicationStmt>
         <p>Bearbeitung der Bachelorarbeit <ref target="#original_edition"><title>Der Apokryphentext <title>Das Gebet Asarie</title> in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis.</title></ref> im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities. Beides unveröffentlicht.</p>
       </publicationStmt>
@@ -85,11 +87,11 @@
             <handNote xml:id="h02" scope="minor" script="antiqua" medium="brown-ink">Zwei litauische Randglossen, möglicherweise ebenfalls von Bretke.</handNote>
             <handNote xml:id="h03" scope="minor" script="antiqua" medium="brown-ink">Korrekturen einzelner Silben, interlinear direkt über dem Wort, wahrscheinlich von Bretke selbst.</handNote>
             <handNote xml:id="h04" scope="minor" script="antiqua" medium="brown-ink">Interlinearglossen von Wortvarianten, möglicherweise von Bretke.</handNote>
-            <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu <q type="linguistic_material">tukſtanti</q> (234v20). Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
-            <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von <q type="linguistic_material">Iſaac</q> zu <q type="linguistic_material">Iſaak</q> (234v2). Schwarze Tinte, eher breitere Feder.</handNote>
+            <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu <q type="linguistic_material">tukſtanti</q> <rs ref="#tok-234v20-299">234v20</rs>. Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
+            <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von <q type="linguistic_material">Iſaac</q> zu <q type="linguistic_material">Iſaak</q> <rs ref="#tok-234v02-206">234v2</rs>. Schwarze Tinte, eher breitere Feder.</handNote>
             <handNote xml:id="h07" scope="minor" script="arabic-numbers" medium="brown-ink">Zahlen, die Wortreihenfolge neu organisieren. Alte Wortreihenfolge zeigt deutsche Vorlage bzw. Muttersprachlichkeit Bretkes. Möglicherweise von Bretke.</handNote>
             <handNote xml:id="h08" scope="minor" script="german_cursive" medium="brown-ink">Deutsche Entsprechungen zu einzelnen litauischen Vokabeln S. 234v und 235r in margine sowie die Bogensignatur. Möglicherweise von Bretke.</handNote>
-            <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink">Strich über <q type="linguistic_material">pakůlụ</q> (235v4), intensivere Tinte.</handNote>
+            <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink">Strich über <q type="linguistic_material">pakůlụ</q> <rs ref="#tok-235r04-412">235v4</rs>, intensivere Tinte.</handNote>
             <handNote xml:id="h10" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä., unten mittig, unbekannte Herkunft</handNote>
             <handNote xml:id="h11" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä. rechts unten von Fotographen Paul Koeppen, hinzugefügt <date notBefore="1950" notAfter="1979">zwischen 1950 und 1979</date> in Göttingen (<ref target="#FaksSenasis4-5">Kessler 2013</ref>:VIII)(ebenso wie die Stempelung)</handNote>
             </handDesc>
@@ -279,7 +281,7 @@
           <p>Das Manuskript benutzt doppelte Bindestriche zur Trennung von Wörtern am Zeilenende, die mit einfachen Bindestrichen wiedergegeben werden.</p>
         </hyphenation>
         <segmentation>
-          <p>Der Text ist nach Bibelversen in <gi>ab</gi>-Elemente eingeteilt. <att>n</att> gibt dabei die Versnummer an. Zusätzlich wird die Struktur des Manuskripts (Blätter, Seiten, Absätze, Zeilen) durch unäre <gi>gb</gi>, <gi>pb</gi>, <gi>lb</gi>-Elemente abgebildet.</p>
+          <p>Der Text ist nach Bibelversen in <gi>ab</gi>-Elemente eingeteilt. <att>n</att> gibt dabei die Versnummer an. Zusätzlich wird die Struktur des Manuskripts (Blätter, Seiten, Absätze, Zeilen) durch unäre <gi>gb</gi>, <gi>pb</gi>, <gi>lb</gi>-Elemente abgebildet. Darüber hinaus erfolgt eine Tokenisierung der im Text vorkommenden Wörter. Einzelnde Token sind durch <gi>w</gi>-Elemente gekennzeichnet. Wenn es sich um ein einzelnes Wort handelt, die Token-ID ist in <att>xml:id</att> angegeben. Interpunktionszeichen werden mit <gi>pc</gi>-Elementen ausgezeichnet.</p>
         </segmentation>
         <interpretation>
           <p>Die linguistische Analyse der Printedition wurde nicht übernommen, es finden sich aber sprachliche und paläographische Angaben in den <gi>note</gi>-Elementen. Außerdem wurde die wahrscheinlichste Vorlage, die Lutherbibel von 1545 (vgl. <ref target="#Luther_WA">Werkausgabe Luther</ref>) zum Vergleich eingefügt.</p>
@@ -294,8 +296,9 @@
         </namespace>
       </tagsDecl>
       <refsDecl>
-        <p>Die Referenz auf ein Wort oder eine größere Einheit im Text richtet sich nach der Platzierung im Manuskript und baut sich folgendermaßen auf: Die Nummer der Blattzählung, gefolgt von der Seitenangabe (r für recto, v für verso) gibt die Seitenzahl an. Sie kann aus dem <att>n</att>-Attribut im Element <gi>pb</gi> zu Beginn einer Seite ausgelesen werden. Die Zeilennummer eines Wortes ist im <gi>lb</gi>-Element zu Beginn der Zeile und dort im <att>n</att>-Attribut festgehalten.</p>
+        <p>Die traditionelle Referenz auf ein Wort oder eine größere Einheit im Text richtet sich nach der Platzierung im Manuskript und baut sich folgendermaßen auf: Die Nummer der Blattzählung, gefolgt von der Seitenangabe (r für recto, v für verso) gibt die Seitenzahl an. Sie kann aus dem <att>n</att>-Attribut im Element <gi>pb</gi> zu Beginn einer Seite ausgelesen werden. Die Zeilennummer eines Wortes ist im <gi>lb</gi>-Element zu Beginn der Zeile und dort im <att>n</att>-Attribut festgehalten.</p>
         <p>Die Bibelstelle kann aus den <gi>div</gi>-Elementen für Buch und Kapitel und den <gi>ab</gi>-Elementen, die im <att>n</att>-Attribut die Versnummer angeben, bestimmt werden.</p>
+        <p>Die (automatisch erzeugte) ID im <att>xml:id</att> Attribut eines Token ergibt sich aus der traditionellen Zeilenangabe sowie einer fortlaufenden Wortzählung.</p>
       </refsDecl>
     </encodingDesc>
     <profileDesc>
@@ -311,6 +314,7 @@
     </profileDesc>
     <revisionDesc>
       <change who="#edit_AK">Erste Version: Auszeichnung aller im Manuskript vorkommenden Phänomene, verzeichnet Anmerkungen und den Text der (mutmaßlichen) Vorlage. Linguistische Analyse der Printausgabe ist nicht enthalten. Tokenisierung und grammatikalische Annotation sind für eine spätere Version vorgesehen.</change>
+      <change who="#edit_AK">Zweite Version: Text ist tokenisiert und Tokens sind mit IDs versehen.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -1143,15 +1147,15 @@
     </div> <!-- Bibel -->
   </div> <!-- Deutsche Vorlage -->
       <div xml:lang="ger" type="notes">
-        <note target="#en01" type="comment" subtype="paleographical">sic!; Die ungewöhnlich anmutende Form des <q type="graphematic">A</q> ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein <q type="graphematic">E</q> schreiben. In der Tat ist anhand der deutschen Vorlage der Vokativ <q type="linguistic_material">Pone</q> zu erwarten. Zur Form des begonnenen <q type="graphematic">E</q> vgl. 235r23. Stattdessen muss sich Bretke während er den Buchstaben schrieb zugunsten des Nominativ Singular Maskulinum umentschieden haben.</note>
+        <note target="#en01" type="comment" subtype="paleographical">sic!; Die ungewöhnlich anmutende Form des <q type="graphematic">A</q> ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein <q type="graphematic">E</q> schreiben. In der Tat ist anhand der deutschen Vorlage der Vokativ <q type="linguistic_material">Pone</q> zu erwarten. Zur Form des begonnenen <q type="graphematic">E</q> vgl. <rs>235r23</rs>. Stattdessen muss sich Bretke während er den Buchstaben schrieb zugunsten des Nominativ Singular Maskulinum umentschieden haben.</note>
         <note target="#en02" type="comment" subtype="linguistic">Möglicherweise Prussismus</note>
-        <note target="#en03" type="comment" subtype="paleographical">Die Senkrechtstriche erfassen zwar nur <q type="graphematic">ſs</q> und nicht <q type="graphematic">i</q>, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <q type="linguistic_material">pakorau</q> -&gt; <q type="linguistic_material">pakaraiej</q> (234r14) und <q type="linguistic_material">atſiuntei</q> -&gt; <q type="linguistic_material">uſzuſiuntei</q> (234r15)</note>
+        <note target="#en03" type="comment" subtype="paleographical">Die Senkrechtstriche erfassen zwar nur <q type="graphematic">ſs</q> und nicht <q type="graphematic">i</q>, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <q type="linguistic_material">pakorau</q> -&gt; <q type="linguistic_material">pakaraiej</q> <rs ref="#tok-234r14-069">(234r14)</rs> und <q type="linguistic_material">atſiuntei</q> -&gt; <q type="linguistic_material">uſzuſiuntei</q> <rs ref="#tok-234r15-075">(234r15)</rs></note>
         <note target="#en04" type="comment" subtype="paleographical">Konjektur aus undeutlichem <q type="linguistic_material">akimi</q></note>
         <note target="#en05" type="comment" subtype="linguistic">Keine Kasusendung</note>
         <note target="#en06" type="comment" subtype="paleographical">Keine Streichung</note>
         <note target="#en07" type="comment" subtype="paleographical">Es befindet sich zwar ein Tintenfleck über dem <q type="graphematic">e</q>, der nicht auf die andere Seite durchdrückt, es ist allerdings im vom Bretke benutzten Schriftsystem unmotiviert, über diesen Buchstaben einen Punkt zu setzen. Er sieht eher wie ein versehentlicher Klecks als ein bewusst gesetzter Punkt aus, weshalb er nicht als Diakritikum gelesen wird.</note>
         <note target="#en08" type="comment" subtype="paleographical">gestrichen bei fast noch feuchter Tinte</note>
-        <note target="#en08 #en09" type="comment" subtype="paleographical">Die Streichrichtung und -farbe sowie der grammatische Zusammenhang legen nahe, dass diese beiden Streichungen zusammen erfolgt sind. Die Streichung von <q type="linguistic_material">mie-</q>|<q type="linguistic_material">la</q>[<q type="linguistic_material">s</q>] erfolgte über noch fast feuchter Tinte, sodass deshalb auch die Streichung von <q type="linguistic_material">affiera</q>[<q type="linguistic_material">s</q>] der Grundschicht zuzurechnen ist.</note>
+        <note target="#en08 #en09" type="comment" subtype="paleographical">Die Streichrichtung und -farbe sowie der grammatische Zusammenhang legen nahe, dass diese beiden Streichungen zusammen erfolgt sind. Die Streichung von <q type="linguistic_material">mie-</q>|<q type="linguistic_material">la</q>[<q type="linguistic_material">s</q>] <rs ref="#tok-234v22-310">(234v22)</rs> erfolgte über noch fast feuchter Tinte, sodass deshalb auch die Streichung von <q type="linguistic_material">affiera</q>[<q type="linguistic_material">s</q>] <rs ref="#tok-234v22-304">(234v22)</rs> der Grundschicht zuzurechnen ist.</note>
         <note target="#en10" type="comment" subtype="paleographical">Der Abstrich des <q type="graphematic">a</q> ist ziemlich weit nach unten geraten, was auf den ersten Blick wirkt, als sei er mit einem möglichen Nasalpunkt verbunden. Diese Lesung ist aber bei genauerem Hinsehen nicht haltbar</note>
         <note target="#en11" type="comment" subtype="paleographical">Über dem <q type="graphematic">c</q> befindet sich ein Strich, der mit dem Wortanfang in einem Zug geschrieben sein muss, da die Tinte genau gleich ist. Entweder ist er zufällig gesetzt worden (z.B. weil Bretke schon zum <q type="graphematic">h</q> ansetzen wollte) oder er dient dazu, auf die deutsche Entsprechung <q type="linguistic_material">herrlich</q> i.marg. zu verweisen. Letzteres wäre ein Indiz dafür, dass die deutschen Wörter tatsächlich von Bretke stammen und Teil des Übersetzungsprozesses waren. Ersteres scheint allerdings näherliegend.</note>
         <note target="#en12" type="comment" subtype="paleographical">Der Strich auf dem <q type="graphematic">l</q>, der mit dickerer Tinte als der Fließtext der Grundschicht gesetzt ist, könnte verschiedene Bedeutungen haben. Zunächst könnte er die Oberlänge des <q type="graphematic">l</q> verstärken wollen,um es eindeutiger vom <q type="graphematic">t</q> zu unterscheiden. Dies scheint aber nicht sehr wahrscheinlich,da er sich dazu nicht ausreichend dem Duktus der Schrift anpasst. Viel wahrscheinlicher ist hingegen, dass er auf die deutsche Entsprechung <q type="linguistic_material">werk</q> i.marg. verweisen soll.</note>
