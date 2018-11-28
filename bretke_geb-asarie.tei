@@ -487,84 +487,84 @@
           <gb type="paragraph"/>
           <lb n="19"/>
           <ab type="verse" n="29">
-            <w>Neſa</w>
-            <w>mes</w>
-            <w>ſu<del xml:id="en03" rend="strikethrough" instant="false">ſsi</del>grieſchiom</w>
+            <w lemma="nės" pos="cnj." msd="--">Neſa</w>
+            <w lemma="mes" pos="prn.1.pl." msd="n.">mes</w>
+            <w lemma="sugriešyti" pos="v." msd="1.pl.prt.refl. 1.pl.prt.">ſu<del xml:id="en03" rend="strikethrough" instant="false">ſsi</del>grieſchiom</w>
             <w>ir</w>
-            <w>pikta</w>
+            <w lemma="piktas*" pos="sm." msd="a.sg.">pikta</w>
             <lb n="20"/>
-            <w>darem</w>
+            <w lemma="daryti" pos="v. +a." msd="1.pl.prt.">darem</w>
             <pc>,</pc>
-            <w>tame</w>
+            <w lemma="tas" pos="prn." msd="l.sg.m.">tame</w>
             <w>iog</w>
-            <w>nog</w>
-            <w>tawens</w>
-            <w>atſtoiom</w>
+            <w lemma="nuog" pos="prp. +g." msd="--">nog</w>
+            <w lemma="tu" pos="prn.2.sg." msd="g.">tawens</w>
+            <w lemma="atstoti" pos="v. nuo g." msd="1.pl.prt.">atſtoiom</w>
             <pc>,</pc>
             <lb n="21"/>
             <w>ir</w>
-            <w>wiſsur</w>
-            <w>priſch</w>
-            <w>tawe</w>
-            <w>darem</w>
+            <w lemma="visur" pos="adv" msd="--">wiſsur</w>
+            <w lemma="priš" pos="prp. +a." msd="--">priſch</w>
+            <w lemma="tu" pos="prn.2.sg." msd="a.">tawe</w>
+            <w lemma="daryti" pos="v. +a." msd="1.pl.prt.">darem</w>
             <pc>,</pc>
           </ab>
           <ab type="verse" n="30">
             <w>ir</w>
             <w>tawa</w>
             <lb n="22"/>
-            <w>priſakimụ</w>
-            <w>neklauſem</w>
-            <w>nei</w>
-            <w>iụ</w>
-            <w>atboiom</w>
+            <w lemma="prisakymas*" pos="sm." msd="g.pl.">priſakimụ</w>
+            <w lemma="klausyti" pos="v. +g." msd="1.pl.prt.neg.">neklauſem</w>
+            <w lemma="nei" pos="cnj." msd="--">nei</w>
+            <w lemma="jis" pos="prn." msd="g.pl.">iụ</w>
+            <w lemma="atboti" pos="v." msd="1.pl.prt.">atboiom</w>
             <pc>,</pc>
             <lb n="23"/>
-            <w>ieib</w>
-            <w>pagalei</w>
-            <w>iụ</w>
-            <w>giwentumbim</w>
+            <w lemma="jeib" pos="cnj." msd="--">ieib</w>
+            <w lemma="pagalei" pos="prp. +g." msd="--">pagalei</w>
+            <w lemma="jis" pos="prn." msd="g.pl.">iụ</w>
+            <w lemma="gyventi" pos="v." msd="1.pl.conj.">giwentumbim</w>
             <pc>,</pc>
-            <w>kaip</w>
-            <w>tu</w>
+            <w lemma="kaip" pos="cnj." msd="--">kaip</w>
+            <w lemma="tu" pos="prn.2.sg." msd="n.">tu</w>
             <lb n="24"/>
-            <w>mumus</w>
-            <w>priſak<del rend="strikethrough" instant="false"><choice><unclear cert="high">i</unclear><unclear cert="low">c</unclear></choice></del>ei</w>
+            <w lemma="mes" pos="prn.1.pl." msd="d.">mumus</w>
+            <w lemma="prisakyti" pos="v." msd="2.sg.prt.">priſak<del rend="strikethrough" instant="false"><choice><unclear cert="high">i</unclear><unclear cert="low">c</unclear></choice></del>ei</w>
             <pc>,</pc>
-            <w>idant</w>
-            <w>mumus</w>
-            <w>gera</w>
+            <w lemma="idant" pos="cnj. +conj." msd="--">idant</w>
+            <w lemma="mes" pos="prn.1.pl." msd="d.">mumus</w>
+            <w lemma="geras" pos="adj." msd="nt.">gera</w>
             <lb n="25"/>
-            <w>butụ</w>
+            <w lemma="būti" pos="v. itr." msd="3.conj.">butụ</w>
             <pc>.</pc>
           </ab>
           <ab type="verse" n="31"><w>Todelei</w>
-            <w>tu</w>
-            <w>tikrai</w>
-            <w>darei</w>
+            <w lemma="tu" pos="prn.2.sg." msd="n.">tu</w>
+            <w lemma="tikrai" pos="adv." msd="--">tikrai</w>
+            <w lemma="daryti" pos="v. +a." msd="2.sg.prt.">darei</w>
             <pc>,</pc>
             <w>iog</w>
             <lb n="26"/>
-            <w>toktai</w>
-            <w>wis</w>
-            <w>ant</w>
-            <w>muſu</w>
-            <w>uſzleidai</w>
+            <w lemma="toktai" pos="prn.nt." msd="--">toktai</w>
+            <w lemma="vis" pos="prn.nt" msd="--">wis</w>
+            <w lemma="ant" pos="prp. +g." msd="--">ant</w>
+            <w lemma="mes" pos="prn.1.pl." msd="g.">muſu</w>
+            <w lemma="užleisti" pos="v." msd="2.sg.prt.">uſzleidai</w>
             <pc>,</pc>
           </ab>
           <ab type="verse" n="32">
             <w>ir</w>
-            <w>mus</w>
+            <w lemma="mes" pos="prn.1.pl." msd="n.">mus</w>
             <lb n="27"/>
-            <w>padawei</w>
-            <w>rankoſna</w>
-            <w>muſụ</w>
-            <w>Neprieteliụ̊</w>
+            <w lemma="paduoti" pos="v. +a. +ill." msd="2.sg.prt.">padawei</w>
+            <w lemma="ranka" pos="sf." msd="ill.pl.">rankoſna</w>
+            <w lemma="mes" pos="prn.1.pl." msd="g.">muſụ</w>
+            <w lemma="neprietelius*" pos="sm." msd="g.pl.">Neprieteliụ̊</w>
             <lb n="28"/>
-            <w>Diewo</w>
-            <w>neſsibijanczuiu</w>
-            <w>piktụ</w>
-            <w>Szmoniụ</w>
+            <w lemma="dievas" pos="sm." msd="g.sg.">Diewo</w>
+            <w lemma="bijoti" pos="v. +g." msd="g.pl.prc.prs.act.refl.">neſsibijanczuiu</w>
+            <w lemma="piktas*" pos="adj." msd="g.pl.">piktụ</w>
+            <w lemma="žmonės*" pos="sm.|sf." msd="g.pl.">Szmoniụ</w>
             <pc>,</pc>
             <lb n="29"/>
             <w>ir</w>
