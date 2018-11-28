@@ -16,8 +16,9 @@
           <name xml:id="edit_AK">Anne Königs</name>
         </respStmt>
       </titleStmt>
-      <!--<extent><measure unit="words" quantity="333">Ungefähr 300 Wörter (tokens)</measure></extent>-->
-      <!-- genaue Zahl nachtragen! -->
+      <extent>
+        <measure unit="words" quantity="477">477 Wörter (tokens)</measure>
+      </extent>
       <publicationStmt>
         <p>Bearbeitung der Bachelorarbeit <ref target="#original_edition"><title>Der Apokryphentext <title>Das Gebet Asarie</title> in der altlitauischen Bibelübersetzung von Johannes Bretke. Kommentierte Edition und Wortverzeichnis.</title></ref> im Rahmen einer Hausarbeit im Masterstudiengang Digital Humanities. Beides unveröffentlicht.</p>
       </publicationStmt>
@@ -97,11 +98,11 @@
               <handNote xml:id="h02" scope="minor" script="antiqua" medium="brown-ink">Zwei litauische Randglossen, möglicherweise ebenfalls von Bretke.</handNote>
               <handNote xml:id="h03" scope="minor" script="antiqua" medium="brown-ink">Korrekturen einzelner Silben, interlinear direkt über dem Wort, wahrscheinlich von Bretke selbst.</handNote>
               <handNote xml:id="h04" scope="minor" script="antiqua" medium="brown-ink">Interlinearglossen von Wortvarianten, möglicherweise von Bretke.</handNote>
-              <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu <q type="linguistic_material">tukſtanti</q> (234v20). Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
-              <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von <q type="linguistic_material">Iſaac</q> zu <q type="linguistic_material">Iſaak</q> (234v2). Schwarze Tinte, eher breitere Feder.</handNote>
+              <handNote xml:id="h05" scope="minor" script="antiqua" medium="darkbrown-ink">Ergänzung zu <q type="linguistic_material">tukſtanti</q> <rs ref="#tok-234v20-299">234v20</rs>. Tinte ist dunkler, fast schwarz und leicht glänzend, dünnere Feder. Urheber ist wahrscheinlich Bretke.</handNote>
+              <handNote xml:id="h06" scope="minor" script="antiqua" medium="black-ink">Korrektur von <q type="linguistic_material">Iſaac</q> zu <q type="linguistic_material">Iſaak</q> <rs ref="#tok-234v02-206">234v2</rs>. Schwarze Tinte, eher breitere Feder.</handNote>
               <handNote xml:id="h07" scope="minor" script="arabic-numbers" medium="brown-ink">Zahlen, die Wortreihenfolge neu organisieren. Alte Wortreihenfolge zeigt deutsche Vorlage bzw. Muttersprachlichkeit Bretkes. Möglicherweise von Bretke.</handNote>
               <handNote xml:id="h08" scope="minor" script="german_cursive" medium="brown-ink">Deutsche Entsprechungen zu einzelnen litauischen Vokabeln S. 234v und 235r in margine sowie die Bogensignatur. Möglicherweise von Bretke.</handNote>
-              <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink">Strich über <q type="linguistic_material">pakůlụ</q> (235v4), intensivere Tinte.</handNote>
+              <handNote xml:id="h09" scope="minor" script="antiqua" medium="brown-ink">Strich über <q type="linguistic_material">pakůlụ</q> <rs ref="#tok-235r04-412">235v4</rs>, intensivere Tinte.</handNote>
               <handNote xml:id="h10" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä., unten mittig, unbekannte Herkunft</handNote>
               <handNote xml:id="h11" scope="minor" script="arabic_numerals" medium="pencil">Blattzählung mit Bleistift o.ä. rechts unten von Fotographen Paul Koeppen, hinzugefügt <date notBefore="1950" notAfter="1979">zwischen 1950 und 1979</date> in Göttingen (<ref target="#FaksSenasis4-5">Kessler 2013</ref>:VIII)(ebenso wie die Stempelung)</handNote>
             </handDesc>
@@ -284,7 +285,7 @@
           <p>Bei der Übertragung der Printedition in TEI wurde keine Fehlerkorrektur vorgenommen.</p>
         </correction>
         <normalization method="silent">
-          <p>Prinzipiell werden alle verwendeten Zeichen so wiedergegeben, wie sie <rs ref="#auth_JB">vom Schreiber Bretke</rs> geschrieben bzw. intendiert wurden.<!-- anders formulieren... Fachwort von Plachta? - wahrscheinlich "diplomatischer Abdruck" --> Dabei ergaben sich für die Bewertung spezifische Fragen: die Verbindung aus Strichbuchstaben, z.B. <q type="graphematic">ui</q> oder <q type="graphematic">iu</q> ist nicht immer klar lesbar, dabei wird auf die verwendeten Wörter zurückgegriffen. <q type="graphematic">ij</q> wird immer <q type="graphematic">ij</q> gelesen, in diesem Textabschnitt findet sich kein <q type="graphematic">ÿ</q>. Weiterhin verwendet Bretke verschiedenartige Diakritika über dem <q type="graphematic">u</q>, von denen hier nur der Kreis über dem <q type="graphematic">u</q>, <q type="graphematic">ů</q>, wiedergegeben wird, da nur dieser als möglicherweise bedeutungstragend gilt, da er manchmal auf nlit. <q type="graphematic">uo</q> hindeutet. Dieser wird auch gelesen, wenn der Kreis nicht komplett geschlossen ist. Gelegentlich kommen <q type="graphematic">ę</q> und <q type="graphematic">æ</q> für nlit. <q type="graphematic">e</q> vor, die ebenso dargestellt werden. Die nlit. Nasalvokale <q type="graphematic">ą</q>, <q type="graphematic">ę</q>, <q type="graphematic">į</q> und <q type="graphematic">ų</q> werden oft mit einem Punkt unter dem Basisgraphem dargestellt, der in der Edition auch dann so wieder gegeben wird, wenn er zu einem Strich langgezogen ist: <q type="graphematic">ạ</q>, <q type="graphematic">ẹ</q>, <q type="graphematic">ị</q>, <q type="graphematic">ụ</q>. Im Bereich der Konsonanten erfolgt ebenfalls keine Normalisierung bzw. Modernisierung, z.B. bleibt <q type="graphematic">ſch</q> für nlit. <q type="graphematic">š</q> und positionsabhängiges <q type="graphematic">ſ</q>. In der Handschrift Bretkes ist zuweilen ein <q type="graphematic">t</q> schwer von einem <q type="graphematic">l</q> zu unterscheiden. Es hat sich gezeigt, dass das <q type="graphematic">l</q> prinzipiell die längere Oberlänge hat. Bisweilen sind Majuskeln am Wortanfang schwer von Minuskeln zu unterscheiden, das betrifft vor allem <q type="graphematic">K</q> und <q type="graphematic">k</q>, <q type="graphematic">S</q> und <q type="graphematic">ſ</q>, <q type="graphematic">W</q> und <q type="graphematic">w</q> und <q type="graphematic">L</q> und <q type="graphematic">l</q>. Hier werden zweifelhafte Fälle nicht gekennzeichnet. Möglicherweise war eine Unterscheidung von <q type="graphematic">U</q>/<q type="graphematic">V</q> und <q type="graphematic">I</q>/<q type="graphematic">J</q> am Wortanfang nicht von Bretke intendiert, allerdings wird hier <q type="graphematic">J</q> gelesen, wenn die Schlaufe der Unterlänge geschlossen ist, ansonsten wird <q type="graphematic">I</q> gelesen. Ein weiteres Charakteristikum von Bretkes Handschrift sind die nicht immer deutlichen graphischen Wortgrenzen, deren ambivalente Fälle dem Faksimile zu entnehmen sind und nicht gesondert ausgezeichnet werden. Nicht erwartete Schreibungen werden mit <gi>sic</gi> gekennzeichnet.</p>
+          <p>Prinzipiell werden alle verwendeten Zeichen so wiedergegeben, wie sie <rs ref="#auth_JB">vom Schreiber Bretke</rs> geschrieben bzw. intendiert wurden.<!-- anders formulieren... Fachwort von Plachta? - wahrscheinlich "diplomatischer Abdruck" --> Dabei ergaben sich für die Bewertung spezifische Fragen: die Verbindung aus Strichbuchstaben, z.B. <q type="graphematic">ui</q> oder <q type="graphematic">iu</q> ist nicht immer klar lesbar, dabei wird auf die verwendeten Wörter zurückgegriffen. <q type="graphematic">ij</q> wird immer <q type="graphematic">ij</q> gelesen, in diesem Textabschnitt findet sich kein <q type="graphematic">ÿ</q>. Weiterhin verwendet Bretke verschiedenartige Diakritika über dem <q type="graphematic">u</q>, von denen hier nur der Kreis über dem <q type="graphematic">u</q>, <q type="graphematic">ů</q>, wiedergegeben wird, da nur dieser als möglicherweise bedeutungstragend gilt, da er manchmal auf nlit. <q type="graphematic">uo</q> hindeutet. Dieser wird auch gelesen, wenn der Kreis nicht komplett geschlossen ist. Gelegentlich kommen <q type="graphematic">ę</q> und <q type="graphematic">æ</q> für nlit. <q type="graphematic">e</q> vor, die ebenso dargestellt werden. Die nlit. Nasalvokale <q type="graphematic">ą</q>, <q type="graphematic">ę</q>, <q type="graphematic">į</q> und <q type="graphematic">ų</q> werden oft mit einem Punkt unter dem Basisgraphem dargestellt, der in der Edition auch dann so wieder gegeben wird, wenn er zu einem Strich langgezogen ist: <q type="graphematic">ạ</q>, <q type="graphematic">ẹ</q>, <q type="graphematic">ị</q>, <q type="graphematic">ụ</q>. Im Bereich der Konsonanten erfolgt ebenfalls keine Normalisierung bzw. Modernisierung, z.B. bleibt <q type="graphematic">ſch</q> für nlit. <q type="graphematic">š</q> und positionsabhängiges <q type="graphematic">ſ</q>. In der Handschrift Bretkes ist zuweilen ein <q type="graphematic">t</q> schwer von einem <q type="graphematic">l</q> zu unterscheiden. Es hat sich gezeigt, dass das <q type="graphematic">l</q> prinzipiell die längere Oberlänge hat. Bisweilen sind Majuskeln am Wortanfang schwer von Minuskeln zu unterscheiden, das betrifft vor allem <q type="graphematic">K</q> und <q type="graphematic">k</q>, <q type="graphematic">S</q> und <q type="graphematic">ſ</q>, <q type="graphematic">W</q> und <q type="graphematic">w</q> und <q type="graphematic">L</q> und <q type="graphematic">l</q>. Hier werden zweifelhafte Fälle nicht gekennzeichnet. Möglicherweise war eine Unterscheidung von <q type="graphematic">U</q>/<q type="graphematic">V</q> und <q type="graphematic">I</q>/<q type="graphematic">J</q> am Wortanfang nicht von Bretke intendiert, allerdings wird hier <q type="graphematic">J</q> gelesen, wenn die Schlaufe der Unterlänge geschlossen ist, ansonsten wird <q type="graphematic">I</q> gelesen. Kapitälchen zu Beginn ein eines Absatzes werden zu einfachen Großbuchstaben normalisiert. Ein weiteres Charakteristikum von Bretkes Handschrift sind die nicht immer deutlichen graphischen Wortgrenzen, deren ambivalente Fälle dem Faksimile zu entnehmen sind und nicht gesondert ausgezeichnet werden. Nicht erwartete Schreibungen werden mit <gi>sic</gi> gekennzeichnet.</p>
         </normalization>
         <punctuation>
           <p>Die Interpunktion folgt der Vorlage, wobei <q type="graphematic">.</q> und <q type="graphematic">,</q> oft nicht leicht voneinander zu unterscheiden sind, in zwei Fällen steht <q type="graphematic">.,</q> und wird auf ein Zeichen reduziert.</p>
@@ -293,7 +294,7 @@
           <p>Das Manuskript benutzt doppelte Bindestriche zur Trennung von Wörtern am Zeilenende, die mit einfachen Bindestrichen wiedergegeben werden.</p>
         </hyphenation>
         <segmentation>
-          <p>Der Text ist nach Bibelversen in <gi>ab</gi>-Elemente eingeteilt. <att>n</att> gibt dabei die Versnummer an. Zusätzlich wird die Struktur des Manuskripts (Blätter, Seiten, Absätze, Zeilen) durch unäre <gi>gb</gi>, <gi>pb</gi>, <gi>lb</gi>-Elemente abgebildet.</p>
+          <p>Der Text ist nach Bibelversen in <gi>ab</gi>-Elemente eingeteilt. <att>n</att> gibt dabei die Versnummer an. Zusätzlich wird die Struktur des Manuskripts (Blätter, Seiten, Absätze, Zeilen) durch unäre <gi>gb</gi>, <gi>pb</gi>, <gi>lb</gi>-Elemente abgebildet. Darüber hinaus erfolgt eine Tokenisierung der im Text vorkommenden Wörter. Einzelnde Token sind durch <gi>w</gi>-Elemente gekennzeichnet. Wenn es sich um ein einzelnes Wort handelt, die Token-ID ist in <att>xml:id</att> angegeben. Interpunktionszeichen werden mit <gi>pc</gi>-Elementen ausgezeichnet.</p>
         </segmentation>
         <interpretation>
           <p>Die linguistische Analyse der Printedition wurde nicht übernommen, es finden sich aber sprachliche und paläographische Angaben in den <gi>note</gi>-Elementen. Außerdem wurde die wahrscheinlichste Vorlage, die Lutherbibel von 1545 (vgl. <ref target="#Luther_WA">Werkausgabe Luther</ref>) zum Vergleich eingefügt.</p>
@@ -309,8 +310,9 @@
         </namespace>
       </tagsDecl>
       <refsDecl>
-        <p>Die Referenz auf ein Wort oder eine größere Einheit im Text richtet sich nach der Platzierung im Manuskript und baut sich folgendermaßen auf: Die Nummer der Blattzählung, gefolgt von der Seitenangabe (r für recto, v für verso) gibt die Seitenzahl an. Sie kann aus dem <att>n</att>-Attribut im Element <gi>pb</gi> zu Beginn einer Seite ausgelesen werden. Die Zeilennummer eines Wortes ist im <gi>lb</gi>-Element zu Beginn der Zeile und dort im <att>n</att>-Attribut festgehalten.</p>
+        <p>Die traditionelle Referenz auf ein Wort oder eine größere Einheit im Text richtet sich nach der Platzierung im Manuskript und baut sich folgendermaßen auf: Die Nummer der Blattzählung, gefolgt von der Seitenangabe (r für recto, v für verso) gibt die Seitenzahl an. Sie kann aus dem <att>n</att>-Attribut im Element <gi>pb</gi> zu Beginn einer Seite ausgelesen werden. Die Zeilennummer eines Wortes ist im <gi>lb</gi>-Element zu Beginn der Zeile und dort im <att>n</att>-Attribut festgehalten.</p>
         <p>Die Bibelstelle kann aus den <gi>div</gi>-Elementen für Buch und Kapitel und den <gi>ab</gi>-Elementen, die im <att>n</att>-Attribut die Versnummer angeben, bestimmt werden.</p>
+        <p>Die (automatisch erzeugte) ID im <att>xml:id</att> Attribut eines Token ergibt sich aus der traditionellen Zeilenangabe sowie einer fortlaufenden Wortzählung.</p>
       </refsDecl>
     </encodingDesc>
     <profileDesc>
@@ -326,6 +328,7 @@
     </profileDesc>
     <revisionDesc>
       <change who="#edit_AK">Erste Version: Auszeichnung aller im Manuskript vorkommenden Phänomene, verzeichnet Anmerkungen und den Text der (mutmaßlichen) Vorlage. Linguistische Analyse der Printausgabe ist nicht enthalten. Tokenisierung und grammatikalische Annotation sind für eine spätere Version vorgesehen.</change>
+      <change who="#edit_AK">Zweite Version: Text ist tokenisiert und Tokens sind mit IDs versehen.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -372,100 +375,100 @@
                     <gb type="paragraph"/>
                     <lb n="4"/>
                     <ab type="verse" n="25">
-                      <w lemma="bei" xml:id="tok-234r04-008">Bei</w>
-                      <w xml:id="tok-234r04-009">Aſarias</w>
-                      <w xml:id="tok-234r04-010">ſtoweia</w>
-                      <w xml:id="tok-234r04-011">widui</w>
-                      <w xml:id="tok-234r04-012">de-<lb n="5" break="no"/>ganczio</w>
-                      <w xml:id="tok-234r05-013">pecziaus</w>
+                      <w lemma="bei" pos="cnj." msd="--" xml:id="tok-234r04-008">Bei</w>
+                      <w lemma="Asarias" pos="NP" msd="n.sg." xml:id="tok-234r04-009">Aſarias</w>
+                      <w lemma="stovėti" pos="v.itr." msd="3.prt." xml:id="tok-234r04-010">ſtoweia</w>
+                      <w lemma="vidui" pos="prp. +g." msd="--" xml:id="tok-234r04-011">widui</w>
+                      <w lemma="degti" pos="v." msd="g.sg.m.prc.prs.act." xml:id="tok-234r04-012">de-<lb n="5" break="no"/>ganczio</w>
+                      <w lemma="pečius" pos="sm." msd="g.sg." xml:id="tok-234r05-013">pecziaus</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r05-014">ir</w>
-                      <w xml:id="tok-234r05-015">atwere</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r05-014">ir</w>
+                      <w lemma="atverti" pos="v. +a." msd="3.prt." xml:id="tok-234r05-015">atwere</w>
                       <mod type="lexical_alternative" instant="true">
                         <del rend="parentheses">
-                          <w xml:id="tok-234r05-016">Naſrus</w>
+                          <w lemma="nasrai" pos="sm.pl." msd="a." xml:id="tok-234r05-016">Naſrus</w>
                         </del>
                         <add rend="inline">
-                          <w xml:id="tok-234r05-017">bur-<lb n="6" break="no"/>nạ</w>
+                          <w lemma="burna" pos="sf." msd="a.sg." xml:id="tok-234r05-017">bur-<lb n="6" break="no"/>nạ</w>
                         </add>
                       </mod>
-                      <w xml:id="tok-234r06-018">ſawa</w>
+                      <w lemma="savo" pos="refl.prn." msd="--" xml:id="tok-234r06-018">ſawa</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r06-019">meldeſi</w>
-                      <w xml:id="tok-234r06-020">ir</w>
-                      <w xml:id="tok-234r06-021">biloia</w>
+                      <w lemma="melsti" pos="v." msd="3.prt.refl." xml:id="tok-234r06-019">meldeſi</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r06-020">ir</w>
+                      <w lemma="byloti" pos="v." msd="3.prt." xml:id="tok-234r06-021">biloia</w>
                       <pc>.</pc>
                     </ab>
                     <gb type="paragraph"/>
                     <lb n="7"/>
                     <ab type="verse" n="26">
-                      <w xml:id="tok-234r07-022">Pagirtas</w>
-                      <w xml:id="tok-234r07-023">buk</w>
+                      <w lemma="pagirti" pos="v." msd="n.sg.m.prc.prt.pss." xml:id="tok-234r07-022">Pagirtas</w>
+                      <w lemma="būti" pos="v.aux." msd="2.sg.imp." xml:id="tok-234r07-023">buk</w>
                       <seg rend="caps" type="nomen_sacrum">
-                        <w xml:id="tok-234r07-024">Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></w>
+                        <w lemma="ponas" pos="sm." msd="n.sg." xml:id="tok-234r07-024">Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></w>
                       </seg>
                       <pc>,</pc>
-                      <w xml:id="tok-234r07-025">Diewas</w>
+                      <w lemma="dievas" pos="sm." msd="n.sg." xml:id="tok-234r07-025">Diewas</w>
                       <lb n="8"/>
-                      <w xml:id="tok-234r08-026">muſu</w>
-                      <w xml:id="tok-234r08-027">Tiewu</w>
+                      <w lemma="mes" pos="prn.1.pl." msd="g." xml:id="tok-234r08-026">muſu</w>
+                      <w lemma="tėvas*" pos="sm." msd="g.pl." xml:id="tok-234r08-027">Tiewu</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r08-028">ir</w>
-                      <w xml:id="tok-234r08-029">tawa</w>
-                      <w xml:id="tok-234r08-030">Wardas</w>
-                      <w xml:id="tok-234r08-031">tur</w>
-                      <w xml:id="tok-234r08-032">pa-<lb n="9" break="no"/>girtas</w>
-                      <w xml:id="tok-234r09-033">ir</w>
-                      <w xml:id="tok-234r09-034">pagarbintas</w>
-                      <w xml:id="tok-234r09-035">buti</w>
-                      <w xml:id="tok-234r09-036">am<sic xml:id="en02">ſs</sic>inai</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r08-028">ir</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234r08-029">tawa</w>
+                      <w lemma="vardas" pos="sm." msd="n.sg." xml:id="tok-234r08-030">Wardas</w>
+                      <w lemma="turėti" pos="v. +inf." msd="3.prs." xml:id="tok-234r08-031">tur</w>
+                      <w lemma="pagirti" pos="v." msd="n.sg.m.prc.prt.pss." xml:id="tok-234r08-032">pa-<lb n="9" break="no"/>girtas</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r09-033">ir</w>
+                      <w lemma="pagarbinti" pos="v." msd="n.sg.m.prc.prt.pss." xml:id="tok-234r09-034">pagarbintas</w>
+                      <w lemma="būti" pos="v.aux." msd="inf." xml:id="tok-234r09-035">buti</w>
+                      <w lemma="amžinai" pos="adverb" msd="--" xml:id="tok-234r09-036">am<sic xml:id="en02">ſs</sic>inai</w>
                       <pc>.</pc>
                     </ab>
                     <ab type="verse" n="27">
-                      <w xml:id="tok-234r09-037">Ne-<lb n="10" break="no"/>ſa</w>
-                      <w xml:id="tok-234r10-038">tu</w>
-                      <w xml:id="tok-234r10-039">teiſus</w>
-                      <w xml:id="tok-234r10-040">efsi</w>
-                      <w xml:id="tok-234r10-041">wiſsame</w>
+                      <w lemma="nės" pos="cnj." msd="--" xml:id="tok-234r09-037">Ne-<lb n="10" break="no"/>ſa</w>
+                      <w lemma="tu" pos="prn.2.sg." msd="n." xml:id="tok-234r10-038">tu</w>
+                      <w lemma="teisus" pos="adj." msd="n.sg.m." xml:id="tok-234r10-039">teiſus</w>
+                      <w lemma="būti" pos="v.itr." msd="2.sg.prs." xml:id="tok-234r10-040">efsi</w>
+                      <w lemma="visas" pos="prn." msd="l.sg.m." xml:id="tok-234r10-041">wiſsame</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r10-042">ka</w>
-                      <w xml:id="tok-234r10-043">mumus</w>
-                      <w xml:id="tok-234r10-044">darei</w>
+                      <w lemma="kas" pos="prn." msd="a.sg." xml:id="tok-234r10-042">ka</w>
+                      <w lemma="mes" pos="prn.1.pl." msd="d." xml:id="tok-234r10-043">mumus</w>
+                      <w lemma="daryti" pos="v. +a." msd="2.sg.prt." xml:id="tok-234r10-044">darei</w>
                       <pc>.</pc>
                       <lb n="11"/>
-                      <w xml:id="tok-234r11-045">Wiſsi</w>
-                      <w xml:id="tok-234r11-046">tawa</w>
-                      <w xml:id="tok-234r11-047">Darbai</w>
-                      <w xml:id="tok-234r11-048">eſti</w>
-                      <w xml:id="tok-234r11-049">tikri</w>
+                      <w lemma="visas" pos="prn." msd="n.pl.m." xml:id="tok-234r11-045">Wiſsi</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234r11-046">tawa</w>
+                      <w lemma="darbas" pos="sm." msd="n.pl." xml:id="tok-234r11-047">Darbai</w>
+                      <w lemma="būti" pos="v.itr." msd="3.prs." xml:id="tok-234r11-048">eſti</w>
+                      <w lemma="tikras" pos="adj." msd="n.pl.m." xml:id="tok-234r11-049">tikri</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r11-050">ir</w>
-                      <w xml:id="tok-234r11-051">kạ</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r11-050">ir</w>
+                      <w lemma="kas" pos="prn." msd="a.sg." xml:id="tok-234r11-051">kạ</w>
                       <lb n="12"/>
-                      <w xml:id="tok-234r12-052">tu</w>
-                      <w xml:id="tok-234r12-053">dar<choice><unclear cert="high">a</unclear><unclear cert="low">e<gap quantity="1" unit="chars" reason="illegible"/></unclear></choice>i</w>
+                      <w lemma="tu" pos="prn.2.sg." msd="n." xml:id="tok-234r12-052">tu</w>
+                      <w lemma="daryti" pos="v. +a." msd="2.sg.prt." xml:id="tok-234r12-053">dar<choice><unclear cert="high">a</unclear><unclear cert="low">e<gap quantity="1" unit="chars" reason="illegible"/></unclear></choice>i</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r12-054">tatai</w>
-                      <w xml:id="tok-234r12-055">eſti</w>
-                      <w xml:id="tok-234r12-056">tieſa</w>
+                      <w lemma="tatai" pos="prn.nt." msd="--" xml:id="tok-234r12-054">tatai</w>
+                      <w lemma="būti" pos="v.itr." msd="3.prs." xml:id="tok-234r12-055">eſti</w>
+                      <w lemma="tiesa" pos="sf." msd="n.sg." xml:id="tok-234r12-056">tieſa</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r12-057">ir</w>
-                      <w xml:id="tok-234r12-058">tawa</w>
-                      <w xml:id="tok-234r12-059">Sudas</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r12-057">ir</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234r12-058">tawa</w>
+                      <w lemma="sudas" pos="sm." msd="n.sg." xml:id="tok-234r12-059">Sudas</w>
                       <lb n="13"/>
-                      <w xml:id="tok-234r13-060">ira</w>
-                      <w xml:id="tok-234r13-061">be</w>
-                      <w xml:id="tok-234r13-062">kaltibes</w>
+                      <w lemma="būti" pos="v.itr." msd="3.prs." xml:id="tok-234r13-060">ira</w>
+                      <w lemma="be" pos="prp. +g." msd="--" xml:id="tok-234r13-061">be</w>
+                      <w lemma="kaltybė" pos="sf." msd="g.sg." xml:id="tok-234r13-062">kaltibes</w>
                       <pc>.</pc>
                     </ab>
                     <ab type="verse" n="28">
-                      <w xml:id="tok-234r13-063">Tu</w>
-                      <w xml:id="tok-234r13-064">mumus</w>
-                      <w xml:id="tok-234r13-065"><sic>th</sic>ieſạ</w>
-                      <w xml:id="tok-234r13-066">darai</w>
+                      <w lemma="tu" pos="prn.2.sg." msd="n." xml:id="tok-234r13-063">Tu</w>
+                      <w lemma="mes" pos="prn.1.pl." msd="d." xml:id="tok-234r13-064">mumus</w>
+                      <w lemma="tiesa" pos="sf." msd="a.sg." xml:id="tok-234r13-065"><sic>th</sic>ieſạ</w>
+                      <w lemma="daryti" pos="v. +a." msd="inf." xml:id="tok-234r13-066">darai</w>
                       <pc>,</pc>
                       <lb n="14"/>
-                      <w xml:id="tok-234r14-067">iog</w>
+                      <w lemma="jog" pos="cnj." msd="--" xml:id="tok-234r14-067">iog</w>
                       <w xml:id="tok-234r14-068">mus</w>
                       <w xml:id="tok-234r14-069">pak<subst instant="false"><del rend="extend_letter">o</del><add rend="inline">a</add></subst>ra
                 <subst instant="true"><del rend="overwrite">u<gap quantity="1" unit="chars" reason="illegible"/></del><add rend="inline">ie</add></subst>
@@ -481,7 +484,7 @@
                       <w xml:id="tok-234r15-074">mumus</w>
                       <w xml:id="tok-234r15-075"><subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above">uſzu</add></subst>ſiuntei</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r15-076">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r15-076">ir</w>
                       <w xml:id="tok-234r15-077">ant</w>
                       <w xml:id="tok-234r15-078">Jeruſa-<lb n="16" break="no"/>lemo</w>
                       <del rend="strikethrough" instant="true">ſczE</del>
@@ -492,7 +495,7 @@
                       <pc>.</pc>
                       <w xml:id="tok-234r17-083">Tu</w>
                       <w xml:id="tok-234r17-084">tikrai</w>
-                      <w xml:id="tok-234r17-085">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r17-085">ir</w>
                       <w xml:id="tok-234r17-086">gerai</w>
                       <w xml:id="tok-234r17-087">darai</w>
                       <w xml:id="tok-234r17-088">tame</w>
@@ -509,19 +512,19 @@
                       <w xml:id="tok-234r19-092">Neſa</w>
                       <w xml:id="tok-234r19-093">mes</w>
                       <w xml:id="tok-234r19-094">ſu<del xml:id="en03" rend="strikethrough" instant="false">ſsi</del>grieſchiom</w>
-                      <w xml:id="tok-234r19-095">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r19-095">ir</w>
                       <w xml:id="tok-234r19-096">pikta</w>
                       <lb n="20"/>
                       <w xml:id="tok-234r20-097">darem</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r20-098">tame</w>
-                      <w xml:id="tok-234r20-099">iog</w>
+                      <w lemma="jog" pos="cnj." msd="--" xml:id="tok-234r20-099">iog</w>
                       <w xml:id="tok-234r20-100">nog</w>
                       <w xml:id="tok-234r20-101">tawens</w>
                       <w xml:id="tok-234r20-102">atſtoiom</w>
                       <pc>,</pc>
                       <lb n="21"/>
-                      <w xml:id="tok-234r21-103">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r21-103">ir</w>
                       <w xml:id="tok-234r21-104">wiſsur</w>
                       <w xml:id="tok-234r21-105">priſch</w>
                       <w xml:id="tok-234r21-106">tawe</w>
@@ -529,8 +532,8 @@
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="30">
-                      <w xml:id="tok-234r21-108">ir</w>
-                      <w xml:id="tok-234r21-109">tawa</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r21-108">ir</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234r21-109">tawa</w>
                       <lb n="22"/>
                       <w xml:id="tok-234r22-110">priſakimụ</w>
                       <w xml:id="tok-234r22-111">neklauſem</w>
@@ -563,7 +566,7 @@
                       <w xml:id="tok-234r25-129">tikrai</w>
                       <w xml:id="tok-234r25-130">darei</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r25-131">iog</w>
+                      <w lemma="jog" pos="cnj." msd="--" xml:id="tok-234r25-131">iog</w>
                       <lb n="26"/>
                       <w xml:id="tok-234r26-132">toktai</w>
                       <w xml:id="tok-234r26-133">wis</w>
@@ -573,7 +576,7 @@
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="32">
-                      <w xml:id="tok-234r26-137">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r26-137">ir</w>
                       <w xml:id="tok-234r26-138">mus</w>
                       <lb n="27"/>
                       <w xml:id="tok-234r27-139">padawei</w>
@@ -587,7 +590,7 @@
                       <w xml:id="tok-234r28-146">Szmoniụ</w>
                       <pc>,</pc>
                       <lb n="29"/>
-                      <w xml:id="tok-234r29-147">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r29-147">ir</w>
                       <w xml:id="tok-234r29-148">neteiſamuiem</w>
                       <w xml:id="tok-234r29-149">wiſsụbaiſiauſiu</w>
                       <w xml:id="tok-234r29-150">Kara-<lb n="30"/>liůi</w>
@@ -611,7 +614,7 @@
                       <w xml:id="tok-234r32-159">eſme</w>
                       <w xml:id="tok-234r32-160">apgedinti</w>
                       <lb n="33"/>
-                      <w xml:id="tok-234r33-161">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r33-161">ir</w>
                       <w xml:id="tok-234r33-162">teip</w>
                       <w xml:id="tok-234r33-163">iůku</w>
                       <w xml:id="tok-234r33-164">tapom</w>
@@ -619,11 +622,11 @@
                       <supplied xml:id="en04" resp="#edit_AK" reason="illegible">
                         <w xml:id="tok-234r33-166">akim</w>
                       </supplied>
-                      <w xml:id="tok-234r33-167">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234r33-167">tawa</w>
                       <lb n="34"/>
                       <w xml:id="tok-234r34-168">Tarnụ</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r34-169">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r34-169">ir</w>
                       <w xml:id="tok-234r34-170">po</w>
                       <w xml:id="tok-234r34-171">akim</w>
                       <w xml:id="tok-234r34-172">wiſsụ</w>
@@ -641,7 +644,7 @@
                       <w xml:id="tok-234r36-179">nodemais</w>
                       <pc>,</pc>
                       <w xml:id="tok-234r36-180">delei</w>
-                      <w xml:id="tok-234r36-181">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234r36-181">tawa</w>
                       <w xml:id="tok-234r36-182">ſchwento</w>
                       <w xml:id="tok-234r36-183">Wardo</w>
                       <pc>,</pc>
@@ -655,14 +658,14 @@
                           <w xml:id="tok-234r37-186">atmeſk</w>
                         </add>
                       </mod>
-                      <w xml:id="tok-234r37-187">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234r37-187">tawa</w>
                       <w xml:id="tok-234r37-188">Sude-<lb n="38" break="no"/>reghimạ</w>
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="35">
                       <w xml:id="tok-234r38-189">nei</w>
                       <w xml:id="tok-234r38-190">atimk</w>
-                      <w xml:id="tok-234r38-191">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234r38-191">tawa</w>
                       <w xml:id="tok-234r38-192">Mielaſchirdingiſtẹ</w>
                       <pb n="234v" facs="facs/BrB_V_234v.pdf"/>
                       <fw type="header" place="top-centre">
@@ -675,7 +678,7 @@
                       <pc>,</pc>
                       <w xml:id="tok-234v01-197">delei</w>
                       <w xml:id="tok-234v01-198">Abrahamo</w>
-                      <w xml:id="tok-234v01-199">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v01-199">tawa</w>
                       <w xml:id="tok-234v01-200">mieloio</w>
                       <lb n="2"/>
                       <mod type="lexical_alternative" instant="true">
@@ -686,16 +689,16 @@
                           <w xml:id="tok-234v02-202">Prieteliaus</w>
                         </add>
                       </mod>
-                      <w xml:id="tok-234v02-203">ir</w>
-                      <w xml:id="tok-234v02-204">tawa</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v02-203">ir</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v02-204">tawa</w>
                       <w xml:id="tok-234v02-205">Tarno</w>
                       <w xml:id="tok-234v02-206">
                         <sic xml:id="en05">Iſaa<subst hand="#h06" instant="false"><del>c</del><add hand="#h06">k</add></subst></sic>
                       </w>
                       <lb n="3"/>
-                      <w xml:id="tok-234v03-207">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v03-207">ir</w>
                       <w xml:id="tok-234v03-208">Iſraelo</w>
-                      <w xml:id="tok-234v03-209">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v03-209">tawa</w>
                       <w xml:id="tok-234v03-210">Schwentoio</w>
                       <pc>,</pc>
                     </ab>
@@ -714,7 +717,7 @@
                       <w xml:id="tok-234v05-219">po</w>
                       <w xml:id="tok-234v05-220">Dangumi</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234v05-221">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v05-221">ir</w>
                       <w xml:id="tok-234v05-222">kaip</w>
                       <w xml:id="tok-234v05-223">Szieſ-<lb n="6" break="no"/><seg xml:id="en06">dr</seg>an</w>
                       <w xml:id="tok-234v06-224">pas</w>
@@ -733,7 +736,7 @@
                       <w xml:id="tok-234v07-231">wiſ-<lb n="8" break="no"/>ſus</w>
                       <w xml:id="tok-234v08-232">Pagonus</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234v08-233">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v08-233">ir</w>
                       <w xml:id="tok-234v08-234">eſme</w>
                       <w xml:id="tok-234v08-235">dabbar</w>
                       <w xml:id="tok-234v08-236">labai</w>
@@ -748,7 +751,7 @@
                     </ab>
                     <lb n="10"/>
                     <ab type="verse" n="38">
-                      <w xml:id="tok-234v10-243">iog</w>
+                      <w lemma="jog" pos="cnj." msd="--" xml:id="tok-234v10-243">iog</w>
                       <w xml:id="tok-234v10-244">nụ</w>
                       <w xml:id="tok-234v10-245">newieno</w>
                       <w xml:id="tok-234v10-246">Kunigaikſchczio</w>
@@ -776,7 +779,7 @@
                       <w xml:id="tok-234v13-262">Rukijmạ</w>
                       <pc>.</pc>
                       <lb n="14"/>
-                      <w xml:id="tok-234v14-263">Ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v14-263">Ir</w>
                       <w xml:id="tok-234v14-264">ne</w>
                       <w xml:id="tok-234v14-265">turrim</w>
                       <w xml:id="tok-234v14-266">newienos</w>
@@ -785,12 +788,12 @@
                       <w xml:id="tok-234v14-268">kur</w>
                       <w xml:id="tok-234v14-269">po</w>
                       <lb n="15"/>
-                      <w xml:id="tok-234v15-270">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v15-270">tawa</w>
                       <w xml:id="tok-234v15-271">akim</w>
                       <w xml:id="tok-234v15-272">galetumbim</w>
                       <w xml:id="tok-234v15-273">affierawoti</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234v15-274">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v15-274">ir</w>
                       <lb n="16"/>
                       <w xml:id="tok-234v16-275">Malonẹ</w>
                       <w xml:id="tok-234v16-276">raſti</w>
@@ -800,7 +803,7 @@
                       <w xml:id="tok-234v16-277">B<seg xml:id="en07">e</seg>t</w>
                       <w xml:id="tok-234v16-278">nuſsituſziju-<lb n="17" break="no"/>ſe</w>
                       <w xml:id="tok-234v17-279">Schirde</w>
-                      <w xml:id="tok-234v17-280">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v17-280">ir</w>
                       <w xml:id="tok-234v17-281">ſudauſzita</w>
                       <w xml:id="tok-234v17-282">Dwaſse</w>
                       <w xml:id="tok-234v17-283">at-<lb n="18" break="no"/>eime</w>
@@ -809,7 +812,7 @@
                       </w>
                       <!-- noch mal klar machen: GS oder KS? -->
                       <w xml:id="tok-234v18-285">po</w>
-                      <w xml:id="tok-234v18-286">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v18-286">tawa</w>
                       <w xml:id="tok-234v18-287">akim</w>
                       <pc>,</pc>
                     </ab>
@@ -823,10 +826,10 @@
                       <w xml:id="tok-234v19-293">nog</w>
                       <lb n="20"/>
                       <w xml:id="tok-234v20-294">Awinụ</w>
-                      <w xml:id="tok-234v20-295">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v20-295">ir</w>
                       <w xml:id="tok-234v20-296">Iaucziů</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234v20-297">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v20-297">ir</w>
                       <w xml:id="tok-234v20-298">daugia</w>
                       <w xml:id="tok-234v20-299">tukſ<del instant="unknown" rend="strikethrough">ch</del>-<lb n="21" break="no"/>tanti<add rend="right_side_addition" hand="#h05">es</add></w>
                       <w xml:id="tok-234v21-300">Awiů</w>
@@ -839,7 +842,7 @@
                       <w xml:id="tok-234v22-305">ſchẹ</w>
                       <w xml:id="tok-234v22-306">dienạ</w>
                       <w xml:id="tok-234v22-307">po</w>
-                      <w xml:id="tok-234v22-308">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v22-308">tawa</w>
                       <w xml:id="tok-234v22-309">akim</w>
                       <w xml:id="tok-234v22-310">mie-<lb n="23" break="no"/>la<del xml:id="en08">s</del></w>
                       <pc>.</pc>
@@ -874,11 +877,11 @@
                         </del>
                         <add>
                           <pc>,</pc>
-                          <w xml:id="tok-234v26-325">ir</w>
+                          <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v26-325">ir</w>
                         </add>
                       </subst>
                       <w xml:id="tok-234v26-326">ieſchkom</w>
-                      <w xml:id="tok-234v26-327">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v26-327">tawa</w>
                       <w xml:id="tok-234v26-328">Weid<seg xml:id="en10">a</seg></w>
                       <w xml:id="tok-234v26-329">ſu</w>
                       <w xml:id="tok-234v26-330">baime</w>
@@ -900,28 +903,28 @@
                         <w xml:id="tok-234v28-340">Pone</w>
                       </seg>
                       <w xml:id="tok-234v28-341">pagal</w>
-                      <w xml:id="tok-234v28-342">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v28-342">tawa</w>
                       <w xml:id="tok-234v28-343">Malones</w>
                       <pc>,</pc>
                       <lb n="29"/>
-                      <w xml:id="tok-234v29-344">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v29-344">ir</w>
                       <w xml:id="tok-234v29-345">pagal</w>
-                      <w xml:id="tok-234v29-346">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v29-346">tawa</w>
                       <w xml:id="tok-234v29-347">didzios</w>
                       <w xml:id="tok-234v29-348">Mielaſchirdingiſ-<lb n="30" break="no"/>tes</w>
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="43">
-                      <w xml:id="tok-234v30-349">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v30-349">ir</w>
                       <w xml:id="tok-234v30-350">iſchgelbek</w>
                       <w xml:id="tok-234v30-351">mus</w>
                       <w xml:id="tok-234v30-352">pagal</w>
-                      <w xml:id="tok-234v30-353">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v30-353">tawa</w>
                       <lb n="31"/>
                       <w xml:id="tok-234v31-354">ſtebuklingụ̊ </w>
                       <w xml:id="tok-234v31-355">darbụ</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234v31-356">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v31-356">ir</w>
                       <w xml:id="tok-234v31-357">důk</w>
                       <w xml:id="tok-234v31-358">tawam</w>
                       <w xml:id="tok-234v31-359">War-<lb n="32" break="no"/>dui</w>
@@ -935,18 +938,18 @@
                       <pc>,</pc>
                       <lb n="33"/>
                       <w xml:id="tok-234v33-364">kurie</w>
-                      <w xml:id="tok-234v33-365">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v33-365">tawa</w>
                       <w xml:id="tok-234v33-366">Tarnus</w>
                       <w xml:id="tok-234v33-367">paſzeidz</w>
-                      <w xml:id="tok-234v33-368">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v33-368">ir</w>
                       <w xml:id="tok-234v33-369">apge<unclear>d</unclear>inti</w>
                       <lb n="34"/>
                       <w xml:id="tok-234v34-370">butụ</w>
                       <w xml:id="tok-234v34-371">delei</w>
-                      <w xml:id="tok-234v34-372">tawa</w>
+                      <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v34-372">tawa</w>
                       <w xml:id="tok-234v34-373">didzos</w>
                       <w xml:id="tok-234v34-374">ſilos</w>
-                      <w xml:id="tok-234v34-375">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v34-375">ir</w>
                       <w xml:id="tok-234v34-376">ma<choice><unclear cert="high">c</unclear><unclear cert="low">i</unclear></choice>es</w>
                       <pc>,</pc>
                       <lb n="35"/>
@@ -1012,15 +1015,15 @@
                       <w xml:id="tok-235r03-407">primete</w>
                       <pc>,</pc>
                       <w xml:id="tok-235r03-408">Sier<metamark function="insert" target="#ml01 #md02"/>ạ</w>
-                      <w xml:id="tok-235r03-409">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-235r03-409">ir</w>
                       <ref target="#ml02 #md03">
                         <w xml:id="tok-235r03-410">Smalạ</w>
                       </ref>
                       <lb n="4"/>
-                      <w xml:id="tok-235r04-411">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-235r04-411">ir</w>
                       <w xml:id="tok-235r04-412">paků<choice><unclear cert="high"><seg hand="#h09">l</seg></unclear><unclear cert="low">t</unclear></choice><metamark xml:id="en12" target="#md04" function="annotate"/>u</w>
                       <pc>,</pc>
-                      <w xml:id="tok-235r04-413">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-235r04-413">ir</w>
                       <w xml:id="tok-235r04-414">ſauſụ</w>
                       <mod type="lexical_alternative" instant="false">
                         <del rend="unmarked">
@@ -1038,7 +1041,7 @@
                           <w xml:id="tok-235r04-417">kaip</w>
                         </del>
                         <add rend="small_interlinear_above" hand="#h04">
-                          <w xml:id="tok-235r04-418">iog</w>
+                          <w lemma="jog" pos="cnj." msd="--" xml:id="tok-235r04-418">iog</w>
                         </add>
                       </mod>
                       <lb n="5"/>
@@ -1083,12 +1086,12 @@
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="48">
-                      <w xml:id="tok-235r07-431">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-235r07-431">ir</w>
                       <w xml:id="tok-235r07-432">pagadinna</w>
                       <w xml:id="tok-235r07-433">ap-<lb n="8" break="no"/>linkui</w>
                       <w xml:id="tok-235r08-434">ſawe</w>
                       <pc>,</pc>
-                      <w xml:id="tok-235r08-435">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-235r08-435">ir</w>
                       <w xml:id="tok-235r08-436">ſudege</w>
                       <w xml:id="tok-235r08-437">Chaldeus</w>
                       <pc>,</pc>
@@ -1130,7 +1133,7 @@
                       <pc>,</pc>
                     </ab>
                     <ab type="verse" n="50">
-                      <w xml:id="tok-235r11-456">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-235r11-456">ir</w>
                       <w xml:id="tok-235r11-457">iſch-<lb n="12" break="no"/>ſtume</w>
                       <w xml:id="tok-235r12-458">Liepſnạ</w>
                       <w xml:id="tok-235r12-459">Vgnies</w>
@@ -1138,7 +1141,7 @@
                       <w xml:id="tok-235r12-461">pęcziaus</w>
                       <pc>,</pc>
                       <lb n="13"/>
-                      <w xml:id="tok-235r13-462">ir</w>
+                      <w lemma="ir" pos="cnj." msd="--" xml:id="tok-235r13-462">ir</w>
                       <w xml:id="tok-235r13-463">padare</w>
                       <w xml:id="tok-235r13-464">pæczuie</w>
                       <pc>,</pc>
@@ -1152,7 +1155,7 @@
                           <w xml:id="tok-235r14-468">kaip</w>
                         </del>
                         <add rend="small_interlinear_above" hand="#h04">
-                          <w xml:id="tok-235r14-469">iog</w>
+                          <w lemma="jog" pos="cnj." msd="--" xml:id="tok-235r14-469">iog</w>
                         </add>
                       </mod>
                       <w xml:id="tok-235r14-470">iụ</w>
@@ -1249,15 +1252,15 @@
       </div>
       <!-- Deutsche Vorlage -->
       <div xml:lang="ger" type="notes">
-        <note target="#en01" type="comment" subtype="paleographical">sic!; Die ungewöhnlich anmutende Form des <q type="graphematic">A</q> ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein <q type="graphematic">E</q> schreiben. In der Tat ist anhand der deutschen Vorlage der Vokativ <q type="linguistic_material">Pone</q> zu erwarten. Zur Form des begonnenen <q type="graphematic">E</q> vgl. 235r23. Stattdessen muss sich Bretke während er den Buchstaben schrieb zugunsten des Nominativ Singular Maskulinum umentschieden haben.</note>
+        <note target="#en01" type="comment" subtype="paleographical">sic!; Die ungewöhnlich anmutende Form des <q type="graphematic">A</q> ist folgendermaßen zu erklären: Brekte wollte ursprünglich ein <q type="graphematic">E</q> schreiben. In der Tat ist anhand der deutschen Vorlage der Vokativ <q type="linguistic_material">Pone</q> zu erwarten. Zur Form des begonnenen <q type="graphematic">E</q> vgl. <rs>235r23</rs>. Stattdessen muss sich Bretke während er den Buchstaben schrieb zugunsten des Nominativ Singular Maskulinum umentschieden haben.</note>
         <note target="#en02" type="comment" subtype="linguistic">Möglicherweise Prussismus</note>
-        <note target="#en03" type="comment" subtype="paleographical">Die Senkrechtstriche erfassen zwar nur <q type="graphematic">ſs</q> und nicht <q type="graphematic">i</q>, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <q type="linguistic_material">pakorau</q> -&gt; <q type="linguistic_material">pakaraiej</q> (234r14) und <q type="linguistic_material">atſiuntei</q> -&gt; <q type="linguistic_material">uſzuſiuntei</q> (234r15)</note>
+        <note target="#en03" type="comment" subtype="paleographical">Die Senkrechtstriche erfassen zwar nur <q type="graphematic">ſs</q> und nicht <q type="graphematic">i</q>, aber es ist klar, dass die ganze Silbe gestrichen worden ist. Die hellere Tinte dieser Streichung ist offenbar die gleiche wie die der Korrekturen in den Zeilen darüber: <q type="linguistic_material">pakorau</q> -&gt; <q type="linguistic_material">pakaraiej</q> <rs ref="#tok-234r14-069">(234r14)</rs> und <q type="linguistic_material">atſiuntei</q> -&gt; <q type="linguistic_material">uſzuſiuntei</q> <rs ref="#tok-234r15-075">(234r15)</rs></note>
         <note target="#en04" type="comment" subtype="paleographical">Konjektur aus undeutlichem <q type="linguistic_material">akimi</q></note>
         <note target="#en05" type="comment" subtype="linguistic">Keine Kasusendung</note>
         <note target="#en06" type="comment" subtype="paleographical">Keine Streichung</note>
         <note target="#en07" type="comment" subtype="paleographical">Es befindet sich zwar ein Tintenfleck über dem <q type="graphematic">e</q>, der nicht auf die andere Seite durchdrückt, es ist allerdings im vom Bretke benutzten Schriftsystem unmotiviert, über diesen Buchstaben einen Punkt zu setzen. Er sieht eher wie ein versehentlicher Klecks als ein bewusst gesetzter Punkt aus, weshalb er nicht als Diakritikum gelesen wird.</note>
         <note target="#en08" type="comment" subtype="paleographical">gestrichen bei fast noch feuchter Tinte</note>
-        <note target="#en08 #en09" type="comment" subtype="paleographical">Die Streichrichtung und -farbe sowie der grammatische Zusammenhang legen nahe, dass diese beiden Streichungen zusammen erfolgt sind. Die Streichung von <q type="linguistic_material">mie-</q>|<q type="linguistic_material">la</q>[<q type="linguistic_material">s</q>] erfolgte über noch fast feuchter Tinte, sodass deshalb auch die Streichung von <q type="linguistic_material">affiera</q>[<q type="linguistic_material">s</q>] der Grundschicht zuzurechnen ist.</note>
+        <note target="#en08 #en09" type="comment" subtype="paleographical">Die Streichrichtung und -farbe sowie der grammatische Zusammenhang legen nahe, dass diese beiden Streichungen zusammen erfolgt sind. Die Streichung von <q type="linguistic_material">mie-</q>|<q type="linguistic_material">la</q>[<q type="linguistic_material">s</q>] <rs ref="#tok-234v22-310">(234v22)</rs> erfolgte über noch fast feuchter Tinte, sodass deshalb auch die Streichung von <q type="linguistic_material">affiera</q>[<q type="linguistic_material">s</q>] <rs ref="#tok-234v22-304">(234v22)</rs> der Grundschicht zuzurechnen ist.</note>
         <note target="#en10" type="comment" subtype="paleographical">Der Abstrich des <q type="graphematic">a</q> ist ziemlich weit nach unten geraten, was auf den ersten Blick wirkt, als sei er mit einem möglichen Nasalpunkt verbunden. Diese Lesung ist aber bei genauerem Hinsehen nicht haltbar</note>
         <note target="#en11" type="comment" subtype="paleographical">Über dem <q type="graphematic">c</q> befindet sich ein Strich, der mit dem Wortanfang in einem Zug geschrieben sein muss, da die Tinte genau gleich ist. Entweder ist er zufällig gesetzt worden (z.B. weil Bretke schon zum <q type="graphematic">h</q> ansetzen wollte) oder er dient dazu, auf die deutsche Entsprechung <q type="linguistic_material">herrlich</q> i.marg. zu verweisen. Letzteres wäre ein Indiz dafür, dass die deutschen Wörter tatsächlich von Bretke stammen und Teil des Übersetzungsprozesses waren. Ersteres scheint allerdings näherliegend.</note>
         <note target="#en12" type="comment" subtype="paleographical">Der Strich auf dem <q type="graphematic">l</q>, der mit dickerer Tinte als der Fließtext der Grundschicht gesetzt ist, könnte verschiedene Bedeutungen haben. Zunächst könnte er die Oberlänge des <q type="graphematic">l</q> verstärken wollen,um es eindeutiger vom <q type="graphematic">t</q> zu unterscheiden. Dies scheint aber nicht sehr wahrscheinlich,da er sich dazu nicht ausreichend dem Duktus der Schrift anpasst. Viel wahrscheinlicher ist hingegen, dass er auf die deutsche Entsprechung <q type="linguistic_material">werk</q> i.marg. verweisen soll.</note>

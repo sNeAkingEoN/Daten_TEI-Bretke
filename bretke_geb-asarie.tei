@@ -353,96 +353,96 @@
             <gb type="paragraph"/>
             <lb n="4"/>
             <ab type="verse" n="25">
-              <w lemma="bei">Bei</w>
-              <w>Aſarias</w>
-              <w>ſtoweia</w>
-              <w>widui</w>
-              <w>de-<lb n="5" break="no"/>ganczio</w>
-              <w>pecziaus</w>
+              <w lemma="bei" pos="cnj." msd="--">Bei</w>
+              <w lemma="Asarias" pos="NP" msd="n.sg.">Aſarias</w>
+              <w lemma="stovėti" pos="v.itr." msd="3.prt.">ſtoweia</w>
+              <w lemma="vidui" pos="prp. +g." msd="--">widui</w>
+              <w lemma="degti" pos="v." msd="g.sg.m.prc.prs.act.">de-<lb n="5" break="no"/>ganczio</w>
+              <w lemma="pečius" pos="sm." msd="g.sg.">pecziaus</w>
               <pc>,</pc>
-              <w>ir</w>
-              <w>atwere</w>
+              <w lemma="ir" pos="cnj." msd="--">ir</w>
+              <w lemma="atverti" pos="v. +a." msd="3.prt.">atwere</w>
               <mod type="lexical_alternative" instant="true">
-                <del rend="parentheses"><w>Naſrus</w></del>
-                <add rend="inline"><w>bur-<lb n="6" break="no"/>nạ</w></add>
+                <del rend="parentheses"><w lemma="nasrai" pos="sm.pl." msd="a.">Naſrus</w></del>
+                <add rend="inline"><w lemma="burna" pos="sf." msd="a.sg.">bur-<lb n="6" break="no"/>nạ</w></add>
               </mod>
-              <w>ſawa</w>
+              <w lemma="savo" pos="refl.prn." msd="--">ſawa</w>
               <pc>,</pc>
-              <w>meldeſi</w>
+              <w lemma="melsti" pos="v." msd="3.prt.refl.">meldeſi</w>
               <w>ir</w>
-              <w>biloia</w>
+              <w lemma="byloti" pos="v." msd="3.prt.">biloia</w>
               <pc>.</pc>
             </ab>
             <gb type="paragraph"/>
             <lb n="7"/>
             <ab type="verse" n="26">
-              <w>Pagirtas</w>
-              <w>buk</w>
-              <seg rend="caps" type="nomen_sacrum"><w>Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></w></seg>
+              <w lemma="pagirti" pos="v." msd="n.sg.m.prc.prt.pss.">Pagirtas</w>
+              <w lemma="būti" pos="v.aux." msd="2.sg.imp.">buk</w>
+              <seg rend="caps" type="nomen_sacrum"><w lemma="ponas" pos="sm." msd="n.sg.">Pon<subst xml:id="en01" instant="true"><del rend="overwrite">e</del><add rend="inline">as</add></subst></w></seg>
               <pc>,</pc>
-              <w>Diewas</w>
+              <w lemma="dievas" pos="sm." msd="n.sg.">Diewas</w>
               <lb n="8"/>
-              <w>muſu</w>
-              <w>Tiewu</w>
+              <w lemma="mes" pos="prn.1.pl." msd="g.">muſu</w>
+              <w lemma="tėvas*" pos="sm." msd="g.pl.">Tiewu</w>
               <pc>,</pc>
               <w>ir</w>
-              <w>tawa</w>
-              <w>Wardas</w>
-              <w>tur</w>
-              <w>pa-<lb n="9" break="no"/>girtas</w>
+              <w lemma="tavo" pos="prn." msd="--">tawa</w>
+              <w lemma="vardas" pos="sm." msd="n.sg.">Wardas</w>
+              <w lemma="turėti" pos="v. +inf." msd="3.prs.">tur</w>
+              <w lemma="pagirti" pos="v." msd="n.sg.m.prc.prt.pss.">pa-<lb n="9" break="no"/>girtas</w>
               <w>ir</w>
-              <w>pagarbintas</w>
-              <w>buti</w>
-              <w>am<sic xml:id="en02">ſs</sic>inai</w>
+              <w lemma="pagarbinti" pos="v." msd="n.sg.m.prc.prt.pss.">pagarbintas</w>
+              <w lemma="būti" pos="v.aux." msd="inf.">buti</w>
+              <w lemma="amžinai" pos="adverb" msd="--">am<sic xml:id="en02">ſs</sic>inai</w>
               <pc>.</pc>
             </ab>
             <ab type="verse" n="27">
-              <w>Ne-<lb n="10" break="no"/>ſa</w>
-              <w>tu</w>
-              <w>teiſus</w>
-              <w>efsi</w>
-              <w>wiſsame</w>
+              <w lemma="nės" pos="cnj." msd="--">Ne-<lb n="10" break="no"/>ſa</w>
+              <w lemma="tu" pos="prn.2.sg." msd="n.">tu</w>
+              <w lemma="teisus" pos="adj." msd="n.sg.m.">teiſus</w>
+              <w lemma="būti" pos="v.itr." msd="2.sg.prs.">efsi</w>
+              <w lemma="visas" pos="prn." msd="l.sg.m.">wiſsame</w>
               <pc>,</pc>
-              <w>ka</w>
-              <w>mumus</w>
-              <w>darei</w>
+              <w lemma="kas" pos="prn." msd="a.sg.">ka</w>
+              <w lemma="mes" pos="prn.1.pl." msd="d.">mumus</w>
+              <w lemma="daryti" pos="v. +a." msd="2.sg.prt.">darei</w>
               <pc>.</pc>
               <lb n="11"/>
-              <w>Wiſsi</w>
+              <w lemma="visas" pos="prn." msd="n.pl.m.">Wiſsi</w>
               <w>tawa</w>
-              <w>Darbai</w>
-              <w>eſti</w>
-              <w>tikri</w>
+              <w lemma="darbas" pos="sm." msd="n.pl.">Darbai</w>
+              <w lemma="būti" pos="v.itr." msd="3.prs.">eſti</w>
+              <w lemma="tikras" pos="adj." msd="n.pl.m.">tikri</w>
               <pc>,</pc>
               <w>ir</w>
-              <w>kạ</w>
+              <w lemma="kas" pos="prn." msd="a.sg.">kạ</w>
               <lb n="12"/>
-              <w>tu</w>
-              <w>dar<choice><unclear cert="high">a</unclear><unclear cert="low">e<gap quantity="1" unit="chars" reason="illegible"/></unclear></choice>i</w>
+              <w lemma="tu" pos="prn.2.sg." msd="n.">tu</w>
+              <w lemma="daryti" pos="v. +a." msd="2.sg.prt.">dar<choice><unclear cert="high">a</unclear><unclear cert="low">e<gap quantity="1" unit="chars" reason="illegible"/></unclear></choice>i</w>
               <pc>,</pc>
-              <w>tatai</w>
-              <w>eſti</w>
-              <w>tieſa</w>
+              <w lemma="tatai" pos="prn.nt." msd="--">tatai</w>
+              <w lemma="būti" pos="v.itr." msd="3.prs.">eſti</w>
+              <w lemma="tiesa" pos="sf." msd="n.sg.">tieſa</w>
               <pc>,</pc>
               <w>ir</w>
               <w>tawa</w>
-              <w>Sudas</w>
+              <w lemma="sudas" pos="sm." msd="n.sg.">Sudas</w>
               <lb n="13"/>
-              <w>ira</w>
-              <w>be</w>
-              <w>kaltibes</w>
+              <w lemma="būti" pos="v.itr." msd="3.prs.">ira</w>
+              <w lemma="be" pos="prp. +g." msd="--">be</w>
+              <w lemma="kaltybė" pos="sf." msd="g.sg.">kaltibes</w>
               <pc>.</pc>
             </ab>
             <ab type="verse" n="28">
-              <w>Tu</w>
-              <w>mumus</w>
-              <w><sic>th</sic>ieſạ</w>
-              <w>darai</w>
+              <w lemma="tu" pos="prn.2.sg." msd="n.">Tu</w>
+              <w lemma="mes" pos="prn.1.pl." msd="d.">mumus</w>
+              <w lemma="tiesa" pos="sf." msd="a.sg."><sic>th</sic>ieſạ</w>
+              <w lemma="daryti" pos="v. +a." msd="inf.">darai</w>
               <pc>,</pc>
               <lb n="14"/>
-              <w>iog</w>
-              <w>mus</w>
-              <w>pak<subst instant="false">
+              <w lemma="jog" pos="cnj." msd="--">iog</w>
+              <w lemma="mes" pos="prn.1.pl." msd="a.">mus</w>
+              <w lemma="pakaroti|pakoroti" pos="v. +a." msd="2.sg.prt.">pak<subst instant="false">
                   <del rend="extend_letter">o</del>
                   <add rend="inline">a</add>
                 </subst>ra
@@ -453,35 +453,35 @@
                   <add instant="false">j</add>
               <del rend="overwrite" instant="unknown"><gap quantity="2" unit="chars" reason="illegible_and_crossed_out"/></del>
             </w>
-            <w>takiu</w>
-            <w>karoghimu</w>
+            <w lemma="toks" pos="prn." msd="i.sg.m.">takiu</w>
+            <w lemma="karojimas" pos="sm." msd="i.sg.">karoghimu</w>
             <pc>,</pc>
             <lb n="15"/>
-            <w>kuri</w>
+            <w lemma="kuris" pos="prn.rel." msd="a.sg.m.">kuri</w>
             <w>tu</w>
-            <w>mumus</w>
-            <w><subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above">uſzu</add></subst>ſiuntei</w>
+            <w lemma="mes" pos="prn.1.pl." msd="d.">mumus</w>
+            <w lemma="atsiųsti užusiųsti" pos="v. +a. +g." msd="2.sg.prt."><subst instant="false" hand="#h03"><del rend="strikethrough">at</del><add rend="small_interlinear_above">uſzu</add></subst>ſiuntei</w>
             <pc>,</pc>
             <w>ir</w>
-            <w>ant</w>
-            <w>Jeruſa-<lb n="16" break="no"/>lemo</w>
+            <w lemma="ant" pos="prp. +g." msd="--">ant</w>
+            <w lemma="Jerusalemas" pos="NP" msd="g.sg.">Jeruſa-<lb n="16" break="no"/>lemo</w>
             <del rend="strikethrough" instant="true">ſczE</del>
-            <w>ſchwento</w>
-            <w>Mieſto</w>
-            <w>muſụ</w>
-            <w>Tie-<lb n="17" break="no"/>wụ</w>
+            <w lemma="šventas" pos="adj." msd="g.sg.m.">ſchwento</w>
+            <w lemma="miestas" pos="sm." msd="g.sg.">Mieſto</w>
+            <w lemma="mes" pos="prn.1.pl." msd="g.">muſụ</w>
+            <w lemma="tėvas*" pos="sm." msd="g.pl.">Tie-<lb n="17" break="no"/>wụ</w>
             <pc>.</pc>
-            <w>Tu</w>
-            <w>tikrai</w>
+            <w lemma="tu" pos="prn.2.sg." msd="n.">Tu</w>
+            <w lemma="tikrai" pos="adv." msd="--">tikrai</w>
             <w>ir</w>
-            <w>gerai</w>
-            <w>darai</w>
-            <w>tame</w>
+            <w lemma="gerai" pos="adv." msd="--">gerai</w>
+            <w lemma="daryti" pos="v. +a." msd="2.sg.prs.">darai</w>
+            <w lemma="tas" pos="prn." msd="l.sg.m.">tame</w>
             <pc>,</pc>
             <lb n="18"/>
-            <w>delei</w>
-            <w>muſụ</w>
-            <w>Griekụ</w>
+            <w lemma="delei" pos="prp. +g." msd="--">delei</w>
+            <w lemma="mes" pos="prn.1.pl." msd="g.">muſụ</w>
+            <w lemma="griekas*" pos="sm." msd="g.pl.">Griekụ</w>
             <pc>.</pc>
           </ab>
           <gb type="paragraph"/>
