@@ -568,50 +568,51 @@
             <pc>,</pc>
             <lb n="29"/>
             <w>ir</w>
-            <w>neteiſamuiem</w>
-            <w>wiſsụbaiſiauſiu</w>
-            <w>Kara-<lb n="30"/>liůi</w>
+            <w lemma="neteisamas*" pos="adj." mds="d.sg.em.">neteiſamuiem</w>
+            <w lemma="visas+baisus" pos="prn.+adj." msd="g.pl.m.+d.sg.m.spr.">wiſsụbaiſiauſiu</w>
+            <w lemma="karalius" pos="sm." msd="d.sg.">Kara-<lb n="30"/>liůi</w>
             <pc>.</pc>
           </ab>
           <gb type="paragraph"/>
           <lb n="31"/>
           <ab type="verse" n="33">
-            <w>Bei</w>
-            <w>mes</w>
-            <w>nedrenſam</w>
-            <w>ſawa</w>
-            <w>burnos</w>
+            <w lemma="bei" pos="cnj." msd="--">Bei</w>
+            <w lemma="mes" pos="prn.1.pl." msd="n.">mes</w>
+            <w lemma="drįsti" pos="v. +inf." msd="1.pl.prs.">nedrenſam</w>
+            <w lemma="savo" pos="refl.prn." msd="--">ſawa</w>
+            <w lemma="burna" pos="sf." msd="a.pl.">burnos</w>
             <lb n="32"/>
-            <w>atwerti</w>
+            <w lemma="atverti" pos="v. +a." msd="inf.">atwerti</w>
             <pc>,</pc>
-            <w>teip</w>
-            <w><del instant="false">mes</del></w>
-            <w>eſme</w>
-            <w>apgedinti</w>
+            <w lemma="teip" pos="adv." msd="--">teip</w>
+            <w lemma="mes" pos="prn.1.pl." msd="n."><del instant="false">mes</del></w>
+            <w lemma="būti" pos="v.aux." msd="1.pl.prs.">eſme</w>
+            <w lemma="apgėdinti" pos="v.itr." msd="inf.">apgedinti</w>
             <lb n="33"/>
             <w>ir</w>
-            <w>teip</w>
-            <w>iůku</w>
-            <w>tapom</w>
-            <w>po</w>
-            <supplied xml:id="en04" resp="#edit_AK" reason="illegible"><w>akim</w></supplied>
+            <w lemma="teip" pos="adv." msd="--">teip</w>
+            <w lemma="juokas" pos="sm." msd="i.sg.">iůku</w>
+            <w lemma="tapti" pos="v. +i." msd="1.pl.prt.">tapom</w>
+            <w lemma="po" pos="prp. +i." msd="">po</w>
+            <supplied xml:id="en04" resp="#edit_AK" reason="illegible"><w lemma="akis" pos="sf." msd="i.du.">akim</w></supplied>
             <w>tawa</w>
             <lb n="34"/>
-            <w>Tarnụ</w>
+            <w lemma="tarnas" pos="sm." msd="g.pl.">Tarnụ</w>
             <pc>,</pc>
             <w>ir</w>
             <w>po</w>
-            <w>akim</w>
-            <w>wiſsụ</w>
-            <w>taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice></w> <w>bijan-<lb n="35" break="no"/>cziụ̊iụ̊</w>
+            <w lemma="akis" pos="sf." msd="i.du.">akim</w>
+            <w lemma="visas" pos="prn." msd="g.pl.m.">wiſsụ</w>
+            <w lemma="tu" pos="prn.2.sg." msd="a.">taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice></w>
+            <w lemma="bijoti" pos="v." msd="g.pl.m.prc.prs.act.">bijan-<lb n="35" break="no"/>cziụ̊iụ̊</w>
             <pc>.</pc>
           </ab>
           <ab type="verse" n="34">
-            <w>O</w>
-            <w>wienok</w>
+            <w lemma="o" pos="cnj.?" msd="--">O</w>
+            <w lemma="vienok" pos="cnj." msd="--">wienok</w>
             <pc>,</pc>
-            <w>nepatremk</w>
-            <w>muſu</w>
+            <w lemma="?" pos="?" msd="?">nepatremk</w>
+            <w lemma="mes">muſu</w>
             <lb n="36"/>
             <w>nodemais</w>
             <pc>,</pc>

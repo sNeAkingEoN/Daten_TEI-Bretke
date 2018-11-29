@@ -39,6 +39,10 @@ def automate_lemmas(root): # muss noch getestet werden
             element.set('lemma', 'jog')
             element.set('pos', 'cnj.')
             element.set('msd', '--')
+        elif text == 'po':
+            element.set('lemma', 'po')
+            element.set('pos', 'prp. +i.')
+            element.set('msd', '--')
     return root
 
 # Datei einlesen:
