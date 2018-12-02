@@ -593,53 +593,53 @@
                       <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r29-147">ir</w>
                       <w lemma="neteisamas*" pos="adj." mds="d.sg.em." xml:id="tok-234r29-148">neteiſamuiem</w>
                       <w lemma="visas+baisus" pos="prn.+adj." msd="g.pl.m.+d.sg.m.spr." xml:id="tok-234r29-149">wiſsụbaiſiauſiu</w>
-                      <w xml:id="tok-234r29-150">Kara-<lb n="30"/>liůi</w>
+                      <w lemma="karalius" pos="sm." msd="d.sg." xml:id="tok-234r29-150">Kara-<lb n="30"/>liůi</w>
                       <pc>.</pc>
                     </ab>
                     <gb type="paragraph"/>
                     <lb n="31"/>
                     <ab type="verse" n="33">
-                      <w xml:id="tok-234r31-151">Bei</w>
-                      <w xml:id="tok-234r31-152">mes</w>
-                      <w xml:id="tok-234r31-153">nedrenſam</w>
-                      <w xml:id="tok-234r31-154">ſawa</w>
-                      <w xml:id="tok-234r31-155">burnos</w>
+                      <w lemma="bei" pos="cnj." msd="--" xml:id="tok-234r31-151">Bei</w>
+                      <w lemma="mes" pos="prn.1.pl." msd="n." xml:id="tok-234r31-152">mes</w>
+                      <w lemma="drįsti" pos="v. +inf." msd="1.pl.prs." xml:id="tok-234r31-153">nedrenſam</w>
+                      <w lemma="savo" pos="refl.prn." msd="--" xml:id="tok-234r31-154">ſawa</w>
+                      <w lemma="burna" pos="sf." msd="a.pl." xml:id="tok-234r31-155">burnos</w>
                       <lb n="32"/>
-                      <w xml:id="tok-234r32-156">atwerti</w>
+                      <w lemma="atverti" pos="v. +a." msd="inf." xml:id="tok-234r32-156">atwerti</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r32-157">teip</w>
-                      <w xml:id="tok-234r32-158">
+                      <w lemma="teip" pos="adv." msd="--" xml:id="tok-234r32-157">teip</w>
+                      <w lemma="mes" pos="prn.1.pl." msd="n." xml:id="tok-234r32-158">
                         <del instant="false">mes</del>
                       </w>
-                      <w xml:id="tok-234r32-159">eſme</w>
-                      <w xml:id="tok-234r32-160">apgedinti</w>
+                      <w lemma="būti" pos="v.aux." msd="1.pl.prs." xml:id="tok-234r32-159">eſme</w>
+                      <w lemma="apgėdinti" pos="v.itr." msd="inf." xml:id="tok-234r32-160">apgedinti</w>
                       <lb n="33"/>
                       <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r33-161">ir</w>
-                      <w xml:id="tok-234r33-162">teip</w>
-                      <w xml:id="tok-234r33-163">iůku</w>
-                      <w xml:id="tok-234r33-164">tapom</w>
-                      <w xml:id="tok-234r33-165">po</w>
+                      <w lemma="teip" pos="adv." msd="--" xml:id="tok-234r33-162">teip</w>
+                      <w lemma="juokas" pos="sm." msd="i.sg." xml:id="tok-234r33-163">iůku</w>
+                      <w lemma="tapti" pos="v. +i." msd="1.pl.prt." xml:id="tok-234r33-164">tapom</w>
+                      <w lemma="po" pos="prp. +i." msd="--" xml:id="tok-234r33-165">po</w>
                       <supplied xml:id="en04" resp="#edit_AK" reason="illegible">
-                        <w xml:id="tok-234r33-166">akim</w>
+                        <w lemma="akis" pos="sf." msd="i.du." xml:id="tok-234r33-166">akim</w>
                       </supplied>
                       <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234r33-167">tawa</w>
                       <lb n="34"/>
-                      <w xml:id="tok-234r34-168">Tarnụ</w>
+                      <w lemma="tarnas" pos="sm." msd="g.pl." xml:id="tok-234r34-168">Tarnụ</w>
                       <pc>,</pc>
                       <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234r34-169">ir</w>
-                      <w xml:id="tok-234r34-170">po</w>
-                      <w xml:id="tok-234r34-171">akim</w>
-                      <w xml:id="tok-234r34-172">wiſsụ</w>
-                      <w xml:id="tok-234r34-173">taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice></w>
-                      <w xml:id="tok-234r34-174">bijan-<lb n="35" break="no"/>cziụ̊iụ̊</w>
+                      <w lemma="po" pos="prp. +i." msd="--" xml:id="tok-234r34-170">po</w>
+                      <w lemma="akis" pos="sf." msd="i.du." xml:id="tok-234r34-171">akim</w>
+                      <w lemma="visas" pos="prn." msd="g.pl.m." xml:id="tok-234r34-172">wiſsụ</w>
+                      <w lemma="tu" pos="prn.2.sg." msd="a." xml:id="tok-234r34-173">taw<choice><unclear cert="high">e</unclear><unclear cert="low">o</unclear></choice></w>
+                      <w lemma="bijoti" pos="v." msd="g.pl.m.prc.prs.act." xml:id="tok-234r34-174">bijan-<lb n="35" break="no"/>cziụ̊iụ̊</w>
                       <pc>.</pc>
                     </ab>
                     <ab type="verse" n="34">
-                      <w xml:id="tok-234r35-175">O</w>
-                      <w xml:id="tok-234r35-176">wienok</w>
+                      <w lemma="o" pos="cnj.?" msd="--" xml:id="tok-234r35-175">O</w>
+                      <w lemma="vienok" pos="cnj." msd="--" xml:id="tok-234r35-176">wienok</w>
                       <pc>,</pc>
-                      <w xml:id="tok-234r35-177">nepatremk</w>
-                      <w xml:id="tok-234r35-178">muſu</w>
+                      <w lemma="?" pos="?" msd="?" xml:id="tok-234r35-177">nepatremk</w>
+                      <w lemma="mes" xml:id="tok-234r35-178">muſu</w>
                       <lb n="36"/>
                       <w xml:id="tok-234r36-179">nodemais</w>
                       <pc>,</pc>
@@ -714,7 +714,7 @@
                       <w xml:id="tok-234v04-217">kaip</w>
                       <lb n="5"/>
                       <w xml:id="tok-234v05-218">ſzwaigſdes</w>
-                      <w xml:id="tok-234v05-219">po</w>
+                      <w lemma="po" pos="prp. +i." msd="--" xml:id="tok-234v05-219">po</w>
                       <w xml:id="tok-234v05-220">Dangumi</w>
                       <pc>,</pc>
                       <w lemma="ir" pos="cnj." msd="--" xml:id="tok-234v05-221">ir</w>
@@ -786,7 +786,7 @@
                       <w xml:id="tok-234v14-267">Wietos</w>
                       <pc>,</pc>
                       <w xml:id="tok-234v14-268">kur</w>
-                      <w xml:id="tok-234v14-269">po</w>
+                      <w lemma="po" pos="prp. +i." msd="--" xml:id="tok-234v14-269">po</w>
                       <lb n="15"/>
                       <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v15-270">tawa</w>
                       <w xml:id="tok-234v15-271">akim</w>
@@ -811,7 +811,7 @@
                         <mod instant="unknown" rend="underline or strikethrough">mes</mod>
                       </w>
                       <!-- noch mal klar machen: GS oder KS? -->
-                      <w xml:id="tok-234v18-285">po</w>
+                      <w lemma="po" pos="prp. +i." msd="--" xml:id="tok-234v18-285">po</w>
                       <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v18-286">tawa</w>
                       <w xml:id="tok-234v18-287">akim</w>
                       <pc>,</pc>
@@ -841,7 +841,7 @@
                       <w xml:id="tok-234v22-304">affiera<del instant="true" xml:id="en09">s</del></w>
                       <w xml:id="tok-234v22-305">ſchẹ</w>
                       <w xml:id="tok-234v22-306">dienạ</w>
-                      <w xml:id="tok-234v22-307">po</w>
+                      <w lemma="po" pos="prp. +i." msd="--" xml:id="tok-234v22-307">po</w>
                       <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v22-308">tawa</w>
                       <w xml:id="tok-234v22-309">akim</w>
                       <w xml:id="tok-234v22-310">mie-<lb n="23" break="no"/>la<del xml:id="en08">s</del></w>
