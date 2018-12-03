@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- DOCTYPE einfügen!!! -->
-<!-- TODO: DOCTYPE o.ä. einfügen! -> das macht Skript für prettifiete Datei :)-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <!-- muss noch komplett gemacht werden.-->
     <fileDesc>
       <titleStmt>
         <title>Malda Asario</title>
         <author ref="#auth_JB" source="#Range-Bausteine p. 9">Ian[as] Bretkun[as]</author>
-        <!-- <editor xml:id="edit_AK">Anne Königs</editor> --> <!-- doppelt! -->
-        <respStmt> <!-- In welcher Sprache soll das stehen?!? -->
-          <resp>ediert (2015) und in TEI überführt (2017/2018) von
+        <respStmt>          <resp>ediert (2015) und in TEI überführt (2017/2018) von
         </resp>
         <name xml:id="edit_AK">Anne Königs</name>
         </respStmt>
@@ -40,8 +35,7 @@
             <idno>XX HA StUB Kgbg. 48</idno><!-- Signatur, unter der Manuskript geführt wird -->
             <altIdentifier type="former_owner">
               <settlement>Königsberg</settlement>
-              <institution corresp="http://d-nb.info/gnd/507002-8">Königliche und Universitätsbibliothek</institution><!-- 1827-1918 -->
-              <idno>Cod. MS. 1218</idno>
+              <institution corresp="http://d-nb.info/gnd/507002-8">Königliche und Universitätsbibliothek</institution>              <idno>Cod. MS. 1218</idno>
               <note type="bibliographical">Information entnommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note>
             </altIdentifier>
           </msIdentifier>
@@ -57,8 +51,7 @@
               <title>Penkta dalis Biblias Lietuwischkai Jano Bretkuno pergulditas</title>
             </msItem><!-- dann noch für diesen Ausschnitt...? -->
             <msItem class="this_text">
-              <locus from="234r1" to="235r15">ff.234r1-235r15</locus><!-- hier weiter machen... -->
-              <title>Malda Aſaria</title>
+              <locus from="234r1" to="235r15">ff.234r1-235r15</locus>              <title>Malda Aſaria</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -266,8 +259,7 @@
       <samplingDecl>
         <p>Dieser Text umfasst den Text <quote type="subtitle" xml:lang="lit">Malda Asario</quote> aus dem dritten Buch Daniel der Apykryphen des Alten Testaments der Bibel.<!-- Irgendwie noch markieren - GND-Verlinkung hierher? --> aus dem Manuskript der Übersetzung von <rs ref="#auth_JB">Johannes Bretke</rs>. Es werden der gesamte Text sowie alle vorhandenen Marginalien, Markierungen und Metainformationen (Datum) dargestellt.</p>
       </samplingDecl>
-      <editorialDecl><!-- Still unfinished -->
-        <p>In diesem korrekturarmen Textabschnitt werden Grund- und Korrekturschicht danach definiert, ob eine Korrektur, die Unterschiede verursacht, eindeutig als sofort, d.h. während des Schreibens oder erst später, erfolgt ist. Als Indiz für eine Sofortkorrektur (d.h. innerhalb der Grundschicht) dient, dass eine Durchstreichung in den Textfluss eingebettet ist, also rechts daneben weiter geschrieben wurde, oder ein Eingriff im Text über noch feuchter Tinte erfolgte, was daran zu erkennen ist, dass die Striche ineinander verlaufen sind. Die Zugehörigkeit zu einer der beiden Schichten wird durch das Attribut <att>instant</att> ausgedrückt, wobei der Wert <val>yes</val> auf die Grundschicht und <val>no</val> auf die Korrekturschicht hindeuten und <val>unknown</val> bedeutet, dass keine Zuordnung vorgenommen werden konnte.</p>
+      <editorialDecl>        <p>In diesem korrekturarmen Textabschnitt werden Grund- und Korrekturschicht danach definiert, ob eine Korrektur, die Unterschiede verursacht, eindeutig als sofort, d.h. während des Schreibens oder erst später, erfolgt ist. Als Indiz für eine Sofortkorrektur (d.h. innerhalb der Grundschicht) dient, dass eine Durchstreichung in den Textfluss eingebettet ist, also rechts daneben weiter geschrieben wurde, oder ein Eingriff im Text über noch feuchter Tinte erfolgte, was daran zu erkennen ist, dass die Striche ineinander verlaufen sind. Die Zugehörigkeit zu einer der beiden Schichten wird durch das Attribut <att>instant</att> ausgedrückt, wobei der Wert <val>yes</val> auf die Grundschicht und <val>no</val> auf die Korrekturschicht hindeuten und <val>unknown</val> bedeutet, dass keine Zuordnung vorgenommen werden konnte.</p>
         <correction status="medium">
           <p>Bei der Übertragung der Printedition in TEI wurde keine Fehlerkorrektur vorgenommen.</p>
         </correction>
@@ -287,8 +279,7 @@
           <p>Die linguistische Analyse der Printedition wurde nicht übernommen, es finden sich aber sprachliche und paläographische Angaben in den <gi>note</gi>-Elementen. Außerdem wurde die wahrscheinlichste Vorlage, die Lutherbibel von 1545 (vgl. <ref target="#Luther_WA">Werkausgabe Luther</ref>) zum Vergleich eingefügt.</p>
         </interpretation>
       </editorialDecl>
-      <tagsDecl><!-- vielleicht rauslassen...? -->
-        <namespace name="http://www.tei-c.org/ns/1.0">
+      <tagsDecl>        <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="lb">Als Defaultwert ist <att>break</att> yes, d.h., dass das Wort nicht auf die folgende Zeile umgebrochen wird.</tagUsage>
           <tagUsage gi="subst">Kennzeichnet Korrekturen im Manuskript selbst.</tagUsage>
           <tagUsage gi="mod">Kennzeichnet lexikalische Varianten im Manuskript.</tagUsage>
@@ -302,7 +293,6 @@
       </refsDecl>
     </encodingDesc>
     <profileDesc>
-      <!-- <creation> rausgelassen, weil das schon in <publicationStmt> und <origin> drin ist. -->
       <langUsage>
         <p>Die hier verwendeten Sprachcodes orientieren sich am <ref target="http://www.loc.gov/standards/iso639-2/php/code_list.php">ISO-639.2(B)</ref> Standard.</p>
       </langUsage>
@@ -333,8 +323,7 @@
             <fw type="sheet_number" place="top-right" rend="stamp">231</fw>
             <fw type="sheet_number" place="bot-centre" hand="#h10">234</fw>
             <fw type="sheet_number" place="bot-right" hand="#h11">234</fw>
-            <dateline><fw type="date" place="top-right"><date when="1590-02-04" xml:lang="lat">A.̊  1590. 4. Februa.</date></fw></dateline><!-- hier auch tokenisieren? -nö! -->
-            <lb n="1"/>
+            <dateline><fw type="date" place="top-right"><date when="1590-02-04" xml:lang="lat">A.̊  1590. 4. Februa.</date></fw></dateline>            <lb n="1"/>
             <head type="main_title" rend="caps">
               <w lemma="malda" pos="sf." msd="n.sg.">Malda</w>
               <w lemma="Asarias" pos="NP" msd="g.sg.">Asario</w>
@@ -769,8 +758,7 @@
             <w>ſudauſzita</w>
             <w>Dwaſse</w>
             <w>at-<lb n="18" break="no"/>eime</w>
-            <w><mod instant="unknown" rend="underline or strikethrough">mes</mod></w><!-- noch mal klar machen: GS oder KS? -->
-            <w>po</w>
+            <w><mod instant="unknown" rend="underline or strikethrough">mes</mod></w>            <w>po</w>
             <w>tawa</w>
             <w>akim</w>
             <pc>,</pc>
@@ -933,7 +921,6 @@
           <fw type="sheet_number" place="top-right" rend="stamp">232</fw>
           <fw type="sheet_number" place="bot-centre" hand="#h10">235</fw>
           <fw type="sheet_number" place="bot-right" hand="#h11">235</fw>
-          <!-- Hier weiter für Tokenisierung :) (und oben das deutsche...?!?) -->
           <fw type="header" place="top-center">
             <w>Malda</w>
             <w>Aſario</w>
@@ -1089,14 +1076,7 @@
       </div> <!-- Altes Testament -->
       </div> <!-- Bibel -->
       </div>
-      <div type="german_original" source="#Luther_WA pp. 521, 523" xml:lang="ger"><!--  Frühneuhochdeutsch! -->
-        <!-- achtung! In BA-Arbeit steht Ausgaben von 1545 oder später, aber das war eigentlich schon die letzte... irgendwie....  -->
-        <!-- Hier: Ausgabe letzter Hand wie in Edition rechte Seite. Dass das nicht Aussage darüber tätigt, welche Ausgabe er genau benutzt haben könnte, ist halt doof(aber der Darstellung in dieser Edition geschuldet) - noch mal Sekundärliteratur befragen? -->
-        <!-- lb's sind erstmal nicht mit ausgezeichnet, weil sie nicht so wichtig sind - ist ja keine Edition des Luthertextes, außerdem ist fraglich, inwieweit diese original sind -->
-        <!-- Ligaturen sind aufgelöst -->
-        <!-- Zusatz "Aus dem Griechischen" in Ausg. 45ff. unter Überschrift von nächstem Abschnitt deutet doch auf Ausgabe von 1545... hmmm.... -->
-        <!-- HERr statt HERR in der Vorlage korrespondiert mit Pone in der Übersetzung oder was...? -->
-        <div type="work" corresp="http://d-nb.info/gnd/4006406-2"> <!-- Bibel -->
+      <div type="german_original" source="#Luther_WA pp. 521, 523" xml:lang="ger">        <div type="work" corresp="http://d-nb.info/gnd/4006406-2"> <!-- Bibel -->
         <div type="testament" corresp="http://d-nb.info/gnd/4001515-4"> <!-- Altes Testament -->
         <div synch="#a" type="part" corresp="http://d-nb.info/gnd/1120969395"> <!--alttestamentl. Apokryphen -->
         <div synch="#a.DAN" type="book" corresp="http://d-nb.info/gnd/4680211-3">

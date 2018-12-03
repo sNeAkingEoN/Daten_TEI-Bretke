@@ -2,15 +2,11 @@
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <!-- muss noch komplett gemacht werden.-->
     <fileDesc>
       <titleStmt>
         <title>Malda Asario</title>
         <author ref="#auth_JB" source="#Range-Bausteine p. 9">Ian[as] Bretkun[as]</author>
-        <!-- <editor xml:id="edit_AK">Anne Königs</editor> -->
-        <!-- doppelt! -->
         <respStmt>
-          <!-- In welcher Sprache soll das stehen?!? -->
           <resp>ediert (2015) und in TEI überführt (2017/2018) von
         </resp>
           <name xml:id="edit_AK">Anne Königs</name>
@@ -43,7 +39,6 @@
             <altIdentifier type="former_owner">
               <settlement>Königsberg</settlement>
               <institution corresp="http://d-nb.info/gnd/507002-8">Königliche und Universitätsbibliothek</institution>
-              <!-- 1827-1918 -->
               <idno>Cod. MS. 1218</idno>
               <note type="bibliographical">Information entnommen aus <ref target="#Range-Bausteine">Range 1992: 9</ref></note>
             </altIdentifier>
@@ -64,7 +59,6 @@
             <!-- dann noch für diesen Ausschnitt...? -->
             <msItem class="this_text">
               <locus from="234r1" to="235r15">ff.234r1-235r15</locus>
-              <!-- hier weiter machen... -->
               <title>Malda Aſaria</title>
             </msItem>
           </msContents>
@@ -279,7 +273,6 @@
         <p>Dieser Text umfasst den Text <quote type="subtitle" xml:lang="lit">Malda Asario</quote> aus dem dritten Buch Daniel der Apykryphen des Alten Testaments der Bibel.<!-- Irgendwie noch markieren - GND-Verlinkung hierher? --> aus dem Manuskript der Übersetzung von <rs ref="#auth_JB">Johannes Bretke</rs>. Es werden der gesamte Text sowie alle vorhandenen Marginalien, Markierungen und Metainformationen (Datum) dargestellt.</p>
       </samplingDecl>
       <editorialDecl>
-        <!-- Still unfinished -->
         <p>In diesem korrekturarmen Textabschnitt werden Grund- und Korrekturschicht danach definiert, ob eine Korrektur, die Unterschiede verursacht, eindeutig als sofort, d.h. während des Schreibens oder erst später, erfolgt ist. Als Indiz für eine Sofortkorrektur (d.h. innerhalb der Grundschicht) dient, dass eine Durchstreichung in den Textfluss eingebettet ist, also rechts daneben weiter geschrieben wurde, oder ein Eingriff im Text über noch feuchter Tinte erfolgte, was daran zu erkennen ist, dass die Striche ineinander verlaufen sind. Die Zugehörigkeit zu einer der beiden Schichten wird durch das Attribut <att>instant</att> ausgedrückt, wobei der Wert <val>yes</val> auf die Grundschicht und <val>no</val> auf die Korrekturschicht hindeuten und <val>unknown</val> bedeutet, dass keine Zuordnung vorgenommen werden konnte.</p>
         <correction status="medium">
           <p>Bei der Übertragung der Printedition in TEI wurde keine Fehlerkorrektur vorgenommen.</p>
@@ -301,7 +294,6 @@
         </interpretation>
       </editorialDecl>
       <tagsDecl>
-        <!-- vielleicht rauslassen...? -->
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="lb">Als Defaultwert ist <att>break</att> yes, d.h., dass das Wort nicht auf die folgende Zeile umgebrochen wird.</tagUsage>
           <tagUsage gi="subst">Kennzeichnet Korrekturen im Manuskript selbst.</tagUsage>
@@ -316,7 +308,6 @@
       </refsDecl>
     </encodingDesc>
     <profileDesc>
-      <!-- <creation> rausgelassen, weil das schon in <publicationStmt> und <origin> drin ist. -->
       <langUsage>
         <p>Die hier verwendeten Sprachcodes orientieren sich am <ref target="http://www.loc.gov/standards/iso639-2/php/code_list.php">ISO-639.2(B)</ref> Standard.</p>
       </langUsage>
@@ -355,7 +346,6 @@
                         <date when="1590-02-04" xml:lang="lat">A.̊  1590. 4. Februa.</date>
                       </fw>
                     </dateline>
-                    <!-- hier auch tokenisieren? -nö! -->
                     <lb n="1"/>
                     <head type="main_title" rend="caps">
                       <w lemma="malda" pos="sf." msd="n.sg." xml:id="tok-234r01-001">Malda</w>
@@ -810,7 +800,6 @@
                       <w xml:id="tok-234v18-284">
                         <mod instant="unknown" rend="underline or strikethrough">mes</mod>
                       </w>
-                      <!-- noch mal klar machen: GS oder KS? -->
                       <w lemma="po" pos="prp. +i." msd="--" xml:id="tok-234v18-285">po</w>
                       <w lemma="tavo" pos="prn." msd="--" xml:id="tok-234v18-286">tawa</w>
                       <w xml:id="tok-234v18-287">akim</w>
@@ -987,7 +976,6 @@
                     <fw type="sheet_number" place="top-right" rend="stamp">232</fw>
                     <fw type="sheet_number" place="bot-centre" hand="#h10">235</fw>
                     <fw type="sheet_number" place="bot-right" hand="#h11">235</fw>
-                    <!-- Hier weiter für Tokenisierung :) (und oben das deutsche...?!?) -->
                     <fw type="header" place="top-center">
                       <w xml:id="tok-235r37-393">Malda</w>
                       <w xml:id="tok-235r37-394">Aſario</w>
@@ -1181,13 +1169,6 @@
         <!-- Bibel -->
       </div>
       <div type="german_original" source="#Luther_WA pp. 521, 523" xml:lang="ger">
-        <!--  Frühneuhochdeutsch! -->
-        <!-- achtung! In BA-Arbeit steht Ausgaben von 1545 oder später, aber das war eigentlich schon die letzte... irgendwie....  -->
-        <!-- Hier: Ausgabe letzter Hand wie in Edition rechte Seite. Dass das nicht Aussage darüber tätigt, welche Ausgabe er genau benutzt haben könnte, ist halt doof(aber der Darstellung in dieser Edition geschuldet) - noch mal Sekundärliteratur befragen? -->
-        <!-- lb's sind erstmal nicht mit ausgezeichnet, weil sie nicht so wichtig sind - ist ja keine Edition des Luthertextes, außerdem ist fraglich, inwieweit diese original sind -->
-        <!-- Ligaturen sind aufgelöst -->
-        <!-- Zusatz "Aus dem Griechischen" in Ausg. 45ff. unter Überschrift von nächstem Abschnitt deutet doch auf Ausgabe von 1545... hmmm.... -->
-        <!-- HERr statt HERR in der Vorlage korrespondiert mit Pone in der Übersetzung oder was...? -->
         <div type="work" corresp="http://d-nb.info/gnd/4006406-2">
           <!-- Bibel -->
           <div type="testament" corresp="http://d-nb.info/gnd/4001515-4">
